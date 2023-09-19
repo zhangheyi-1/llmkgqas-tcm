@@ -1,0 +1,354 @@
+{
+    "data-split": "train",
+    "example-id": "10414584",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，我是您的辅诊医生，需要询问几个问题，才能更好的评估孩子情况，您还在吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝大便什么样子？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他大便是，嗯，像咖啡色一样的有点粘，",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便有没有脓血？",
+            "label": "OOOOOBIO",
+            "normalized": [
+                "脓血便"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝每次大便量多吗？哭闹后有没有排便？",
+            "label": "OOOOOOOOOOBIOOOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一天拉几次？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前阵日他大便就有血，现在没有了",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，给宝贝复查大便了吗？肉眼看不到不一定是没有出血哦",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他今天有第三次了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝有没有恶心呕吐？肚子胀吗？",
+            "label": "OOOOOBIIIOBIIOO",
+            "normalized": [
+                "呕吐",
+                "腹胀"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "之前的病历是几号的?",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是3号的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，宝宝现在咳嗽还有腹泻都好多了是吗？现在什么时候咳嗽厉害？痰多吗？",
+            "label": "OOOOOOOBIOOBIOOOOOOOOOOOOOBIOOOBOOO",
+            "normalized": [
+                "咳嗽",
+                "腹泻",
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "2",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前拉有肛门有点血，便便有点硬，就给他喝凉水",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还咳，没腹泻了",
+            "label": "OBOOBIO",
+            "normalized": [
+                "咳嗽",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，宝宝大便有血是和大便混合均匀还是大便表面有血",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝晚上咳嗽吗？哭闹容易安抚吗？",
+            "label": "OOOOBIOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "晚上咳得很厉害痰也多",
+            "label": "OOBIOOOBOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝哭闹时候咳嗽厉害吗？现在嗓子哑吗？有没有气喘？",
+            "label": "OOBIOOBIOOOOOOBIIOOOOOBIO",
+            "normalized": [
+                "哭闹",
+                "咳嗽",
+                "沙哑",
+                "喘息"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便表面",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，宝宝大便表面有血需要排除肛肠出血，比如宝宝大便干结引起的出血",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "趴在肩膀他走一走就不哭，放下又哭",
+            "label": "OOOOOOOOOOBOOOOB",
+            "normalized": [
+                "哭闹",
+                "哭闹"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在还给宝宝吃头孢吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝抱着可以安抚多是肠痉挛引起，热敷和按摩可以缓解",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在给宝贝吃的什么药？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，宝宝头孢泊污一般吃三到五天，现在建议带孩子去公立医院儿科就诊，再次听诊肺部看看，排除支气管炎，根据听诊，给予调整用药，宝宝哭闹与腹泻引起的肠绞痛有关系，给宝贝按摩腹部或者热敷一下哦。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOBIOBIOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "哭闹",
+                "腹泻"
+            ],
+            "type": [
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这段时间给宝贝清淡饮食，吃些粥类软和易消化食物，注意饮食卫生，多喝水哦",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝宝宝早日康复",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "关于宝贝健康问题您还需要咨询什么吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "盐酸氨溴索口服液、",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个是稀释痰液的",
+            "label": "OOOOOBOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯，好的谢谢",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝宝宝健康成长",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您有任何问题可以随时和我联系或留言，我看到后会第一时间回复。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您还有疑问吗?",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可能您在忙，有疑问可以给我留言，再见哦",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

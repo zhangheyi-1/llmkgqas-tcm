@@ -1,0 +1,292 @@
+{
+    "data-split": "test",
+    "example-id": "10170865",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好稍等，我看一下你的资料。",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好，孩子现在还有什么症状吗？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝痰培养出来已没有细菌",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还发烧咳嗽吗？",
+            "label": "OBIBIOO",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "已经出院，但昨天声音开始有些嘶哑",
+            "label": "OOOOOOOOOOOOOOBI",
+            "normalized": [
+                "沙哑"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果细菌培养，没有问题，可以不住院输液的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不发烧偶尔还咳嗽",
+            "label": "OBIOOOBI",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "痰培养已经，正常了吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "正常了，已经出院了",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那说明上次肺炎已经治好啦",
+            "label": "OOOOOBIOOOOO",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "昨天声音嘶哑，是不是有点儿受凉感冒。",
+            "label": "OOOOBIOOOOOOOOOBIO",
+            "normalized": [
+                "沙哑",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "但昨天开始声音出现嘶哑是不是复发的征兆",
+            "label": "OOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "沙哑"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不是复发，而是着凉感冒，以后还会得的。",
+            "label": "OOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "仅是声音哑可以吃点什么感冒药？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子小抵抗力差，感冒以后很容易再次得肺炎的。",
+            "label": "OOOOOOOOBIOOOOOOOOBIOO",
+            "normalized": [
+                "普通感冒",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以暂时吃上小儿氨酚那敏颗粒，治疗感冒的。",
+            "label": "OOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现需要去医院吗？还是观察哈",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以去医院检查一下明确诊断，再用药，效果还好。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "肺炎康复期不会出现声音哑的现象吧？",
+            "label": "BIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不会的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可能是近期又有受凉感冒。",
+            "label": "OOOOOOOOOBIO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子小变化快去检查一下没事儿就放心",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "才出院2天，而且穿得停暖和的，怎么就感冒了",
+            "label": "OOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这是有可能的，有些孩子在住院期间还有二次感染呐。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "感冒引起二次肺炎的可能性大吗？",
+            "label": "BIOOOOBIOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个不一定的需要看孩子的病情变化。",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气，尽快去检查一下，没事儿就放心了。",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，祝宝宝早日康复！",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

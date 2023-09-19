@@ -1,0 +1,301 @@
+{
+    "data-split": "train",
+    "example-id": "10355711",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小宝宝一点都不吃吗。",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神不好，已做了两次雾化",
+            "label": "BIIIOOOOOOOO",
+            "normalized": [
+                "精神软"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽不停",
+            "label": "BIOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这样有多长时间了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大约二，三天了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "主要是不吃奶，有点担心",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "精神不好，吃饭也不好，有没有做什么检查呢？感冒了不舒服所以不愿意吃东西",
+            "label": "BIIIOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "精神软",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "做了检查，可能是小儿支气管炎，为什么不吃奶呢",
+            "label": "OOOOOOOOOOBIIIOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有看那个咽喉部位，如果他嗓子痛的话可能也不愿意吃东西，另外查血常规了吗？白细胞怎么样呢？",
+            "label": "OOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咽喉不适"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "查了血常规，白细胞有点感染，如果嗓子疼不吃东西该怎么办？",
+            "label": "OOOOOOOOOOOOOOOOBIIOOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯不吃的话建议最好是输液让他营养跟上。",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "从昨天晚上到现在只吃了几十毫升，但我觉得宝宝小了，不想他输液",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呕吐吗",
+            "label": "BIO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不呕吐",
+            "label": "OBI",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃不下去的话没有其他办法，就是要输液了。你用了一些什么药物治疗呢。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有小儿止咳贴，羚贝止咳糖浆，阿奇霉素颗粒等",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我小孩对头孢类药物过敏",
+            "label": "OOOOOOOOOBI",
+            "normalized": [
+                "过敏"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "把这炎症消下来。",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "阿奇霉素可以的",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "如何消，用我提供的葯可以吗",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神不佳，不吃奶是我们最担心的",
+            "label": "BIIIOOOOOOOOOOO",
+            "normalized": [
+                "精神软"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "血常规支持细菌性炎症。阿奇霉素是可以的。",
+            "label": "OOOOOBIIIIOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那我还是先用着上述葯，可以吗？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我认为因为宝宝不吃，最好能输液，会快些。但是也要根据你们的具体情况的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我们不想宝宝输液",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "精神差到什么程度呢",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也不是好差，也不哭闹",
+            "label": "OOOOOOOOBI",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的那先口服这些让我看看。",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "口服这些药物看看",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "要密切观察下",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

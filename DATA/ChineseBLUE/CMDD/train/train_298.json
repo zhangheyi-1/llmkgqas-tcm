@@ -1,0 +1,546 @@
+{
+    "data-split": "train",
+    "example-id": "10237725",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在吗",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "为了更好的提供服务，我需要询问您几个与病症相关的问题，感谢您配合。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今年多大了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "该吃什么药",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽有痰吗",
+            "label": "BIBIO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "12",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽有痰吗",
+            "label": "BIBIO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽几天了",
+            "label": "BIOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有发热",
+            "label": "OOOBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以打字吗？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽是一声声还是一顿顿的",
+            "label": "BIOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有点咳嗽和有点流鼻涕而已",
+            "label": "OOBIOOOBIIOO",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽是白天严重还是夜间严重",
+            "label": "BIOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一声声的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "什么颜色痰",
+            "label": "OOOOB",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这一周来应用过什么药物",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不严重久不久咳一生白色",
+            "label": "OOOOOOBOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应用过什么药物",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "999感冒灵颗粒",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有吗",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没了",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "怎么了",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽一周了建议找医生检查一下气管",
+            "label": "BIOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "必要时行胸片检查了解气管和肺部炎症情况",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你告诉我要吃什么药",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果单纯气管炎症可以口服化痰药物，比如氨溴索，肺力咳",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果肺炎建议输液，雾化治疗",
+            "label": "OOBIOOOOOOOOO",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝早日康复",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有其他问题吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你可以帮我报案吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不好意思",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这是医疗网站",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以吗？",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以的吗？",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这是医疗网站，不可以的",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "所有医生都不可以吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该是的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我哥哥在上面咨询了犯法的问题你说他们会报案吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该不会的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这是医疗网站",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他们知道我的号码吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我只负责医疗问题，不会的",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你知道我的号码吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你的问题建议咨询客服，我只对你病症进行分析",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不知道",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你告诉我知道吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "真的不知道",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果没有医疗问题，那就结束了，好吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那他们也不知道吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该是的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我没告诉他他们就不知道我的号码是吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果没有医疗问题，那就结束了，好吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那我咨询过的问题结束了还在你们的记录里吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没有注意过",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个问题",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那你看一下告诉我",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在没有结束无法退出",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果没有医疗问题，可以结束吗？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "再见",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

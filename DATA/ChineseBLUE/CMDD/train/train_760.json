@@ -1,0 +1,343 @@
+{
+    "data-split": "train",
+    "example-id": "10333333",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您给宝宝喂的是什么药呀，目前宝宝除了这个咳嗽有痰的情况，还有一些什么其他症状呢？",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIBIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "流鼻涕",
+            "label": "BII",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这些药全部都没有喂进去过吗？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天还吃的，今天喂了两次都不吃",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "药还是要想办法喂进去的。有的时候是因为小宝宝吐呢，还是他直接不吃？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBOOOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "往外吐",
+            "label": "OOB",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这样比较麻烦呢，嗯宝宝吃过一天药之后症状有没有什么好转，咳嗽次数有没有减少？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃甜的药他也吐吗？",
+            "label": "OOOOOOBOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "其实她咳嗽也不是很厉害，就是总感觉喉咙呼呼响",
+            "label": "OOOBIOOOOOOOOOOOOBIIII",
+            "normalized": [
+                "咳嗽",
+                "痰鸣音"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该是有痰。",
+            "label": "OOOOBO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我家一直是母乳喂养，喂药比较难",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以去做雾化吗",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喉咙呼呼听着都难受",
+            "label": "BIIIOOOOO",
+            "normalized": [
+                "痰鸣音"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小宝宝和大人不一样，咳嗽但是很难咳出痰来，不像成年人一样，咳两下能吐痰，小宝宝咳不出来，所以需要用化痰的，他吃不下药，可以去做雾化。",
+            "label": "OOOOOOOOOOBIOOOOBOBOOOOOOOOOOBOOOBIOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "痰",
+                "咳嗽",
+                "痰",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小宝宝的精神饮食怎么样？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神都好",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天下午天气暖她喉咙没有呼呼声",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃这些怎么样呢",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "别奶也好",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，那宝宝的一般情况还不错。主要是要把这个痰排掉。甜的东西她吃不吃。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没试过，不知道",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我还是想办法让她吃药吧，实在不吃带她去做雾化好了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有一种止咳化痰的药，叫氨溴特罗口服液，就跟糖水一样。化痰的效果也不错。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的可以试下",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，是的，小宝宝他的痰排不出来，需要药物辅助。",
+            "label": "OOOOOOOOOOBOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "恩",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有拉肚子这些情况？",
+            "label": "OOOBIIOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热有没有？",
+            "label": "BIOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，能给宝宝继续喂药，她的一般情况还好。如果输液的话，宝宝也比较难受。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "观察一下。后面如果有发热或者咳嗽咳痰没有什么好转，还吃不进去药，建议还是要去输液。|",
+            "label": "OOOOOOOOOOBIOOBIBIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "咳嗽",
+                "咳痰"
+            ],
+            "type": [
+                "3",
+                "1",
+                "1"
+            ]
+        }
+    ]
+}

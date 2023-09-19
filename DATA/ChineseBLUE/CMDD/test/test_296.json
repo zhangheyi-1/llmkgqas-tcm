@@ -1,0 +1,389 @@
+{
+    "data-split": "test",
+    "example-id": "10257402",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在吗",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "为了更好的提供服务，我需要询问您几个与病症相关的问题，感谢您配合。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝发热几天了",
+            "label": "OOBIOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大概两整天",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最高体温多少度？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "39.5",
+            "label": "BIII",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝除了发热还有什么症状？",
+            "label": "OOOOBIOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗓子有些炎症，轻微咳嗽",
+            "label": "BIIIIIOOOBI",
+            "normalized": [
+                "咽喉炎",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝发热期间做过什么检查？",
+            "label": "OOBIOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝咳嗽有痰吗？",
+            "label": "OOBIBIOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天去医院扎针了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝咳嗽有痰吗",
+            "label": "OOBIBIO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没谈",
+            "label": "BI",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有化验血常规和CRP",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "从描述症状考虑宝宝上呼吸道感染",
+            "label": "OOOOOOOOOBIIIII",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "应该是",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发烧是一种免疫保护性反应，发烧本身不是病只是一种症状，体温超过38.5度口服退烧药，体温没有超过38.5度，可以物理降温:1.观察孩子的精神状态和脸色，孩子如果有寒战怕冷手脚发凉。此时不能用冷水擦，也不能冷敷，此时极易抽搐，2..孩子没有汗但四肢手脚热，可以用温水擦浴，温水把孩子的大腿根，脖子下，腘窝，腋窝，擦擦降温。也可以洗一个热水澡。物理降温可以反复进行，直到体温退了或孩子出汗。",
+            "label": "BIOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOBIIIOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "发热",
+                "发热",
+                "寒战",
+                "四肢厥冷",
+                "抽搐",
+                "出汗"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝现在应用什么药物",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "小二安瑞克",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有吗",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在医院打的阿奇还有抗病毒的",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还有退烧针",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝反复发热，建议给宝宝化验一下血常规和CRP，分析一下是病毒感染还是细菌感染。",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOOOOOBIIIOOBIIIO",
+            "normalized": [
+                "发热",
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "然后规范应用药物",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "但是过后四个小时又高烧了",
+            "label": "OOOOOOOOOBIO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以吃药吗",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "超过四小时可以应用",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最好备两种退热药物。",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "六点吃的，估计半夜还得吃，",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "注意多喝水。",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "换着吃吗",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这样连着吃退烧药没事吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "只要超过四小时以上",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "再就是合理检查，明确病原，规范治疗",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那好，谢谢您",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不用客气，祝宝宝健康成长，早日康复",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您有任何问题可以随时和我联系或留言，我看到后会第一时间回复。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的??",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果没有其他问题，那就结束了，好吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的再见",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "再见",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

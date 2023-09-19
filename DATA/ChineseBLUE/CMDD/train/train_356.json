@@ -1,0 +1,509 @@
+{
+    "data-split": "train",
+    "example-id": "10457195",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我是您的接诊医生",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生你好",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "为了更好的提供服务，我需要询问您几个与病症相关的问题，感谢您配合。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝多大了，还在母乳喂养吗",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最近有没有腹部着凉或吃不合适的食物？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "7个月零10天",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "纯母乳",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，宝贝有没有呕吐，吃奶怎么样？",
+            "label": "OOOOOOOBIOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝肚子摸着胀吗？大便时候哭闹吗",
+            "label": "OOOOOOBOOOOOOBIO",
+            "normalized": [
+                "腹胀",
+                "哭闹"
+            ],
+            "type": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他奶奶最近怕他吃不饱，开始添辅食了",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "刚添加辅食对吗？宝贝今天大便了几次？大便什么样的？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝小便量多吗？精神状态怎么样？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "肚子好像不胀，",
+            "label": "OOOOBIO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有带宝宝看医生。检查过大便常规吗？",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不到七个月就添辅食了，今天大便3回了，",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，有孩子大便的照片吗？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便有点稀，还有点绿",
+            "label": "BIIIIOOOOB",
+            "normalized": [
+                "稀便",
+                "绿便"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝有吃药物吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有大便的照片，也没吃药",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "也没有看医生检查对吗",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没看医生，也没查大便常规",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个情况还是考虑刚添加辅食引起的消化不良情况，治疗上可以给宝宝贴一贴灵，或热敷肚子，吃点益生菌调节一下就可以",
+            "label": "OOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "观察1-2天，勤给宝宝吃母乳，或喝水，观察宝宝精神状态，和小便量",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "贴一贴灵，贴那个，",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还用给宝宝吃辅食吗，",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝脱水主要表现为精神差，皮肤颜色苍白或发灰色，皮肤弹性差，囟门或眼窝凹陷，小便量少或无尿，宝贝哭闹时候没有泪，泪少等等",
+            "label": "OOBIOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "脱水",
+                "精神软",
+                "哭闹"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯1，最近少给宝宝吃辅食，还是以母乳喂养为主",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝饮食上要母乳为主，如果刚添加辅食就要减少辅食。平时可以添加益生菌调节胃肠功能，宝贝如果不吐，轻度脱水以补充水分电解质为主，如果宝贝有细菌感染还要口服抗生素",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOBIOOOOOOOOOOOOOOOOBIIIOOOOOOO",
+            "normalized": [
+                "呕吐",
+                "脱水",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，他奶奶怕他吃不饱，偷偷的给他吃饭，他可能也有点吃着",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "观察1-2天，如果孩子呕吐，腹泻加重，出现我刚才说的情况，就要带宝宝及时去医院小儿内科就诊检查大便常规，排除病毒感染引起的肠炎",
+            "label": "OOOOOOOOOOOBIOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOBI",
+            "normalized": [
+                "呕吐",
+                "腹泻",
+                "病毒感染",
+                "肠炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "少量多次给宝宝吃，给孩子胃肠道一个适应过程",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我要给宝宝吃点什么药",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝添加辅食，要少量多次，由稀到稠，由少到多，给胃肠道一个适应过程",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好让宝宝缓解缓解啊",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "益生菌就可以，普通药店都有卖的",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "什么牌子的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，可以用手顺时针帮孩子揉肚子缓解宝贝哭闹情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "普通的就可以，您去药店咨询就可以了",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "或者平时用毛巾包着热水袋帮宝宝热敷一下肚子，减轻症状",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝白天也不哭闹。精神也不错。就是有点拉肚子。昨天都好看，拉咯一次，怎么今天又拉咯三次了",
+            "label": "OOOOOOBIOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "哭闹",
+                "腹泻"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平时多喝水，预防孩子脱水情况",
+            "label": "OOOOOOOOOOBIOO",
+            "normalized": [
+                "脱水"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝有可能出现了反复，如果观察今天看看，还是不好，需要检查大便常规排除肠炎情况！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "肠炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，我现在还用不用给宝宝吃鱼肝油和补钙得",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以继续口服鱼肝油",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那补钙得就停停吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果医生给宝宝开的钙也可以继续服用",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好得，",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在主要观察宝宝精神状态，多喂水，喂奶，调整饮食，预防孩子脱水症状！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "脱水"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，平时加强喂养，适当户外活动促进钙吸收，增强抵抗力，预防宝宝感冒",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有疑问吗",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢了，有问题再找你",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您有任何问题可以随时和我联系或留言，我看到后会第一时间回复。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还在吗",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

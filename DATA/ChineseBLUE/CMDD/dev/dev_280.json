@@ -1,0 +1,178 @@
+{
+    "data-split": "dev",
+    "example-id": "10104022",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子|天拉几次？尿量如何？精神正常吗？",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "都用过啥药？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "快小十次吧！别的都很正常",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一之没用过药",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子平时拉肚子，精神正常吗？生长发育正常吗？体重增长正常吗？",
+            "label": "OOOOBIIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这一次大便增多，拉肚子有几天了？",
+            "label": "OOOOOOOOBIIOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她一直便便不成形老啦某，这两天拉的和水一样。",
+            "label": "OOOOOOOOOOOOOOOBIIIIIO",
+            "normalized": [
+                "水样便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平时拉肚子，生长发育正常，体重增长正常。可能属于生理性腹泻。这样不用处理，等到添加辅食后会自然好转的。孩子这两天拉的特别多，而且水较多，可能属于，秋季腹泻，最好是留点大便，去医院化验一下，粪常规和轮状病毒，明确诊断，然后再对症治疗。可以让孩子把口服补液盐喝上，一防脱水。",
+            "label": "OOBIIOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "腹泻",
+                "腹泻",
+                "腹泻",
+                "轮状病毒感染",
+                "脱水"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "直接拿大便去化验吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "添加什么样的辅食会好一些？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今天上班后就留大便化验，要半个小时之内大便，放在塑料纸上。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以添加米粉，蛋黄，随后逐渐增加。去医院要开个粪常规和轮状病毒的化验单。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "让儿科医生开化验单",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "轮状病毒是什",
+            "label": "BIIIOO",
+            "normalized": [
+                "轮状病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "拉的水较多，大多数是轮状病毒感染引起的。",
+            "label": "OOOOOOOOOOBIIIIIOOOO",
+            "normalized": [
+                "轮状病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好，给孩子化验粪常规和轮状病毒了吗？可以上传化验单。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

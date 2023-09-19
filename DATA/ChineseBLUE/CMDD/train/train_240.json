@@ -1,0 +1,446 @@
+{
+    "data-split": "train",
+    "example-id": "10170455",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "请问医生这种是什么情况呢",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "需要吃药吗？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今天几次大便了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天还没有大便",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "能放屁不，能喝水吗",
+            "label": "OBIOOOOOO",
+            "normalized": [
+                "屁"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "放了屁的，没喝水",
+            "label": "OOBOOOOO",
+            "normalized": [
+                "屁"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "和益生菌没有关系",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "因为他平时也不喜欢喝水",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那这是怎么回事呢",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "能放屁不",
+            "label": "OBIO",
+            "normalized": [
+                "屁"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "能放，今早放了屁的",
+            "label": "OOOOOOOBO",
+            "normalized": [
+                "屁"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是吃了奶吐，而且吐好多，把吃的都吐出来了",
+            "label": "OOOOOOOOOBOOOOOOOBIIO",
+            "normalized": [
+                "呕吐",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "第一次吐什么东西",
+            "label": "OOOBOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在精神状态怎么样",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发烧不",
+            "label": "BIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽，流鼻涕不",
+            "label": "BIOBIIO",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没发烧，就是吐奶",
+            "label": "OBIOOOBI",
+            "normalized": [
+                "发热",
+                "呕吐"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有咳嗽，流鼻涕",
+            "label": "OOBIOBII",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "都是吐奶水",
+            "label": "OOBII",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就把才吃进去的奶又全部吐出来",
+            "label": "OOOOOOOOOOOBII",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该是消化不良",
+            "label": "OOOBIII",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果一直不能喝水，一直呕吐就得去医院面诊",
+            "label": "OOOOOOOOOOOBIOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "做一个腹部彩超看看",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢您",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在可以吃助消化药观察",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我看他等下还会不会吐",
+            "label": "OOOOOOOOOB",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "停辅食",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "少量多次喝水",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "里面加糖，少量盐醋",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "水里面加糖盐醋吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "醋是白醋吗？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "帮助消化的什么药呢？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "合生元可以吗？还是妈咪爱？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "食用醋就行",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "白糖",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "助消化药吃胃肠安丸",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那还用加药吗",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "盐",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "加一点点就行吧？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的。加醋不会对宝宝的胃有影响吧",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那我是先去买药来喂还是暂观察，等下再吐的话再喂呢",
+            "label": "OOOOOOOOOOOOOOOOOOBOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有一点酸味就行",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一边吃药，一边观察",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "能放屁可以接着观察",
+            "label": "OBIOOOOOO",
+            "normalized": [
+                "屁"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢您",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那我这就去买",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "别客气随时咨询",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝现在怎么样了？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

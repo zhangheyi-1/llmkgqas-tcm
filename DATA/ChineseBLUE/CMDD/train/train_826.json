@@ -1,0 +1,315 @@
+{
+    "data-split": "train",
+    "example-id": "10853856",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "有吃退烧药吗？体温怎么这么低？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没吃退烧药",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子还有其他症状吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨晚睡得不踏实~哭了好几次~",
+            "label": "OOOOOOOOBOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "平常都很少起夜的",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温手动体温表测的吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "水银的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "测5分钟？",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "67分钟",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "摔下来没有吐吧？这几天玩都好着吧？床多高？",
+            "label": "OOOOOBOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "从床上掉下额头磕了一个大包",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没吐",
+            "label": "BI",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有用酒精擦吗？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那和摔关系不大",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "用凉水敷的额头",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天好好的~体温也正常~",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没有用药吧？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨晚试着他的腿凉又加的被子",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有吃药",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "低体温没有药物，加强保暖，反应吃好着？",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可能感冒吗？吃奶鼻子咕噜咕噜的~不吃奶又没有声音了",
+            "label": "OOBIOOOOBIIIIIOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "粗糙呼吸音"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热可能是有感冒",
+            "label": "BIOOOOBI",
+            "normalized": [
+                "发热",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃奶挺正常的",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没有皮疹，流鼻涕，咳嗽？",
+            "label": "OOBIOBIIOBIO",
+            "normalized": [
+                "皮疹",
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "需要去医院吗？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温低有几个小时？当时发热没用退烧药？只是凉水敷？一般吃退烧药容易低体温",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果反应吃的好不用去医院",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没吃退烧药",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "体温今上午量才发现",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我再观察一下",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今天多测几次，下午或晚上36°以上就正常，如果还低去医院看一下",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的~谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,242 @@
+{
+    "data-split": "train",
+    "example-id": "10309367",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，我是儿科主治医师张姣姣，同时也是一位宝妈，下面由我来帮您解答咨询，接下来就开始问诊、分析！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您好，图片看到了，单从外观上看，绿色稀便，还属于婴幼儿期比较常见的大便现象",
+            "label": "OOOOOOOOOOOOOOOOBIBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "绿便",
+                "稀便"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我宝宝拉粑粑是绿色",
+            "label": "OOOOOOOBI",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问出现这种大便情况多长时间了？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝多大了？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那个渣是什么",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "5个月",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "像是奶渣",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问出现这种大便情况多长时间了？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是什么引起的呢",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "最近也没怎么吃奶总是玩。就刚发现的",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "上午还好好的",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这种拉稀多是由于腹部受凉或胃肠功能紊乱所致，还属于婴儿期的常见大便现象，不用太担心",
+            "label": "OOBIOOOOOOOOOBIIIIIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "稀便",
+                "胃肠功能紊乱"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没有频繁呕吐或发热吧？",
+            "label": "OOOOOOOBIOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，说明宝宝情况还算可以的",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "新生儿和小婴儿，由于消化系统发育尚不成熟，比较容易受喂养情况的影响，容易出现肠道功能紊乱，排便情况十分不稳定，特别容易表现为两个极端：①要么表现为，“好几天不排一次大便”的情况。②要么表现为类似腹泻的情况：可能一天拉好多次，或者大便很稀，或者大便含水样、含粘液、含泡沫、含类似鼻涕样的，或者含奶瓣多、气味较重，或者大便颜色改变例如发绿。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "腹泻",
+                "绿便"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "此外，小宝宝腹部脂肪薄，对外界温度比较敏感，所以，比较容易出现腹部受凉，腹部一受凉就特别容易出现腹泻症状，所以一定要注意腹部保暖。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢医生",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以给宝宝口服肠道益生菌调理调理5-7天",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气，家里有没有妈咪爱或双歧杆菌？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝的这种大便情况虽然不是标准、完美的大便状态，但是还属于新生儿和小婴儿的常见大便情况，只不过是大便次数和性状改变了而已，不一定就代表疾病状态。虽然宝宝每天可能大便次数多些或者稀些，可是如果宝宝的大便情况并不是每次的大便量都是很多的、一大摊子似的，只要吃奶情况和精神状态还凑合，没有频繁、剧烈的异常哭闹，就不用太担心。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果还没吃过药物调理，可以口服肠道益生菌（例如双歧杆菌或妈咪爱）观察观察变化，如果调理1周后大便情况无明显好转，同时也没有其它异常症状出现，那就啥药也别吃了，顺其自然。但是，如果宝宝拉的大便次数非常多而同时每次的大便量又非常大，要警惕脱水与否，注意尿量、吃奶情况和精神状态。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "此外，若宝宝频繁剧烈的哭闹、特别不好哄，或者出现发热、频繁呕吐等异常情况，那最好给宝宝化验个大便常规以明确有无肠道细菌性感染或肠道出血情况存在。",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "哭闹",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "若您暂时还没想好给我发送什么信息，可以先随便发给我一个字，以免超过5分钟无回复、系统自动关闭了对话框",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "温馨提示：如果患者端连续5分钟没有回复医生信息的话，拇指系统会“自动关闭”咱们的对话框导致交流结束！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为担心您万一超过5分钟没有回复信息的话，拇指系统会自动关闭对话框、导致交流结束，所以给您提醒一下！??????",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

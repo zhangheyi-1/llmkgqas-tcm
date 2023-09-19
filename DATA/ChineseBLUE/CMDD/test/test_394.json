@@ -1,0 +1,384 @@
+{
+    "data-split": "test",
+    "example-id": "10249488",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，在吗？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子现在还是咳嗽吗？",
+            "label": "OOOOOOBIOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "频率高不高",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不高",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有痰没有",
+            "label": "BIOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "痰不多了",
+            "label": "BOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发烧不",
+            "label": "BIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "精神状态怎么样？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不,有黄鼻涕了",
+            "label": "OOOBIIO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神很好",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "气管炎咳嗽的时候精神一直不错",
+            "label": "BIIBIOOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "针对鼻塞，儿童可以选用的药物比较多，比如氨酚黄那敏，氨酚麻美，艾畅等等",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻塞"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这些都是治疗鼻塞，鼻涕，鼻阻这些症状的",
+            "label": "OOOOOOBIOBIOOOOOOOO",
+            "normalized": [
+                "鼻塞",
+                "鼻流涕"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "黄鼻涕没有鼻塞的",
+            "label": "BIIOOBIO",
+            "normalized": [
+                "鼻流涕",
+                "鼻塞"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "流体鼻涕",
+            "label": "OOBI",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还需要消炎吗",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这些药物都有减少鼻涕作用",
+            "label": "OOOOOOOOBIOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是否需要消炎要看是不是细菌感染",
+            "label": "OOOOOOOOOOOBIII",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是细菌感染才需要使用头孢",
+            "label": "OOOBIIIOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一般西药消炎多久一个疗程基本喝几天",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "像气管炎支气管炎",
+            "label": "OBIIBIII",
+            "normalized": [
+                "支气管炎",
+                "支气管炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "而看是不是细菌感染最基本的是查个血常规",
+            "label": "OOOOOBIIIOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "了解",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "知道",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不是随便自行使用抗生素",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "基本黄鼻涕基本就合宾细菌感染了吧",
+            "label": "OOBIIOOOOOBIIIOO",
+            "normalized": [
+                "鼻流涕",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "光靠鼻涕颜色是不能确定细菌感染的",
+            "label": "OOBIOOOOOOOBIIIO",
+            "normalized": [
+                "鼻流涕",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "噢",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "病毒感染引起炎症，鼻涕也可能是黄颜色",
+            "label": "BIIIOOOOOBIOOOOOOO",
+            "normalized": [
+                "病毒感染",
+                "鼻流涕"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你推荐一些",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "针对鼻涕，儿童可以选用的药物比较多，比如氨酚黄那敏，氨酚麻美，艾畅等等",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我发的症状喝的药物",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这些药物都有这些作用",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽呢",
+            "label": "BIO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "中药喝些什么",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "要在医生指导下购买和使用",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽？",
+            "label": "BIO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我们是西医，中药方面不是很清楚哈",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "噢",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

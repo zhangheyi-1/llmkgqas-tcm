@@ -1,0 +1,295 @@
+{
+    "data-split": "train",
+    "example-id": "10212871",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好！",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子有点儿低烧",
+            "label": "OOOOOBI",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "药吃不下去吗？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃了，会吐出来",
+            "label": "OOOOBII",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发病几天了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "连之前吃的东西也吐出来",
+            "label": "OOOOOOOOBII",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发病几天了一点儿药药吃不下去吗？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "感冒第四天了",
+            "label": "BIOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "发低烧昨晚上开始",
+            "label": "BIIOOOOO",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今天体温37度五是吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有时候，37度7，",
+            "label": "OOOOBIIIO",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有时候37度4",
+            "label": "OOOBIII",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这还是有发烧的",
+            "label": "OOOOBII",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议你去医院检查一下吧，化验一下血常规。看是否有异常",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子小抵抗力差，感冒以后容易合并肺炎的。",
+            "label": "OOOOOOOOBIOOOOOOBIOO",
+            "normalized": [
+                "普通感冒",
+                "肺炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "小孩子一睡觉就做梦",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这是正常的，没有问题。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那医生建议我们做些什么",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "化验血常规拍胸片",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "排除气管炎和肺炎",
+            "label": "OOBIIOBI",
+            "normalized": [
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "要拍胸片吗",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，可以拍胸片排除气管炎和肺炎。",
+            "label": "OOOOOOOOOOBIIOBIO",
+            "normalized": [
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那这么医生，小孩拍胸片对小孩幅射的，不怕吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子小抵抗力差，感冒以后容易合并气管炎和肺炎的。",
+            "label": "OOOOOOOOBIOOOOOOBIIOBIOO",
+            "normalized": [
+                "普通感冒",
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "检查一下，如果没有还放心。",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "X线是有辐射的，但是偶尔的接触也是没有问题的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦，好的，谢谢你医生",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气，祝宝宝早日康复，有事及时联系。",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "再见！",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

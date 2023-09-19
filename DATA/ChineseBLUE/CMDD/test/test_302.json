@@ -1,0 +1,219 @@
+{
+    "data-split": "test",
+    "example-id": "10238733",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "怎么判断有痰的？",
+            "label": "OOOOOBOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽听得到",
+            "label": "BIOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这种情况几天了？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "鼻涕很浓，青黄色……",
+            "label": "BIIIOOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天只是咳嗽一两下，流鼻涕多，今天咳嗽厉害的",
+            "label": "OOOOBIOOOOBIIOOOOBIOOO",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "除了咳嗽，流鼻涕还有别的不舒服吗？",
+            "label": "OOBIOBIIOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "暂时没有了，没有发烧！",
+            "label": "OOOOOOOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发烧，拉肚子？",
+            "label": "BIOBIIO",
+            "normalized": [
+                "发热",
+                "腹泻"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "拉肚子好像还好，一天反正也拉几次！但是不是稀的",
+            "label": "BIIOOOOOOOOOOOOOOOOOOBO",
+            "normalized": [
+                "腹泻",
+                "稀便"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝太小，家长先不要自己随便给宝宝吃药",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "先去医院让医生听诊",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看需不需要拍片排除肺炎的情况",
+            "label": "OOOOOOOOOBIOOO",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果只是气管有炎症可以选择口服药物治疗",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天才开始咳嗽有痰的，估计是气管有炎症",
+            "label": "OOOOOBIBIOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽频繁吗？",
+            "label": "BIOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也还好不算频繁",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果咳嗽不频繁更要警惕肺炎",
+            "label": "OOBIOOOOOOOBI",
+            "normalized": [
+                "咳嗽",
+                "肺炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就今才开始咳嗽的！",
+            "label": "OOOOOOBIO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我煮梨子水可以给他喝？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "梨水没有治疗效果",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

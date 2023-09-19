@@ -1,0 +1,478 @@
+{
+    "data-split": "dev",
+    "example-id": "10265030",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子发烧多长时间了",
+            "label": "OOOBIOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "反反复复四五次了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热几天了",
+            "label": "BIOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天输的水今天五点多又烧三十七度六刚刚为点退烧药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最高的体温是多少",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不超过38.5度不需要给孩子用退热药，37.6度不需要应用退热药物的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那怎么办",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "除了发热以外，还有其他的症状吗",
+            "label": "OOBIOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子是不是从昨天开始发热的？这一天当中反复的发热",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOBI",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热之前这个孩子有没有受凉的情况？家里的大人有没有呼吸道感染的情况？",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子的精神状态怎么样",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前天也里烧39.5去医院打一针早上又烧后来输水昨天中午输完水又烧三十八度五喂退烧药",
+            "label": "OOOOBIIIIOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "高热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "也就是说今天是发烧的第三天",
+            "label": "OOOOOOOBIIOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有流鼻涕打喷嚏的情况",
+            "label": "OOOBIIBIIOOO",
+            "normalized": [
+                "鼻流涕",
+                "打喷嚏"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "根据你查的血常规，应该考虑细菌感染，细菌感染的孩子，给予恰当的抗生素治疗3到4天以后，体温才能够逐渐恢复正常",
+            "label": "OOOOOOOOOOOOOBIIIOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不烧的话跟正常人一样活蹦乱跳",
+            "label": "BIOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子既往体质怎么样",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那应该没有问题的，可以继续输液治疗",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "反复的发热有可能会出现肺炎，但是，根据你所描述的情况，这孩子不应该考虑肺炎，最多是上呼吸道感染",
+            "label": "OOOBIOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOBIOOOBIIIIII",
+            "normalized": [
+                "发热",
+                "肺炎",
+                "肺炎",
+                "呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她以往身体状况蛮好的很少生病一生病就麻烦",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那证明孩子的体质还是比较好的",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这样的孩子你更不用担心了，可以继续输液观察2到3天，呼吸道感染一般有3到4天的高峰期，过了高峰期以后症状会逐渐的缓解",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她平时能吃能睡",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在这个高峰期内孩子会出现反复的发热，如果体温正常以后孩子精神状态好，我认为肺炎的可能性不大，何况这个孩子并没有咳嗽的情况，也没有呼吸增快",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOBIOOOOOOOBIII",
+            "normalized": [
+                "发热",
+                "肺炎",
+                "咳嗽",
+                "呼吸深快"
+            ],
+            "type": [
+                "1",
+                "3",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对呀，所以说可以暂时观察呀",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她就是发烧时候会出气粗点",
+            "label": "OOOBIOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热的时候可能会出现呼吸增快，心率增快，这是一种正常的现象",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢医生",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这样我就放心了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，体温每升高一度，心率可增快10到15次",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不用太担心，继续输液治疗就可以了",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我估计2到3天以后体温即可正常",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你用的什么消炎药啊",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "肺炎有啥症状",
+            "label": "BIOOOO",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不知道",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肺炎的症状，主要表现为发热，咳嗽，呼吸增快，呼吸急促",
+            "label": "BIOOOOOOOOOBIOBIOBIIIOOOOO",
+            "normalized": [
+                "肺炎",
+                "发热",
+                "咳嗽",
+                "呼吸深快"
+            ],
+            "type": [
+                "3",
+                "1",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她没有",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "所以说不考虑肺炎呢，还是考虑上呼吸道感染",
+            "label": "OOOOOOBIOOOOOOBIIIII",
+            "normalized": [
+                "肺炎",
+                "上呼吸道感染"
+            ],
+            "type": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她要是退烧了能吃能跳的",
+            "label": "OOOBIOOOOOO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温正常以后孩子的精神状态恢复正常，那就应该问题不大",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我上面已经跟你说过了，在疾病的早期肯定会出现反复的发生",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢医生",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "特别是细菌感染的孩子，给你恰当的抗生素治疗以后，体温才能够逐渐恢复正常，将炎症控制住了，体温才会逐渐的恢复正常",
+            "label": "OOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

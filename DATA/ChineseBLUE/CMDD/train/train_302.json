@@ -1,0 +1,271 @@
+{
+    "data-split": "train",
+    "example-id": "10165305",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝咳嗽几天了，晚上睡觉咳嗽不",
+            "label": "OOBIOOOOOOOOBIO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽3天了，就是晚上咳嗽厉害",
+            "label": "BIOOOOOOOOBIOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一阵一阵的吗？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发烧，流鼻涕，拉肚子不",
+            "label": "BIOBIIOBIIO",
+            "normalized": [
+                "发热",
+                "鼻流涕",
+                "腹泻"
+            ],
+            "type": [
+                "2",
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是流鼻涕",
+            "label": "OOBII",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有拉肚子，发烧",
+            "label": "OOBIIOBI",
+            "normalized": [
+                "腹泻",
+                "发热"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "鼻涕多不，黄吗？",
+            "label": "BIOOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不黄",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不算多",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一阵一阵的咳嗽吗",
+            "label": "OOOOOBIO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也不算吧，就只是白天偶尔咳，晚上厉害些",
+            "label": "OOOOOOOOOOOOBOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗓子里面有丝丝的声音吗",
+            "label": "BIIIIIIIIIO",
+            "normalized": [
+                "粗糙呼吸音"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这种情况是喘息",
+            "label": "OOOOOBI",
+            "normalized": [
+                "喘息"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "到医院去看了，医生听的时候都说有痰音",
+            "label": "OOOOOOOOOOOOOOOBII",
+            "normalized": [
+                "痰鸣音"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "以前有过喘息没",
+            "label": "OOOOBIO",
+            "normalized": [
+                "喘息"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前有的急性支气管炎，好了一个星期",
+            "label": "OOOOBIIIIIOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "因为她平时就在吃葡萄糖酸钙锌，她吃药又特别恼火，所以就想给她混在一起吃",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "之前那次有丝丝的声音吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这个不清楚了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以一起吃",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "麻烦你了",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还得化验血常规，支原体和衣原体看看",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "用布地耐德和可必特雾化",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝现在怎么样了？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,308 @@
+{
+    "data-split": "train",
+    "example-id": "10240507",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好！",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子多大了？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好！大夫，宝宝十个月了",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发烧吗？",
+            "label": "BIOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不发烧，量体温了！37度左右",
+            "label": "OBIOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "去医院检查过吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "孩子精神头不错，就是晚上咳嗽厉害，抱起来竖着能好些。",
+            "label": "OOOOOOOOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "治疗咳嗽的药吃了几天啦？",
+            "label": "OOBIOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，以前也有过这种情况，看了几个医院，排的片子，说没问题，让慢慢养。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好了四五个月了，这又这样了，但是白天不咳嗽",
+            "label": "OOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃了三天了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这次没去医院检查是吧？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这次没去呢！",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "根据你说的情况，孩子还是一个呼吸道的感染。",
+            "label": "OOOOOOOOOOOOOOBIIIIIO",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果吃药效果不好，应该去检查一下，看看气管里和肺里是否有炎症。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那请问要怎么办呢？已经影响晚上睡眠了！",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议你去医院检查一下，拍胸片看看是否有肺炎和气管炎。",
+            "label": "OOOOOOOOOOOOOOOOOOOBIOBIIO",
+            "normalized": [
+                "肺炎",
+                "支气管炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "再针对性治疗效果还好。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦！好的，谢谢您大夫！",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果有气管炎和肺炎口服药物效果是不好的。",
+            "label": "OOOBIIOBIOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气，尽快检查再决定治疗方案。",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那需要输液是吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果有气管炎和肺炎，输液效果还好。",
+            "label": "OOOBIIOBIOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这个跟接触过气管炎的患者有关系吗？",
+            "label": "OOOOOOBIIOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是单纯的感冒可以口服药物的。",
+            "label": "OOOOOOBIOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有关系的，通过呼吸道传播的。",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦！那能够治愈吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以治好的，没问题哒。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我家奶奶气管不好，总咳嗽，孩子跟她接触过几天。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是慢性气管炎和孩子没有关系的。",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是急性气管炎，有传染性的。",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦！她都咳嗽了好多年了！",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个对孩子影响不大",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那好的，我去医院查一查，感谢您的耐心讲解。",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气，有事及时联系。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的??",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

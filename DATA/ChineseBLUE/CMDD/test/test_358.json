@@ -1,0 +1,541 @@
+{
+    "data-split": "test",
+    "example-id": "10189890",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "请问怎么回事？今早拉的是绿色的一坨一坨的正常便便，今天到了下午又是腹泻稀便了",
+            "label": "OOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOBIBIO",
+            "normalized": [
+                "绿便",
+                "腹泻",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好，这是不消化的大便，方便把化验结果发过来吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "化验结果就是正常。上面什么都没有，没有拍到",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "为什么在三个月就添加米粉呢？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前腹泻是白细胞五个，后来吃了米粉以后今天去化验的白细胞没有了",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "为什么会不消化呢？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "轮状病毒查了吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "因为她一直拉肚子，拉泡沫拉水。所以加了米粉，今天早上拉的还是很好的便便，就是绿色，然后中午喝了我的母乳过后就拉稀了",
+            "label": "OOOOOBIIOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "腹泻",
+                "水样便",
+                "绿便",
+                "稀便"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "轮状病毒怎么查？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子之前有拉稀，胃肠道功能受损，在受损期间，消化能力下降，所以会出现不消化吸收的情况。",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那现在应该怎么办？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "化验大便查轮状病毒抗体，这几天一直吃你的母乳吗？",
+            "label": "OOOOOBIIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "轮状病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前天贴了黑胡椒止泻的肚脐贴",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这三天都是米粉奶粉母乳一起吃",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这几天还用了什么药？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还用了蒙脱石散，还有诊所磨的药粉",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议宝宝吃双歧杆菌，注意腹部保暖，妈妈饮食要清淡一点，不要吃易过敏、不易消化、油腻的食物。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我给她吃了半个月的妈咪爱和益生菌，都没用，腹泻都快一个月了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "醒脾儿颗粒也吃了，中药贴肚脐也贴了一个多星期，没用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今天的大便不算太稀，可以继续吃益生菌和蒙脱石散，如果拉稀有加重，建议暂时换腹泻奶粉喂养。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便次数每天三四次",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "奶粉买的一直都是腹泻奶粉",
+            "label": "OOOOOOOOBIOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "从什么时候开始吃的腹泻奶粉？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她一喝我的母乳就腹泻，如果每天喝奶粉和米粉就不会",
+            "label": "OOOOOOOOBIOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "但是颜色又是墨绿色",
+            "label": "OOOOOOBII",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那孩子明显的就是母乳不耐受，暂时就不要再吃母乳了。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "从满月开始吃腹泻奶粉，因为她一出生就是腹泻，",
+            "label": "OOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "胎粪不是腹泻，胎粪是正常的一条一条的",
+            "label": "OOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子体重增长正常吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天刚好三个月14斤了，出生只有五斤",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "男孩儿女孩儿？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那什么时候才能喝母乳？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "女孩子",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体重增长的挺好的。孩子大便完全正常以后，才能缓慢添加母乳，如果一直母乳就拉稀，还是不能继续母乳喂养",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，那这段时间就吃奶粉和米粉可以吗？",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "如果这样吃奶粉和米粉，依然拉绿色便便怎么办？",
+            "label": "OOOOOOOOOOOOOOBIIIOOOO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可是拉绿色便便阿",
+            "label": "OOOBIIIO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你买的奶粉是深度水解奶粉吗？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这是第二灌了，之前吃了一罐，可是没见拉绿色大便啊",
+            "label": "OOOOOOOOOOOOOOOOOOOBIIIO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "米粉是这个",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个是适度水解奶粉，不是深度的，但是孩子目前体重增长正常，没有明显腹胀哭闹的话，不需要专门吃深度水解。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIBIOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹胀",
+                "哭闹"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那为啥拉绿色啊",
+            "label": "OOOBIIO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "就是不完全消化吸收呀，孩子的消化系统是在不断变化的，不是一成不变的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦，好的，我以为拉绿色便便是胃肠出血呢",
+            "label": "OOOOOOOOOBIIOOOOOOO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不是的，出血的话大便带红色，或有发黑、深褐色的。",
+            "label": "OOOOBIOOOOOOOOOOBIOOOOOO",
+            "normalized": [
+                "血便",
+                "黑便"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我这个感觉有点绿的发黑啊",
+            "label": "OOOOOOOBIIIO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那是深绿色，不是出血的发黑的大便",
+            "label": "OOOOOOOOBIOBIIII",
+            "normalized": [
+                "血便",
+                "黑便"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢，那我现在应该怎么做",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以加乳糖酶，或者换用其他品牌的益生菌，这些都是帮助消化的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我是说她现在吃什么？是每天吃奶粉和米粉？然后让她一直拉绿色便便？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那些药物就是让他帮助消化的呀！",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "腹泻奶粉和米粉继续吃，母乳最近不要喂",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "绿色便便是是不是吸收不了铁？",
+            "label": "BIIOOOOOOOOOOO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不光是铁的原因。",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

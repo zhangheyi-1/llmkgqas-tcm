@@ -1,0 +1,323 @@
+{
+    "data-split": "train",
+    "example-id": "10479239",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我是您的接诊医生",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "问题你好，我家孩子刚五个月每天大便一到两次是蛋清状，从昨天体温有时37度2，有时37度6是怎么回事呢，体温忽高忽低的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "为了更好的提供服务，我需要询问您几个与病症相关的问题，感谢您配合。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝是母乳喂养吗，最近有没有添加辅食？",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯好的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一直喝奶粉，最近没有添加辅食",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝最近有没有腹部着凉？有没有鼻塞流鼻涕咳嗽？",
+            "label": "OOOOOOOOOOOOOOOBIBIIBIO",
+            "normalized": [
+                "鼻塞",
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝有没有吐奶？宝贝精神状态怎么样？最近宝贝吃奶怎么样？",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有鼻塞，比赛有点干",
+            "label": "OBIOOOOOO",
+            "normalized": [
+                "鼻塞"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝大便时候有没有哭闹？肚子摸着胀吗？",
+            "label": "OOOOOOOOOBIOOOOOBOO",
+            "normalized": [
+                "哭闹",
+                "腹胀"
+            ],
+            "type": [
+                "3",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不哭闹，也不胀",
+            "label": "OBIOOBI",
+            "normalized": [
+                "哭闹",
+                "腹胀"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最近有没有带宝宝检查？吃什么药没有？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个体温稍微偏高一些，但是不要太担心，暂时给宝宝喝点水，勤测体温看看！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是这几晚上睡觉开始登被子，有时候我醒了她都没盖被子，不过她穿着保暖衣睡觉",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也没检查，准备给她弄点药吃",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝大便这样，考虑有点消化不良引起的，可以暂时给宝宝热敷一下肚子，或顺时针揉揉肚子，给宝宝口服一些益生菌调节看看！",
+            "label": "OOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在主要及时腹泻，轻微发热对吗？",
+            "label": "OOOOOOOOBIOOOBIOOO",
+            "normalized": [
+                "腹泻",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你什么样的益生菌好呢",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是呀，最高37度6",
+            "label": "OOOOOBIII",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝消化不良或着凉的话也可能引起宝贝轻微发热，需要及时喂水，少量多次喂宝宝",
+            "label": "OOBIIIOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便是蛋清样里面全是颗粒",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "药店普通的益生菌就可以！",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦不知道是不是感冒，也不咳嗽流鼻涕的",
+            "label": "OOOOOOOBIOOOBIBIIO",
+            "normalized": [
+                "普通感冒",
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，宝贝比较小，胃肠功能比较差，着凉后很容易出现消化不良，可以暂时口服益生菌调节3-5天，如果宝贝加重或没有好转，体温增高，反复，就要及时带宝宝去二级以上公立医院儿科就诊，检查一下大便常规血常规看看，排除肠炎或病毒感染引起的发热",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOBIIIOOOBI",
+            "normalized": [
+                "消化不良",
+                "肠炎",
+                "病毒感染",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝如果长期腹泻，体温反复，出现高热等情况需要及时就诊，检查后明确病因，便于对症支持治疗。避免出现高热惊厥等情况！",
+            "label": "OOOOOOBIOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOO",
+            "normalized": [
+                "腹泻",
+                "高热",
+                "热惊厥"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝平时要注意保暖，少量多次喂宝宝，避免消化不良，平时多喂水，避免温差刺激预防宝宝感冒！",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "消化不良",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝体温38.5以下手脚温暖可以多喂水，退热贴外用，或用温毛巾擦额头腋窝腹股沟物理降温，给孩子勤测体温，不要太担心，如果高热不退就要及时就诊明确发热原因！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOBIOOO",
+            "normalized": [
+                "高热",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢您",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

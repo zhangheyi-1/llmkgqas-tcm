@@ -1,0 +1,395 @@
+{
+    "data-split": "dev",
+    "example-id": "10309438",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，我是您的辅诊医生，需要询问几个问题，才能更好的评估孩子情况，您还在吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝大便什么样子？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天是黄色的今天绿色的",
+            "label": "OOOOOOOOBIO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有奶瓣吗？有没有粘液或者脓血？",
+            "label": "OBIOOOOOBIOOBIO",
+            "normalized": [
+                "稀便",
+                "大便粘液",
+                "脓血便"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "而且拉出来的都是水了",
+            "label": "OOOOOOOOBO",
+            "normalized": [
+                "水样便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有照片吗我看看",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝纯母乳喂养吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯母乳",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝还有其他症状吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这张都还好没那么绿",
+            "label": "OOOOOOOOB",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以看出发绿",
+            "label": "OOOOBI",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "流鼻涕",
+            "label": "BII",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前有两三次完全是绿的",
+            "label": "OOOOOOOOOBO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝有没有呕吐？发热，咳嗽等症状",
+            "label": "OOOOOBIOBIOBIOOO",
+            "normalized": [
+                "呕吐",
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "偶尔有点咳",
+            "label": "OOOOB",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝受凉了吗",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯可能冷了下",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "母亲有没有吃不好消化的食物",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "母亲和宝宝最近有没有吃药",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我最近有吃",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃的什么药？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃了三次头孢和云南白药胶囊",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "母亲有什么症状",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我恶露完了有来了点",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是不是有什么影响啊",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有影响的哦",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "最近好多血我也不知道到底是月经来了还是什么",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "啊什么影响啊",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝现在咳嗽，流鼻涕也有感冒症状，需要进一步排除感冒引起的腹泻",
+            "label": "OOOOBIOBIIOOBIOOOOOOOOOOBIOOOBI",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕",
+                "普通感冒",
+                "普通感冒",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "母亲用消炎药对宝宝消化有影响的",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "给宝贝查过大便常规了吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天在诊所看的",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那该怎么办",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝精神怎么样",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "尿的黄吗",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "给宝贝怎么治疗的",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃药了吗",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生开的药她都不吃好苦现在就把肚脐贴贴上的",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦哦",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议带孩子去公立医院儿科就诊，查大便常规看看，排除肠炎",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "肠炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "同时给宝贝查体，听诊肺部，明确宝宝有没有气管炎症哦",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您还在吗",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果您超过五分钟不回复，系统会自动关闭对话，您还在吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

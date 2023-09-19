@@ -1,0 +1,510 @@
+{
+    "data-split": "dev",
+    "example-id": "10103930",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您家孩子除了发烧有其他症状吗",
+            "label": "OOOOOOBIOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "扁桃体肿大会有恶心，干呕的症状吗",
+            "label": "BIIIIOOBIOBIOOOO",
+            "normalized": [
+                "扁桃体炎",
+                "恶心",
+                "呕吐"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不发烧",
+            "label": "OBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "抱歉刚刚问错了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没事",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子有发烧吗",
+            "label": "OOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚开始的时候烧了一天，这两天不发烧了",
+            "label": "OOOOOOBOOOOOOOOBIO",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "扁桃体肿大会有恶心，干呕的症状",
+            "label": "BIIIIOOBIOBIOOO",
+            "normalized": [
+                "扁桃体炎",
+                "恶心",
+                "干呕"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "但是要排除胃肠道疾病",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "去医院医生诊断什么疾病",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃的头孢克肟和小儿炎扁颗粒",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就说扁桃体肿大，发炎",
+            "label": "OOBIIIIOOO",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天开始流鼻涕，咳嗽",
+            "label": "OOOOBIIOBI",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天去医院复查了，医生说不太严重了",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "查血常规了吗",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没做",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "药吃几天了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "三天了",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好，建议您可以继续服用现在的药，到目前为止，孩子发烧的症状已经没有了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，不发烧了",
+            "label": "OOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是干呕，恶心的。吐不出来",
+            "label": "OOBIOBIOOBOOO",
+            "normalized": [
+                "干呕",
+                "恶心",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "而且复查扁桃体肿大有好转，所以服用这两种药物还是有效果的",
+            "label": "OOOOBIIIIIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "食欲怎么样",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还行",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便也通着了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "前段时间大便不好吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一直都是每天大便一次，就是有点干",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最近饮食有什么变化吗？比如前段时间吃的比较多",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "应该也没有吃的太多，在学校吃，也不会吃的太多",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "最近吃了几次火锅和一次麻辣烫，不过都没有吃辣椒",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "除了前边您跟我叙述的这些情况，其他还有吗",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天开始咳嗽，流鼻涕",
+            "label": "OOOOBIOBII",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外一点需要问您，孩子恶心，干呕是从扁桃体肿大开始的吗",
+            "label": "OOOOOOOOOOOBIOBIOOBIIIIOOOO",
+            "normalized": [
+                "恶心",
+                "干呕",
+                "扁桃体炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯是的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那就是说跟肠胃没有关系吧",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您好，建议您继续服用这两种药物，由于孩子有一些感冒症状，所以可以加一些感冒药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他是第一次扁桃体肿大",
+            "label": "OOOOOBIIII",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "服用什么感冒药好点？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "等病情恢复后，如果恶心，干呕的症状慢慢减轻了，就是扁桃体肿大引起的",
+            "label": "OOOOOOOOOBIOBIOOOOOOOOOOOBIIIIOOO",
+            "normalized": [
+                "恶心",
+                "干呕",
+                "扁桃体炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "感冒药，氨酚黄那敏就可以",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "暂时不能肯定是不是胃肠道原因引起的，但是可能性比较小",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还咳嗽了，是不也得吃咳嗽药了",
+            "label": "OBIOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽严重吗",
+            "label": "BIOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有点严重",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳的次数挺多",
+            "label": "BOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以服用氨溴特罗，止咳效果比较好",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽痰不是很多",
+            "label": "BIBOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "天气转凉，同时需要您注意适当给孩子增减衣服",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，这个主要作用是止咳",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "上幼儿园也没办法照顾，孩子多，老师也顾不来",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气??",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,301 @@
+{
+    "data-split": "test",
+    "example-id": "10231641",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，宝宝喂的什么药物？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "妈咪爱",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝什么不适服用妈咪爱？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "消化不良拉肚子",
+            "label": "BIIIBII",
+            "normalized": [
+                "消化不良",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "少量温水调配喂养，水不要太多。",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不多，用勺搅拌后就凉了，这样喝了没事吧",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "水不多一般不会",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "凉了",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "妈咪爱本来水温就不能太高，少量水溶开药物直接喂就可。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "水不多喂到嘴里食道里就可复温，所以不至于引起肠道不适，腹泻",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你啥不懂的啊",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "解释明白没",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "三个多月的宝宝消化不良拉肚子快半月了，这几天又拉绿屎怎么回事啊",
+            "label": "OOOOOOOBIIIBIIOOOOOOOOOBIIOOOOO",
+            "normalized": [
+                "消化不良",
+                "腹泻",
+                "绿便"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "确诊是消化不良？有化验便常规吗？宝宝哺乳好吗？",
+            "label": "OOOBIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便没事，都挺好的就是啦肚子",
+            "label": "OOOOOOOOOOOBII",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便是稀水便还是粘液便？母乳喂养？",
+            "label": "OOOBIIOOBIIOOOOOO",
+            "normalized": [
+                "水样便",
+                "大便粘液"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "都服用什么药物？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "绿色的也不很稀。有点像颗粒似得。母乳",
+            "label": "BIOOOOBOOOOOOOOOOO",
+            "normalized": [
+                "绿便",
+                "稀便"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "妈咪爱，蒙脱石散",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便次数和性状与之前一样，只是大便颜色有改变吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不一样，大便颜色变啦",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "腹泻原因很多，如肠道感染，消化不良，喂养不当，腹部受凉，乳糖不耐受，过敏都可以引起，所以需要了解一下宝宝具体情况。您说的不一样，是性状次数都有改变？",
+            "label": "BIOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "消化不良",
+                "过敏"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在比以前没拉肚子的时候稀了",
+            "label": "OOOOOOBIIOOOBO",
+            "normalized": [
+                "腹泻",
+                "稀便"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝尿量正常？体重增加正常吗？大便有泡沫酸臭味吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "口服妈咪爱和思密达腹泻有好转吗？",
+            "label": "OOOOOOOOOBIOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "尿量正常，体重没怎么增加，大便有泡沫",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便比前几天少了一两变",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果化验大便正常，持续腹泻，腹部保暖，宝妈注意清淡饮食，腹泻无改善，大便呈绿色泡沫便，需要注意乳糖不耐受可能",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOOOOOOBIOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻",
+                "绿便"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那怎么办",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果确诊需要化验尿监测半乳糖测定，如果不方便化验，可以改服无乳糖腹泻奶粉，不更换奶粉需要添加乳糖酶观察。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "母乳，",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "该吃奶粉吗",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，乳糖不耐受治疗方法就是改换几天腹泻奶，不换奶粉可以服用乳糖酶",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

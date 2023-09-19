@@ -1,0 +1,348 @@
+{
+    "data-split": "train",
+    "example-id": "10297637",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子刚开始有发热的情况吗",
+            "label": "OOOOOOOOBIOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "也就是说输液之前",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "再次出现发热？",
+            "label": "OOOOBIO",
+            "normalized": [
+                "发"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子有没有受凉的情况？家里的大人有没有呼吸道感染情况？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我今天感觉好像感冒了",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "出现发热以后孩子咳嗽症状加重了吗？",
+            "label": "OOBIOOOOBIOOOOOOO",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该考虑被你传染了",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我今天打喷嚏，头晕，想咳嗽，那该吃什么药呢？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这次发热距离上一次输液有多长时间？",
+            "label": "OOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该口服感冒颗粒和清热止咳药物",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "孩子该吃什么药呢？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子查血常规了吗？就是病毒感染？",
+            "label": "OOOOOOOOOOOOBIIIO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "检查了，就是病毒感染，单个细胞高",
+            "label": "OOOOOOBIIIOOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "除了发热还有其他的症状？",
+            "label": "OOBIOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽有痰",
+            "label": "BIBI",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该给孩子口服清热止咳药物",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以选择金振口服液，小儿清热止咳口服液",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这两种药物除了具有化痰止咳的作用以外，还具有抗病毒的作用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "虽然说这个孩子是病毒感染，没有细菌感染的情况，但是距离上一次支气管炎时间太近了，应该给孩子口服消炎药控制感染",
+            "label": "OOOOOOOOBIIIOOOBIIIOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染",
+                "细菌感染",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子还需要口服感冒颗粒的",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃什么消炎药呢",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以选择阿奇霉素或者头孢",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子上次急性支气管炎是病毒感染还是细菌感染",
+            "label": "OOOOOOOBIIIIIOBIIIOOBIII",
+            "normalized": [
+                "支气管炎",
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "细菌和病毒都有",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那需要给孩子口服头孢啊",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为这次与上次间隔时间太近了",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天还输着液呢？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天还输液了，已经输了六天了",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外需要让孩子多喝水，勤拍背，观察体温的变化",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这个孩子正在输液，那就继续输液吧",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那出现发热以后咳嗽症状比以前加重了吗",
+            "label": "OOOBIOOBIOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "已经输了六天的了，咳嗽没有加重",
+            "label": "OOOOOOOOOBIOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那应该考虑重感",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

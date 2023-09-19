@@ -1,0 +1,474 @@
+{
+    "data-split": "train",
+    "example-id": "10678949",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "问题婴儿缺钙可以喝这个吗？会不会影响拉便便，这两天喝这个宝宝拉稀便，还有点频繁。",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "缺钙",
+                "稀便"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "缺钙是可以喝这个的，这个它有一个副作用有可能会造成宝宝便秘。",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "缺钙",
+                "便秘"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝最近拉稀便一天几次呢？",
+            "label": "OOOOBIOOOOOOO",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "七八次",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一个汤汤",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还有泡泡",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有受凉",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有喝的时候就不会",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "肚肚用肚兜护着的",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她就是有点点头，去检查缺钙，医生叫去药店买这个",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "缺钙"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喝这个会不会影响",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般情况下喝这个会导致便秘，很少有导致腹泻的，您的意思是说他如果停掉了就不拉，那可以暂时把这个停掉看看。",
+            "label": "OOOOOOOOOOOBIOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "便秘",
+                "腹泻"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是说腹泻不是这个引起的是吧",
+            "label": "OOOBIOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "婴儿可以喝这个补钙不",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可能不是。喝这个可以补钙的。",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "但是因为有的小宝宝进食新的饮食的话，本身会肠道功能也不好，有可能出现这种情况。喝了多久了，然后停下的时候大便怎么样。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯！我家宝宝上颚有点小白点，农村叫米牙会不会影响长牙齿",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "才开始喝",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "才喝两支",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以拍个图片我看看吗？宝宝具体几个月。",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "8.4号六个月",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，这个一般不会导致腹泻的，但是要观察一下后面喝有没有导致便秘。",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "腹泻",
+                "便秘"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是也怕担心缺钙引起还不长牙",
+            "label": "OOOOOOBIOOOOOO",
+            "normalized": [
+                "缺钙"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我们现在就是给她喂点稀饭汤",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她不给拍",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个小白点一般会慢慢消失，不影响长牙，你可以拍个图片我看看。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是门牙中间有个小米米",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你摸过没有，硬度怎么样？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她有点点头是不是缺钙引起的",
+            "label": "OOOOOOOOBIOOO",
+            "normalized": [
+                "缺钙"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "只有下次六个月去儿保时看了",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "缺钙是有可能出现这种情况，等一般还会伴随其他表现，比如说多汗，睡觉不踏实，长个子慢，烦躁，挑食等等。",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOBIOOOOOO",
+            "normalized": [
+                "缺钙",
+                "出汗",
+                "烦躁"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的。",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是出汗多",
+            "label": "OOBIO",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那吃什么补钙",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "鱼甘油一直吃起的",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你讲的那种牙龈上的白点有可能是上皮细胞在那里堆积，或者是宝宝快要长牙了，一般没有多大问题的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "下次你去儿保的时候可以查一下看缺不缺，缺的话再补钙。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "晚上容易醒，出汗厉害",
+            "label": "OOOOOOBIOO",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "上面你讲宝宝拉肚子这个有多长时间了？有没有去医院检查呢？",
+            "label": "OOOOOOBIIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就这两天",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是喝这个开始",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我以为是这个",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，一般药物引起的大便次数不会这么多。可能只是比平时稍微稀一点次数增加一两次。他近期有没有更换饮食？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这两天喂得苹果汁没有怎么喝下去",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝还有其他什么症状吗？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在夜间容易醒，这几天开始夜间还吃上了两道奶",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的。宝宝的情况我大概了解了。初步给您总结梳理下。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝目前主要症状是大便次数增加，大便变稀，考虑腹泻待查。具体原因可能跟宝宝胃肠道比较脆弱以及近期更换饮食有关系的。还有一个最近有多汗，睡觉不踏实，有点头的情况，有可能是因为缺钙导致的。",
+            "label": "OOOOOOOOOOOOOOOOBIIIOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "稀便",
+                "腹泻",
+                "出汗",
+                "缺钙"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "腹泻方面可以用益生菌以及蒙脱石止泻缓解症状。用一天大便次数没有改善的话，这时候有就医的必要性和重要性，及时就医能够使腹泻得到改善。延迟就医有可能使宝宝出现脱水的情况。就医建议去二甲或以上级别医院的儿内科。",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻",
+                "脱水"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "关于宝宝是否缺钙方面，建议继续补充鱼肝油，然后带宝宝多晒太阳。因为马上就快体检了，体检的时候可以去儿保科可以和医生商量一下查一下微量元素水平，根据这个再看看是否要补充。",
+            "label": "OOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "缺钙"
+            ],
+            "type": [
+                "1"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,321 @@
+{
+    "data-split": "test",
+    "example-id": "10254110",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在大便一天有几次？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "3次",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "都是稀糊样的吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前几天是希的，这两三天是糊状的",
+            "label": "OOOOBOOOOOOOBIO",
+            "normalized": [
+                "稀便",
+                "糊状便"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "由稀变成糊样的说明情况在好转",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那我还要给孩子用药吗",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在还是只吃妈咪爱吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "主要是喂孩子吃药他老吐，停药已经3天了",
+            "label": "OOOOOOOOOOBOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我宝宝这是什么情况啊",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在什么药也没有吃？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "刚开始拉肚子的时候，有没有发烧，肚子痛，呕吐的情况？",
+            "label": "OOOBIIOOOOOOOBIOBIIOBIOOOO",
+            "normalized": [
+                "腹泻",
+                "发热",
+                "腹痛",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "2",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "因为呼吸道感染，血像高输了四天水，第三天就开始拉肚子了",
+            "label": "OOBIIIIOOOOOOOOOOOOOOOOBIIO",
+            "normalized": [
+                "呼吸道感染",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "除了咳嗽，拉肚子没有其他的不舒服，是吗？",
+            "label": "OOBIOBIIOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "只是夜间吐过一次奶，现在没有了，也不发烧，我也不知道他肚子疼不疼，只是白天好好的，晚上老睡不稳",
+            "label": "OOOOOOOOOOOOOOOOOOBIOOOOOOOBIIIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "腹痛"
+            ],
+            "type": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝应该是呼吸道感染，有痰，导致的消化系统症状",
+            "label": "OOOOOBIIIIOBIOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "痰"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "年龄小点的宝宝咳嗽有痰的时候就会拉肚子",
+            "label": "OOOOOOOBIBIOOOOOBII",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "腹泻"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那也没见他咳嗽啊，",
+            "label": "OOOOOBIOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝呼吸道感染是什么症状，打喷嚏，流鼻涕？",
+            "label": "OOBIIIIOOOOOOBIIOBIIO",
+            "normalized": [
+                "呼吸道感染",
+                "打喷嚏",
+                "鼻流涕"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喉咙听着也很干净",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，就只发烧，现在都好了，就只拉肚子",
+            "label": "OOOOOBIOOOOOOOOOBII",
+            "normalized": [
+                "发热",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "刚开始拉肚子的时候查大便有没有查病毒？",
+            "label": "OOOBIIOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "查了",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "说是消化不良",
+            "label": "OOBIII",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有问题吗？",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那不用担心，腹泻只是呼吸道感染的并发症",
+            "label": "OOOOOOBIOOBIIIIOOOO",
+            "normalized": [
+                "腹泻",
+                "呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝晚上老睡不好觉，我该怎么办",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝生病期间都有睡眠不好的问题",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，知道了，谢谢",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

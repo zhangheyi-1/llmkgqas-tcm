@@ -1,0 +1,489 @@
+{
+    "data-split": "test",
+    "example-id": "10132439",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，孩子除了发烧，有咳嗽，流鼻涕打喷嚏之类的吗",
+            "label": "OOOOOOOBIOOBIOBIIBIIOOOO",
+            "normalized": [
+                "发热",
+                "咳嗽",
+                "鼻流涕",
+                "打喷嚏"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "最先孩子就是咳嗽",
+            "label": "OOOOOOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "打喷嚏流鼻涕",
+            "label": "BIIBII",
+            "normalized": [
+                "打喷嚏",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨晚上吐了，刚才喝了些牛奶，没等喝完就全吐出来了",
+            "label": "OOOBOOOOOOOOOOOOOOOOBIIO",
+            "normalized": [
+                "呕吐",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发烧是昨天开始的？",
+            "label": "BIOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那怎么回事",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "感觉吐出来会黏黏的吗？",
+            "label": "OOBIIOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "发烧是从昨晚开始的，昨晚吐的东西粘稠，吐完了就觉得孩子有些发烧",
+            "label": "BIOOOOOOOOOOBOOOOOOBOOOOOOOOOBI",
+            "normalized": [
+                "发热",
+                "呕吐",
+                "呕吐",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "后来烧了38.5",
+            "label": "OOBIIIII",
+            "normalized": [
+                "中等度热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天去医院做了血常规，大夫说有炎症",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，根据你描述，孩子主要考虑呼吸道感染，鼻腔和咽喉分泌物一直残留在喉咙，孩子不大会吐痰，所以痰多刺激，有些咽下去，喝奶之后就吐出来",
+            "label": "OOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOBIOOOBOOOOOOOOOOOOOOOBII",
+            "normalized": [
+                "呼吸道感染",
+                "痰",
+                "痰",
+                "呕吐"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "所以奶跟分泌物一起",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "血常规白细胞高吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "高",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "17.0",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那是算挺高了，那主要考虑细菌性感染，咳嗽会很厉害吗",
+            "label": "OOOOOOOOOOOOBIIIIOBIOOOOO",
+            "normalized": [
+                "细菌感染",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "中性粒细胞14.9",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在不怎么咳嗽了",
+            "label": "OOOOOBIO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生有给孩子看看喉咙和听听肺部吗",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大夫听了，然后给抓的消炎药",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果不怎么咳嗽，肺部听起来还好，可能是上呼吸道感染，就是咽喉炎之类的",
+            "label": "OOOOOBIOOOOOOOOOOOOBIIIIIOOOBIIOOO",
+            "normalized": [
+                "咳嗽",
+                "呼吸道感染",
+                "咽喉炎"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "开的什么药，有头孢之类抗生素吗",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "头孢儿童感热清丸",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "就是平常说的消炎药，孩子血常规白细胞高提示炎症",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那是可以的，主要是这个药",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哪个药",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "头孢类的药",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他给开了",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外，孩子还有流鼻涕打喷嚏吗现在",
+            "label": "OOOOOOOBIIBIIOOO",
+            "normalized": [
+                "鼻流涕",
+                "打喷嚏"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在没有了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那还有开其他什么药吗",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在就是吃点东西就吐，早晨发烧了，到现在还没发烧",
+            "label": "OOOOOOOOOBOOOBIOOOOOOOBI",
+            "normalized": [
+                "呕吐",
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在几度",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，剩下的是退烧药",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我现在量一下",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平时如果体温在38.5度以下可以不用退烧药，给孩子物理降温就可以",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果说有38.5度以上，那么先物理降温，如果物理降温降不下来，再用退烧药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我知道了，昨晚跟今天早晨都是38.5多了",
+            "label": "OOOOOOOOOOOOOOBIIIOO",
+            "normalized": [
+                "中等度热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就给他吃一顿退烧药",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，然后你要鼓励孩子尽量把痰吐出来，这样比较不容易吐",
+            "label": "OOOOOOOOOOOOOOBOOOOOOOOOOOB",
+            "normalized": [
+                "痰",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她太小了",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "分泌物很多在喉咙很容易刺激",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "怎么教她她就是不吐",
+            "label": "OOOOOOOBI",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不然的话，你就后背给他稍微拍拍",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃完饭之后不要拍，然后每次喂少一点",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这样比较不容易吐",
+            "label": "OOOOOOOB",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外如果可以买一个开喉剑，喷喷喉咙，孩子会舒服一点",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在温度是37.4",
+            "label": "OOOOOBIII",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那没有发烧37.5以下属于正常体温",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我知道了，谢谢你",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

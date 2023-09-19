@@ -1,0 +1,314 @@
+{
+    "data-split": "train",
+    "example-id": "10458540",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "问题14个月宝宝拉水样便，体温37.7.吃了思密达和益生菌，拉的便数少点，但体温37.7用吃消炎药吗？",
+            "label": "OOOOOOOOOBIIOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "水样便",
+                "低热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "为了更好地提供服务，需要询问一些与病情相关的问题，感谢您的配合。如果有什么疑问的话，也可以随时问我。请问宝宝拉肚子几天了？可以把她的大便照片发给我看看。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天开始拉稀，之前在医院打了三天针，刚好点就没在打，这离出院刚三天，又拉啦，昨天吃点鸡蛋糕和苹果",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，体温一直都是这样吗？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前正常，早上起来摸着感觉热就量了37.7",
+            "label": "OOOOOOOOOOOOOOOOOBIII",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，宝宝有没有其他症状了，你感觉有没有脱水的情况？",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "脱水"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "手脚挺热的，感觉没有脱闹水症状，肚子不舒服，有点作",
+            "label": "OOOOOOOOOOOOOOOOBIIIIOOOO",
+            "normalized": [
+                "腹部不适"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小便量有没有明显少？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还可以，正常",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的。宝宝之前打针是因为什么原因呢？然后最近有没有受凉？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前也是拉肚，轻度脱水，一直没好利索，",
+            "label": "OOOOBIOOOBIOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "脱水"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，我大概有一个了解了，给您总结梳理一下。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝目前的主要症状大便次数增多，黄色稀水样的大便，还伴有一个低烧。考虑腹泻待查。具体的原因有可能是消化不良，病毒感染或者细菌感染等等。",
+            "label": "OOOOOOOOOOOOOOOOOOBIIOOOOOOOOOBIOOOBIOOOOOOOOOOOOBIIIOBIIIOOBIIIOOO",
+            "normalized": [
+                "水样便",
+                "低热",
+                "腹泻",
+                "消化不良",
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那吃药吃什么呢",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小宝宝一岁以内的胃肠道没有发育完全，可能是会出现腹泻的，再加上宝宝之前的情况。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你这次有没有带他做过什么检查？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "血和便之前打针查的，",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这刚隔了三天，还得去医院吗，在家用点药可以不",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝没有明显脱水的情况目前不算严重。",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "但是小宝宝他主要是还出现了一个发烧，如果宝宝不方便上医院，我建议可以带着宝宝大便去医院化验一下。",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦，吃点那种四季抗病毒口服液可以吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个是抗病毒治疗的，如果有细菌感染的话就没什么效果。",
+            "label": "OOOOOOOOOOOOOBIIIOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "普通拉肚子的话您目前用的这个蒙脱石散和益生菌都是比较对症的。蒙脱石散具有收敛止血的效果。益生菌可以调理胃肠道。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "啊知道啦谢谢",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，不客气。如果化验大便里面有白细胞，考虑支持这个细菌感染，就需要加用消炎药。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "消炎药吃什么啊",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小宝宝一般可以考虑用阿莫西林或者是头孢类的。选其中一种。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的知道啦",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，建议宝宝先化验一下大便再考虑要不要用消炎药，因为再加上有发烧有就医的必要性。以免后面高烧或者是脱水的导致病情加重。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOBIOOOBIOOOOOOOO",
+            "normalized": [
+                "发热",
+                "高热",
+                "脱水"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议大便要在干净的一次性杯子里面，一小时内送到医院。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯好的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

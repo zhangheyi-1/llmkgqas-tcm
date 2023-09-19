@@ -1,0 +1,495 @@
+{
+    "data-split": "dev",
+    "example-id": "10075507",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "目前孩子的精神状态怎么样",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天晚上发热37.8咳嗽",
+            "label": "OOOOBIIIIIBI",
+            "normalized": [
+                "低热",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "孩子是过敏体质",
+            "label": "OOOBIOO",
+            "normalized": [
+                "过敏体质"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽症状还是比较重吗",
+            "label": "BIOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦，过敏体质的孩子在呼吸道感染，就很容易出现咳嗽的情况",
+            "label": "OOBIOOOOOOBIIIIOOOOOOOBIOOO",
+            "normalized": [
+                "过敏体质",
+                "呼吸道感染",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子有湿疹的情况",
+            "label": "OOOOBIOOO",
+            "normalized": [
+                "湿疹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在还没有，以前有",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在白天咳嗽症状重，还是夜间咳嗽症状重？除声音嘶哑以外，有没有犬吠样咳嗽？",
+            "label": "OOOOBIOOOOOOOOBIOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽的不怎么厉害，就是嗓子嘶哑",
+            "label": "BIOOOOOOOOOBIII",
+            "normalized": [
+                "咳嗽",
+                "沙哑"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "能够出来声音吧！",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "晚上咳嗽的厉害",
+            "label": "OOBIOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "就口服这几种药物？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有声音，有时没有",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没有呼吸困难的情况吧！",
+            "label": "OOBIIIOOOOO",
+            "normalized": [
+                "呼吸困难"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨晚吃了点易坦静，一次",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，有清鼻涕不严重",
+            "label": "OOOBIIIOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，这个还是过敏体质的表现是什么？除了湿疹以外，有没有气道过敏的情况？",
+            "label": "OOOOOOBIOOOOOOOOOOOBIOOOOOOOOBIOOOO",
+            "normalized": [
+                "过敏体质",
+                "湿疹",
+                "过敏"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没发现别的，大便稀有泡沫很多",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "乳糖不耐受？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他不爱喝水，这几天都是灌的",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要多给孩子喝水的，有腹泻的孩子，如果不喝水很容易脱水的",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOOOBIO",
+            "normalized": [
+                "腹泻",
+                "脱水"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便黏",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他一天一次大便，有时两次，不算腹泻吧",
+            "label": "OOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "查大便常规了吗？最近一直这种大便，还是近段时间这种大便？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该不属于腹泻，这个大便次数是正常的",
+            "label": "OOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就生病这几天，以前没有",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可能是吃药吃的肠胃不好",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "与这个有关系的，根据你所提供的病史，这个孩子病毒感染的可能性非常小，病毒感染以后很容易导致孩子出现腹泻的情况，再就是口服中药制剂的药物也会导致孩子出现腹泻的情况。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOBIIIOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "病毒感染",
+                "病毒感染",
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "打算再带他去医院看看，小儿推拿是不是也没用，推拿了两天",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于腹泻的孩子，推拿是相当管用的。在感染控制以后，腹泻的症状会逐渐的缓解",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我是太着急了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子有过敏体质的情况，需要口服抗过敏的药物的。",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "过敏体质"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "以前过敏体质的表现是什么？气管过敏还是皮肤过敏？",
+            "label": "OOBIOOOOOOOOOOOBIOOOOOOO",
+            "normalized": [
+                "过敏体质",
+                "过敏"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就湿疹，一个多月到三四个月的时候",
+            "label": "OBIOOOOOOOOOOOOO",
+            "normalized": [
+                "湿疹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，过敏体质的孩子很容易出现气道过敏",
+            "label": "OOBIOOOOOOOOOOOOBI",
+            "normalized": [
+                "过敏体质",
+                "过敏"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咋办？",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在还是有咳嗽的症状，需要口服抗过敏的药物，可以选择开瑞坦",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就吃这一种药，就可以了？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外这个孩子需要到医院查血常规，如果白细胞总数明显的身高需要加消炎药。这个止咳药物肯定需要吃的，可以选择中药颗粒剂的药物，这样对胃肠道的影响比较小",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "以前查血了，查出过敏体质",
+            "label": "OOOOOOOOBIOO",
+            "normalized": [
+                "过敏体质"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，这次查血主要是看有没有炎症",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "毕竟这个孩子年龄小，体质差，抵抗力差，如果有炎症很容易出现并发症，需要给予积极的治疗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医院一般都是八点班？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "血常规随时都可以查的",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "提前去能看吗？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以看急诊",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

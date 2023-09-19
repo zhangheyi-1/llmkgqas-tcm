@@ -1,0 +1,351 @@
+{
+    "data-split": "train",
+    "example-id": "10446384",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "支原体感染不一定会发热的",
+            "label": "BIIIIOOOOBIO",
+            "normalized": [
+                "支原体感染",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好。我想问下六岁小孩感冒好后。咳嗽总是拖拖拉拉的。",
+            "label": "OOOOOOOOOOOBIOOOBIOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我想了解下孩子这两个月来的病史，有助于进一步诊治",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子病初是什么症状？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "白天咳得不厉害。晚上躺下咳的就厉害。睡着后偶尔咳几下",
+            "label": "OOBIOOOOOOOOBOOOOOOOOOOBOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在咳嗽怎么样？频繁吗？",
+            "label": "OOBIOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚躺下咳的厉害",
+            "label": "OOOBOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽有痰吗？",
+            "label": "BIBIOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有少量的痰",
+            "label": "OOOOB",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有时感觉能咳出一点点。有时间咳不出来。",
+            "label": "OOOOOBIOOOOOOOBOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子咳嗽有没有受刺激因素的影响而加重，比如闻到刺激性气味，受到冷空气等",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这个但是没有。",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子平时有没有揉眼睛，流清涕？",
+            "label": "OOOOOOOOOOOBIIO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "剧烈运动会咳几声。",
+            "label": "OOOOOBOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "或者身上起皮疹",
+            "label": "OOOOOBI",
+            "normalized": [
+                "皮疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "流清鼻涕",
+            "label": "BIII",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "感冒时间流清鼻涕。现在不留了",
+            "label": "BIOOBIIIOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，之前是怎么治疗的？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一直是吃药的。",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃的什么药？期间去医院诊治过吗？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没去医院。吃的布托红霉素。止咳化痰颗粒。",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以喝强力枇杷露吗。",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为孩子反复的咳嗽时间比较长，体温正常，且咳嗽不是特别厉害，故考虑支气管炎",
+            "label": "OOOOOOOBIOOOOOOOOOOOOBIOOOOOOOOOOBIII",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以喝强力枇杷露吗。",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "但是，孩子反复咳嗽时间太长，还是建议化验有没有支原体感染，有没有其他病原体感染，以更好的知道治疗方案",
+            "label": "OOOOOOOBIOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "支原体感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以喝的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "村里诊所给听了听说是有粗音",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "支原体感染可以出现发热，咳嗽，一般以刺激性咳嗽为主，且病程长，治疗方案有别于一般病原体感染",
+            "label": "BIIIIOOOOBIOBIOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支原体感染",
+                "发热",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "粗音提示支气管炎症，暂时不支持肺炎",
+            "label": "OOOOBIIIOOOOOOOBI",
+            "normalized": [
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯。好的谢谢。我明白了。需要化验血吗？",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，需要化验血明确感染病原",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果有条件，建议就诊呼吸科",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯。",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,250 @@
+{
+    "data-split": "train",
+    "example-id": "10713896",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，发热有几天了？有无其他症状？",
+            "label": "OOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前天夜里烧的",
+            "label": "OOOOBO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有无咳嗽，流涕，皮疹等情况？",
+            "label": "OOBIOBIOBIOOOO",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕",
+                "皮疹"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温多少度？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "打过预防针第二天发烧的，就睡觉的时候烧，不睡的时候不烧",
+            "label": "OOOOOOOOBIIOOOOOOOBOOOOOOBI",
+            "normalized": [
+                "发热",
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "流鼻涕，体温38.5这样",
+            "label": "BIIOBIIIIIOO",
+            "normalized": [
+                "鼻流涕",
+                "中等度热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝有流涕，发热，考虑上呼吸道感染，建议医院查体，肺部听诊一下，看有无啰音等肺部感染表现，查血常规，看有无细菌感染",
+            "label": "OOOBIOBIOOOBIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIII",
+            "normalized": [
+                "鼻流涕",
+                "发热",
+                "上呼吸道感染",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "超过38.5用退热药，如布洛芬，超过37.5可以贴退热贴，多饮水",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如查体无异常，单纯感冒，可以多饮水，对症退热，鼻塞流涕服用伪麻美芬滴剂三天或感冒清热颗粒",
+            "label": "OOOOOOOOOBIOOOOOOOOOOOOBIBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "鼻塞",
+                "鼻流涕"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "鼻涕不多",
+            "label": "BIOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "以前发热过吗，有无得过幼儿急疹？",
+            "label": "OOBIOOOOOOOBIIIO",
+            "normalized": [
+                "发热",
+                "幼儿急疹"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "三个月的时候发过一次，没得过急诊",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "感冒也容易演变成肺炎等情况，儿童病情变化快，一定要完善查体，有变化及时就诊",
+            "label": "BIOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "肺炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如查体无异常，这么大宝宝不能排除幼儿急疹可能，发热三天左右热退后出疹子，考虑是幼儿急疹",
+            "label": "OOOOOOOOOOOOOOOOBIIIOOOBIOOOOOOOOOOOOOOBIII",
+            "normalized": [
+                "幼儿急疹",
+                "发热",
+                "幼儿急疹"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "到医院查血就可以吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要完善肺部听诊，咽部查体，血常规看感染情况，好综合判断",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "饮食清淡，多饮水，避免接触感冒病人，注意室内温度合适",
+            "label": "OOOOOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "观察体温变化",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，??",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，祝宝宝早日恢复健康",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

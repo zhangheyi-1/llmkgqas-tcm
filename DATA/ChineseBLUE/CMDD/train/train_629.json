@@ -1,0 +1,294 @@
+{
+    "data-split": "train",
+    "example-id": "10750992",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前一天大便几次，拉的稀不稀？有大便图片吗",
+            "label": "OOOOOOOOOOOBIIOOOOOOO",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前看过医生吗，化验过大便常规吗？",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便有奶瓣医生说是消化不良",
+            "label": "OOOBIOOOOBIII",
+            "normalized": [
+                "稀便",
+                "消化不良"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "给开的药现在在吃",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我估计消化不良是因为给他添加辅食导致的",
+            "label": "OOOBIIIOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，看过医生，诊断就是消化不良，考虑同时可能有胃肠功能紊乱的情况。",
+            "label": "OOOOOOOOOOOOBIIIOOOOOOOOBIIIIIOOOO",
+            "normalized": [
+                "消化不良",
+                "胃肠功能紊乱"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，考虑是因为小婴儿肠道消化能力弱，添加辅食后不消化引起的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他给开的免疫球蛋白",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "为什么开免疫球蛋白？蒙脱石散，主要是治疗稀便，水样便的，如果大便不稀的话，吃这个可能效果不好。",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIOBIIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "稀便",
+                "水样便"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以给他吃那个妈咪爱吗？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以吃妈咪爱的，这个是个益生菌，很对症。或者可以吃更好一些的益生菌，比如布拉氏酵母菌，效果更好，是个进口的益生菌。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在孩子多大了？添加了什么辅食？还是纯母乳喂养吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯。谢谢医生，",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还可以吃一点醒脾养儿颗粒，具有调理脾胃，助消化，治疗消化不良的效果。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在辅食方面，目前看到消化不了，鸡蛋不要吃，容易胀肚子，引起不消化。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBOOOOOOOOO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我家宝宝现在9个月吃奶粉，给他添加的辅食，我想消化不良可能就是辅食不好消化",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是这样的，吃点益生菌调理一下，注意保暖腹部，防止腹部受凉。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以给他些面条吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "奶粉还可以吃吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我婆婆说拉肚子。给他少吃点奶粉，让他换换肚子",
+            "label": "OOOOBIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "奶粉，米糊，面条，都是可以吃的。鸡蛋，豆浆，先别吃，容易胀肚子不消化。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOBOOOOOO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外，可以吃点水解蛋白的奶粉。也就是俗话说的防腹泻奶粉，对于目前的情况效果更好。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议按照上面方法治疗3到5天，如果治疗后消化不良症状，依然不缓解，建议就医小儿科，复查大便常规，进一步再看看。",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我们之前，吃奶粉，拉的大便都很正常的",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是不是看看有没有肠炎？",
+            "label": "OOOOOOOOBIO",
+            "normalized": [
+                "肠炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，但是看到目前还是一个消化不良，胃肠功能紊乱的状态，胃肠道的功能，没有完全恢复平衡。吃点益生菌调理一下。",
+            "label": "OOOOOOOOOOOOOBIIIOBIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良",
+                "胃肠功能紊乱"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，化验大便，需要再看一下有没有肠道的炎症，如果有肠道的炎症引起腹泻的话，需要消炎治疗。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯，好的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

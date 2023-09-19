@@ -1,0 +1,476 @@
+{
+    "data-split": "train",
+    "example-id": "10865824",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好！",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "很高兴为您服务",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，在看，稍等",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "为了更好的提供服务，我需要询问您几个与病症相关的问题，感谢您配合。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝除了发烧外，有没有其他不适表现亲？",
+            "label": "OOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有鼻塞流鼻涕？有没有嗓子红肿？",
+            "label": "OOOBIBIIOOOOBIIIO",
+            "normalized": [
+                "鼻塞",
+                "鼻流涕",
+                "咽喉炎"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是嗓子发炎肿大",
+            "label": "OOBIIIII",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "儿童发热很常见，如果不是高热，体温不超过38.5°，精神状态好，可以采用物理降温，多饮水即可。",
+            "label": "OOBIOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "高热"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果宝宝体温＞38.5°，建议准备两种不同成份退烧药交替使用。一般持续72小时左右，体温就会稳定的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有流鼻涕有点咳嗽",
+            "label": "OOBIIOOBI",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "同时也可以给予宝宝口服清热解毒药物治疗，建议口服小儿热速清口服液治疗亲，效果很好的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，宝宝有没有痰？",
+            "label": "OOOOOOOOBO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "根据您说的情况看，宝宝最有可能是感冒发热",
+            "label": "OOOOOOOOOOOOOOOOBIBI",
+            "normalized": [
+                "普通感冒",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生如何诊断？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃着黄那敏颗粒和头孢还有治咳嗽的",
+            "label": "OOOOOOOOOOOOOBIO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，有没有检查血常规看看？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大夫说有可能病毒感染",
+            "label": "OOOOOOBIII",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，是的亲",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没查",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗓子有痰",
+            "label": "OOBI",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "奥，目前宝宝体温发烧有没有好转的迹象？",
+            "label": "OOOOOOOOBIOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，宝宝痰多吗？",
+            "label": "OOOOOBOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "但是精神状态都还不错",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝咳嗽有痰，多提示宝宝气管不好了亲",
+            "label": "OOBIBIOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不算多，就是睡觉的时候感觉他嗓子特别难受，起来以后就好很多",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议给与宝宝口服肺力咳合剂或者沐舒坦口服液治疗亲",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "气管炎严重吗，需要用什么药",
+            "label": "BIIOOOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，知道了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "反复发热咳嗽有痰",
+            "label": "BIIIBIBI",
+            "normalized": [
+                "发热",
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议看医生，检查血常规+支原体+胸片",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "明确诊断，指导治疗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，我今天去查查",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您好！考虑宝宝为支气管炎。引起本病的病原很多，常见的有细菌、病毒、支原体等。如宝宝是细菌感染，咳嗽不重、痰不多可以在家口服消炎药＋止咳化痰药物治疗观察；如咳嗽重、痰多，尤其伴发热、气喘者，建议去正规医院看儿科医生，行血常规＋胸片检查，给予系统治疗。常用治疗方法：口服头孢克肟颗粒＋羧甲司坦口服液，必要时给予生理盐水、布地奈德、沐舒坦雾化吸入，严重病例需输液治疗。",
+            "label": "OOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOBIOOOBOOOOOOOOOOOOOOOOOOOOOOOOBIOOBOOOOOBIOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "细菌感染",
+                "咳嗽",
+                "痰",
+                "咳嗽",
+                "痰",
+                "发热",
+                "喘息"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1",
+                "1",
+                "1",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝病史大于三天了",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不建议在家盲目吃药了亲",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的，今天第五天了",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，是的亲",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝可能是支气管炎或者肺炎了",
+            "label": "OOOOOBIIIOOBIO",
+            "normalized": [
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯知道了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前宝宝体温多少度？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "同时注意清淡饮食，宝宝咳嗽有痰，也可以给予宝宝喝冰糖雪梨水，效果很好的亲",
+            "label": "OOOOOOOOOOOBIBIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议尽快看医生，完善检查，明确病因，指导治疗。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要帮助请留言，祝宝宝早日康复！",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝的病情后续还需要观察，如您信任我，欢迎您再次找我咨询，我会继续为您提供指导建议。祝宝宝健康快乐成长每一天！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

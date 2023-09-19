@@ -1,0 +1,474 @@
+{
+    "data-split": "dev",
+    "example-id": "10261150",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "问题我女儿一岁半了，白天和伴晚一点事都没有，都是到凌晨五六点咳咳，还吐，吐的黏条形状，吐过不大会就好了，就又睡了，这是什么情况？？？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOBOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "呕吐",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这样多久了？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨晚是第三次",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，就一共持续三天了。",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是凌晨五六点咳嗽，咳嗽几声就吐，吐完一会就不咳了，就又睡觉了",
+            "label": "OOOOOOOBIOBIOOOBOBOOOOOBOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "呕吐",
+                "呕吐",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的三天了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我看她白天都很乖，一点事没有",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我可以发送语音吗？影不影响你那边？",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "女宝宝就是每次在凌晨咳嗽的时候大概能看一次药可多长时间然后就出现呕吐的情况了，吐出来都是然白天吃的东西么有么有那种黄绿色的东西在里面，",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOBIOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "呕吐",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "十几二十分钟",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，以前有没有过敏的情况？",
+            "label": "OOOOOOOOBIOOOO",
+            "normalized": [
+                "过敏"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她喝奶的，吐的都是像痰一块一块的，然后还有白色水",
+            "label": "OOOOOBOOOOBOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "以前有起过薄皮疮",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯这也是宝宝有么有送粮然后呢他有么有其它的症状就是咳嗽又没痰喉咙你睡觉的时候喉咙里面能不能听到那种呼噜呼噜的声音，还有就是宝宝他有没发热的情况，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBIOOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有发热，偶尔有一点流鼻涕",
+            "label": "OOBIOOOOOOBII",
+            "normalized": [
+                "发热",
+                "鼻流涕"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有呼噜呼噜",
+            "label": "OOBIII",
+            "normalized": [
+                "粗糙呼吸音"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个应该算是有上呼吸道感染的情况。",
+            "label": "OOOOOOOOBIIIIIOOOO",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是她咳的时候感觉像喉咙有一点嘶哑",
+            "label": "OOOBOOOOOOOOOOOBI",
+            "normalized": [
+                "咳嗽",
+                "沙哑"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那怎么会就只有凌晨五六点的时候呢",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可能是有点充血的",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那时候比较冷。",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "充血什么意思",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，她晚上有时候踢被子",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这个去药店拿点药会好么？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "充血水肿，局部受到刺激就可能会咳嗽。",
+            "label": "OOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这个去药店拿点药会好么？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，可以拿点止咳的药物。",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "观察有没有发热？",
+            "label": "OOOOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般会好转的。",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这个药可以么？这是以前感冒咳嗽吃的",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的。宝宝吃了吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨晚吃过晚饭吃了一次，可到凌晨还是吐了",
+            "label": "OOOOOOOOOOOOOOOOOBO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的。看看宝宝嗓子红不红。",
+            "label": "OOOOOOOBIIIIO",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯好的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我先让她吃几次药",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为嗓子疼，也会导致他咳嗽干呕。",
+            "label": "OOBIIOOOOOOBIBIO",
+            "normalized": [
+                "咽喉不适",
+                "咳嗽",
+                "干呕"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢医生",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯好的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一次还看不到明显效果的。再继续吃。",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢^ω^",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我现在给她喂点饭就喂她药",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的。",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不用谢。",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝宝宝身体健康。",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

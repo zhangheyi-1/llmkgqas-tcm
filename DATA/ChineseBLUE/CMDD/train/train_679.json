@@ -1,0 +1,270 @@
+{
+    "data-split": "train",
+    "example-id": "10485583",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子的血常规检查结果基本正常",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那么需要吃头孢吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "怕一直发烧会嗓子发炎",
+            "label": "OOOBIOBIII",
+            "normalized": [
+                "发热",
+                "咽喉炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子的中性粒细胞的百分比偏高一些，应该口服消炎药的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天医生看了嗓子说，有点红",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子中性粒细胞的百分比应该在20%到30左右，而这个孩子已经达到了50%，所以说应该考虑中性粒细胞的百分比升高，应该口服消炎药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这就应该是细菌感染的一个表现",
+            "label": "OOOOOBIIIOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那吃艾畅和头孢就可以了吗",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子除了发热以外，还有其他的症状吗",
+            "label": "OOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "除了口服这两种药物以外，需要给孩子用清热解毒药物，因为这个孩子反复的发热呀",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那还有一个小儿柴桂颗粒，这个属于清热的吗",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个药物具有清热解毒的作用，也具有一定的退热作用，但是相对来说退热的作用比较弱，可以给孩子吃的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那就这三个药同时吃可以吗",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "超过38.5度需要给孩子口服退热药物的",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呼吸道感染的孩子一般有3到4天的高峰期，在这个期间孩子会出现反复的发热，过了高峰期以后症状会逐渐的缓解。",
+            "label": "BIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，还需要加其他药吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "暂时不需要了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "只要发烧到38.5就要吃退烧药对吧",
+            "label": "OOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外这个孩子应该适当的多喝水，这样有助于疾病的恢复，有利于体温的下降",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他不爱喝水，今天给喝了点淡盐水还喝",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "先口服上述药物观察2到3天，如果这个孩子体温仍然不稳定，精神状态比较差，需要到医院就诊的，可以输液治疗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "精神软"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "毕竟这个孩子年龄有点小，反复的发热对孩子的身体，多少都会有影响的",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于发热的孩子，应该适当的多喝水",
+            "label": "OOBIOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子的年龄比较小，如果有可能尽量不口服退热药物可以，外用退热贴，物理降温，比如说温水擦浴，额头敷冷毛巾等等",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

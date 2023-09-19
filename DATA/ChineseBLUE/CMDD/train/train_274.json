@@ -1,0 +1,390 @@
+{
+    "data-split": "train",
+    "example-id": "10330302",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子除了咳嗽以外，还有其他的症状吗",
+            "label": "OOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "流鼻涕",
+            "label": "BII",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "清鼻涕还是黄鼻涕",
+            "label": "BIIOOBII",
+            "normalized": [
+                "鼻流涕",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "相对来说，夜间咳嗽症状重，还是白天咳嗽症状重",
+            "label": "OOOOOOOBIOOOOOOOOBIOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "清鼻涕",
+            "label": "BII",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "夜间严重",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你在家中渡口服什么药物了",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前白天不咳晚上咳嗽，今天起早上也在咳嗽，而且比较严重",
+            "label": "OOOOBIOOBIOOOOOOOOBIOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这个孩子咳嗽症状加重，应该是病情加重的表现，啊",
+            "label": "OOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我还想问一下是不是流鼻涕的时候，这个孩子咳嗽症状重",
+            "label": "OOOOOOOOOBIIOOOOOOOOBIOOO",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那个好像不会",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子的咳嗽应该与流鼻涕没有关系",
+            "label": "OOOOOOBIOOOBIIOOOO",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要考虑感染所引起的，这个孩子最起码应该是气管炎",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBII",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我把家里吃的药拍个照",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "拍摄被拒绝",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "？",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "什么意思",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你告诉我，药名也可以",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "风热感冒颗粒，小儿咳喘灵颗粒还有阿莫西林颗粒",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有其他的药物吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子有没有进行血常规和胸片的检查",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "口服这些药物以后孩子的咳嗽症状没有缓解呀，那就是药物口服的几天",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚开始没有咳嗽，只是流鼻涕",
+            "label": "OOOOOBIOOOBII",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该考虑治疗有问题",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子夜间咳嗽症状中，我认为支原体感染的可能性非常大",
+            "label": "OOOOOBIOOOOOOOBIIIIOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "支原体感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那怎么办",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果你想到医院进行相应的检查，可以进行胸片和血常规的检查，还有肺炎支原体抗体",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIBIIOO",
+            "normalized": [
+                "支气管炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果你不想到医院进行相应的检查项先口服药物试试看，有一些药物需要给你调整一下",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以给孩子口服阿奇霉素，为什么给孩子口服阿奇霉素，因为这个孩子咳嗽的时间比较长，夜间咳嗽症状重，需要考虑支原体感染的可能，支原体感染的孩子，首选的药物就是阿奇霉素",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOBIOOOOOOOOBIIIIOOOOBIIIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "支原体感染",
+                "支原体感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外需要给孩子口服氨溴索化痰止咳",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你的那个小儿咳喘灵颗粒可以继续口服的，没有问题",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "口服上述三种药物观察，2到3天，如果咳嗽症状明显的缓解，那就继续口服药物，如果咳嗽症状没有缓解，建议你到医院进行相应的检查",
+            "label": "OOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，阿莫西林了？不用吃",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "阿莫西林就不需要再吃了",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "知道了谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,241 @@
+{
+    "data-split": "train",
+    "example-id": "10356493",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在吗",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "为了更好的提供服务，我需要询问您几个与病症相关的问题，感谢您配合。好吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝现在多大了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "五周半",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "感冒几天了",
+            "label": "BIOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "主要嗓子疼，第三天了",
+            "label": "OOBIIOOOOO",
+            "normalized": [
+                "咽喉不适"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有发热",
+            "label": "OOOBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "给宝宝检查过吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "自行口服药物是吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "对，孩子说嗓子疼，就去医院拿的药",
+            "label": "OOOOOBIIOOOOOOOO",
+            "normalized": [
+                "咽喉不适"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝咽部有没有红肿，有没有化脓？",
+            "label": "OOBIIIIIIOOOOOOO",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "红肿",
+            "label": "BI",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "从描述症状考虑宝宝上呼吸道感染",
+            "label": "OOOOOOOOOBIIIII",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃了小儿氨酚黄那敏片和头孢克肟颗粒，如果我在给喝点银黄颗粒可以吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应用药物三天不见好转，宝宝仍有咽痛，建议给宝宝化验一下血常规，分析一下是病毒感染还是细菌感染",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOBIIIOOBIII",
+            "normalized": [
+                "咽喉不适",
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以喝吗",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是病毒感染建议加用抗病毒药物，如果是细菌感染可以应用这些药物",
+            "label": "OOOBIIIOOOOOOOOOOOOOBIIIOOOOOOOO",
+            "normalized": [
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以喝点",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以喝的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "跟那两种药没有冲突吗",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "间隔半小时就好",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "孕妇嗓子疼可以喝银黄颗粒吗",
+            "label": "OOBIIOOOOOOOO",
+            "normalized": [
+                "咽喉不适"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不好意思，我这是儿科专业，建议咨询妇科或内科。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

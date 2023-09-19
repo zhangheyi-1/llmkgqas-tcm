@@ -1,0 +1,231 @@
+{
+    "data-split": "test",
+    "example-id": "10129820",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，我是儿科主治医师张姣姣，同时也是一位宝妈，下面由我来帮您解答咨询，接下来就开始问诊、分析！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您好，宝宝的化验单我看到了，白细胞高，中性粒细胞数为主，CRP明显增高，比较严重的细菌性感染",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIII",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问宝宝一般每天体温最高多少度？精神状态怎么样？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "温馨提示：医生接到咨询，向患者端发送第一条信息后，若患者端2分钟内没回复的话，系统会自动关闭对话框的??????",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "最高39.5，平时38.5",
+            "label": "OOBIIIOOOBIII",
+            "normalized": [
+                "高热",
+                "中等度热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，精神状态怎么样？一天能热几次38.5度以上的？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "解释如下：我觉得只有充分了解患者的情况后，才有利于给出更好的建议，所以我的问诊可能会多些，请多理解??????",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神挺好的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，一天能热几次38.5度以上的？",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "六到七小时一次",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，算是比较频繁的，这几天都是吃的哪些药物？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大体说说药名",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃的成功在欣，猴儿环，头孢克物，好医生抗感",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，口服头孢克肟有几天了？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没大吃，就吃了两天",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天是第四天了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，我给您总结总结建议，您稍等，我打字需要点时间",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "发烧就吃成功再欣，一般吃好医生抗感",
+            "label": "BIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前宝宝是比较严重点的呼吸道细菌性感染，宝宝病情和治疗情况我基本了解了，发热比较频繁，热度也比较高些，作为儿科医生，我的建议是①上策，住院输液抗感染治疗，效果最好、风险性最低、好的最快，毕竟是典型的严重点的细菌性感染。②中策，门诊输液治疗，效果次点、风险性相比住院输液治疗高些。③下策，吃药治疗，效果最差、风险性最高",
+            "label": "OOOOOOOOOOOBIIIIIIIOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "发热",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果宝宝能住院治疗的话，最好，如果家属实在不想住院，也得至少至少门诊输液抗感染治疗，您考虑考虑我的建议",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝还比较小，免疫力相对较差，合并感染时比较易扩散，也容易出现相关并发症。有时候一个普通的感冒（呼吸道感染）就可以出现热惊厥、中耳炎、心肌炎、脑炎等并发症，所以有时病情轻时可以适当保守治疗观察，但病情重时尽量不要盲目“硬扛”。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOBIIIIOOOOOOBIIOBIIOBIIOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "呼吸道感染",
+                "热惊厥",
+                "中耳炎",
+                "心肌炎",
+                "脑炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气！您想想还有没有其它疑问需要咨询？如果咱们连续5分钟没有交流的话，系统会自动关闭对话框的，给您提醒一下??????",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "温馨提示：如果患者端连续5分钟没有回复医生信息的话，拇指系统会“自动关闭”咱们的对话框导致交流结束！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为担心您万一超过5分钟没有回复信息的话，拇指系统会自动关闭对话框、导致交流结束，所以给您提醒一下！??????",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，不客气??????",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

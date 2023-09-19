@@ -1,0 +1,286 @@
+{
+    "data-split": "dev",
+    "example-id": "10313499",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "问题宝宝六岁了，今天突然拉肚子，开始只是拉稀的，一天拉了三次了，第三次就像是水样的了，怎么办",
+            "label": "OOOOOOOOOOOOBIIOOOOOBIOOOOOOOOOOOOOOOOBIOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻",
+                "水样便"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝拉肚子的情况，就是那种水样的，那宝宝的精神饮食有没有受到影响呢，您看宝宝有没有脱水的情况，需要根据这些综合判断一下",
+            "label": "OOBIIOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "水样便",
+                "脱水"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便是什么颜色的？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "土黄色的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "中午的时候吐了，一天也没吃多少饭",
+            "label": "OOOOOBOOOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝有没有受凉情况？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有吃错什么东西了？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前两天喝了瓶酸奶",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，可能是因为肚子受凉，吃了这些凉东西。你可以给宝宝用的益生菌和小儿蒙脱石散。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我邻居有个一岁的宝宝拉肚子5天了，症状和轮状病毒挺像的，我家孩子老是和那个孩子在一起，会不会是他传染的呢",
+            "label": "OOOOOOOOOOBIIOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "轮状病毒感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个东西是会传染的。轮状病毒是有可能传染的，就是稀水用的，可能会持续一周左右。可以带宝宝去换一下大便看看，轮状病毒导致的腹泻很可能导致脱水。宝宝有没有脱水的情况？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOBIOOOOOOBIOOOO",
+            "normalized": [
+                "腹泻",
+                "脱水",
+                "脱水"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "脱水是什么症状呢？我家孩子是今天开始拉的，一天三次了",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "脱水"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可能会出现小便量减少，皮肤没有弹性，起皱的，重一点的可能还会出现，哭的时候没有眼泪，眼眶凹陷，极度乏力，没有精神的情况。",
+            "label": "OOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "尿量减少",
+                "哭闹"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他今天小便是挺少的",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "怎么预防脱水呢？",
+            "label": "OOOOBIOO",
+            "normalized": [
+                "脱水"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以喝那个口服补液盐。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喝点淡盐水行吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为小宝宝有这种可疑轮转病毒感染者的接触，可以去化验一下大便看看。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯好的，谢谢您",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "问题如果感染了轮状病毒怎么治疗",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果感染了轮状病毒，因为这个它腹泻比较急快，进展迅速，一个就是补充水，电解质止血，另外一个就是配合抗病毒治疗。",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "能吃蒙脱石散吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以吃的，这个轮状病毒感染，病程可能会在十天左右，吃药一般不会减少他的病程。主要起个预防脱水的作用。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "脱水"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，谢谢您",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气。",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，建议不要喝盐水还是喝口服补液盐，因为这里面还有电解质。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,292 @@
+{
+    "data-split": "train",
+    "example-id": "10293983",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在吗",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "根据你所描述的情况，这个孩子应该考虑呼吸道感染，考虑被大人传染的可能性比较大，需要给孩子口服感冒颗粒和清热解毒药物",
+            "label": "OOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "考虑到孩子的体质比较差，以前有咳嗽的情况，应该给孩子口服消炎药控制感染，或者说预防感染",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以适当给孩子口服免疫调节剂，增加孩子的抵抗力",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "小儿热速清颗粒可以吗",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外需要观察孩子的精神状态，还有体温变化，如果这个孩子精神状态差，出现反复的发热，需要到医院查血常规",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOBIIIIOOOOOOOOOO",
+            "normalized": [
+                "精神软",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神挺好的，暂时还不发热",
+            "label": "OOOOOOOOOOBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果孩子的精神状态好，没有发热的情况，可以暂时先口服药物对症治疗",
+            "label": "OOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "消炎药吃什么",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以选择头孢，或者阿奇霉素",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "头孢和阿莫西林什么区别",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我看你提供的病史当中，这个孩子遇到冷空气，我就会出现流鼻涕的情况，那这个孩子是过敏体质吗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOBIOOO",
+            "normalized": [
+                "鼻流涕",
+                "过敏"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "头孢的抗菌谱比阿莫西林相对来说要广一些",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还没发现对什么过敏",
+            "label": "OOOOOOOBI",
+            "normalized": [
+                "过敏"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可能这个孩子对冷空气有点过敏呢，很容易出现流鼻涕的情况，那有没有打喷嚏的情况",
+            "label": "OOOOOOOOOOOOBIOOOOOOOBIIOOOOOOOOBIIOOO",
+            "normalized": [
+                "过敏",
+                "鼻流涕",
+                "打喷嚏"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "都说吃抗生素不好，有什么可以代替的吗",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "其实感冒是由病毒感染引起的，因为这个孩子，轻微咳嗽的时间比较长，我才建议给孩子口服消炎药等",
+            "label": "OOBIOOBIIIOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "病毒感染",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以给孩子口服猴耳环消炎颗粒",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这是中药的清热解毒的药物，具有一定的消炎作用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "选择这个药物吧，这样副作用会小一些",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢，那感冒药也是要一起吃的吗",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "当然",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "感冒颗粒肯定是要吃的",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果你认为小儿氨酚黄那敏颗粒的副作用比较大，可以选择小儿伪麻美芬口服液",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有问题了，谢谢",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝孩子早日康复",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那我结束了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,281 @@
+{
+    "data-split": "train",
+    "example-id": "10751314",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好，医生",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "很可能是您受凉传染宝宝了",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝出现咳嗽有痰，考虑支气管炎可能性大",
+            "label": "OOOOBIBIOOOBIIIOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那现在宝宝喉咙有浓痰该怎么办",
+            "label": "OOOOOOOOBIOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是不是病情恶化了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般都会有这个过程。痰液变多，容易咳出来吗？",
+            "label": "OOOOOOOOOOBOOOOOOBOOOO",
+            "normalized": [
+                "痰",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦那不用吃药吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她现在也没发烧",
+            "label": "OOOOOBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "鼻涕流出来都是黄色的，很浓",
+            "label": "BIOOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神也挺好的",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没有发热，说明病情不严重，不要担心",
+            "label": "OOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是有时叫两句声音是哑的",
+            "label": "OOOOOOOOOOBO",
+            "normalized": [
+                "沙哑"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "黄色鼻涕，说明有细菌感染",
+            "label": "OOBIOOOOBIII",
+            "normalized": [
+                "鼻流涕",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦需要吃化痰的药物吗",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "化痰的要吃的，推荐氨溴特罗口服液最好",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "消炎的有没有吃？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，这两天就吃了点艾畅",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦，这个可以吃。但是宝宝咳嗽时间长，有痰，考虑有炎症",
+            "label": "OOOOOOOOOOOOBIOOOOBIOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那该吃什么",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议加上消炎的治疗，推荐头孢克肟最好",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就吃氨溴索吗",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦好的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "治疗3天看看效果",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "如果不吃药自己慢慢会好转吗",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个氨溴特罗含有氨溴索的",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那就再吃点头孢克肟是吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为宝宝年龄小，抵抗力不好，建议吃药，万一继续加重引起肺炎就不好了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对的，",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢您",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气的，假如咳嗽加重，出现气喘，精神差，就要及时到医院儿科看看的",
+            "label": "OOOOOOOBIOOOOOBIOBIIOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "喘息",
+                "精神软"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        }
+    ]
+}

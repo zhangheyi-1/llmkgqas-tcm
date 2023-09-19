@@ -1,0 +1,245 @@
+{
+    "data-split": "train",
+    "example-id": "10800667",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前是为什么化验血常规，有发烧吗？",
+            "label": "OOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前看血常规检查，血象不高。考虑发烧，还是因为病毒性炎症引起。",
+            "label": "OOOOOOOOOOOOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在除了发烧，还有别的症状吗？体温多少度？",
+            "label": "OOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没懂啥意思",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在不烧了",
+            "label": "OOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生诊断什么疾病？上呼吸道感染吗？",
+            "label": "OOOOOOOOOBIIIIIOO",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚才37，5现在不烧了",
+            "label": "OOOOOOOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没说啊",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "血常规检查，血象不高",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那是什么意思",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不过有发烧的情况，一般考虑还是有炎症感染引起，不会无缘无故的发烧。",
+            "label": "OOOBIOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "血象不高的时候，提示病毒性炎症。",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那包括什么",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "结合血常规检测，以及发烧症状。考虑是病毒性上呼吸道感染，引起的发烧。",
+            "label": "OOOOOOOOOOBIOOOOOOBIIIIIIIIOOOOBIO",
+            "normalized": [
+                "发热",
+                "呼吸道感染",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在医生开药了吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那用什么药？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没开",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "用点抗病毒的中成药。比如可以口服蒲地蓝消炎口服液，小儿豉翘清热颗粒治疗，多喝水",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦，血象不高，问题大么",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "血象不高，同时看到孩子发热的程度也不高，考虑问题不大，不用太担心，吃点药就可以了。",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦谢谢",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃点上面我说的药，如果再有发烧。低烧的时候，可以物理降温，如果发烧超过38.5度，可以口服布洛芬退烧。",
+            "label": "OOOOOOOOOOOOOBIOBIOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "低热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，别客气，目前看到问题不大，适当的吃点药，多喝水就可以了。治疗三天后，就医小儿科，让医生复查，看病情恢复情况。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有别的需要咨询的吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝身体健康",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

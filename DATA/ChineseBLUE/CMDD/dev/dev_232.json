@@ -1,0 +1,377 @@
+{
+    "data-split": "dev",
+    "example-id": "10057484",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，请问您是带孩子在哪种类型医院看的？方便把血常规的结果发过来看一下吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子目前除了发热以外，还有哪些症状？精神反应怎么样？",
+            "label": "OOOOOOBIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "血常规没带回～白细胞21个呢～不过孩子精神挺好的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那您知道是以中性粒细胞升高为主，还是以淋巴细胞升高为主吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在不烧了～有点咳嗽～",
+            "label": "OOBIOOOOBIO",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子发烧，一般体温两到三天都会反复烧的，还是要注意监测体温。",
+            "label": "OOBIOOOOOOOOOOOOOBOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "只写的白细胞",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽是单声咳还是连声咳，是否有痰的声音？咳得厉害的时候有没有呕吐的表现？以哪个时间点咳的比较多？",
+            "label": "BIOOOBOOOOBOOOOBOOOOBOOOOOOOOOBIOOOOOOOOOOBOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽",
+                "痰",
+                "咳嗽",
+                "呕吐",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "3",
+                "1",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "两天前就不烧了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那你目前的困惑是孩子的咳嗽问题吗？",
+            "label": "OOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不是～血项高的问题",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好，白细胞升高的话提示是有感染。一般大致分为细菌感染和病毒感染。细菌感染的表现是中性粒细胞比例升高，病毒感染的话是以淋巴细胞增高为主。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIIIOBIIIOBIIIOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染",
+                "病毒感染",
+                "细菌感染",
+                "病毒感染"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "白细胞21是不是有点太高了～很担心会不会有别的事",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您带孩子就诊的医院医生有给什么处理和建议吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果孩子体温正常，一般情况还好的话，也没关系，有的时候是应激性的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您之前有给孩子查过血常规，有白细胞高的病史吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "看精神挺好～再说去时孩子吃了两个金麦圈～说是明早空腹测测再说～",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果孩子其他情况都还好的话，暂时先观察，建议您复查。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "会不会有其它情况呢～很担心",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生有给孩子开什么药物吗？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般白细胞升高考虑是感染引起的，抗感染治疗以后复查就可以了。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "灌肠了～",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您是在社区医院看的还是？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "灌肠的话主要是退烧降温。",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "说是有消炎的",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，好的，只要孩子精神，饮食，大小便情况好的话，关系不大的，到时复查一个血常规。咳嗽的情况也是要重点关注的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯好吧～谢谢了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议您复查的话还是去大一点的医院",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯…好的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "准确度更高，最好是抽静脉血，手指血准确度稍低。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "根据血常规；白细胞显著升高；考虑细菌感染可能性大；白细胞明显升高,应当检查血涂片,看血液中的各类白细胞组成比例,以及是否有异常细胞.",
+            "label": "OOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为您只提供了白细胞的数目，其余情况不详，因此，建议您去大一点医院复查。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "明显升高是啥意思",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子咳嗽的情况也需要找儿科医生听一下肺部，排除肺部感染的情况。",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为孩子一般白细胞正常范围在4到10左右。你家孩子白细胞有20多，还是升高比较明显。好在目前孩子体温已经稳定，并且精神食欲均好。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "儿童咳嗽主要表现为呼吸道感染，分为上呼吸道感染和下呼吸道感染。上呼吸道感染常见于扁桃体发炎，下呼吸道感染，多见于支气管肺炎。如果听了肺部没有问题的话，那就没事。",
+            "label": "OOBIOOOOOBIIIIOOOBIIIIIOBIIIIOOBIIIIIOOOBIIIIOOBIIIIOOOOBIIIIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "呼吸道感染",
+                "上呼吸道感染",
+                "呼吸道感染",
+                "上呼吸道感染",
+                "扁桃体炎",
+                "呼吸道感染",
+                "支气管肺炎"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "说是气管有炎症",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，好的，因为我无法听诊，所以建议你去医院找医生听。气管有炎症的话，一般关系不大。咳嗽可能会持续一段时间。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的～知道了～谢谢医生",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子抽血复查结果怎样？咳嗽有好转吗？",
+            "label": "OOOOOOOOOOOBIOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        }
+    ]
+}

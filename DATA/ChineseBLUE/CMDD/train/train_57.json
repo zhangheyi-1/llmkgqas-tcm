@@ -1,0 +1,624 @@
+{
+    "data-split": "train",
+    "example-id": "10519546",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，孩子是两岁吗？有没有咳嗽？",
+            "label": "OOOOOOOOOOOOOBIO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "喉咙扁桃体有没有发炎？",
+            "label": "BIIIIIIIIIO",
+            "normalized": [
+                "扁桃体发炎"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "两岁不到",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "等于说昨天晚上发热一次，今天早上又发热了一次！孩子有没有手脚口腔长疱疹之类？",
+            "label": "OOOOOOOBIOOOOOOOOBIOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "发热",
+                "发热",
+                "疱疹"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不知道她是咳嗽还是故意不想吃饭，咳两声，睡觉的时候咳嗽吐了点东西",
+            "label": "OOOOOBIOOOOOOOOOBOOOOOOOOBIBOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她像是故意咳嗽，看她扁桃体也没有发炎",
+            "label": "OOOOOBIOOOBIIOOOOO",
+            "normalized": [
+                "咳嗽",
+                "扁桃体炎"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "也没有感冒之类！昨天之前也没有咳嗽？",
+            "label": "OOOBIOOOOOOOOOOBIO",
+            "normalized": [
+                "普通感冒",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "下午四点多起床量了下体温，38.7度，喝了美林，喂了点水和粥，喝了半袋头孢克肟，喝的头孢克肟基本全吐了，她不想吃药，抵触",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有咳嗽",
+            "label": "OOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这样的话，先把体温降下来再观察一下吧！孩子现在体温多高？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天睡觉起来好好的，去机场路上睡了一觉，后来下雨我就带她在车里，然后雨大没有开车窗，后来发现她体温偏高",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在没量，她吃喝都正常，自己主动要吃饭",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子们出现发烧，最常见的原因是感冒，扁桃体发炎，现在孩子还有痰，说明孩子的呼吸道是存在感染的",
+            "label": "OOOOOBIOOOOOOOOBIOBIIIIOOOOOOOBOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "普通感冒",
+                "扁桃体炎",
+                "痰"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那头孢克肟还用喂吗？怕她老是发烧会引起扁桃体发炎",
+            "label": "OOOOOOOOOOOOOOBIOOOBIIII",
+            "normalized": [
+                "发热",
+                "扁桃体炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "感冒会有一点痰，但是感冒是不需要用抗生素的！",
+            "label": "BIOOOOBOOOBIOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "痰",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "扁桃体发炎和支气管炎的情况是需要用抗生素",
+            "label": "BIIIIOBIIIOOOOOOOOOO",
+            "normalized": [
+                "扁桃体炎",
+                "支气管炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子的体温高，现在先把体温降下来，",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是说她的呼吸道是感染的是吗",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "四点到现在已经三个小时了。孩子的体温降下来没有？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "说她吐痰是从她的呕吐物观察的，有黏黏的东西，可是呕吐物一般都是黏黏的，这能断定有痰吗？",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "咳痰",
+                "痰"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的！孩子发烧还有咳嗽，考虑是存在呼吸道感染，但是是上呼吸道感染，还是下呼吸道感染，没有看到孩子，这是无法确定的。",
+            "label": "OOOOOBIOOBIOOOOOOBIIIIOOOBIIIIIIOOOOBIIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "咳嗽",
+                "呼吸道感染",
+                "呼吸道感染",
+                "呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我家宝宝没有咳嗽吐痰过，所以我不能确定是不是有痰",
+            "label": "OOOOOOBIBIOOOOOOOOOOOOBI",
+            "normalized": [
+                "咳嗽",
+                "咳痰",
+                "痰"
+            ],
+            "type": [
+                "2",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "降下来了，我一会儿再给她量下体温看看",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不一定，孩子呕吐的东西，大部分是刚吃进去的。如果喝水多，就直接吐水，一般不会存在粘液的。",
+            "label": "OOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "先观察体温情况，如果孩子再次发热，或者体温不能降下来，提示孩子的炎症大，这是需要立即带宝宝去医院就诊的。",
+            "label": "OOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "中午午饭后带她玩了一会，上床睡觉，牛奶没敢给她喝，在床上玩了一会自己赤脚下地玩，被我揍了一下屁屁，然后就哭了一会儿，然后咳嗽两声就吐了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBOOOOOOOBIOOOBO",
+            "normalized": [
+                "哭闹",
+                "咳嗽",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她体温高的时候喝美林就能降下来了",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子从昨天晚上到现在起病不足24小时，处于早期，可能还会再进一步发展，所以先观察体温，反复发烧是需要及时去医院的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子吐也可能和哭闹有关系！",
+            "label": "OOBOOOOBIOOOO",
+            "normalized": [
+                "呕吐",
+                "哭闹"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，我知道了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她昨天喝了一杯酸奶，没喝完就吐了，不知道是不是喝酸奶导致的",
+            "label": "OOOOOOOOOOOOOOBOOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "观察孩子的体温，精神状态",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "昨天也吐了一次？",
+            "label": "OOOBOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我后来喝剩余的酸奶，也觉得口味不怎么好",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可能喝酸奶时候的吐和酸奶有关系，但是今天吐应该和昨天喝酸奶就没有关系了！",
+            "label": "OOOOOOOOBOOOOOOOOOOOBOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她精神状态挺好，烧39.2度，喝了美林就下地跑自己玩了",
+            "label": "OOOOOOOOBIIIIIOOOOOOOOOOOOO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯，她今天吐都是哭过以后吐的",
+            "label": "OOOOOOBOOBOOOBO",
+            "normalized": [
+                "呕吐",
+                "哭闹",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "食物在胃里面3个小时就排空了，除非是非常不好消化的食物，不会喝一次酸奶导致呕吐两天的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "剧烈的哭闹也可以导致胃肠道痉挛出现呕吐，有很多小孩会出现这种问题",
+            "label": "OOOBIOOOOOOOOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "哭闹",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个问题不大，晚上可以给孩子吃点清淡好消化的！关键是孩子还会不会再次发烧！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我在量体温",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "37.2度",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小宝宝对发热都不敏感，经常出现39℃还精神很好的情况！现在这个体温可以！",
+            "label": "OOOOBIOOOOOOOOOBIIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "高热"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，那我再观察观察",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不过晚上要一到两个小时给宝宝量一次体温的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "如果夜里还发高烧我就再喂一遍头孢克肟",
+            "label": "OOOOOBIIOOOOOOOOOO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢您",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以喂一次！需要同时喂退烧药的。",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢您",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果再次发烧，还是建议带宝宝尽快去医院确诊一下孩子发烧的原因！",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOBIIOOO",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气！",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯，好的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那您忙，就不打扰您了",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，再见！",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

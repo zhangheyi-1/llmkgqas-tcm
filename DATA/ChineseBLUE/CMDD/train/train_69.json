@@ -1,0 +1,258 @@
+{
+    "data-split": "train",
+    "example-id": "10635460",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好！很高兴为您解答。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝多大了？几号打的疫苗？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "问题宝宝打了流脑疫苗和百白破之后，发烧，烧退了之后，又咳嗽，请问需要治疗吗？是打疫苗引起的吗，嗓子有点发红。",
+            "label": "OOOOOOOOOOOOOOOOOBIOBIOOOOOBIOOOOOOOOOOOOOOOOOOBIIIIIO",
+            "normalized": [
+                "发热",
+                "退热",
+                "咳嗽",
+                "咽喉炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般疫苗发热也就是一天左右，不会引起咳嗽嗓子红，估计宝宝感冒了。",
+            "label": "OOOOBIOOOOOOOOOOOOBIBIIOOOOOBIOO",
+            "normalized": [
+                "发热",
+                "咳嗽",
+                "咽喉炎",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗓子红，咳嗽需要治疗的。",
+            "label": "BIIOBIOOOOOO",
+            "normalized": [
+                "咽喉炎",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "13号打的，两岁了，如果这样是需要吃消炎药吗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽次数多么?今天医生给看过了吗？",
+            "label": "BIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最好是去正规医院儿内科门诊就诊，医生给宝宝查体，看看咽部扁桃体情况，听诊心肺，排除肺炎，有必要查血常规C反应蛋白看看，如果是细菌感染，才需要吃消炎药。病毒性的口服清热解毒和祛痰止咳的就可以，可以先不用消炎药的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肺炎",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "晚上多，白天偶尔咳嗽，前天看的医生，只是嗓子有点红，没开消炎药",
+            "label": "OOOOOOOOBIOOOOOOOOOOBIIIIOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咽喉炎"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "普通感冒咳嗽，一般一周左右就好了。如果引起肺炎，可能需要进一步检查，治疗一般1-2周。",
+            "label": "BIIIBIOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "咳嗽",
+                "肺炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今天宝宝精神食欲如何？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神食欲都不错",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "精神食欲好，偶尔咳嗽，可以观察看看，如果咳嗽有痰，可以口服祛痰药物，家里有药吗",
+            "label": "OOOOOOOOBIOOOOOOOOOOBIBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以口服三天祛痰药看看效果，如果无效，就再带宝宝去正规医院儿内科门诊看看，及时调整用药。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有清热解毒的，没有祛痰的",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽有痰吗？晚上影响宝宝睡眠吗？",
+            "label": "BIBIOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "感觉有痰，不影响睡眠",
+            "label": "OOBIOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果有痰，可以口服氨溴索口服液祛痰。",
+            "label": "OOOBOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不用客气",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "观察宝宝精神食欲，咳嗽情况，没加重逐渐好转就继续吃药，一般一周左右就好了。如果无效就就医及时调整用药，可能需要查血常规C反应蛋白肺炎支原体等，听诊心肺，支气管炎就继续吃药，必要时口服消炎药了。",
+            "label": "OOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOBIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "支气管炎",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "万一是肺炎的话，一般孩子精神食欲不好，需要口服合适的药物或者输液治疗了。",
+            "label": "OOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        }
+    ]
+}

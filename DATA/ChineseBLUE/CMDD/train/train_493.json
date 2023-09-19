@@ -1,0 +1,426 @@
+{
+    "data-split": "train",
+    "example-id": "10728820",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "从你发的图片，看着孩子的大便发绿，应该考虑消化功能不良",
+            "label": "OOOOOOOOOOOOBIIIOOOOOBIIIII",
+            "normalized": [
+                "绿便",
+                "消化不良"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "每天大便几次啊",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还有其他症状吗",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你指的是哪个，消化功能不良？",
+            "label": "OOOOOOOBIIIIIO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "2次到3次",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "消化功能不良，除了大便发绿以外，有可能会出现大便比较臭，有腹胀的情况，肚子咕噜咕噜响",
+            "label": "BIIIIIOOOBIIIOOOOOOOOOBIIIIOOBIOOOOBIIIIII",
+            "normalized": [
+                "消化不良",
+                "绿便",
+                "大便酸臭",
+                "腹胀",
+                "肠鸣音"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "除了消化不良，还有其他症状么",
+            "label": "OOBIIIOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那孩子年龄多大了呀",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "6个月14天",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便当中有粘液，你应该进行大便常规的检查，主要是看一下大便当中有没有炎症",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "大便粘液"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子出现大便这么绿应该是不正常的，首先应该考虑消化功能不良",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIII",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "近段时间有没有受凉的情况？有没有呼吸道感染的表现",
+            "label": "OOOOOOOOOOOOOOOOBIIIIOOO",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有啊",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那近段时间吃奶跟以前相比有没有增多",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "出现这种大便有多长时间了",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "两天吧",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃奶增多就会导致这个孩子消化功能不良，就会出现大便发绿",
+            "label": "OOOOOOOOOOOOBIIIIIOOOOOBIII",
+            "normalized": [
+                "消化不良",
+                "绿便"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "母乳喂养，还是人工喂养",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那怎么办呢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "母乳，添加了辅食，米粉和粥",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于胃肠功能不好的孩子，首先应该从喂养方面进行调整，采用少量多次的喂养方式，按摩腹部，改善胃肠功能",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可能与添加的辅食也有一定的关系",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "尽可能给孩子吃容易消化的食物，这段时间不要新添加辅食了，原来已经加到辅食可以继续吃的，但是量要少",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "辅食吃了一个多月了",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，辅食添加的原则应该先从一种开始，让孩子的胃肠道有个适应的过程，然后逐渐增加量和品种",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以给孩子口服肠道微生态制剂，改善肠道的微生态环境，比如说妈咪爱，双歧杆菌，益生菌，布拉氏酵母菌等等",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "对了，最近宝宝很喜欢咬东西，是怎么回事",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这应该是一种正常的现象，是不是这个孩子要出牙了呀",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "益生菌有在吃",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还可以给孩子吃调节脾胃的药物，比如说婴儿健脾散",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "醒脾养儿颗粒",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "醒脾养儿颗粒？？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子的年龄比较小，胃肠功能损伤以后，修复需要一定的时间，需要慢慢来的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "先从喂养方面进行调整，调整妈妈的饮食，口服药物，观察3到5天，如果孩子的症状没有明显的缓解，那需要到医院就诊的有必要进行进一步的检查，明确一下这个孩子胃肠功能紊乱的原因，明确一下这个孩子大便发绿的原因",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIIOOOOOOOOOOOOBIIIOOO",
+            "normalized": [
+                "胃肠功能紊乱",
+                "绿便"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要进行大便常规的检查，需要进行腹部彩超的检查",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我先调整一段时间看，如果不行我再去医院",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "毕竟这个孩子年龄有点小，出现了胃肠功能紊乱，出现了消化功能不良的情况，需要积极的治疗，以免症状加重",
+            "label": "OOOOOOOOOOOOOOOBIIIIIOOOOBIIIIIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "胃肠功能紊乱",
+                "消化不良"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

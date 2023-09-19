@@ -1,0 +1,190 @@
+{
+    "data-split": "train",
+    "example-id": "10672013",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "宝宝这两天有没有着凉或者新添加什么辅食啊",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有感冒，一直在吃感冒药",
+            "label": "OBIOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "辅食是4个月的时候就添加了",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "照片上宝宝的大便有点稀，考虑是腹泻了，今天拉几次了",
+            "label": "OOOOOOOOOOBOOOOBIOOOOOOOO",
+            "normalized": [
+                "稀便",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天到现在为止就一次",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，宝宝有没有吃手或者咬玩具的习惯",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他喜欢吃手",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这样的话考虑宝宝腹泻原因有两种，一是着凉引起的胃肠道痉挛，导致蠕动加快引起腹泻，一是病毒感染引起的肠炎",
+            "label": "OOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOBIIIOOOBI",
+            "normalized": [
+                "腹泻",
+                "腹泻",
+                "病毒感染",
+                "肠炎"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您今天再观察，如果照片上的大便一天超过三次，您就需要给宝宝吃上益生菌和蒙脱石散了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "蒙脱石散吃奶前半小时先吃，可以附着在胃肠粘膜上，减轻腹泻，益生菌可以和奶粉同吃或者喂奶后吃",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前天他就是这样拉，早上拉一次，下午又拉。昨天就没见拉，今天又拉",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果宝宝出现发热或者呕吐症状，或者尿量减少，或者大便带粘液血丝，就需要您及时就医并且化验大便的",
+            "label": "OOOOOOBIOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "呕吐"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我想请问，他这两天就要满6个月了，但是他又不舒服，可以换二段的奶粉了吗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "病毒性肠炎早期腹泻可能间隔时间稍长些，一般一两天后宝宝大便会越来越稀，次数越来越多，所以请您密切观察",
+            "label": "OOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOBOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "稀便"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那是不是先不用换二段的奶粉",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "暂时不要换奶粉了，等到大便完全正常，感冒症状完全消除了再换",
+            "label": "OOOOOOOOOOOOOOOOOOBIOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一定要观察宝宝的小便的情况，如果他一天达不到6到8次，然后小便也不是清亮的，是黄黄的，浑浊的，这种情况，宝宝就已经轻度脱水了，我们就要多喂水，实在喂不进去，就需要输液补充体液量了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "脱水"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好，谢谢！",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "注意腹部保暖，祝早日康复",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

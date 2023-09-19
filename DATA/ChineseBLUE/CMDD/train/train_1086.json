@@ -1,0 +1,608 @@
+{
+    "data-split": "train",
+    "example-id": "10436360",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子目前还有咳嗽的情况吗",
+            "label": "OOOOOOOOBIOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "流鼻涕打喷嚏还有吗",
+            "label": "BIIBIIOOO",
+            "normalized": [
+                "鼻流涕",
+                "打喷嚏"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子现在有什么症状吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有点发热，偶尔咳嗽，去医院查了血项",
+            "label": "OOBIOOOBIOOOOOOOO",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生说上呼吸道感染",
+            "label": "OOOBIIIII",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子最高的体温是多少啊",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果就是单纯的上呼吸道感染，口服药物是最好的治疗方法，雾化吸入的效果不是特别的好啊，除非这个孩子咳嗽症状比较重",
+            "label": "OOOOOOOBIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOO",
+            "normalized": [
+                "上呼吸道感染",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "开的口服药，我想问一下您雾化的效果是不是比较快和副作用小。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "以前有过高热惊厥所以38℃就吃退烧药了",
+            "label": "OOOOBIIIOOBIIOOOOOO",
+            "normalized": [
+                "热惊厥",
+                "中等度热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于上呼吸道感染的孩子来说，口服药物就可以的",
+            "label": "OOBIIIIIOOOOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "雾化吸入的药物在咽部很难完全吸收的",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，上呼吸道感染就是感冒吗？",
+            "label": "OOBIIIIIOOBIOO",
+            "normalized": [
+                "上呼吸道感染",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这个孩子有高热惊厥的情况，需要观察体温的变化，超过37.8度应该给孩子口服鲁米钠或者安定",
+            "label": "OOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "热惊厥"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "上呼吸道感染就是感冒",
+            "label": "BIIIIIOOBI",
+            "normalized": [
+                "上呼吸道感染",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "口服药物的同时可以配合雾化吸入进行治疗，比如说干扰素雾化吸入，可以明显的缓解这个孩子的症状",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "鲁米钠是退烧药吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不是退热的药物，是止惊的药物，因为这个孩子有高热惊厥的情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIIIOOO",
+            "normalized": [
+                "热惊厥"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦，明白，您说布洛芬和对乙酰氨基酚哪个是首选？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这两种药物退热效果都很好，都可以作为首选的药物，可以交替使用的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，明白，谢谢。",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呼吸道感染多是由于病毒或者细菌感染引起的，需要应用抗病毒的药物进行治疗",
+            "label": "BIIIIOOOOOOOOBIIIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这个孩子是细菌感染，需要应用消炎药控制感染",
+            "label": "OOOOOOOBIIIOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "考虑到这个孩子还有咳嗽的情况，需要口服清热止咳的药物进行治疗",
+            "label": "OOOOOOOOOBIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "雾化是不是副作用相对要小一些",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有蓝芩口服液",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "考虑到孩子既往有高热惊厥的情况，体质可能不是特别的好，可能会出现一定的并发症，最常见的就是下呼吸道感染，比如说肺炎，支气管炎",
+            "label": "OOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOBIOBIII",
+            "normalized": [
+                "热惊厥",
+                "呼吸道感染",
+                "肺炎",
+                "支气管炎"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "所有的药物都是有副作用的，雾化吸入药物的副作用也是一样的，但是雾化吸入药物吸收比口服吸收要差得多",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以先按照上面的治疗方法治疗3到4天，如果这个孩子体温仍然不稳定，咳嗽症状加重，精神状态差甚至出现抽搐，建议直接到医院就诊",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOBIIIIOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "精神软",
+                "抽搐"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "明白了，已经去过医院了",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，那就先口服上述药物试试看吧",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以配合雾化吸入进行治疗，用的什么药物啊",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我想问一下这个孩子咳嗽症状重吗？",
+            "label": "OOOOOOOOOBIOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽不严重，偶尔一两声",
+            "label": "BIOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这孩子既往是过敏体质，可以用布地奈德和博利，康尼雾化吸入",
+            "label": "OOOOOOOOBIIIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "过敏体质"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果咳嗽症状不严重，我认为暂时没有必要雾化吸入，雾化吸入对上呼吸道感染效果一般",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIIOOOO",
+            "normalized": [
+                "咳嗽",
+                "上呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，现在用的阿莫西林克拉维酸钾分散片，蓝芩口服液，岩白菜",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢您，祝您工作顺利，生活愉快。",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝孩子早日康复",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "激素药对孩子影响大吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你是说雾化吸入的药物吗？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "对",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "雾化吸入激素对孩子影响不大的，如果是口服的激素对孩子影响相对来说比较大",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子是过敏体质吗？",
+            "label": "OOOOOBIOOOO",
+            "normalized": [
+                "过敏体质"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这个孩子是过敏体质，有必要雾化吸入的",
+            "label": "OOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "过敏体质"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "明白了，是的，有点过敏性鼻炎和哮喘",
+            "label": "OOOOOOOOOBIIBIOBI",
+            "normalized": [
+                "过敏",
+                "鼻炎",
+                "哮喘"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那就是孩子需要雾化吸入的，以免咳嗽症状加重",
+            "label": "OOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在一直在用辅舒酮和辅舒良",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呼吸道感染多是由于病毒或者细菌感染引起的，病毒或者细菌就是异种的蛋白质，可能导致孩子出现过敏反应，会使咳嗽的症状加重等，如果这个孩子有这样的病史，我建议你雾化吸入",
+            "label": "BIIIIOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "细菌感染",
+                "过敏",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这两种药物就是吸入的激素啊，一个是鼻用的",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这两种药物对孩子影响不大的，你可以放心的使用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "所有的药物都是有副作用的，我们主要是看这招作用大还是副作用大，相比来说这个孩子过敏体质所导致的支气管粘膜的病变，鼻粘膜的病变，这些药物的副作用可以忽略不计",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "过敏体质"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "明白了，谢谢您的细心解答",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，不客气",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，我下午带他去做一下雾化。",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，雾化吸入就没有必要吸入辅舒酮了",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "雾化用什么药合适啊",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "雾化吸入的药物就是布地奈德，博利康尼",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，明白，再次谢谢您。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

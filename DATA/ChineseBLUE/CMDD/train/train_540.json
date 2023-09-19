@@ -1,0 +1,279 @@
+{
+    "data-split": "train",
+    "example-id": "10041214",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好！请问宝宝这次腹泻，发热，咳嗽，流涕几天了？",
+            "label": "OOOOOOOOOBIOBIOBIOBIOOOO",
+            "normalized": [
+                "腹泻",
+                "发热",
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "又一个星期了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前宝宝精神状态如何？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有烦躁，恶心，呕吐等情况？精神状态好吗？",
+            "label": "OOOBIOBIOBIOOOOOOOOOOO",
+            "normalized": [
+                "烦躁",
+                "恶心",
+                "呕吐"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "干呕",
+            "label": "BI",
+            "normalized": [
+                "干呕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医院做了哪些检查？目前服用哪些药物？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前天开始发烧，昨天晚上开始发高烧38.8",
+            "label": "OOOOBIOOOOOOOOOOBIII",
+            "normalized": [
+                "发热",
+                "中等度热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "38.5",
+            "label": "BIII",
+            "normalized": [
+                "中等度热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前宝宝发热考虑是肠道感染所致，发热是一种症状，会不会影响脑部要看看宝宝的病情",
+            "label": "OOOOBIOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "做了血常规，胃的彩超。大便检查",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "也要看宝宝感染的微生物以及宝宝的免疫状态",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前宝宝在公立医院住院治疗吗？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝现在在什么级别医院就诊的？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "镇上",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不知道是什么级别的",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝年龄较小，近期反复生病，建议就近二甲以上医院儿科就诊。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "属于乡镇，县级人民医院大都是二甲级别",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在镇上就可以就诊吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "正规公立医院儿科治疗，及时控制感染，",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议县级以上医院儿科就诊",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "晚上发高烧宝宝睡觉惊和嘴里发出声音怎么回事呢",
+            "label": "OOBIIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝有没有抽搐？",
+            "label": "OOOOOBIO",
+            "normalized": [
+                "抽搐"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前宝宝需要二甲以上公立医院儿科大夫全面查体及完善相关检查，以利于诊治。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "手脚动一下是抽吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不一定",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "也有可能是高热寒战",
+            "label": "OOOOOBIOO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "发高烧的时候手脚冰凉",
+            "label": "BIIOOOBIII",
+            "normalized": [
+                "高热",
+                "四肢厥冷"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "末梢循环不好！",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还是上级医院儿科就诊一下，以指导治疗吧！宝宝年龄较小，病情变化快，及时上级医院就诊为佳。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,176 @@
+{
+    "data-split": "train",
+    "example-id": "10284738",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，目前一天大便几次，稀不希",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "五到六次，稀带水",
+            "label": "OOOOOBII",
+            "normalized": [
+                "水样便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "化验过大便吗，目前有没有呕吐，发热",
+            "label": "OOOOOOOOOOOOBIOBI",
+            "normalized": [
+                "呕吐",
+                "发热"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没化验大便，现在不发热了，前两天发热但那时候不拉肚子，恶心没吐",
+            "label": "OOOOOOOOOBIOOOOOBIOOOOOBIIOBIBI",
+            "normalized": [
+                "发热",
+                "发热",
+                "腹泻",
+                "恶心",
+                "呕吐"
+            ],
+            "type": [
+                "2",
+                "2",
+                "2",
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前大便看着怎样，有脓或者有血丝吗",
+            "label": "OOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "血便"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，就是吃进去什么样出来还是什么样带水",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那考虑还是不消化",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以先按照消化不良治疗，有条件的话，化验大便看看，比较好",
+            "label": "OOOOOBIIIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "需要吃什么药呢！辅食还能吃吗？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以吃点益生菌，蒙脱石散",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "辅食还能吃吗",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前辅食都添加的什么",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "米粉，奶粉，面条，鸡蛋",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "鸡蛋暂时先别吃了，别的可以",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "奥，谢谢",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，别客气，还有别的可以帮你吗",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那好的，有事再联络，再见",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，再见",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "拜拜",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

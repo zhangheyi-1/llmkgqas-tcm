@@ -1,0 +1,221 @@
+{
+    "data-split": "train",
+    "example-id": "10853648",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前医生听诊过吗，还是诊断小儿感冒吗",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "听诊了",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "说上呼吸道感染",
+            "label": "OBIIIII",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个情况，看到只是上呼吸道的感染，没有到下呼吸道，问题到并不严重，主要是鼻塞症状比较明显，孩子感觉不舒服。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻塞"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "下呼吸道感染怎么判断",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一个是看孩子症状，再就是听诊检查。如果出现咳嗽，有痰，或者听诊异常，一般就发展到下呼吸道了。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那我宝宝这种情况如果严重会发展到下呼吸道感染吗",
+            "label": "OOOOOOOOOOOOOOOOOBIIIIO",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看到服用药物效果不好，我觉得可以采用物理的方法缓解鼻塞，缓解孩子的不适。比如可以用热毛巾捂一下鼻子，贴个通气鼻贴，或者涂抹刺激性的涂鼻软膏，刺激鼻腔通气。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻塞"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她基本不咳嗽，就是偶尔吃手或喝奶时候嘴也堵着了就咳嗽了",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "二个月宝宝能用软膏吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "只要孩子精神状态好，吃奶好，没有咳嗽，一般不会发展到下呼吸道的",
+            "label": "OOOOOOOOOOOOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以用复方木芙蓉涂鼻软膏的，鼻塞严重的时候，稍微涂抹一点，刺激鼻腔通气，可以的，没问题，物理的方法。",
+            "label": "OOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻塞"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "涂鼻腔里面？宝宝太小怕伤到鼻子，总动",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以用个纸巾，涂抹到纸巾上，放在孩子的枕头边。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "再就是天气变凉了，注意保暖，一冷了就容易鼻塞。",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "鼻塞"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "放鼻子边就可以？不用涂里面啊",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那鼻贴用什么牌子的？能和涂膏一起用吗？同时",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以稍微涂抹在鼻孔周围",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "普通通气鼻贴就可以了，可以和软膏一起用的，都是物理的方法，没有太大的副作用。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢您",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，别客气。",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有问题以后再联系您咨询",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

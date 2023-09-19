@@ -1,0 +1,552 @@
+{
+    "data-split": "train",
+    "example-id": "10298938",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，宝宝有呕吐腹痛吗？",
+            "label": "OOOOOOBIBIOO",
+            "normalized": [
+                "呕吐",
+                "腹痛"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有呕吐，腹部有点胀",
+            "label": "OOBIOOOOOB",
+            "normalized": [
+                "呕吐",
+                "腹胀"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还需继续监测体温，37℃还算正常",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有任何感冒症状就是发烧",
+            "label": "OOOOBIOOOOBI",
+            "normalized": [
+                "普通感冒",
+                "发热"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不过需要清淡易消化饮食。适当喂水",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "继续给喝山楂水可以吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因昨晚服用肥儿丸所以目前宝宝腹泻，不除外药物引起，注意腹部保暖，勤喂水再观察",
+            "label": "OOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "其实腹泻宝宝喝米汤或白水就可",
+            "label": "OOBIOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果反复腹泻，方便的话可以化验便常规及轮状病毒抗体。除外肠道感染。",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨晚给她喝了肥儿丸上午拉完后，现在尿尿偶尔会有粘条，好像是肠黏膜。她没有腹泻。两三天拉一次，刚开始拉的正常大便，后面就是拉肚子的那种了，拉的挺多的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有大便变稀或次数增多就属于腹泻。",
+            "label": "OOOOOOOOOOOOOBIO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨晚十二点给她喝了肥儿丸后早上六点拉一次。十点拉一次",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "腹泻原因很多，如消化不良，药物性腹泻，腹部受凉，肠道感染等。但大便异常，首先饮食要注意清淡",
+            "label": "BIOOOOOOBIIIOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "消化不良",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那明天给她化验个大便常规。现在她在睡觉。去医院也下班了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，宝宝没有呕吐，腹痛，发热，可以在家先观察，清淡易消化饮食，适当喂水。山脉健脾可以口服",
+            "label": "OOOOOOBIOBIOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐",
+                "腹痛",
+                "发热"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她冬至那天不知道吃了几粒苯乙哌啶。给她挂了四天的纳洛酮。之后就这样了。会是那两种药物引起的吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃了苯乙哌啶后没有洗胃，会是苯乙哌啶引起的肠胃疾病吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "苯乙哌定会引起便秘副作用。",
+            "label": "OOOOOOOBIOOOO",
+            "normalized": [
+                "便秘"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她没有便秘，就是胃口不好脸蛋红红的，手脚热，低烧腹部有点胀",
+            "label": "OOOBIOOOBIIIOOOOOOOOOOBIOOOOB",
+            "normalized": [
+                "便秘",
+                "食欲不振",
+                "低热",
+                "腹胀"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这两次都是拉屎后胃口很好，不过一天不拉后就开始没胃口了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIIO",
+            "normalized": [
+                "食欲不振"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "如果是积食化验大便常规能化验出来吗？",
+            "label": "OOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "积食"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "误服药物已经有10天了，目前大便异常应该与药物关系不大",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "积食化验不出",
+            "label": "BIOOOO",
+            "normalized": [
+                "积食"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦，只能是医生的经验检查出来吗？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肠道感染可以化验出，积食是中医理论，不能化验的",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "积食"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那今天不去医院。现在没有专家号。去了也是急诊。明天看她拉屎不。拉了就直接去医院。不拉就只能在家等了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "家里有头孢可以给她吃点吗？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，可以，不过无论积食消化不良还是肠道感染都需要饮食注意，如果大便正常，体温正常。那就没有问题。",
+            "label": "OOOOOOOOOBIBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "积食",
+                "消化不良"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "山楂茶不用喝了吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "头孢属于抗生素，目前使用较严格，不建议随便使用，除非化验有细菌感染。再加用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦，想着她发烧给她喝点麻美和头孢。是不是这两样都不用喝",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝小，用药尽量少及简单。不需用太多，口服山脉健脾就可以",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢你",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "37℃体温正常高值，暂时不需退烧治疗",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，不给她喝了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，目前宝宝一般情况可，可以观察体温，大便情况。如果反复腹泻，有发热明天可以就诊，化验大便",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOBIOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有问题吗？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "蒲地蓝口服液可以间隔开时间服用",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好，又麻烦你了，孩子今早起来嗓子哑了还咳嗽有痰，去医院检查医生说病毒感染给开的奥司他韦和头孢克洛。家里有蒲地蓝我也给孩子喝了半支可以吗？",
+            "label": "OOOOOOOOOOOOOOOBIIOOBIBIOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "沙哑",
+                "咳嗽",
+                "痰",
+                "病毒感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "间隔了两三个小时喝的",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咽部充血有疱疹化验血常规正常，可以口服蒲地蓝",
+            "label": "BIIIOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咽喉炎",
+                "疱疹"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "因为前两天积食发烧给孩子喝了挺多山楂茶。感觉是上火了",
+            "label": "OOOOOBIBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "积食",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的，间隔来1-2小时服用就可",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "奥司他韦和头孢是一起服用的没事吧",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以，都是西药，不要混合在一起就可",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喉咙疱疹病程要多久？孩子主要是刚起床的时候嗓子哑的厉害。",
+            "label": "OOBIOOOOOOOOOOOOOOOOOBIIOOOO",
+            "normalized": [
+                "疱疹",
+                "沙哑"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没混一起先喝了奥司他韦然后喝的头孢",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩手足及臀部没有疱疹吧？",
+            "label": "OOOOOOOOBIOO",
+            "normalized": [
+                "疱疹"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "声音嘶哑注意晚上是否有憋气？",
+            "label": "BIIIOOOOOOOOOO",
+            "normalized": [
+                "沙哑"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽有没有空空的声音？",
+            "label": "BIOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "要接个电话，需一会回复",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "中午睡觉呼吸挺好的。咳嗽的时候有点象我们大人有痰咳嗽",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "多注意宝宝呼吸，咳嗽声嘶需要注意喉炎可能",
+            "label": "OOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "3"
+            ]
+        }
+    ]
+}

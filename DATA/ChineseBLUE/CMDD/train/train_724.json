@@ -1,0 +1,464 @@
+{
+    "data-split": "train",
+    "example-id": "10042920",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "首先很乐意为您解答！我需咨询相关信息，请如实作答。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您好，在吗？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在呢，医生",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您可以再发一张照片吗，照片看不了。",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "看到吗，看不到我等会重新拍",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好像还是不行。",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那等会你还在吗，我要等会回去才能拍",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您好您说宝宝一个月老是吐奶，请问，一天吐几次，是每天都这样吗？",
+            "label": "OOOOOOOOOOOBIOOOOOOBOOOOOOOOOOO",
+            "normalized": [
+                "呕吐",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "基本上每天都吐",
+            "label": "OOOOOOB",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那我先了解情况吧，你打字给我看也行。",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一两次",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "从一出生到现在都是每天吐一两次吗？每次都是在喂完奶之后吗，喂完奶之后您有没有给宝宝拍饱嗝呢？",
+            "label": "OOOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃药也是，一把那药喝下去，立马全吐出来",
+            "label": "OOOOOOOOOOOOOOOOBII",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "拍的，但是拍了他不嗝",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问你一次拍多久？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "两三分钟",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝的大便有问题吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，因为宝宝的胃的位置比较平，所以比大人更容易呕吐。每天给宝宝喂完奶之后，至少得拍十分钟到20分钟的饱嗝。不过宝宝吐奶比较频繁，您可以在宝宝睡觉的时候把宝宝的头稍微垫高一点，并且让宝宝的头侧位。这样可以减少宝宝呕吐的次数并且可以预防宝宝呕吐时呛到自己。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐",
+                "呕吐",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "频繁的呕吐，最容易导致支气管炎和鼻塞。",
+            "label": "OOOBIOOOOOOBIIIOBIO",
+            "normalized": [
+                "呕吐",
+                "支气管炎",
+                "鼻塞"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那药一喂下去就吐怎么弄呀，会不会有什么问题",
+            "label": "OOOOOOOBOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "把药物的名字发给我吧",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不用照片",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "头孢克肟颗粒。儿童回春颗粒。还有一个止咳糖浆",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您自己可以看到照片吧",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以。",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "首先跟您解释一下这些药物的作用",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "头孢克肟是消炎药，主要用于抗感染的，止咳糖浆就是用来止咳化痰的，小儿回春颗粒就睡一个中成药，这些药都是针对宝宝病情的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这几种药是可以混合喂的。",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问您喂药的时候放了很多水吗？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也不是很多",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "对了，还有一个去黄疸的药。",
+            "label": "OOOOOOOOBIOOO",
+            "normalized": [
+                "黄疸"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于宝宝吃完药物之后呕吐，可能是宝宝不习惯这个味道，药的味道可能有点重，或者难吃。",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "黄疸的药物也是和这些药物一起喂的吗？",
+            "label": "BIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "黄疸"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "对",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那些喝完喝这个的",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这里面四种药物，这个是最难吃的。",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "喝完这个之后就会吐吗？",
+            "label": "OOOOOOOOBOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喝完那两种颗粒吐一次，然后喝完黄疸的跟止咳糖浆又吐一次",
+            "label": "OOOOOOOBOOOOOOOBIOOOOOOOBOO",
+            "normalized": [
+                "呕吐",
+                "黄疸",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "喝完立即吐吗",
+            "label": "OOOOBO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一分钟不到",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议您，每种药物都分开喂，喂之前您可以自己尝一下味道。如果是药物味道的问题这样可以减少宝宝呕吐的情况。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，我知道了。谢谢医生。",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "黄疸等药物是要分开喂，确实很难吃。许多宝宝吃这个药都会有点吐。",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOBO",
+            "normalized": [
+                "黄疸",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果您发现宝宝是对哪一种药物，口感不好导致的呕吐您可以把那种药物分开喂，其他的就可以一起喂了。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这样的话至少能保证您其他的药物可以吸收起效。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "分开喂的时候最好建议您间隔一个小时左右。",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "也不要再吃完奶之后立马喂药。",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "喂完奶之后和药之后尽量抱起宝宝拍饱隔",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不要兑很多水，能把药物融掉就好",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问还有什么疑虑吗，如果没有请关闭会话！并给与评价，谢谢",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

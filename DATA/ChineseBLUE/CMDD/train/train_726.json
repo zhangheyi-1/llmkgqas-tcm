@@ -1,0 +1,239 @@
+{
+    "data-split": "train",
+    "example-id": "10746324",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好宝宝现在还会有发热吗？",
+            "label": "OOOOOOOOOBIOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了，昨天晚上有两次都是37.3左右",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那宝宝现在还有什么症状吗有流鼻涕咳嗽或者腹泻吗？",
+            "label": "OOOOOOOOOOOOOBIIBIOOBIOO",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽",
+                "腹泻"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天吃了一次阿奇霉素，和小儿氨酚黄那敏",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天重新化验了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我现在还有什么不好的症状吗？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "的学校已经降下来了呀嗯现在是一万四，是比之前有好转啦，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽，有痰，吃了氨溴索口服液",
+            "label": "BIOBIOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在还是咳嗽有痰吗？咳嗽症状是比十天前减轻啦还是没有变化，",
+            "label": "OOOOBIBIOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "十天前的时候没有咳嗽光是发烧流的是黄鼻涕然后发烧过去以后然后流的是清鼻贴用后才开始咳嗽的，",
+            "label": "OOOOOOOOBIOOBIOOOBIIOOBIOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "咳嗽",
+                "发热",
+                "鼻流涕",
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天化验的时候学校还是十七点儿酒今天又变成十四啦，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "化验本身可能就存在误差的，您试采的指尖血还是抽的静脉血呢，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "所以我不知道是这个医院化验的那块儿有问题还是宝宝真的就是吃了那个阿奇霉素就昨天吃了一餐，没错学校就降下来了不叫是什么原因，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "指尖",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天白细胞17.9，今天就变成14.1",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "才知教学本身的误差可能大一些，嗯吃阿奇霉素才吃一天白细胞不会降下来这么快，但不管是哪一种结果宝宝现在还是明显的有细菌感染因为白细胞毕竟是高于正常的，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "南安新霉素的话我还要再继续给她吃吗医生说吃上三天停四天，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "恩而且我们这边医生还说他是还是主要是病毒感染又给开了点的抗感颗粒让喝这个和这个爱奇霉素一起吃下抗颗粒，",
+            "label": "OOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯吃三天停四天这种吃法一般是针对支原体感染引起的支气管炎或者肺炎的，你有查过支原体吗，有拍过胸片儿吗？",
+            "label": "OOOOOOOOOOOOOOOOBIIIIOOOBIIIOOBIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支原体感染",
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他在五月份儿的时候查出来是支原体感染，然后那个五月份儿收住过几天院，然后是还是支气管炎也拍了胸片儿了胸片儿等势好着呢，",
+            "label": "OOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支原体感染",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "化验单上看您主要还是细菌感染，嗯所以是需要吃抗生素的，建议您查一下这个专题，阿奇霉素其实是一圈咬它主要是针对支原体感染的，",
+            "label": "OOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOO",
+            "normalized": [
+                "细菌感染",
+                "支原体感染"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那是五月份那么现在可能因为支原体，他可能在人体内存留很长时间那么现在吃阿奇霉素也是可以的，如果说宝宝这咳嗽症状这几天减轻了您可以接着这么吃药，如果是没有减轻或者是加重了建议一定要拍一张胸片儿，毕竟您早期的血项太高这个炎症很容易往下走到支气管或者肺里的，",
+            "label": "OOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支原体感染",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        }
+    ]
+}

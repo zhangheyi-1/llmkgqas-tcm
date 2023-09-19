@@ -1,0 +1,545 @@
+{
+    "data-split": "dev",
+    "example-id": "10100121",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，宝宝目前都有什么不适症状？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有咳嗽？",
+            "label": "OBIO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯呢，有咳塑",
+            "label": "OOOOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽几天了？有呛咳吐沫现象吗？体温正常吗？",
+            "label": "BIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃这个药有五六天了吧，嘴里也爱吐泡泡，不吐沫",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽前有吐泡泡吗？宝宝精神反应好吗？吃奶正常吗？",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "从出生就爱嘴里老是往出冒小泡泡，体温没有量，前几天量一回正常",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "精神反应呢？吃奶好吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽前没有吐泡泡呀，有时候睡觉也会咳嗽，精神挺好的，吃奶也正常，吃药前几天都挺好的，就今天开始哭闹的",
+            "label": "BIOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "哭闹"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外医院就诊只是肺部听诊吗？有其他检查吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃药后咳嗽是否有好转？",
+            "label": "OOOBIOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，说是消化不好开了些消化的药，这几天吃这个咳嗽药就没给吃消化药，吃药后没觉得有什么好转，时不时的还会咳嗽",
+            "label": "OOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "消化不良",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我在想是不是这个药里韩有着什么，他吃了肚子不舒服啊，吃头几天都不哭，就今天哭的，我给他买个肚脐贴贴在肚子上了",
+            "label": "OOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOBOOOOBOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹部不适",
+                "哭闹",
+                "哭闹"
+            ],
+            "type": [
+                "1",
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您好，宝宝太小，病情变化快，如果服药5-6天咳嗽无好转，有吐泡，最好再做个肺部听诊，避免感染下行，引起肺部感染。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外腹泻消化不良，药物可以引起，气管或肺部感染也会引起消化道症状的",
+            "label": "OOBIBIIIOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "消化不良"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我寻思明天给他吃消化的药，不吃这个咳嗽药了，寻思给他换个药吃",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝肚子鼓吗？有咕噜噜响吗？",
+            "label": "OOBIIOOOBIIIOO",
+            "normalized": [
+                "腹胀",
+                "肠鸣音"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有咕噜咕噜想",
+            "label": "OBIIIO",
+            "normalized": [
+                "肠鸣音"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以用肚脐贴，口服益生菌类调理菌群，腹部保暖。如果支气管或肺部有问题还需要治疗气管炎的，这个要比消化不良严重。有时是消化不良的诱因",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOBIIIOOOOOOBIIIOOO",
+            "normalized": [
+                "支气管炎",
+                "消化不良",
+                "消化不良"
+            ],
+            "type": [
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "肚子还行，也挺鼓的",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那就要带他去医院在检查一下肺部么",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肚子呼噜噜响，肚子鼓，阵法性哭闹多是与腹部不适有关，目前先注意腹部保暖。",
+            "label": "BIIIIIOBIIOOOOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肠鸣音",
+                "腹胀",
+                "哭闹"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那咳嗽的药还要继续给他吃么",
+            "label": "OBIOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肺部是需要复查的，因为小婴儿即使肺炎有时表现都不是很典型，有时就是轻咳，吐泡，腹泻。",
+            "label": "OOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOBIOOOOBIO",
+            "normalized": [
+                "肺炎",
+                "咳嗽",
+                "腹泻"
+            ],
+            "type": [
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我明天给他吃点那些消化的药吧",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "服用5-6天了，如果没有效果，那效果也不是很好",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好，我明天就带他去检查一下",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不建议再服用",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯好的，请问你有什么建议吃点什么能管他这个咳嗽的药呢",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，宝宝太小，避免药物治疗。",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可是不吃药，他不会咳嗽严重么，该怎么办呢，",
+            "label": "OOOOOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "止咳只是对症治疗，如果咳嗽不著，不必止咳，待明天查明原因给予对因治疗。宝宝太小，不建议随便用药。单纯止咳不能解决根本问题",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果有支气管炎或肺炎需要抗感染治疗的",
+            "label": "OOOBIIIOBIOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他这么小能拍片么",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果有必要是可以拍的，虽然有辐射，但很少，需要权衡利弊。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就怕太小拍片对他不好，可是从表面看又看不出来怎么回事",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，宝宝小，呼吸表浅，有时肺部听诊不易听到罗音，必要时需要胸片检查的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那明天就要给他拍片了，真的害怕对她身体不好，对他有什么影响",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "偶尔一次，不会有太大危害的。不用太紧张，先肺部听诊，如果有必要再性胸片检查。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯好的谢谢你，消化的药明天我正常给他服用么",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "服用什么药物？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "蒙脱石散，还有维生素ad滴剂，还有胃蛋白酶颗粒",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这些是管消化的",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "服用几天了？蒙脱石是止泻的，胃蛋白酶是助消化的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "维生素AD预防缺钙的",
+            "label": "OOOOOOOBIO",
+            "normalized": [
+                "缺钙"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就服用两天就没给吃了，就开始给吃那个管咳嗽的药了",
+            "label": "OOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，这几种药物可以服用",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，谢谢你了医生，明天我带宝宝去医院检查看看，麻烦你了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，不客气",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如没有问题可关闭",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，祝宝宝健康",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您好，宝宝小，与感冒人接触有被传染的可能。目前咳嗽多吗？",
+            "label": "OOOOOOOOBIOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "普通感冒",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还好。一天几次。咳嗽两三天了",
+            "label": "OOOOOOOOBIOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝哺乳好吗，呼吸平稳吗？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "呼吸不太平稳。喝奶总呛到。平时呼吸一般。喝奶后呼吸急促",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那确实还是需要肺部听诊的。如果听诊没有问题，一般情况好，可以先服药观察。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "药物从出院就一直在吃。阿莫西林。",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "出院多久了？阿莫西林吃了几天了？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

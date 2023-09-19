@@ -1,0 +1,243 @@
+{
+    "data-split": "train",
+    "example-id": "10041491",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，有化验便常规及轮状病毒吗？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，医生说是细菌性肠炎",
+            "label": "OOOOOOOBIIII",
+            "normalized": [
+                "肠炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便化验过了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便什么性状，每天几次？便常规化验有白细胞？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没吊水之前是糊状的，都是水，掉睡之后有水的有点蛋花壮",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "蛋花汤样便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "能看一下便常规检查报告吗？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外都用过什么药物知道吗？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "颜色黄色的，糊状带粘液，镜检WBC.3+有脓球，大便潜血弱阳",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBIIIII",
+            "normalized": [
+                "大便隐血"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有头孢和益生菌，吊水用的是葡萄糖和头孢",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，提示细菌感染，治疗后有复查便常规吗？",
+            "label": "OOOOBIIIOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃完药之后查过吊水暂时还没查，为什么吊了两瓶水还没好，而且以前夜里不拉，现在夜里拉两次",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "腹泻达2周，建议复查便常规，了解炎症是否控制，如果便常规正常，就不用紧张，建议配合腹泻奶粉。口服思密达止泻治疗。",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前宝宝精神状态好吗？尿量正常吗",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "给宝宝添加胡萝卜或者稀饭迷糊，不会有影响吧，夜里闹人，老是醒不过精神还不错，尿量也多",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "之前是混合喂养？6个月宝宝，目前腹泻，辅食添加需要注意的",
+            "label": "OOOOOOOOOOOOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议暂停添加胡萝卜",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前母乳，后来医生让吃腹泻奶粉，换了个医生之后又让吃母乳，母乳涨回去一点又不够吃了，现在混合吃，苹果可以吃吗，我听别人说是止泻的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "腹泻期间，胃肠功能弱，不建议随便添加辅食，之前没有吃过的更不易随便添加。如果母乳不足，建议用腹泻奶，对宝宝胃肠及腹泻有好处？蒸苹果有止泻作用，但因宝宝小，不建议吃",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没有问号",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那转腹泻奶粉需要过滤转还是直接给他喝腹泻奶粉",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "直接用腹泻奶就可以",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢您了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有问题吗",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "腹泻奶粉会不会营养不够啊",
+            "label": "BIOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不会的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有问题了，谢谢了",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "只是更容易消化",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,224 @@
+{
+    "data-split": "train",
+    "example-id": "10100659",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好孩子除了发热还有别的症状吗?比如咳嗽呕吐腹泻?精神状态怎么样?",
+            "label": "OOOOOOBIOOOOOOOOOOBIBIBIOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "咳嗽",
+                "呕吐",
+                "腹泻"
+            ],
+            "type": [
+                "2",
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这是第一天的时候有拉肚子",
+            "label": "OOOOOOOOOBII",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "第二天开始发烧38度左右，吐了两次，然后拿了药吃，肌肉针，没有发烧",
+            "label": "OOOOOBIBIIOOOBOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "发热",
+                "中等度热",
+                "呕吐",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "打的什么药物?",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在孩子精神怎么样?",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "第三天没烧也没什么，第四天第五天今天第六天都是早上发烧37.8这样，药一吃，降温一整天都没事",
+            "label": "OOOOBOOOOOOOOOOOOOOOOOOOOBIBIIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "发热",
+                "低热"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "村上诊所，什么药物具体不懂，就是消炎针",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神都挺好的，吃饭也还可以，就是早上五六点会烧，昨天开始有点流清涕",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBOOOOOOOBII",
+            "normalized": [
+                "发热",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好这种情况最好去查个血常规看看",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果血常规没事孩子精神状态好可以回家吃药",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "看看什么原因导致发烧是吗？",
+            "label": "OOOOOOOOBIOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "确定病毒还是细菌对吗",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，明白了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是病毒性的属于自限性的自己慢慢会好",
+            "label": "OOOBIIOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也要吃药的吧，不吃药能好吗",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃点抗病毒的药物会好",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，明白了，谢谢",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子发热时间长了需要查血找找原因",
+            "label": "OOBIOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您还有什么问题需要咨询吗",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好孩子好了吗",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

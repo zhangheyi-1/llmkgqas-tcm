@@ -1,0 +1,512 @@
+{
+    "data-split": "train",
+    "example-id": "10805132",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗨你好啊请问宝宝现在发烧是几天了体温是多少度，还有没有其他的症状，",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "发烧第二天，早晨正常，中午到晚上发烧",
+            "label": "BIOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有点干咳",
+            "label": "OOBI",
+            "normalized": [
+                "干咳"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯哪宝宝有没有做过肺里有没有做过肺部的听诊查没查过血常规现在还服用了什么药物吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "肺部和支气管都听了没事，用的中药贴，血尝规没做",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在诊所看的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯是这样啊，嗯建议那就是说是应该是完善一下这个血常规看看孩子吧有没有病毒和细菌的感染，比如说有白小增高这种细菌感染的，需要这个，根据情况抗感染治疗，贴吧一般有这个清热解毒和退热的作用，但是物有细菌感染的话还是要根据情况对症使用抗生素治疗，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "早晨体温正常",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那在诊所看的时候这个跟宝宝那个有没有就是说身上没出现起皮疹当时诊所的大夫给他诊断的是什么？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "皮疹"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有疹子，就是给宝宝看看舌苔，听听肺和支气管，和看看了手",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在这个情况的话就是说宝宝以前有没有发过烧，德国像幼儿急疹这种情况也没有，就是说发个三天左右烧退身上起东西以前宝有这种情况吗？",
+            "label": "OOOOOOOOOOOOOOOOOOBIIOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "幼儿急疹"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝就是干咳，还拍拍了小肚子",
+            "label": "OOOOBIOOOOOOOO",
+            "normalized": [
+                "干咳"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯他当时给你诊断什么是上道感染吗？",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝有次打疫苗发烧，起了些红点点，但很快退烧，当天就退了",
+            "label": "OOOOOOOBIOOOOOOOOOOOBIOOOOBO",
+            "normalized": [
+                "发热",
+                "退热",
+                "退热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有时候话你这个不排除上次就是说如果说有热的有发烧之后有疹子出来这个就是幼儿急疹，但现在这个情况我见你还是应该先上医院查一个血常规看一下，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "幼儿急疹"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那诊所的大夫他是当时是给你掐出什么诊断她是考虑你是有上呼吸道感染呢还是什么情况，在一个他是个什么诊所是社区的门诊呢还是什么？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝也不流鼻涕也只是轻微咳嗽",
+            "label": "OOOOBIIOOOOOBI",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一天就咳嗽两三次",
+            "label": "OOOBIOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那就是说你这种不流鼻涕轻微的咳嗽一定的就是说声回道感染可以出现你现在这个情况，嗯这个就是说是如果查的血有病毒和细菌的话这些都有可能导致于出现有咳嗽但是就是说这个，最好每天得听听他有可能会有变化，他如果出现肺部听诊有罗音得根据情况还需要完善胸片看看有没有肺部的情况，",
+            "label": "OOOOOOOOBIIOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "唉，当时诊所给你下了什么诊断是感冒吗？",
+            "label": "OOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "社区的门诊，他是中医，他也没怎么说，就听听肺和支气管没事，看看舌苔和拍拍肚子，正好赶上我儿子咳嗽，他听见了，说是干咳",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOBI",
+            "normalized": [
+                "咳嗽",
+                "干咳"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦那这样的话他就说他并没有告诉你是什么名，明确的诊断就等于是没有确诊所以我见你还是上正规医院的儿科去肺部听诊下比较好，这样才可以就是说看他的肺部到底有没有问题需要完善血常规看看他有没有感染的表现，这样才好对症判断，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "听了两天",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "感冒",
+            "label": "BI",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "从你描述的症状上的还是现在考虑这个有这个上回头感染的情况，但是这个肺部听诊比较关键入听有罗音的话就不排除是有这个支气管炎和肺炎的情况，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOBIOOOO",
+            "normalized": [
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "每次去他都先听听",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "早就说她明确跟你说他的诊断就是感冒是吗？",
+            "label": "OOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦那你现在吧就说通知几天还是反复有发烧如果张症状用了药这个不见好转，应该就是在专门儿学儿科看一下，根据情况是我应该调整下用药，一般的就是说入肺部听诊没有什么问题的话，单纯的这种咳嗽发烧查血了过是有这个感染一个那是使用一些这个相性有清宣止咳颗粒了会清热解毒药物都可以对政治，",
+            "label": "OOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "咳嗽",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果伴随有细菌感染而根据情况选择像头孢类的抗生素之类的对症治疗，",
+            "label": "OOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯孩子玩这种上呼吸道感染如果控制不好也很容易演变成支气管炎肺炎也会出现有这种发烧啊咳嗽的表现轻度的时候儿他也不就是说张铮了跟感冒有说是很相似的笑完善检查之后才能够判断，",
+            "label": "OOOOOOBIIIIIOOOOOOOOOOOOOBIIIBIOOOOOOOBIOBIOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染",
+                "支气管炎",
+                "肺炎",
+                "发热",
+                "咳嗽",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢您医生",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在我三十七度以上现在贴退热贴多喝水三十八度以上用退烧药，还是先及时就诊，晚上这个茶的和检查好明确判断治疗，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝今天大便了几次？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天宝宝排便便排出线一样的东西是怎么回事啊",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "到现在就拉了一次",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "添加过什么辅食吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "排出很多红色",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要查一个大便常规，用显微镜看一下。",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃了点米粉跟蛋黄，中途还吃了点蒸苹果",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温正常吗？有无呕吐？",
+            "label": "OOOOOOOOBIO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "正常，没有呕吐",
+            "label": "OOOOOBI",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便常规看一下，看看有没有感染，只要没有感染的话，有可能单纯就有些食物残渣。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "会不会吃蒸苹果吃的",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "取个半小时以内大便，送到医院查一下。",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦，好的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不排除，如大便常规无异常，吃点益生菌调节就可以，如培菲康",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

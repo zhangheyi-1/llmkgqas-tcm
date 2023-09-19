@@ -1,0 +1,413 @@
+{
+    "data-split": "dev",
+    "example-id": "10075207",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问您家宝宝现在就只有您觉得呼吸声音大，对吧？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "对",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在还有点干咳",
+            "label": "OOOOOBI",
+            "normalized": [
+                "干咳"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦！",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不是太频繁没有痰",
+            "label": "OOOOOOOB",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽症状是这半个月来一直都有吗？",
+            "label": "BIOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "会不会发展成肺炎了",
+            "label": "OOOOOOBIO",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这两天开始",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个你上次治疗了，不咳嗽了，一般来说不会！",
+            "label": "OOOOOOOOOOBIOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不是前一段时间没有咳嗽就是喘气声大排片后说是气管炎一直没好最近开始又咳嗽了",
+            "label": "OOOOOOOOOBIOOBIIOOOOOOBIIOOOOOOOOOBIO",
+            "normalized": [
+                "咳嗽",
+                "喘息",
+                "支气管炎",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果现在又有点干咳的话，建议您去完善一些检查的，比如肺炎支原体的检验，还有看一下宝宝腺样体有没有肥大！",
+            "label": "OOOOOOOBIOOOOOOOOOOOOOOOOOBIBIIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "干咳",
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "肺炎支原体是怎么检查的",
+            "label": "BIBIIOOOOOO",
+            "normalized": [
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不想在排片了对宝宝影响不好",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为肺炎支原体感染的话，病程是比较长，没用对药的话，是没什么疗效的！还有如果宝宝腺样体肥大也会出现您觉得的呼吸声比较大的哦",
+            "label": "OOBIBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生用听诊器能听出有没有肺炎吗",
+            "label": "OOOOOOOOOOOOBIO",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肺炎支原体感染是抽血检查的",
+            "label": "BIBIIIIOOOOOO",
+            "normalized": [
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般的肺炎能听出来，但是肺炎支原体感染的，是听不到什么东西的！",
+            "label": "OOOBIOOOOOOOBIBIIIIOOOOOOOOOOOO",
+            "normalized": [
+                "肺炎",
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "支气管炎会发展成支原体感染吗",
+            "label": "BIIIOOOOBIIIIO",
+            "normalized": [
+                "支气管炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "肺炎支原体感染很严重吗",
+            "label": "BIBIIIIOOOO",
+            "normalized": [
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肺炎支原体是一种病菌来的",
+            "label": "BIBIIOOOOOOO",
+            "normalized": [
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以这么理解是有可能因为感染了肺炎支原体而导致的支气管炎或者肺炎哦",
+            "label": "OOOOOOOOOOOOOOOBIBIIOOOOBIIIOOBIO",
+            "normalized": [
+                "肺炎",
+                "支原体感染",
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肺炎支原体感染严格按疗程治疗，一般就没什么的！只是治疗的疗程比较久而已",
+            "label": "BIBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那当初排片的时候医生说就是支气管炎的啊还是不严重的就给开了药",
+            "label": "OOOOOOOOOOOOOBIIIOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "支气管炎不严重，没错！只是有可能是因为感染了肺炎支原体病菌而导致的，所以病程比较久！",
+            "label": "BIIIOOOOOOOOOOOOOOOOOOBIBIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般病程相对比较久，才会建议您做这个查有没有肺炎支原体感染的检查哦",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIBIIIIOOOO",
+            "normalized": [
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦谢谢了明天去医院得好好查下",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我这样说您能理解吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不用谢^O^",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯能理解谢谢了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还有个问题",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的??不用客气^O^",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您请问！",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我们之间谈话收费吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我们之间谈话收费吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我不知道耶，我只知道我不会收您的费用",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦谢谢了",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不用客气^O^",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有什么能帮到您的吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没什么的话，我结束对话喽？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

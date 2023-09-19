@@ -1,0 +1,426 @@
+{
+    "data-split": "train",
+    "example-id": "10505115",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，这位家长，有检查过大便常规吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "检查过了，说是正常，就脂肪球加1",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在宝宝状态很好，就是大便有时候很稀。次数多",
+            "label": "OOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "肚子里面总是呼呼响",
+            "label": "BIIIIIIII",
+            "normalized": [
+                "肠鸣音"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不好意思，这位家长我发错了",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，食欲怎么样？就是吃奶量怎么样",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦，没关系",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "都挺正常的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "就是除了腹泻，其他的都正常，是吗？",
+            "label": "OOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯，对的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前宝宝的主要症状就是腹泻，其他一切正常考虑，腹泻待查",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOBIOO",
+            "normalized": [
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我现在给她吃着妈咪爱",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "考虑的原因有以下我来分析一下，好吧",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯。",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "考虑感染性腹泻的可能。需要再次检查大便常规",
+            "label": "OOBIIIIOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为有感染情况存在时，会有炎症因子的释放，浸润肠道，影响肠道的功能，产生腹泻",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的。",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "考虑乳糖不耐受的可能啊，建议检查大便乳糖，如果大便乳糖提示阳性，考虑乳糖不耐受。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "抗生素现腹泻的可能。因为宝宝是因为应用抗生素之后出现腹泻的。需要检查大便培养。",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦，乳糖不耐受可以化验出来是吗",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一般县里医院有没有这个检查功能",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的是的，检查大便乳糖这个项目就可以查出来。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦，应该有吧，因为我就是县医院，我们这可以",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的。",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "请问如果是乳糖不耐受，要怎么治疗",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为抗生素可以破坏肠道的菌群，导致菌群失调，肠道功能紊乱而出现腹泻。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是乳糖不耐受的话，需要停母乳及奶粉",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "啊？那吃什么",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要口服蒙脱石散，保护胃肠道黏膜，益生菌调节肠道菌群。吃辅食，吃无乳糖奶粉。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的。",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，我总结一下啊",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前主要就是腹泻，你其他一切都正常，嗯建议以上公立医院儿内科就诊，检查大便常规乳糖，大便培养等，查找腹泻的原因，以便针对性治疗。",
+            "label": "OOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果有细菌感染，而且无药物过敏史，需要口服头孢克肟颗粒，抗炎治疗",
+            "label": "OOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的??",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为长期腹泻影响孩子营养的吸收，可能会出现贫血，电解质紊乱，肠壁黏膜脱落，便血等",
+            "label": "OOOOBIOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "贫血"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "所以呀，有必要去检查清楚的。",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的饮食呢，主要是清淡易消化饮食，最好的是米粥和面条为主，煮的久一点。可以保护胃肠道黏膜",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "对了。她有时候会拉粘液，透明的，那个是不是肠粘膜??",
+            "label": "OOOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "大便粘液"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "，暂时可以口服蒙脱石散，保护胃肠道黏膜，益生菌调节肠道。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那个蒙脱石散是不是有水量的限制",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可能是肠黏膜",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "如果是乳糖不耐受，我在网上看到说可以吃乳糖酶。请问可以吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一袋需要五十毫升的温水冲服。",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果也是乳糖不耐受的话，可以服用乳糖酶的，是的可以的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是乳糖不耐受的话，停母乳服用乳糖酶，这样效果会更好一些更快。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，太感谢您了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您先忙。",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "二甲以上公立医院儿内科就诊。",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

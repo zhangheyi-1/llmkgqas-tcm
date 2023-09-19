@@ -1,0 +1,185 @@
+{
+    "data-split": "dev",
+    "example-id": "10070589",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，请问宝宝有什么症状？咳嗽吗？发烧吗？",
+            "label": "OOOOOOOOOOOOOBIOOBIOO",
+            "normalized": [
+                "咳嗽",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽。现在不发烧，昨天下午发烧",
+            "label": "BIOOOOBIOOOOOBI",
+            "normalized": [
+                "咳嗽",
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "检查结果是阴性。可以不用。",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前在诊所输液，输了4天了。氨曲南。今天加了组头孢",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好，最好去正规的医院给孩子检查治疗。",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前是因为嗓子先发炎溃疡。发烧。然后输液",
+            "label": "OOOOOOOOOOOOOBIOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗓子好了吗？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天去医院做了血常规。又让输阿奇霉素。我想先让孩子口服",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗓子好很多了，基本没有溃疡了。只是还是有点咳嗽。",
+            "label": "OOOOOOOOOOOBIOOOOOOOOBIO",
+            "normalized": [
+                "口腔溃疡",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，是去医院检查了，那就用上吧！",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "先口服可以对不对",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以先口服。",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这个阴性还不是很严重的对吧",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "先用三天。再观察。",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那好的。谢谢您了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不用谢，祝宝宝早日康复。",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肺炎支原体阴性，不排除衣原体感染。",
+            "label": "BIBIIOOOOOOBIIIIO",
+            "normalized": [
+                "肺炎",
+                "支原体感染",
+                "支原体感染"
+            ],
+            "type": [
+                "2",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "服用阿奇霉素也是可以的吧",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "能行。",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气。",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

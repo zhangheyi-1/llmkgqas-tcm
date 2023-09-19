@@ -1,0 +1,264 @@
+{
+    "data-split": "train",
+    "example-id": "10706226",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，多长时间了？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "差不多10几天了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是一直腹泻还是中间有好转，然后再次出现的？",
+            "label": "OOOBIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "做便常规化验了吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "中间有好转，然后又开始啦",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便是什么样的，一天几次？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在早上拉的正常的大便，中午到晚上拉的是绿色大便，有点黏糊",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIIIOOOOO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "黏糊装的，一天拉的没得次数",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "尿量怎么样，有没有吐奶？",
+            "label": "OOOOOOOOOBIO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "尿量是正常的，很少吐奶",
+            "label": "OOOOOOOOOBI",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "综合您所提供的主要症状就是腹泻，就是腹泻病，消化功能出现了问题。但目前没有恶心呕吐，腹胀，尿量减少。对于疾病的轻重阶段。",
+            "label": "OOOOOOOOOOOOOBIOOOBIOOOOOOOOOOOOOOOOOBIBIOBIOBIIIOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻",
+                "恶心",
+                "呕吐",
+                "腹胀",
+                "尿量减少"
+            ],
+            "type": [
+                "1",
+                "1",
+                "2",
+                "2",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "虽然说是消化不良的可能性比较大，但是腹泻的原因有很多，比如是不是肠道的炎症细菌感染或者是病毒感染，所以说你必须去做便常规的化验。",
+            "label": "OOOOBIIIOOOOOOOOOOBIOOOOOOOOOOOOOOOOOBIIIOOOBIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良",
+                "腹泻",
+                "细菌感染",
+                "病毒感染"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "母乳？",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那要怎么办呢？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果大便次数很多的话，基本没有自愈的，可能，需要做便常规化验，然后再口服药物。根据化验结果看吃什么药。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的，吃的母乳",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "暂时没有做化验的情况下可以吃益生菌加蒙脱石散。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "母乳喂养的话，妈妈不能吃辛辣刺激性的食物，寒凉的也不可以，太油腻的也不行。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃过的呢",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个必须马上积极的治疗。如果腹泻越来越严重的话，那么会出现脱水，离子紊乱，酸中毒，甚至可能会有肾脏的损伤，所以一定要抓紧去化验检查，然后对症治疗。",
+            "label": "OOOOOOOOOOOOOOBIOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "脱水"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃过益生菌和蒙脱石散效果不好吗？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的，吃了没用",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果没用的话说明不对症，需去化验吧。查便常规。你却是感染引起的还是过敏引起的，或者是只是消化不良。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOBIIIO",
+            "normalized": [
+                "过敏",
+                "消化不良"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "从中医角度分析，如果长时间腹泻的话，可以加健脾的药物。",
+            "label": "OOOOOOOOOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果在此期间宝宝除了腹泻出现尿少口渴，精神状态特别不好或者频繁的呕吐的话，那么必须马上到医院就诊。",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以给宝宝顺时针按摩腹部做推拿治疗，看看能不能有所帮助。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

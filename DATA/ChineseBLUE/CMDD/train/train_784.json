@@ -1,0 +1,232 @@
+{
+    "data-split": "train",
+    "example-id": "10488268",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在吗",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "曲医生你好",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在这个孩子精神状态怎么样",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "超过38.5度需要给孩子口服退热药物的，过高的体温可能导致孩子出现抽搐啊",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "抽搐"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神不好，流口水，昏睡，医院医生说喉咙发炎了，我给她用了屁股塞的退烧药。",
+            "label": "BIIIOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "精神软",
+                "咽喉炎"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那就应该考虑上呼吸道感染呢",
+            "label": "OOOOOOBIIIIIO",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "上呼吸道感染多是由于病毒或者细菌感染引起的，如果血常规的检查结果基本正常，那需要考虑病毒感染的可能",
+            "label": "BIIIIIOOOOBIOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOO",
+            "normalized": [
+                "上呼吸道感染",
+                "病毒感染",
+                "细菌感染",
+                "病毒感染"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呼吸道感染的孩子一般有3到4天的高峰期，在这个期间孩子会出现反复的发热，过了高峰期以后症状会逐渐的缓解。",
+            "label": "BIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她基本上每个月都会这样，每次都去医院吊喜炎平，利巴韦林，我想问问这些药用多了会不好吧？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那说明这个孩子免疫功能低下呀，就会出现反复的呼吸道感染",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIIII",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "反复的输液治疗肯定会影响这个孩子的免疫功能，反复的应用这一类的药物可能会出现耐药的，会出现药物的不良反应",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，那怎样提高孩子的免疫功能？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以给孩子口服免疫调节剂，增加抵抗力，另外尽可能避免发生呼吸道感染，避免受凉",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOO",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这次我不带她去打针了，行不？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以先口服药物试试看的",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "毕竟呼吸道感染有3到4天的高峰期，在这个期间还是会出现反复的发热，度过高峰期以后症状会逐渐缓解，如果孩子精神状态好，可以先口服药物试试看的，特别是体温正常以后的精神状态",
+            "label": "OOBIIIIOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦，您说的口服免疫调节剂可以去药店买吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好，谢谢您了！",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有一条最主要的就是均衡的饮食，合理的营养",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "口服药物不是主要的",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是偏食，所以我也头疼，不知道该怎么办。",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "偏食的孩子需要注意缺锌的可能，当然也需要注意有没有脾胃功能不调，消化吸收能力差",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,281 @@
+{
+    "data-split": "train",
+    "example-id": "10691035",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好我是您的接诊医生",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝除了发烧有没有其他感冒症状呢？",
+            "label": "OOOOBIOOOOOBIOOOO",
+            "normalized": [
+                "发热",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "暂时没有其他症状，就是不高兴。有点闹腾。",
+            "label": "OOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在的话空调开的话一定注意，别开太凉了奥，风速别太大了！别着凉了！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝从昨天开始发烧的话体温最高多少度呢？",
+            "label": "OOOOOOOBIIOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "最高到39.1，今天中午降低到36.5但是现在又到38.2了。",
+            "label": "OOOBIIIOOOOOOOOOOOOOOOOOOBIIIOO",
+            "normalized": [
+                "高热",
+                "中等度热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯啊，宝贝体温的话用上退热药之后体温下降的，体温可能会反复的奥，用上之后体温下降后可能会反复的奥，勤测体温备好退热药，勤摸着小手小脚凉的话就测量一下体温，因为凉一般是体温上升期",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "四肢厥冷"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在手脚热乎吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "热乎乎的呢，昨天晚上一直是温水擦拭手脚。",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "手脚热乎的话目前就不用担心，体温暂时不会上升的奥！可以先物理降温半小时之后超过38.5可以再用退热药的奥",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝体温38以下不用特别处理的奥，体温超过38.5手脚凉的话可以用退热药的奥，手脚热乎的话就可以先物理降温的奥，如果体温不下降的话就可以用退热药的奥！这个是体温反复的病因的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "四肢厥冷"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发烧是机体的杀菌细胞与体内细菌病毒作斗争的表现，是对机体的一种保护，不用担心，发烧是一种症状，如果细菌或者病毒被控制了，自然就不发烧了奥！这个是体温反复的病因",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "发热",
+                "退热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这是怎么回事啊？大概持续多久啊？我们就一直这样等着吗擦拭降温吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝期间看过医生吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这是我闺女长这么大第一次发烧呢，中间没有看过医生。",
+            "label": "OOOOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "高烧的时候可以用布洛芬退热药的奥！低烧可以物理降温的，高烧的时候可以再用退热药的",
+            "label": "BIOOOOOOOOOOOOOOOBIOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "高热",
+                "低热",
+                "高热"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝目前的症状的话主要是考虑急性上呼吸道感染，这个可能由于受凉感冒或者感染引起来的，治疗的原则一般就是抗感染治疗的，注意保暖，备好退热药对症支持治疗的治疗原则的",
+            "label": "OOOOOOOOOOOOOOOOBIIIIIOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是不是就一直这样给她物理降温呢？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "等着她的身体机制和病毒做抗争吗？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝目前精神状态好，体温不是太高，用上退热药的话体温下降的话就问题不大的，目前的话您可以给宝贝备好退热药，勤测体温，备好退热药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "低烧的话就可以用物理降温",
+            "label": "BIOOOOOOOOOO",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前您就给宝贝备好退热药，观察体温症状，精神状态，如果两天体温症状不缓解或者加重，精神状态差及时带宝贝去儿内科就诊查个血常规明确一下发热病因，根据结果对症处理！如果有感染的话对症的用抗感染药物的奥，这样能够指导我们用药，用药时间，对宝贝来说也比较对症的，恢复起来也相对快点的！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "精神软",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在什么情况下需要去医院做检查呢？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要勤测体温，备好退热药，体温超过38.5手脚凉的话就可以用退热药的奥！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOO",
+            "normalized": [
+                "四肢厥冷"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝吃饭注意饮食，生冷辛辣刺激食物不能吃油腻食物不能吃，清淡饮食为主，多喝点温水，这个时候胃肠功能会影响所以能吃多少吃多少别强喂",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "如果超过38.5手脚还是热乎乎的就没有问题是吧？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个症状的话目前可能会有一个过程的，有的可能3到5天的疗程，看完面诊医生之后药物吸收也是一个过程的，所以体温可能会有一个反复过程的奥！不可能立马就不发烧了奥",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "超过38.5，39以下手脚热乎可以多喝点温水，体温半小时之后再上升的话就可以用退热药的奥！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前宝贝体温还是比较稳定的，目前就是勤测体温备好退热药，观察两天不缓解可以做个检查之后根据结果对症处理，注意以上注意事项，别着凉，多喝点温水",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

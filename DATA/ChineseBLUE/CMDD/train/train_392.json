@@ -1,0 +1,534 @@
+{
+    "data-split": "train",
+    "example-id": "10580271",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前看过医生吗，化验过血常规吗",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有化验，看过医生说器官有点问题，灌药四天，又吃了几天药，依托红霉素",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那看过医生后，诊断什么疾病，小儿感冒，还是支气管炎？听诊气管有问题，是支气管炎吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOBIIIOO",
+            "normalized": [
+                "支气管炎",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天去复查换了医院，医生说快好了，器官目前听着没问题，可是还是黄鼻涕稠稠的，咳嗽有痰",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOBIBI",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有门诊病历吗？发我看一下吧。",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有门诊病历",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "私立医院，直接开药罐针",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在咳嗽还厉害吗？咳嗽频繁吗？痰还多不多？",
+            "label": "OOBIOOOOOBIOOOOBOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽不是很厉害，一咳就有痰",
+            "label": "BIOOOOOOBIOBI",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "鼻涕也还有",
+            "label": "BIOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前看第一次就医的时候。听诊气管里有问题，考虑还是一个支气管炎的情况，同时目前治疗后，还是没有完全治愈。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还需要吃药吗",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃了好几天了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "流黄色的浓鼻涕，在西医角度讲的话，还是考虑因为细菌感染，引起的黄色脓鼻涕。",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOBIIIOOOOOOOBIO",
+            "normalized": [
+                "鼻流涕",
+                "细菌感染",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "服用的什么药，发我看一下吧。",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "依托红霉素颗粒，小儿咳嗽颗粒，羚贝止咳糖浆",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看目前药物服用的还是可以的，有消炎药，同时也有止咳祛痰药物。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于支气管炎的两大治疗原则，就是消炎和祛痰。",
+            "label": "OOBIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这些药我服用治疗几天了，好转明显吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "服用5天了，感觉没好也没坏",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还是原来样子",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果感觉没有明显的好转，可以调整一下用药。",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是不是没对症下药",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "比如消炎药可以换头孢类的药物，另外加一种专门的祛痰药，痰液溶解剂，同时也可以吃点治疗风热的感冒药，中医角度讲，黄色脓鼻涕的话，考虑有风热型感冒。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOBIO",
+            "normalized": [
+                "痰",
+                "鼻流涕",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "同时，多注意拍背，帮助排痰。如果痰还是多的话，也可以做雾化吸入治疗，吸入祛痰药物。",
+            "label": "OOOOOOOOOOOBIOOOBOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议按照以上方法调整用药，治疗三天后，就医小儿科，让医生听诊检查，复诊病情。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢专家指导",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，别客气，用专门的化痰药，多注意拍背，震荡。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯，好",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，还有别的需要咨询的吗？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前孩子出汗多，有多久了？是运动后出汗多，还是睡眠后出汗多。",
+            "label": "OOOOBIOOOOOOOOOOOBIOOOOOOOBIOO",
+            "normalized": [
+                "出汗",
+                "出汗",
+                "出汗"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "睡眠后也出，平时家里空调开着没事一关了就出",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果天不是很热的话，出汗也很多吗，化验过微量元素吗？有没有缺钙的情况。",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "出汗",
+                "缺钙"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "出汗特别多，而且感觉是晾汗",
+            "label": "BIOOOOOOOOOBI",
+            "normalized": [
+                "出汗",
+                "出汗"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有化验",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在孩子多大，鱼肝油补充了吗？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一岁三个月",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "最近没补天热怕上火",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "需要做个微量元素吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说小孩出汗比较多，考虑和小孩自身新陈代谢旺盛，活动量大，体内积蓄热量多有关系。另外就是考虑可能有缺钙的可能，可以化验微量元素，看一下有没有钙的，缺乏。",
+            "label": "OOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "出汗",
+                "缺钙"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "晚上睡觉比白天多",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，鱼肝油需要吃到两岁左右，建议再吃一些。同时饮食上注意多喝配方奶粉，含钙比较丰富。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果有缺钙情况的话，注意适当的补钙。如果出汗比较多的话，需要及时的把潮湿的衣服换下来，以防着凉。",
+            "label": "OOOBIOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "缺钙",
+                "出汗"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，目前建议有时间去小儿科就医，化验微量元素检查，看是否有缺钙情况，引起的小儿多汗。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOBIO",
+            "normalized": [
+                "缺钙",
+                "出汗"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "鱼肝油需要继续吃，饮食上多喝牛奶，喝点骨头汤，吃点虾皮，含钙都比较丰富。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外，就是多汗也和小孩的年龄阶段有关系，本身小孩就是新陈代谢旺盛，活动量大，出汗多一点也比较常见。注意多喝水，换洗衣服。",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "出汗",
+                "出汗"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，知道了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，还有别的需要咨询的吗？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，有问题随时留言。祝身体健康，再见。",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "别客气，应该的。再见",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对了，忘记问了。小孩近期有没有补过钙？近半年内有没有吃过补钙的药物？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

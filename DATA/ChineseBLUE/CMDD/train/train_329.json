@@ -1,0 +1,360 @@
+{
+    "data-split": "train",
+    "example-id": "10416565",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我是您的接诊医生",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好，就我刚才发的，要紧吗",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在有什么不好吗，最近有没有着凉，有鼻塞流鼻涕，发热咳嗽等症状吗",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIBIIOBIBIOOOO",
+            "normalized": [
+                "鼻塞",
+                "鼻流涕",
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "1",
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "为什么要给宝宝做这个血液的检查？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前几天流鼻子然后现在有点咳，没发烧，去体检时抽的血",
+            "label": "OOOBIIOOOOOOBOOBIOOOOOOOO",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在还流鼻涕吗？咳嗽厉害吗，大约一天咳嗽几次？",
+            "label": "OOOOOBIIOOBIOOOOOOOOBIOOO",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "早上起来流一点点，一天咳几次我没注意，但次数不多",
+            "label": "OOOOOOOOOOOBOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生有没有给宝宝听诊，说孩子现在主要是什么情况呢",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生有没有给宝宝开药",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝稍微有点咳嗽，流鼻涕，淋巴细胞偏高，还是有些病毒感染情况，但是宝贝一般情况还可以，您不要太担心了！",
+            "label": "OOOOOOBIOBIIOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕",
+                "病毒感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天去小医院看，医生说有点干结，然后开了一盒小儿金翘颗粒",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，按照医生给的药按时服用就可以了，配合医生治疗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃药观察2-3天，如果宝贝咳嗽加重，精神不好，就带宝贝去二级以上医院小儿内科就诊，听诊一下，拍个胸片，或复查一下血常规就可以，便于对症治疗！",
+            "label": "OOOOOOOOOOOOOBIOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "精神软"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝白天很乖，但一到晚上十二点以后就不睡觉的哭",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOB",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝有没有腹泻或腹胀情况呢，宝贝有没有口服鱼肝油？",
+            "label": "OOOOOBIOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹胀"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "只吃着伊可新",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝有没有枕秃或爱出汗摇头情况？哭闹烦躁安抚后能安静入睡吗",
+            "label": "OOOOOOOOOBIOOOOOBIBIOOOOOOOOO",
+            "normalized": [
+                "出汗",
+                "哭闹",
+                "烦躁"
+            ],
+            "type": [
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "伊可新一直吃着吗，现在宝贝户外活动多吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "活动的多呢，就是哭闹烦躁",
+            "label": "OOOOOOOOBIBI",
+            "normalized": [
+                "哭闹",
+                "烦躁"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个情况还是不排除缺钙的情况，您可以继续给宝宝口服伊可新，多给宝宝吃点鸡蛋，虾皮等含钙高的食物！",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "缺钙"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "伊可新和鱼肝油都要吃吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "适当户外活动，晒太阳促进钙吸收，观察一个月左右，没有好转的话就带宝贝去医院小儿内科就诊检查一下微量元素，排除缺钙情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "缺钙"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "伊可新就是鱼肝油的",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝平时可以多喝水，咳嗽有痰的话可以帮助宝宝拍背促进痰液排出来，宝贝早晚减少出门，避免温差刺激加重咳嗽，鼻塞等症状！",
+            "label": "OOOOOOOOOOBIBIOOOOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOOOBIOBIOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "痰",
+                "咳嗽",
+                "鼻塞"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她前几天肯吃辅食的，可是这两天就只肯吃奶",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平时室内勤通风，保持新鲜空气流通，加强喂养，增强抵抗力！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这几天稍微有点咳嗽，流涕，不太舒服，宝贝不爱吃辅食，就不要强迫孩子，先喂母乳观察几天，过几天再慢慢添加辅食就可以了！",
+            "label": "OOOOOOOOOBIOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有疑问吗",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了，谢谢",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您有任何问题可以随时和我联系或留言，我看到后会第一时间回复。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝愿宝宝健康成长！",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "噢，那个病毒感染不用处理吗",
+            "label": "OOOOBIIIOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "给宝贝吃医生开的小儿金翘颗粒就可以了，有清热解毒的作用，多给宝宝喝水，避免感冒就可以！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有疑问吗？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

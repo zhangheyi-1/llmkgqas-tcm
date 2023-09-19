@@ -1,0 +1,286 @@
+{
+    "data-split": "train",
+    "example-id": "10617742",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，我是您的接诊医生",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "女宝，1周10个月，宝宝腹泻大概3天了，精神很好，食欲很好，无剧烈腹痛和体重明显减轻的情况，没有发烧，只是腹泻，水状便无泡沫，些许泛白，有帖过肚脐贴，但是胶带过敏使用20小时左右取下，贴脐贴期间排便一次没有腹泻，取下后又反复腹泻，腹泻频率在一天2次左右",
+            "label": "OOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOBIOOOBIOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOBIOBIOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹痛",
+                "发热",
+                "腹泻",
+                "过敏",
+                "腹泻",
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "2",
+                "2",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝最近有没有吃什么不合适东西来吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，吃的很平实一样，没吃什么原来没吃过的新东西",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最近肚子有没有着凉呢？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝大便一天几次呢？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大概2次",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可能开空调的时候总是光脚下地",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "精神状态怎么样呢？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "尿量多吗？",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "尿量还可以，但是比不腹泻的时候少",
+            "label": "OOOOOOOOOOBIOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "很爱喝水",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯啊，那就好，给宝贝多喝点温水的恩",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "期间看过医生吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有看医生，就是贴过一个脐贴",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "贴脐贴的时候大便一次，没有腹泻",
+            "label": "OOOOOOOOOOOOOBI",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "取下脐贴后又开始腹泻",
+            "label": "OOOOOOOOBI",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝目前的大便情况主要是一个消化不良的表现，消化不良的话可能受凉或者胃肠功能弱都可能引起来消化不良的，治疗的原则一般就是调节胃肠功能的治疗原则奥",
+            "label": "OOOOOOOOOOOOOOBIIIOOOOBIIIOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良",
+                "消化不良",
+                "消化不良"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的话宝贝精神状态好，尿量多，大便次数还是可以的，所以目前病情比较稳定的，如果宝贝大便次数比较多的话如果不控制的话就容易脱水的，表现为宝贝尿量少，眼窝凹陷之类的，皮肤粘膜干燥等脱水症状，目前的宝贝情况可以观察一下，可以给宝贝喝点益生菌调节一下胃肠功能的",
+            "label": "OOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "尿量增多",
+                "脱水",
+                "尿量减少"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那要吃些什么可以调节下呢",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "除了上边的益生菌调节外还需要注意饮食的奥！宝贝吃饭注意饮食，生冷辛辣刺激食物不能吃油腻食不能吃，清淡饮食为主，水果之类的也不要吃，多喝点温水，多给宝贝热敷一下肚子，顺时针揉揉肚子，别着凉肚子，晚上睡觉盖好被子，别着凉，这个时候胃肠功能会影响所以能吃多少吃多少别强喂奥！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃着益生菌观察三天，大便次数，大便性状不缓解或者加重及时带宝贝去儿内科就诊查个大便常规明确一下病因，根据结果对症处理，精神状态差，超过8小时没尿的话就可以及时带宝贝去儿内科就诊补液对症治疗了，防止宝贝脱水电解质紊乱的奥！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "精神软",
+                "脱水"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢您",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个胃肠功能紊乱的话治疗疗程怎么也得3到5天的疗程的，目前的话胃肠功能恢复就像手破了修复是有一个过程的奥，可以给宝贝巩固益生菌的奥",
+            "label": "OOOOBIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "胃肠功能紊乱"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个益生菌的话用上之后症状不会立马消失的奥，会有一个过程的奥！您不用太担心了，只要是精神状态好尿量多的话就问题不大",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，益生菌跟乳酸菌是一样的不",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "喝点益生菌类的吧，这个调节胃肠功能的话会好点的奥！您可以去面诊医生那里拿点，这样的话也相对比较安全！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的话宝贝病情比较稳定的奥，可以吃点益生菌调节一下观察一下，再注意以上注意事项奥，有问题及时就医的奥",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好好，谢谢您^_^",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气的，祝宝贝健康",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有问题欢迎咨询",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您很细心，谢谢",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

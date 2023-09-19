@@ -1,0 +1,266 @@
+{
+    "data-split": "train",
+    "example-id": "10237832",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问宝宝有什么症状要化验血？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "早上有点咳嗽",
+            "label": "OOOOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽时有痰音吗？",
+            "label": "BIOOBIOO",
+            "normalized": [
+                "咳嗽",
+                "痰鸣音"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就咳咳两身，听不出来",
+            "label": "OBIOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝的血象提示有病毒感染，医生开了什么药？",
+            "label": "OOOOOOOOBIIIOOOOOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃奶，睡觉，精神都好的",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，家里有人感冒吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "运泰头孢呋辛酯干混悬剂就这个药",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "家人没感冒",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，那就按医生的要求来吧！",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我就担心两个月的宝宝，可以吃药吗？",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的呀，孩子小，抵抗力也弱，感染期间最好不要外出，注意保暖。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦，本来担心宝宝会不会得肺炎，就带去医院看看，医生听了下说不是肺炎，说气管有点什么",
+            "label": "OOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "肺炎",
+                "肺炎"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可能是气管有点炎症吧，那就尽快治疗吧，以防发展成肺炎",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，麻烦问下医生我宝宝有湿疹，一热就发出来，这个药对湿疹会不会有影响，早上吃了药，头上好像发了几点红的出来",
+            "label": "OOOOOOOOOOOOOBIOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "湿疹",
+                "湿疹"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "药物不会加重湿疹的，但是要区别一下是过敏引起的荨麻疹还只是湿疹。",
+            "label": "OOOOOOBIOOOOOOOOOOBIOOOBIIOOOBIO",
+            "normalized": [
+                "湿疹",
+                "过敏",
+                "荨麻疹",
+                "湿疹"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，宝宝问题应该不大吧？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你是说支气管炎还是湿疹？",
+            "label": "OOOBIIIOOBIO",
+            "normalized": [
+                "支气管炎",
+                "湿疹"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "支气管",
+            "label": "BII",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该问题不大，用药三天后无好转甚至加重，最好再去医院让医生听一下。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "关键是我也不知道怎么区别有没有好转，宝宝就是早上起来咳嗽几声，有时候不会，白天不咳，精神状态，吃奶，睡觉都很好！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "就是咳嗽的声音加深，次数增多，就是有加重。",
+            "label": "OOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

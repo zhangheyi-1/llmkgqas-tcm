@@ -1,0 +1,528 @@
+{
+    "data-split": "train",
+    "example-id": "10846756",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "孩子体温现在多少度呢？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "38.6",
+            "label": "BIII",
+            "normalized": [
+                "中等度热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在手脚热乎吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我一直在给宝宝喝水",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子如果手脚热乎就问题不大，可以多喝点温水，半小时之后测量一下体温，体温不下降可以用退热药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "手心温的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "脚现在有点凉",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子急性期的时候体温反复一般4小时就会上来，所以体温反复超过4小时就能退热药的！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "脚有点凉体温可能会上升但是体温不会波动很快",
+            "label": "BIIIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "四肢厥冷"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子去医院做过什么检查吗？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "11点半喂了美林",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生给孩子诊断的急性上呼吸道感染吗？",
+            "label": "OOOOOOOOOOBIIIIIOO",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "查了血，白细胞正常的",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝头很热",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那孩子就是由于病毒感染引起来的",
+            "label": "OOOOOOOBIIIOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那怎么办呢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子最主要是看手脚，手脚热乎体温暂时不会上升，所以多喝点温水，退热贴用着过半小时就可以测量一下体温，3点半的时候体温不下降可以用退热药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子现在就吃了百蕊颗粒这一种药，对吗",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝手心有汗",
+            "label": "OOOOBI",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子体温病毒感染体温会反复，随着病毒慢慢被控制，自然体温也稳定了",
+            "label": "OOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子手心有汗就没事，多喝点温水",
+            "label": "OOOOBIOOOOOOOOO",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喝水喝得打嗝了",
+            "label": "OOOOBIO",
+            "normalized": [
+                "呃逆"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子这个急性上呼吸道感染由于病毒感染引起来的，一般会有3到5天的热程，治疗原则控制感染退的等对症治疗",
+            "label": "OOOOOOBIIIIIOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染",
+                "病毒感染"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在不用担心，体温暂时波动不大，3点半测量一下体温",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那要不要打针呀",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "基本都是高热呢",
+            "label": "OOOOBIO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子体温反复是正常的，只要体温用上退热药之后下降就没事，医生给孩子开了百蕊颗粒清热解毒治疗，备好退热药高烧的时候应用，这个治疗方案可以的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝现在醒了，在玩，流鼻涕了",
+            "label": "OOOOOOOOOOBIIO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子这个急性期体温会越来越高，随着病毒被控制体温自然也就慢慢下降了，不会这么高了！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "鼻涕清水鼻涕吗？",
+            "label": "BIIIIIOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不用喝其他药吗",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子这个体温先不用打针，喝着医生的用药观察两天，体温不缓解及时带着孩子去就近医院儿内科就诊给孩子看一下需不需要复查血常规需不需要查心肌酶谱肺炎支原体等检查，根据结果对症处理",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "清水鼻涕就是感冒着凉的表现，一定注意保暖，多喝点水！清水鼻涕症状就会好点",
+            "label": "BIIIOOBIOOOOOOOOOOOOOOOOOOBIIIOOOOOO",
+            "normalized": [
+                "鼻流涕",
+                "普通感冒",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯，",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子饮食注意，孩子妈妈吃母乳的话饮食注意别吃凉的，别吃油腻的，胃肠功能有影响的话别强喂",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子现在精神状态还可以，体温反复是正常的，勤测体温备好退热药，高烧的时候及时应用退热药，防止孩子体温过高抽风",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "高热",
+                "抽搐"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝发烧后大便了3次",
+            "label": "OOBIOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神比之前差多了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "之前正常情况下大便一天几次呢",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一次",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "精神发烧的时候肯定会有影响，退烧之后能玩精神状态还可以就行",
+            "label": "OOBIIOOOOOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "高热",
+                "退热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子发烧胃肠功能会有影响，所以孩子大便次数不是太多可以观察一下注意饮食，别着凉肚子，大便次数增多可以用点益生菌调节一下胃肠功能",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子目前的血常规问题不大，主要是病毒感染的影响！这个病毒得随着用药被慢慢控制之后体温也就慢慢好了！不用担心，热程肯定会有一个",
+            "label": "OOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝现在又有39.2",
+            "label": "OOOOOOBIII",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "用点退热药吧，体温上升的话！",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "等下退了烧是不是要喂百蕊颗粒呢",
+            "label": "OOOOBOOOOOOOOOO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那个药您就按照医生的医嘱一天两次或者三次的喂就行，不用每次发烧都用这个的，每次发烧必须喂的是退热药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天中午喂的吐了，晚上的还好，现在是不是能喂一次呢",
+            "label": "OOOOOOBOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，这个药不用喂这么勤，根据医生医嘱用就可以？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "听说美林对孩子伤害挺大的",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "喂药的时候别一下喂太多了，注意喂药姿势，别太急了！孩子可能不会吐这么明显",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "美林的主要成分是布洛芬，不会有什么太大的伤害的！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "美林安全性还是可以的，孩子体温会随着病程的进行，发烧间隔慢慢延长，就是好转的表现",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢了",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

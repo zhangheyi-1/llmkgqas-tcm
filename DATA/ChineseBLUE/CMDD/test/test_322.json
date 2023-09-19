@@ -1,0 +1,300 @@
+{
+    "data-split": "test",
+    "example-id": "10256742",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，宝宝每天排便几次？尿量正常吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "天了六七次，晚上三四次",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "用尿不湿的，每次换包都湿",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝体重增加正常吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "22天帮她称体重涨了两斤",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝排便每天10次左右，是有点次数多，正常应该是黄色稀糊状便，不过宝宝体重增加正常，说明生长发育正常，应该没有大问题。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是金黄色的，不过时间长了会变成绿色了",
+            "label": "OOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她肚子偶尔咕噜响",
+            "label": "OBIIIIII",
+            "normalized": [
+                "肠鸣音"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以注意腹部保暖，母乳喂养宝宝次数较相对多，如果次数多，绿色有泡沫，建议化验便常规及尿半乳糖测定是否有乳糖不耐受情况。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "拉的粑粑有水分，个把小时喝一次奶",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "正常宝宝肚子也会响不过每分钟约3-5次",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，宝宝哺乳佳，体重增加正常，精神状态好，所以不用紧张，不过方便的话可以做个便常规及半乳糖测定，明确腹泻原因",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "半乳糖测定是什么意思？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "就是除外宝宝腹泻是不是乳糖不耐受引起",
+            "label": "OOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "乳糖不耐受会怎样？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "乳糖不耐受就会腹泻，口服益生菌及止泻药无效",
+            "label": "OOOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝现在给她吃妈咪爱了，不见好转",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便多是稀便有水有泡沫，有时有酸臭味。",
+            "label": "OOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，如果纯消化不良，口服益生菌类多可以好转",
+            "label": "OOOOOOBIIIOOOOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外宝宝有湿疹吗？",
+            "label": "OOOOOBIOO",
+            "normalized": [
+                "湿疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "肚子上前两天洗澡的时候有几处红疹",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有关系吗？",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果有湿疹，还需注意过敏引起。",
+            "label": "OOOBIOOOOOBIOOO",
+            "normalized": [
+                "湿疹",
+                "过敏"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是喝妈咪爱引起的红疹吗？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该不是妈咪爱原因。是要注意是否平时有湿疹，如果有湿疹，伴腹泻，需要注意宝宝是特异性体质，腹泻是过敏性的",
+            "label": "OOOOOOOOOOOOOOOOOOOBIOOOOBIOOBIOOOOOOOOOOOOOOBIOOOOO",
+            "normalized": [
+                "湿疹",
+                "湿疹",
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "所以方便的话可以做个化验检查，不方便可以更换数日腹泻奶观察大便是否改善",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "给她喝奶粉吗？不给她喝母乳吗？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "母乳是宝宝最好的食物，所以最好母乳喂养，化验检查明确诊断，如果不方便化验检查，更换腹泻奶观察可以作为一种诊断方法。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "算了吧，还是去医院做检查",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，宝宝出生就大便次数多，有水，所以上诉两种原因多见。还是医院做个检查吧",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不过目前发育，不用太紧张不影响",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,439 @@
+{
+    "data-split": "train",
+    "example-id": "10696523",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好我是您的接诊医生",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝最近家里有人感冒吗？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有着凉呢",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也没感冒，宝宝爸爸前两天发烧了",
+            "label": "OOBIOOOOOOOOBIO",
+            "normalized": [
+                "普通感冒",
+                "发热"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有着凉",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯啊，宝贝家里有人感冒的话最好带好口罩避免交叉感染的，别靠太近了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝除了发烧的话有没有其他症状呢",
+            "label": "OOOOBIIOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有别的症状",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "化验单您看了吗",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在体温的话较最初的时候有所缓解吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝这么小，没有小口罩",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大人带好口罩感冒的话",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃完药就缓解，药劲儿过去就烧",
+            "label": "OOOOOOOOOOOOOB",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝体温的话体温最高的有没有较之前减少，现在发烧的间隔一般多长时间",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有减少",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "四五个小时烧一次",
+            "label": "OOOOOBOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个体温的话可能会有反复的奥，用上退热药的话体温下降的话就问题不大，发烧的话急性期的话这个体温可能越来越高体温再慢慢好转的一个过程的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温因为有感染，化验单的话是有炎症和病毒感染的奥，这个就是感染引起来的发烧的奥，随着感染被控制的话体温才能慢慢稳定的奥，勤摸着小手小脚凉的话就测量一下体温，因为凉是体温上升期",
+            "label": "OOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染",
+                "发热",
+                "四肢厥冷"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝体温的话高烧的时候用退热药，一般超过38.5可以再用退热药的奥，宝贝体温38以下不用特别处理的奥，体温超过38.5手脚凉的话可以用退热药的奥，手脚热乎的话就可以先物理降温的奥，如果体温不下降的话就可以用退热药的奥！",
+            "label": "OOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝精神状态怎么样呢",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我给他物理降温",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神挺好，吃喝玩儿",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯啊低烧可以物理降温的，高烧的时候用退热药缓解的奥，如果手脚冰凉的话超过38.5了可以再用退热药的奥！防止体温过高引起来抽风的",
+            "label": "OOOOOOOOOOOOBIOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "高热",
+                "四肢厥冷",
+                "抽搐"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "面诊医生给宝贝考虑上呼吸道感染吗",
+            "label": "OOOOOOOOOBIIIIIO",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有感染",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个就是由于感染引起来的上呼吸道感染的症状的奥，这个主要是由于感染受凉感冒等对症支持治疗的原则，治疗原则的话主要是抗感染，退热等对症支持治疗的原则的奥",
+            "label": "OOOOOOOOOOOOOOBIIIIIOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的话怎么治疗的呢",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "具体开的什么药呢，",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可是查了嗓子什么的都没事",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个嗓子可能有充血，感冒的症状，目前的话也是有感染的，这个目前的话就是上呼吸道感染的症状",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOBIIIIIOOO",
+            "normalized": [
+                "普通感冒",
+                "上呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "开了什么药呢？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "开的利巴韦林口服溶液，环酯红霉素干混悬剂",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在的话处于感染的急性期，所以体温可能会越来越高，再慢慢缓解的一个过程，宝贝体温用上退热药之后体温也容易下降，急性期时间间隔有的可能4）小时就可以上升，现在精神状态还可以，目前的病情还是比较稳定的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在就是四五个小时烧一次",
+            "label": "OOOOOOOOOBOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这个病大概几天能好",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "面诊医生根据宝贝具体情况给宝贝用了红霉素控制感染，利巴韦林抗病毒治疗，备好退热药，目前的治疗是符合治疗原则的，对宝贝来说恢复起来比较快的，面诊医生根据病因给宝贝用对应的药，感染控制了体温就不发烧了，药物吸收也是一个过程的，感染才能慢慢被控制，体温就慢慢稳定了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯啊，用上退热药下降也是正常的，现在有感染会反复的奥",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前您就给宝贝备好退热药，按时服用医生的药物，观察体温症状，精神状态，如果三天体温症状不缓解或者加重，精神状态差及时带宝贝去儿内科就诊看看需不需要复查血常规，需不需要进一步查心肌酶谱肺炎支原体等进一步明确一下发热病因，需不需要调整用药，根据结果对症处理！这样能够指导我们用药，用药时间，对宝贝来说也比较对症的，恢复起来也相对快点的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "精神软",
+                "支气管炎",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我以为是出疹子呢",
+            "label": "OOOOOBIO",
+            "normalized": [
+                "皮疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个病的话有一个病程的奥，一般3到5天时间的疗程的奥，所以这个可能会有一个热程的奥，目前的话用着面诊医生的药物吸收也是一个过程的奥，所以勤测体温备好退热药，按时服用面诊医生的药物，不积极治疗的话体内感染控制不完全不利于宝贝恢复，注意别着凉多喝点温水",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个热程会有一个过程的，出疹子的话现在看不到，一般发烧退了再出疹子的奥！幼儿急疹的话一般是这个规律",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBIBOOOBIOOOBIIIOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "退热",
+                "皮疹",
+                "幼儿急疹"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "已经烧了第三天了",
+            "label": "OOBOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯啊，这个不是说百分之百3天就稳定了，病程的话一般3到5天，这个还是要根据宝贝体内感染程度，体内免疫系统的作用，药物吸收都是一个过程的，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的话病情还是比较稳定的，体温不是很高，也容易退，精神状态也可以，所以可以先巩固着面诊医生的用药，再说用药这也是刚开始吃，药物吸收感染被控制也是一个过程的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，知道了医生",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯啊，目前的话刚开始服用医生的药物，符合治疗原则，可以先口服点面诊医生的用药，一定注意以上注意事项奥，多喝点温水，勤测体温备好退热药，观察三天，有问题及时就医的奥",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝妈吃饭注意饮食生冷辛辣刺激食物不能吃，油腻食物不能吃，多喝点温水，勤摸着小手小脚凉的话就测量一下体温，备好退热药，饮食的话可能会有影响，能吃多少吃多少别强喂奥！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "四肢厥冷"
+            ],
+            "type": [
+                "3"
+            ]
+        }
+    ]
+}

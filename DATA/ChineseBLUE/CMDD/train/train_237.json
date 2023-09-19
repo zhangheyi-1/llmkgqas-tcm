@@ -1,0 +1,286 @@
+{
+    "data-split": "train",
+    "example-id": "10046020",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好！请问宝宝2岁吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "2岁6个月",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝目前精神状态如何？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃吃零食不吃饭，躺着",
+            "label": "OOOOBIIOOO",
+            "normalized": [
+                "厌食"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有检查咽部情况？身上有皮疹吗？",
+            "label": "OOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "皮疹"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "睡觉时说梦话",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "既往有没有热性惊厥病史？",
+            "label": "OOOOOBIIIOOO",
+            "normalized": [
+                "热惊厥"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "身上没皮疹，没有惊厥史，我看不见她的嗓子，咽喉",
+            "label": "OOOBIOOOBIIOOOOOOOOOOOO",
+            "normalized": [
+                "皮疹",
+                "热惊厥"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前服用哪些药物？现在体温多少度？",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "泰诺，小儿氨酚黄那敏，出汗了",
+            "label": "OOOOOOOOOOOBIO",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝年龄小，持续高热易出现热性惊厥，建议就近二甲以上医院儿科就诊。",
+            "label": "OOOOOOOOBIOOOBIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "高热",
+                "热惊厥"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前宝宝需要检查一下咽部情况？必要的话服用清热解毒药物",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢，我去医院吧",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "给宝宝适量饮水，物理降温。勤测体温，注意精神状态。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的！",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝年龄较小，建议专业的儿科大夫指导用药。",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "多谢，再测个体温就去医院。",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的！",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "泰诺和小儿氨酚黄那敏是自己服用的吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "自备的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "自己决定给宝宝吃的，同时吃的吗？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "小儿氨酚吃了3顿了，1小时前吃1.5泰诺。不妥？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "泰诺就是对乙酰氨基酚，小儿氨酚黄那敏颗粒也有对乙酰氨基酚的，不建议同时服用，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "具体用药应该在医生的指导下服用",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "平时感冒不发热我就让孩子吃黄那敏，别的药她也不吃，对吗，？",
+            "label": "OOBIOBIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不发热的话不建议老服用氨酚黄那敏颗粒，可以口服艾畅",
+            "label": "OBIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "西药，什么成分？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小儿伪麻美芬",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢你，我去医院，希望还能遇见您，",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "再给宝宝测一下体温，建议二甲以上医院儿科就诊",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有需要随时为您服务！",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "38.2",
+            "label": "BIII",
+            "normalized": [
+                "中等度热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "再见！",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温呈现下降趋势，夜间也有可能复升，还是需要检查一下咽部，清热解毒治疗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

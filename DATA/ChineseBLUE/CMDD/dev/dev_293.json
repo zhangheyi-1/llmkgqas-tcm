@@ -1,0 +1,220 @@
+{
+    "data-split": "dev",
+    "example-id": "10228448",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，咳嗽有痰几天了？",
+            "label": "OOOBIBIOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽有3.4天了。咳嗽的不是跟厉害",
+            "label": "BIOOOOOOOBIOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝有发热吗？",
+            "label": "OOOBIOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "无发烧",
+            "label": "OBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有痰比较多。",
+            "label": "BIOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "鼻塞。流鼻涕。",
+            "label": "BIOBIIO",
+            "normalized": [
+                "鼻塞",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "食疗是辅助治疗的方法。不知宝宝有做肺部听诊吗？肺部及支气管有问题吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有。医生说肺部没什么问题",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "饮食可以熬雪梨蒸贝母有止咳化痰作用",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "但如果有支气管感染还是加用口服药物，以便短期恢复",
+            "label": "OOOOBIIIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在有吃匹多莫德。百蕊野马追浆。还有鼻子用药的是宝恩生理盐水",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "匹多莫德是调理免疫增强免疫功能作用，百蕊有止咳化痰清肺作用，盐水有清洁鼻腔改善鼻塞流涕作用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIBIOO",
+            "normalized": [
+                "鼻塞",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不知有化验血常规吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有化验。",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大夫！雪梨蒸贝母需要加冰糖吗？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大夫诊断是感冒还是支气管炎？",
+            "label": "OOOOOBIOOBIIIO",
+            "normalized": [
+                "普通感冒",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以少加，不要太甜",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大夫诊断是感冒。引起的咳嗽。喉咙有点红。",
+            "label": "OOOOOBIOOOOBIOBIIIIO",
+            "normalized": [
+                "普通感冒",
+                "咳嗽",
+                "咽喉炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，那可以上诉治疗，配合食疗",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "孩子吞咽口水不疼。",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的。谢谢。大夫！",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气，勤喂水，注意咳嗽情况，避免下行感染引起支气管炎",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOOBIII",
+            "normalized": [
+                "咳嗽",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        }
+    ]
+}

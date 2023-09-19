@@ -1,0 +1,444 @@
+{
+    "data-split": "dev",
+    "example-id": "10109461",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，很高兴为你服务！",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生我这个情况需要去医院吗",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子目前精神状态怎么样",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以自己玩，中午还吃的下一碗粥",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也有在出汗",
+            "label": "OOOBI",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "除了发热，还有其他的症状吗",
+            "label": "OOBIOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是身上额头还烫",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "超过38.5度需要给孩子用退热药",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了，就是发热",
+            "label": "OOOOOOBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "多给孩子喝水，可以用温水擦浴，尽快地降低体温",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚刚睡醒量了38度",
+            "label": "OOOOOOBII",
+            "normalized": [
+                "中等度热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子有受凉的情况吗？家里的大人有没有呼吸道感染的情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这种突然发烧是什么原因引起的",
+            "label": "OOOOBIOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的这个体温不需要特殊处理，可以外用退热贴用温水擦浴，不需要应用退热药物",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果没有其他的症状，这个年龄段的孩子出现发热，多考虑呼吸道感染",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIOOOOBIIII",
+            "normalized": [
+                "发热",
+                "呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "家里没有大人有呼吸道感染",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为这个年龄段的孩子，呼吸道感染以后，往往是全身症状，也就是发热。很少有局部的卡他症状，比如说流鼻涕打喷嚏",
+            "label": "OOOOOOOOOOOBIIIIOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOBIIBII",
+            "normalized": [
+                "呼吸道感染",
+                "发热",
+                "鼻流涕",
+                "打喷嚏"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你可以看一下孩子哭闹的时候，咽部有没有发红？",
+            "label": "OOOOOOOOBIOOOOBIIIIIIO",
+            "normalized": [
+                "哭闹",
+                "咽喉炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是怕她晚上又严重起来",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的这个体温肯定不可以的，夜间发生的概率是相当高的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呼吸道感染的孩子在疾病的初期会出现反复的发热，一般能够持续3到4天",
+            "label": "BIIIIOOOOOOOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是暂时还可以不用去医院是吧",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果孩子的精神状态好，完全可以在家中口服药物对症治疗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "除了应用退热药物以外，还用其他的药物呢",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果出现反复的发热，需要到医院进行血常规的检查",
+            "label": "OOOOOOOBIOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天就用了退热贴半夜服用了美林",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "早上起来就退了，但是刚刚睡醒又热了",
+            "label": "OOOOOBOOOOOOOOOOO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在疾病的初期，肯定会出现反复的发热，一般有2到3天的高峰期，如果孩子精神状态好，完全可以对症治疗",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我认为这个孩子病毒感染的可能性非常大，病毒感染就是这个特点",
+            "label": "OOOOOOOBIIIOOOOOOOOBIIIOOOOOO",
+            "normalized": [
+                "病毒感染",
+                "病毒感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那就是先在家观察然后第三天还是没有退就要去医院是吗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子既往的体质怎么样",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是这个意思，如果再次出现发热，精神状态差，需要到医院就诊的查血常规",
+            "label": "OOOOOOOOOOOOBIOBIIIIOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "精神软"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "以前很少生病的",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "除了口服退热药物以外，需要口服清热解毒药物，比如说清开灵颗粒，小儿双金口服液",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就五月份发了一次烧到现在，那时候一天就退下来了",
+            "label": "OOOOOOOOOOOOOOOOOOOBIIO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果孩子既往体质比较好，那完全可以暂时先观察",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢医生",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我再确认一下这个孩子除了发热，没有其他任何症状吗？",
+            "label": "OOOOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是发烧",
+            "label": "OOBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子一般情况好，吃奶正常？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃奶也正常的",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那就可以先观察一天到两天",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃饭也正常",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是病毒感染的话，过了高峰期以后症状会逐渐的缓解",
+            "label": "OOOBIIIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那我今天再观察一天",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

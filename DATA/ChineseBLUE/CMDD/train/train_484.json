@@ -1,0 +1,577 @@
+{
+    "data-split": "train",
+    "example-id": "10715837",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝这三天拉稀，但是那天1至2次，但是很多汗",
+            "label": "OOOOOBIOOOOOOOOOOOOOOB",
+            "normalized": [
+                "稀便",
+                "出汗"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最近拉的稀，有没有泡沫，有没有脓血？",
+            "label": "OOOOBOOOOOOOOOOBIO",
+            "normalized": [
+                "稀便",
+                "脓血便"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是稀",
+            "label": "OOB",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "水分多吗？",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "遍数也不多，就是发现孩子汗多了",
+            "label": "OOOOOOOOOOOOBOO",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喝水吗，他平时喝不少水",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "首先来说。拉的不厉害，不要担心",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "拉稀，多是腹泻病可能性大",
+            "label": "BIOOOBIOOOOO",
+            "normalized": [
+                "稀便",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "原因多是受凉，加上饮食不当引起的",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "出汗多怎么回事",
+            "label": "BIOOOOO",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我建议先吃妈咪爱调理调理肠道",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "每次一包一天2次治疗3-5天。",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "拿出汗是虚",
+            "label": "OBIOO",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "汗多，宝宝目前1岁，发育快，多是缺钙引起的",
+            "label": "OOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "缺钙"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "缺钙可以引起控制汗腺的神经兴奋，就出现这个情况了",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "缺钙"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有补充维生素D？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一岁半了",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃亦可心了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "腹泻，可以加重缺钙。",
+            "label": "BIOOOOOBIO",
+            "normalized": [
+                "腹泻",
+                "缺钙"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "伊可新可以促进钙剂吸收的，可以继续吃",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "年初查过都不缺",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "年初太遥远了，没什么意义",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "钙片吃什么牌子的",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议等5天左右腹泻病好了。可以补充钙剂推荐迪巧颗粒，每次一包一天2次",
+            "label": "OOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "能不能是肚子不舒服",
+            "label": "OOOOBIIII",
+            "normalized": [
+                "腹部不适"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "治疗1-3月看看",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦哦",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肚子痛的话，孩子会哭闹的",
+            "label": "BIIOOOOOOBIO",
+            "normalized": [
+                "腹痛",
+                "哭闹"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "用不用化验完吃",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "也可以的，复查看看最好",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "会闹，看电视什么节目都不对，哭，要电脑才好点不哭了",
+            "label": "OBOOOOOOOOOOOOBOOOOOOOOBO",
+            "normalized": [
+                "哭闹",
+                "哭闹",
+                "哭闹"
+            ],
+            "type": [
+                "1",
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "注意妈咪爱温水吃",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "但是也闹别扭",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以哄的话，一般不要紧",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦，我给他吃合生元益生菌行吗",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "小孩缺钙还有别的表现吗",
+            "label": "OOBIOOOOOOO",
+            "normalized": [
+                "缺钙"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "缺钙还会睡眠不踏实，烦躁，多汗等",
+            "label": "BIOOOOOOOOBIOBIO",
+            "normalized": [
+                "缺钙",
+                "烦躁",
+                "出汗"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "益生菌也是可以的，也是用温水就行",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他还行吧睡觉挺好的，就是刚睡着有汗，过一会就好了",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOO",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "腹痛的话，孩子会弓腰哭闹。用手揉一揉肚子可以缓解",
+            "label": "BIOOOOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "腹痛",
+                "哭闹"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前就是缺钙也不会很严重，不要担心",
+            "label": "OOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "缺钙"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那的补一个月吗",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "再一个，腹泻可以引起气虚，也能出现多汗，这个情况等腹泻好了，多汗就减轻慢慢消失",
+            "label": "OOOOBIOOOOOOOOOOOBIOOOOOOBIOOOBIOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "出汗",
+                "腹泻",
+                "出汗"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议腹泻好了，先检查微量元素，假如缺钙，再补充也好",
+            "label": "OOBIOOOOOOOOOOOOOBIOOOOOO",
+            "normalized": [
+                "腹泻",
+                "缺钙"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "先吃上益生菌治疗腹泻。伊可新不能断",
+            "label": "OOOOOOOOBIOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "假如出现腹泻加重，宝宝出现哭闹严重，就要及时到医院儿科看看的",
+            "label": "OOOOBIOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "哭闹"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，还有问题吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那腹泻能同时化验吗",
+            "label": "OBIOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "亦可心的吃多久",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "腹泻的时候怕不准",
+            "label": "BIOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在能天天吃吗",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "所以建议病好了再检查",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "伊可新建议补充到2岁",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平时适当晒晒太阳也可以",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

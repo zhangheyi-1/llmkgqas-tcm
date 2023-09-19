@@ -1,0 +1,206 @@
+{
+    "data-split": "train",
+    "example-id": "10747259",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好我是您的接诊医生",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝最近家里有人感冒吗？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有着凉呢",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝从什么时候开始咳嗽的呢？",
+            "label": "OOOOOOOOOBIOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝一天能咳嗽几阵呢？咳嗽勤吗",
+            "label": "OOOOOBIOOOOBIOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝嘴里吐泡泡吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天，就咳嗽6次左右",
+            "label": "OOOOBIOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，能听到痰吗？",
+            "label": "OOOOOOBOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一生下来就会玩口水",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好像没有痰",
+            "label": "OOBII",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你看着是那种把口水吹成泡泡吗？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在嘴边上囗水有泡泡",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝咳嗽早期的话炎症渗出比较少，形成的痰比较少，所以咳嗽症状可能不那么明显，随着炎症渗出，形成的粘菌增多，痰开始增多，可能刺激宝贝咳嗽症状比较明显",
+            "label": "OOBIOOOOOOOOOOOOOOOBOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOBOOOOOOOOOOOBIOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "咳嗽",
+                "痰",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个嘴边泡泡从出生到现在有没有加重呢？还是一直就这样呢",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有加重",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，宝贝精神状态怎么样呢",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看过医生吗？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个目前的症状不排除支气管炎，支气管炎的话这个可能由于受凉或者感染引起来的，这个治疗的原则的话主要是消炎止咳化痰治疗的奥！",
+            "label": "OOOOOOOOOOOOBIIIOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "支气管炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝目前的话痰量比较少炎症渗出增多，处于感染的早期，吃奶不影响，体温正常，精神状态好，所以我建议给宝贝听诊一下，需不需要查个血常规胸片，排除一下支气管炎，看一下具体感染情况，根据结果对症处理！这样能够指导我们用药，用药大体时间，用的药物也是比较对症的，宝贝恢复起来也是比较快的，利于宝贝恢复",
+            "label": "OOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰",
+                "支气管炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        }
+    ]
+}

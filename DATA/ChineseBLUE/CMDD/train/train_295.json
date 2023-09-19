@@ -1,0 +1,354 @@
+{
+    "data-split": "train",
+    "example-id": "10506513",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前这些药物服用多久了？一点效果都没有吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一直服用就是有时会少服一些没有定量服用",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有大便常规化验单吗，发我看下吧",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前好的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好。",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在是吃母乳，还是吃奶粉？有没有做过乳糖不耐受的检查？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "奶粉每天晚上喝一次其他时间吃母乳和一次米粉没有验过乳糖",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在腹泻的还稀不稀？有没有拉水的情况？",
+            "label": "OOBIOOBIIOOOOBIOOOO",
+            "normalized": [
+                "腹泻",
+                "稀便",
+                "水样便"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我刚带抱孩子关窗风挺大的吹了一下现在发烧了不知道是腹泻的事还是刚吹了一下的事",
+            "label": "OOOOOOOOOOOOOOOOOOBIOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有水样的",
+            "label": "OBIO",
+            "normalized": [
+                "水样便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前是一个低烧的情况，一般可以温水擦身，冷毛巾敷额头，泡澡，或者贴退热贴等方式物理降温，如果体温超过38.5度，需要口服布洛芬退烧。",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在有没有感冒症状？",
+            "label": "OOOOOBIOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "美林可以吗",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有感冒症状",
+            "label": "OOBIOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果超过38.5度，可以口服美林，目前暂时不需要。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吹完没一会我摸着就热了",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这种腹泻还有什么方法呢已经拉这么长时间还不见好",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于小儿轮状病毒感染腹泻情况，由于腹泻时间比较长，建议可以补锌治疗。另外，病毒性腹泻后，常常有继发乳糖不耐受的情况，考虑小孩腹泻反复不愈，也可能有这个情况。",
+            "label": "OOOOBIIIIIBIOOOOOBIOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOO",
+            "normalized": [
+                "轮状病毒感染",
+                "腹泻",
+                "腹泻",
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "3",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "乳糖是指奶粉还是母乳呢",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "把奶粉停掉可以吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前反复腹泻，1月不好。建议就医小儿科，进一步化验大便，看是否有继发乳糖不耐受。如果有这个情况，需要服用深度水解蛋白奶粉治疗。",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "母乳中和普通奶粉中，都是含有乳糖的。有时候小孩腹泻后，会消化不了里面的乳糖，导致腹泻不愈。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "化验乳糖需要带孩子去医院吗还是化验大便呢",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "化验大便，看还原糖是否阳性，ph值，来判断有没有乳糖不耐受。另外，腹泻这么久了，建议补锌，可以口服葡萄糖酸锌口服液。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "缺锌会有什么症状出现呢",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小儿缺锌的症状，主要有发育不好，抵抗力低，食欲差的。长期吃饭不好，或者腹泻超过两周，是补锌的适应症，建议补锌治疗。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "7个月的宝宝能喝您说的那个吗",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以喝了，七个月的宝宝可以补锌的。",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "辅食方面有忌口的吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "饮食注意清淡，别吃难消化的，宝宝吃母乳的话，妈妈饮食也要注意，别吃油腻的，别吃凉的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "米粉小米粥苹果泥之类的还可以给宝宝吃吗",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这些是可以的，少吃鸡蛋，别喝豆浆，难消化，容易引起腹胀。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢您",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "别客气。还有别的可以帮你的吗？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "别客气，有问题随时再联络，再见。",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "再见",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

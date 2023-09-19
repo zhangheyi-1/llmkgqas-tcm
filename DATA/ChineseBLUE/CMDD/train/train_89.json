@@ -1,0 +1,603 @@
+{
+    "data-split": "train",
+    "example-id": "10602322",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "根据你所提供的资料，如果这个孩子咽部充血，应该考虑呼吸道感染，也就是咱们常说的感冒了",
+            "label": "OOOOOOOOOOOOOOOOBIIIOOOOOBIIIIOOOOOOOOOBIO",
+            "normalized": [
+                "咽喉炎",
+                "呼吸道感染",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这还是肺炎支原体抗体和ev71病毒感染都是阴性的，白细胞总数是偏高的，应该考虑细菌感染",
+            "label": "OOOBIBIIOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOBIII",
+            "normalized": [
+                "支气管炎",
+                "支原体感染",
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "2",
+                "2",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子如果是呼吸道感染的话往往就是全身的症状，也就是发热，很少有局部的卡他症状包括流鼻涕打喷嚏",
+            "label": "OOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOBIIBII",
+            "normalized": [
+                "呼吸道感染",
+                "发热",
+                "鼻流涕",
+                "打喷嚏"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子精神状态怎么样？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "阴性是正常吧",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "特别是体温正常以后的精神状态",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "阴性是正常的",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "体温正常精神还好",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那就应该问题不大的",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子是第一次发热吗",
+            "label": "OOOOOOOOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热之前这个孩子有没有受凉的情况，家里的大人有没有呼吸道感染的情况？",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前两天下雨，晚上开窗睡觉可能受凉了",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大人无呼吸道感染",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这个孩子有受凉的情况，那就应该考虑呼吸道感染，这是呼吸道感染的一个诱因",
+            "label": "OOOOOOOOOOOOOOOOOOOBIIIIOOOBIIIIOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "呼吸道感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呼吸道感染都是由于病毒或者细菌感染引起的，需要给孩子应用清热解毒的药物",
+            "label": "BIIIIOOOOOOOOBIIIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "小儿氨酚黄那敏颗粒和磷酸奥司他韦颗粒可以吃吗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的，因为这个孩子白细胞总数是偏高的，不能排除细菌感染，我认为消炎药是需要吃的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子淋巴细胞的百分比应该在60~70%左右，中性粒细胞的百分比应该在20~30%左右，而这个孩子的中性粒细胞百分比达到了40%度，需要考虑细菌感染的可能，所以说消炎药是需要吃的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "氨酚黄那敏可以消炎吗",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不是的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小儿氨酚黄那敏颗粒是感冒的药物，没有消炎的作用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要给孩子口服头孢或者阿莫西林",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "上面那两个药还需要吃吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "上面这两种药需要吃的，另外应该给孩子加消炎药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "超过38.5度给孩子口服退热药物",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "恩，买的有布洛芬",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个药是退热的药物",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呼吸道感染一般有3到4天的高峰期，在这个期间孩子会出现反复的发热，过了高峰期以后症状会逐渐的缓解。",
+            "label": "BIIIIOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "恩，超过38°5让吃",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，超过38.5度给孩子口服退热药物",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那个奥司他韦必须吃吗",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果超过了3到4天，这个孩子的体温仍然不稳定，那就需要到医院就诊的，需要复查血常规，可以考虑输液治疗了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "奥司他韦是抗病毒的药物，可以给孩子口服的",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外，这个孩子是第一次发热，也不能排除幼儿急疹的可能！这个疾病的特点是发热3到4天体温正常，出现皮疹！",
+            "label": "OOOOOOOOOOOBIOOOOOOBIIIOOOOOOOOOOOOBIOOOOOOOOOOOBIO",
+            "normalized": [
+                "发热",
+                "幼儿急疹",
+                "发热",
+                "皮疹"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果3到4天以后这个孩子体温正常了，出现了皮疹，那就应该考虑幼儿急诊，出现皮疹以后整个病程基本结束",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIOOOOOOOBIIIOOOBIOOOOOOOOOO",
+            "normalized": [
+                "皮疹",
+                "幼儿急疹",
+                "皮疹"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "恩",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子也是幼儿急疹的高发年龄",
+            "label": "OOOOOOOOOOBIIIOOOOO",
+            "normalized": [
+                "幼儿急疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最主要的就是观察这个孩子的精神状态以及吃奶的情况，如果精神状态差，吃奶减少，应该是病情加重的表现，需要到医院就诊的，毕竟这个孩子年龄有点小",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "精神软",
+                "食欲不振"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "上面那两个药是间隔半小时吃吗",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还有消炎药",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以同时给孩子口服的",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "恩",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，应该适当的给孩子多喝水，这样有助于疾病的恢复，有利于体温的下降",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不吃消炎药可以治愈吗",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个不一定啊，因为从这个孩子的血常规特点看，需要考虑细菌感染的可能，应该给孩子口服消炎药等，如果你就是不想给孩子吃，可以暂时先观察",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "恩",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢医生",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "自从发热以来尿比以前多啦，正常吗",
+            "label": "OOBIOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子喝水多不多呀？如果喝水比较多，尿量就会增多，另外会阴部有没有红肿？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果有可能的话，可以到医院进行尿常规的检查，这个年龄段的孩子也会出现泌尿系感染呢，泌尿系感染的症状也会出现发热",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "孩子不再发烧了，是不是可以停药了啊",
+            "label": "OOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温正常，以后应该再口服药物巩固2到3天",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "会阴部位没事，没有喂多少水",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那就有必要到医院进行尿常规的检查，需要排除泌尿系感染的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "尿频就是一个症状",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "泌尿道感染也会发烧吗",
+            "label": "OOOOOOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "会的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子如果是泌尿系感染的话，首先的一个症状就是发热，另外有可能会出现尿频的情况，会阴部也会出现发红",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦，非常感谢",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,418 @@
+{
+    "data-split": "train",
+    "example-id": "10727119",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，宝贝还在母乳喂养吗？最近吃奶咋么样？",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝最近有没有腹部着凉？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃奶还行",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，孩子大便绿色，有没有泡沫？大便很稀吗？",
+            "label": "OOOOBIIIOOOOOOOOOOOOO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有稀",
+            "label": "OOB",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子肚子摸着胀吗？有没有恶心呕吐？",
+            "label": "OOOOOOBOOOOOBIBIO",
+            "normalized": [
+                "腹胀",
+                "恶心",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有时有",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，有孩子大便的照片吗？宝贝小便量和平时一样吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一样",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝大便时候会哭闹吗？有没有拍便困难呢？",
+            "label": "OOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天有",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子有没有发热？就是单纯的大便有变化对吗？精神状态怎么样呢？",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，有没有带宝宝去看医生？检查过大便常规吗？最近有给宝宝口服什么药物吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神可以，没有发烧",
+            "label": "OOOOOOOBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "去过，没有检查",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子发生大便变化的原因比较多，比如宝贝胃肠道发育不完善，不成熟，消化酶活性不好，消化不良，饮食不当，食物过敏，药物影响，病毒或细菌感染等等！宝贝的情况还是考虑有些消化不良的情况！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOBIOOOOOOOOOBIIIOOOOOOOOOOOOOOBIIIOOOO",
+            "normalized": [
+                "消化不良",
+                "过敏",
+                "细菌感染",
+                "消化不良"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃妈咪爱，贴肚脐贴",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，吃了几次了？感觉有好转吗？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天3便",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天开始吃的",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在除了大便性状的改变，其他吃奶，精神状态还都好，您不要太担心了，消化不良的治疗主要就是调整饮食，比如母乳喂养的话妈妈不要吃生冷辛辣油腻食物，可以给宝宝吃益生菌，比如妈咪爱调节肠道菌群，还要注意腹部保暖，可以搓热双手帮宝宝暖暖肚子！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这两天是不是长牙，有点闹人",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，宝贝消化不良的话也会有个过程，一般用药！3-5天会明显好转，7天左右的疗程，现在宝贝刚开始用药，您可以继续给宝宝服药观察几天看看",
+            "label": "OOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯。宝贝刚开始长牙的话会有些不舒服，烦躁哭闹，您多观察宝贝口腔内有没有疱疹出现，没有的话就不用太担心了！",
+            "label": "OOOOOOOOOOOOOOOOOOBIBIOOOOOOOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "烦躁",
+                "哭闹",
+                "疱疹"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有点流鼻涕，早上有点咳嗽，嗓子不红，气管没有问题，肺部没有事",
+            "label": "OOBIIOOOOOBIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝消化不良一般经过积极调理都可以好转。但是宝贝多日反复不好，大便次数多了，小便少，吃奶少，精神状态不好，出现恶心呕吐，发热等症状就要及时就诊，带宝宝去二级以上公立医院小儿内科就诊，检查一下大便常规，排除肠炎情况！",
+            "label": "OOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIIOOOBIBIOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "消化不良",
+                "精神软",
+                "恶心",
+                "呕吐",
+                "发热",
+                "肠炎"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，宝贝还有点着凉引起的感冒情况，您多给宝贝喝点温开水，注意保暖看看，如果咳嗽加重也要及时带宝宝去医院听诊气管或肺部看看！",
+            "label": "OOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝拉肚子最怕出现脱水情况！脱水主要表现为精神差，皮肤颜色苍白或发灰色，皮肤弹性差，囟门或眼窝凹陷，小便量少或无尿，宝贝哭闹时候没有泪，泪少等等，出现了就要及时就诊，纠正水电解质紊乱情况！",
+            "label": "OOBIIOOOOBIOOOBIOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "脱水",
+                "脱水",
+                "精神软",
+                "哭闹"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝长期腹泻可能导致宝贝营养不良，维生素缺乏，水电解质紊乱，病毒性肠炎还有可能引起宝贝肝肾功能损害，上呼吸道感染感染等等",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOBIIIIIIIOO",
+            "normalized": [
+                "腹泻",
+                "病毒性肠炎",
+                "呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有泪，小便可以",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝饮食上要清淡易消化为主，主要以流质半流质饮食，比如母乳，稀饭，馒头等，如果刚添加辅食就要减少辅食。平时可以添加益生菌调节胃肠功能，轻度脱水以补充水分电解质为主，如果宝贝检查大便有细菌感染还要根据面诊医生检查的调整用药或口服抗生素",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "用不用吃米粉",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，那就继续观察看看，不用太担心了",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以吃，少量多次喂，不要一次吃太多了！",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平时加强喂养，增强体质，给婴幼儿添加辅食时候应该由少到多，由稀到稠，慢慢添加，给孩子胃肠道一个适应过程！注意讲究卫生，不要让宝贝吃手，玩具，平时多清洗干净！还要加上宝贝臀部护理，每次大便完清洗屁屁，避免红屁股！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有疑问吗",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您有任何问题可以随时和我联系或留言，我看到后会第一时间回复。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝愿宝宝健康成长！",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

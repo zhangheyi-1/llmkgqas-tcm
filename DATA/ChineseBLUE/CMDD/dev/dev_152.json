@@ -1,0 +1,453 @@
+{
+    "data-split": "dev",
+    "example-id": "10317985",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好医生",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子白天咳嗽症状重，还是夜间高速增长中",
+            "label": "OOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还是夜间咳嗽症状重",
+            "label": "OOOOBIOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "白天咳",
+            "label": "OOB",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我看你的病例刚开始咳嗽的时候，这个孩子有发热的情况，应该考虑呼吸道感染",
+            "label": "OOOOOOOOOBIOOOOOOOOOBIOOOOOOOOBIIII",
+            "normalized": [
+                "咳嗽",
+                "发热",
+                "呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在这个孩子体温正常了，仅仅留下咳嗽的情况？",
+            "label": "OOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在孩子体温正常，白天会咳嗽",
+            "label": "OOOOOOOOOOOOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "晚上不怎么会咳嗽",
+            "label": "OOOOOOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "能不能吐出痰来黄痰还是白痰？",
+            "label": "OOOBIIOBIOOOBO",
+            "normalized": [
+                "咳痰",
+                "痰",
+                "痰"
+            ],
+            "type": [
+                "2",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不能吐岀痰",
+            "label": "OOBOB",
+            "normalized": [
+                "呕吐",
+                "痰"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子是过敏体质吗？有没有药物或者食物过敏的情况，家族中有没有过敏体质的人，比如说支气管哮喘，皮肤过敏，过敏性鼻炎？",
+            "label": "OOOOBIOOOOOOOOOOOOOBIOOOOOOOOOOBIOOOOOOOOBIIIIOOOBIOOOOBIO",
+            "normalized": [
+                "过敏",
+                "过敏",
+                "过敏",
+                "哮喘",
+                "过敏",
+                "鼻炎"
+            ],
+            "type": [
+                "2",
+                "2",
+                "2",
+                "3",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有过敏体质",
+            "label": "OOBIOO",
+            "normalized": [
+                "过敏"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "但是这个孩子手部有湿疹呢",
+            "label": "OOOOOOOOOBIO",
+            "normalized": [
+                "湿疹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有进行血常规的检查？胸片是正常的吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昰手有湿疹",
+            "label": "OOOBI",
+            "normalized": [
+                "湿疹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "手部湿疹严重吗？这孩子出生的时候有没有时间的情况",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "湿疹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "既往有没有喘息发作？",
+            "label": "OOOOOBIOOO",
+            "normalized": [
+                "喘息"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有喘息，只会咳嗽",
+            "label": "OOBIOOOBI",
+            "normalized": [
+                "喘息",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "也就是说这个孩子以前频繁地出现咳嗽？",
+            "label": "OOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "上了幼儿园才会咳嗽",
+            "label": "OOOOOOOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "上幼儿园以后，有很多孩子不适应幼儿园的环境，可能会出现咳嗽的情况，当然也许幼儿园当中空气比较差有关系",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果有一个孩子出现呼吸道感染的情况，很容易传染给另外的孩子",
+            "label": "OOOOOOOOOBIIIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你口服这些药物以后症状缓解了吗？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "比较好一点，还会一点咳嗽",
+            "label": "OOOOOOOOOOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我看这个医生给你开的有开瑞坦，有酮替芬，这都是抗过敏的药物",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该考虑这个孩子是过敏性咳嗽",
+            "label": "OOOOOOOOOOOOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你有没有进行过血常规的检查？能不能将化验结果上传",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这种症状能吃尔?",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以吃的，前提是这个孩子对这个阿胶不过敏",
+            "label": "OOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "过敏"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该适当给孩子口服免疫调节剂，增加抵抗力",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这样的孩子相对来说体质比较差，发生呼吸道感染的概率比正常的孩子要多得多",
+            "label": "OOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "转基因子可以吗",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以选择匹多莫德，脾氨肽，转移因子，胸腺肽这些都是可以的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这孩子咳嗽症状缓解不明显，可以雾化吸入缓解的",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃了药多久可以吃转移因子",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "半个小时就可以了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前三天雾化了2??天",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "每天雾化两次啊",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "雾化吸入可以明显的缓解孩子咳嗽情况，并且雾化吸入可以降低气道的高反应性，抑制气道的炎性反应",
+            "label": "OOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在也要带小孩雾化吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以继续雾化吸入的",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "除非这个孩子咳嗽症状明显的环节，基本上不咳嗽了，那可以不雾化吸入的",
+            "label": "OOOOOOBIOOOOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为雾化吸入作用最直接，比所有的口服药物效果都要明显",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

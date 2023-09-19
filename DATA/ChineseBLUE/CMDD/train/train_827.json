@@ -1,0 +1,617 @@
+{
+    "data-split": "train",
+    "example-id": "10659295",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好我是您的接诊医生",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝最近家里有人感冒吗？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有着凉呢？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有人感冒的",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "着凉也不确定",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在的话体温怎么样呢？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在体温正常了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是咳嗽",
+            "label": "OOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝咳嗽几天了呢？",
+            "label": "OOBIOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有两三天了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽勤吗？",
+            "label": "BIOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽有痰吗？",
+            "label": "BIBIOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "痰量最近比之前多了吗？",
+            "label": "BIOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有痰，今天跟昨天更严重",
+            "label": "BIOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "痰都一样都是这么多，一咳嗽就要吐",
+            "label": "BOOOOOOOOOOBIOOB",
+            "normalized": [
+                "痰",
+                "咳嗽",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽是一个过程，宝贝上痰后咳嗽症状比较厉害，并不代表宝贝病情加重了，痰液刺激的！不用担心，多给宝贝拍后背，促进痰的排除的奥！",
+            "label": "BIOOOOOOOOOBOBIOOOOOOOOOOOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOBOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "咳嗽",
+                "痰",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个的话太小了所以痰不会吐，只能被呕吐出去或者拉出去，所以多给宝贝拍背能把痰呕吐出去也是比较好的，痰咽下去之后胃肠功能会影响所以能吃多少吃多少别强喂，痰通过这两种途径排出去的话也是比较好的，利于宝贝的恢复的奥！",
+            "label": "OOOOOOOOOOOBOOBOOOOBIOOOOOOOOOOOOOOOOOOBBIOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰",
+                "呕吐",
+                "呕吐",
+                "痰",
+                "呕吐",
+                "痰",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3",
+                "1",
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝体温稳定了几天了呢？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在喝点咳嗽药能行不？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天第三天",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝精神状态怎么样呢？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天不好一直哭，昨天还能耍",
+            "label": "OOOOOOBOOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝期间看过医生吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "去诊所看的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "面诊医生考虑什么病呢？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "去过两次，第一次是发烧的时候去的，他说是轻微感冒，第二次去他说是湿咳嗽，",
+            "label": "OOOOOOOOOBIIOOOOOOOOOOBIOOOOOOOOBBIO",
+            "normalized": [
+                "高热",
+                "普通感冒",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "第二次看的时候听诊宝贝气管有炎症吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，是不是就是听胸的地方？？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯啊，气管没有炎症的话就是感冒的原因的奥！",
+            "label": "OOOOOOOOOOOOOBIOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝目前的话都是吃的什么药呢",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "配的这两种药",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝目前的话主要是考虑急性上呼吸道感染，这个可能由于受凉感冒或者感染引起来的，治疗的原则一般就是抗感染治疗的，注意保暖，止咳等对症支持治疗的治疗原则的奥",
+            "label": "OOOOOOOOOOOOOBIIIIIOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喝现在的药可以不？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝目前体温没什么问题，咳嗽的痰上来了炎症排出来了，精神状态还是可以，面诊医生根据宝贝情况病因从根本上用药，主要是头孢抗感染治疗，止咳药止咳化痰的治疗原则的奥，目前的话治疗符合治疗原则的奥，只要从病因上控制了宝贝体温自然也就不高了，所以可以目前的治疗方案是可以的，对宝贝来说恢复起来是比较快的一种治疗方案的奥！对宝贝来说比较安全的奥，您可以积极配合医生的治疗，不积极治疗的话感染得不到控制不利于宝贝",
+            "label": "OOOOOOOOOOOOBIOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝吃饭注意饮食，生冷辛辣刺激食物不能吃油腻食物不能吃，清淡饮食为主，特别油腻食物容易生痰的奥，多喝点温水，注意休息，别活动太厉害了奥，多给宝贝拍背，这个时候吃饭会有影响可能，能吃多少吃多少别强喂奥",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前可以用着药观察三天，如果宝贝咳嗽症状，咳痰症状不缓解或者加重及时带宝贝去儿内科就诊，给宝贝查个血常规胸片，排除一下支气管炎，看一下具体感染程度，看一下需不需要调整用药，根据结果对症处理，呼吸困难精神状态差也要及时带宝贝去儿内科就诊，指导我们用药，利于宝贝的恢复，对宝贝来说比较安全的奥",
+            "label": "OOOOOOOOOOOOOOOOBIOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "支气管炎",
+                "呼吸困难",
+                "精神软"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还有个问题想问你，就是平时宝宝脑后容易出汗，每天都是湿湿的正常吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个的痰的目前拍上来的话就好了，这个病程总共大概需要7到10天时间，这个越小的宝贝恢复起来越慢宝贝排痰比较慢，面诊医生的用药吸收也是一个过程的，不可能用上之后症状立马就好了的奥",
+            "label": "OOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "出汗的话大概多久了呢",
+            "label": "BIOOOOOOOO",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一两个月吧",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平常补过钙吗？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也没有去查过",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "平时好的时候也不好好吃饭",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个可以查个微量元素看看是不是缺钙的奥，多喝点温水，出汗后别着凉，及时更换衣物",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "缺钙"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您目前给宝贝用着药，痰上来了，炎症排出来了，比较稳定，可以先按时服用医生的药物。观察三天，再注意以上注意事项奥，有问题及时就医的奥！",
+            "label": "OOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不吃饭跟缺什么会有关系吗",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有的缺锌脾胃不好都有可能的奥",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "半年了一直是20斤就没有增加",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "多给宝贝喝点温水，注意饮食",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "给宝贝查个微量元素看一下，明确一下，根据结果对症处理就可以的奥！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她是每过二十天左右就会拉肚",
+            "label": "OOOOOOOOOOOBI",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "但是精神都好",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "和脾胃有一定的影响的奥！平常注意饮食，平常别着凉肚子，睡觉盖好被子",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝的咳嗽会不会跟之前她经常吃冰棍有很大关系",
+            "label": "OOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽还是感冒的原因的奥，您不用太担心了，对症处理就可以，面诊医生目前的治疗比较符合的奥！可以暂时观察一下",
+            "label": "BIOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，好吧",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯啊，好的，祝宝贝健康，有问题欢迎咨询",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢医生",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "关于宝贝健康问题还有疑问吗",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了，我有时间带她去做个微量元素吧",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有什么不明白的吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

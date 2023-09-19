@@ -1,0 +1,295 @@
+{
+    "data-split": "train",
+    "example-id": "10621212",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前看过医生后，具体确诊了什么疾病，上呼吸道感染吗",
+            "label": "OOOOOOOOOOOOOOOOOOBIIIIIO",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "看了不起嗓子",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "诊断的什么疾病？有门诊病历吗？一起发我看一下吧。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我自己是助产士所以直接抱我们医院儿科看的",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生查体的时候，说哪里有问题，是扁桃体炎，还是咽喉部发炎的情况？",
+            "label": "OOOOOOOOOOOOOOOOBIIIOOOBIIIIOOOO",
+            "normalized": [
+                "扁桃体炎",
+                "咽喉炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "当时我在忙奶奶和我同事现代过去的我电话里同意打针的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我过去是都看过了就差打针了说是看过了嗓子都是好的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在除了发烧，还有别的什么症状吗？血常规化验单，可以拍的全一些吗？",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我本以为起嗓子但说医生看了是好的",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不好意思不太清楚",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，我再看一下。",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个考虑还是一个病毒感染，引起的上呼吸道感染情况。",
+            "label": "OOOOOOOOBIIIOOOOBIIIIIOOO",
+            "normalized": [
+                "病毒感染",
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有做过支原体检测？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "家里又备小儿的奥司他韦",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个是个西药的抗病毒药物，可以吃一点。同时，对于反复发烧的情况，也可以吃点中成药的清热解毒，抗病毒药。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "抗病毒的我可以酌情吃点吗",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "单纯的病毒性感染，有一定的自愈性，但是也有一个发烧的过程。",
+            "label": "OOOBIIIIOOOOOOOOOOOOOOOBIIOOO",
+            "normalized": [
+                "病毒感染",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般会有2到3天的发热过程，只有走完这个过程，才会慢慢不发烧。现在是可以吃一点抗病毒药物的，同时，注意控制好体温就可以了。",
+            "label": "OOOOOOOOOBIOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "退热"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我就说担心发热对他不好首先就肯定不舒服但又不想给他药吃狠矛盾",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是担心",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，只有超过38.5度的体温，才可能对孩子身体造成伤害，因此也需要及时口服退烧药。低烧的话，一般对孩子身体是没有伤害的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在又测量了吗？体温多少度？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯谢谢李医生的耐心解答非常感谢",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，别客气，继续口服点抗病毒药物，同时多注意喝水，控制好体温，就可以了。病毒性感染有一定的自愈性，大约会发烧三天左右，慢慢就好了。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议继续服药治疗，如果有超过三天的发热，建议届时及时就医小儿科，复诊医生，让医生看恢复情况。",
+            "label": "OOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，只要孩子精神状态好，没有别的其他症状，只是一个普通的发热。控制好体温，适当的吃点抗病毒药物，就可以了，问题不大。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的非常感谢！",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

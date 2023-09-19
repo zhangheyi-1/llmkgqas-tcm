@@ -1,0 +1,309 @@
+{
+    "data-split": "train",
+    "example-id": "10549964",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "问题医生你好，我家小宝宝五个月啦，拉肚子一直拖拖拉拉一个多月啦，吃过妈咪爱，蒙脱石散，儿泻停，活菌散，小儿回春颗粒，都没多大效果。检查是消化不良引起的腹泻。最近做艾灸每天一次，做过七次，做的前三次都不拉肚子了，后面几次还是在拉，肚子现在很胀该怎么办？",
+            "label": "OOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOBIOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOBOOOOO",
+            "normalized": [
+                "腹泻",
+                "消化不良",
+                "腹泻",
+                "腹泻",
+                "腹胀症"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "根据你所描述的情况，这个孩子反复腹泻的时间有点长了，需要考虑胃肠功能不好，消化吸收能力差",
+            "label": "OOOOOOOOOOOOOOOOBIOOOOOOOOOOOOBIIIIIOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "胃肠功能紊乱"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子有没有进行大便常规的检查",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "做过两次",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "肠炎",
+            "label": "BI",
+            "normalized": [
+                "肠炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子以前有没有进行过大便常规的检查，也是肠炎吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "肠炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "换的药也挺多的",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是肠炎，口服上述药物效果应该还可以啊，但是根据你所描述的情况，这个孩子口服药物效果并不是特别好啊！",
+            "label": "OOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肠炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，情况好转一天也有三次",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是泡沫状，",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦，时间比较短了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "要怎么治疗啊",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于这样的孩子，我认为应该先进行进一步的检查，明确一下原因，然后再决定下一步的治疗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有时直接就是水伴有颗粒",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "怎么做啊",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子有没有湿疹的情况，家族中有没有过敏体质的人，比如说过敏性鼻炎，皮肤过敏，支气管哮喘？",
+            "label": "OOOOOOOBIOOOOOOOOOOBIOOOOOOOOOOOBIOOOOOOBIIIIO",
+            "normalized": [
+                "湿疹",
+                "过敏",
+                "鼻炎",
+                "支气管炎"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子反复的出现肠炎，我认为真正意义上的细菌感染可能性不是特别大，需要注意肠粘膜损伤所引起的",
+            "label": "OOOOOOOOOOOOOBIOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肠炎",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "出现肠粘膜损伤最常见的原因就是食物不耐受，其中以乳糖不耐受最为常见，当然也不能排除这个孩子蛋白质过敏",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "过敏"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "蛋白质过敏乳糖不耐受的孩子都会出现肠粘膜的损伤，都可能会出现粘液脓血便",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIBII",
+            "normalized": [
+                "大便粘液",
+                "脓血便"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我不知道家族病史",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦，那这个孩子有没有药物或者食物过敏的情况？有没有湿疹呢",
+            "label": "OOOOOOOOOOOOOOOOBIOOOOOOOBIO",
+            "normalized": [
+                "过敏",
+                "湿疹"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有啊",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "孩子是吃母乳",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "母乳喂养的孩子也有可能出现乳糖不耐受啊",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子应该到医院进行乳糖耐受试验，如果是阳性，那就应该考虑乳糖不耐受",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以进行蛋白质过敏的检测，如果这项数值也是阳性，那就应该考虑蛋白质过敏，也就是说孩子对母乳过敏",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOBI",
+            "normalized": [
+                "过敏",
+                "过敏"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这孩子一直吃奶拉的大便就不正常",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "就是因为这个孩子吃奶以后大便就不正常，所以说他需要考虑乳糖不耐受或者蛋白质过敏的可能啊",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "过敏"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，谢谢医生",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果确定为乳糖不耐受是不能吃母乳的，可以给孩子饮用低乳糖奶粉",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果必须母乳喂养，那就需要给孩子口服乳糖酶",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

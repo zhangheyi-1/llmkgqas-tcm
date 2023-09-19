@@ -1,0 +1,467 @@
+{
+    "data-split": "test",
+    "example-id": "10148028",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，很高兴帮助你。",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问宝宝大概一天有几次大便呢？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "十几次",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦，宝宝大便的次数是比较多。每次量多不多呢？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有几次多的，剩下的几次都不多",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好多时候都是放屁的时候带出来一点大便",
+            "label": "OOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "屁"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，宝宝什么时候开始出现这种情况的？还是一生下来就这样？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦，也就是说放屁带出来那一点你也算一次吗？",
+            "label": "OOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "屁"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就前几天大便里才有奶瓣",
+            "label": "OOOOOOOOOBI",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，从什么时候开始的？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大概有一星期了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝是纯母乳喂养吗？还是有添加奶粉？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃母乳，一天会吃一次奶粉",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，那你除掉放屁带出来一点，每天大概有多少次？有没有超过八次？",
+            "label": "OOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "屁"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "具体也不知道",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "最少有五次",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在一岁以内的宝宝胃肠道没有发育好是容易出现腹泻的。特别是受到轻微刺激或者受凉等等，如果超过五次的话建议要处理一下。宝宝有受凉吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没咋受凉啊，不过有时候会拉开被子换尿布，她会嗝抖",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有时候会打喷嚏",
+            "label": "OOOOBII",
+            "normalized": [
+                "打喷嚏"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的。可能跟宝宝本身的胃肠道没发育好有关系的。新生宝宝打喷嚏也算常见。这个也是他排除病毒的一种方式。他有没有发热？有没有咳嗽？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOBIO",
+            "normalized": [
+                "打喷嚏",
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果没有其他症状，打喷嚏也不频繁，问题不大。",
+            "label": "OOOOOOOOOBIIOOOOOOOOOO",
+            "normalized": [
+                "打喷嚏"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没发烧.也没咳嗽",
+            "label": "OBIOOOBI",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "最主要是人家说一天拉的次数多不给打卡介苗",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那还好。目前考虑可能就是单纯的腹泻。你可以给他用点益生菌，小儿蒙脱石。",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝生下来的时候因为什么原因没打卡介苗吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃蒙脱石了，还有二连杆菌，也没好啊，不过大便次数少了，就是有奶瓣",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医院那时侯没有卡介苗了",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有吃过其他药物吗？现在大便次数是多少？有奶瓣儿表示他的胃肠道还没完全恢复好。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便控制在三次以内，没有症状，没有其他的话，可以去打疫苗。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没吃别的药，还不知道呢，从早上到现在都两次了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，这两种药物你可以继续吃。之前母乳喂养的时候没有出现这种情况，可以排除母乳糖不耐受的因素。暂时不用换奶粉。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你可以加用消旋卡多曲。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝有没有脱水的情况？",
+            "label": "OOOOOBIOOOO",
+            "normalized": [
+                "脱水"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一直都有喂奶粉",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的，而且你说宝宝拉肚子次数是有好转的，暂时不用换。",
+            "label": "OOOOOOOOOOBIIOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便控制三次以内，有时候会打喷嚏也能打卡介苗吗",
+            "label": "OOOOOOOOOOOOOBIIOOOOOOO",
+            "normalized": [
+                "打喷嚏"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝有没有脱水的情况？这是皮肤弹性怎么样？有没有突然起皱？有没有前囟凹陷。哭的时候没有眼泪等？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "只是偶尔打喷嚏，没有其他任何症状，比如说发热咳嗽，鼻塞流鼻涕等等。可以打疫苗的。",
+            "label": "OOOOBIIOOOOOOOOOOOOOBIBIOBIBIIOOOOOOOOOO",
+            "normalized": [
+                "打喷嚏",
+                "发热",
+                "咳嗽",
+                "鼻塞",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "3",
+                "2",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哭的时候有眼泪啊，别的都正常啊，不咳嗽也不流鼻涕",
+            "label": "BOOOOOOOOOOOOOOOOBIOOBII",
+            "normalized": [
+                "哭闹",
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有奶瓣也可以打卡介苗吗",
+            "label": "OBIOOOOOOOO",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "也没什么问题的，可以打。主要是大便的次数。",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，三次以内？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的。控制在三次以内。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝吃了药物之后，吃了多久？大便多少次了？",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "给宝宝肚子上围个毛巾。这样的话在换尿片的时候，也可以稍微保护一下肚子。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天没吃药，药吃完了，从早上到现在拉两次了",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，好的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议还可以继续吃的。",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "昨天宝宝几次大便？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有八九次",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦，昨天还算比较多，你们的药物是从什么时候给宝宝加上的？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

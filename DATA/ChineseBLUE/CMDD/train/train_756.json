@@ -1,0 +1,577 @@
+{
+    "data-split": "train",
+    "example-id": "10581894",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前又发烧了吗",
+            "label": "OOOBIOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好医生",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在孩子有什么症状",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "对，刚刚又发烧了。抽血化验是细菌感染和病毒感染",
+            "label": "OOOOOBIOOOOOOOBIIIOBIII",
+            "normalized": [
+                "发热",
+                "细菌感染",
+                "病毒感染"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "血常规化验单，发我看一下吧。",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，您稍等医生",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "拍好了吗？",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "等一下医生",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看到中性粒细胞比率，高敏c反应蛋白升高，考虑还是有一定的细菌性炎症。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在除了发烧，还有别的什么症状，医生确诊什么疾病？",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是发烧。前几天有点咳嗽，但是都喝药了。医生说是病毒感染和细菌感染",
+            "label": "OOBIOOOOOOBIOOOOOOOOOOOOBIIIOBIII",
+            "normalized": [
+                "发热",
+                "咳嗽",
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生检查过咽喉部吗？有没有发炎的情况吗。有门诊病历吗，发我看一下吧。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生说嗓子有一点炎症",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子扁桃体有没有肿大，发炎的情况。",
+            "label": "OOBIIIIIIIIIIOOOO",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看门诊病历上，目前医生诊断还是上呼吸道感染，并且做了输液的治疗。",
+            "label": "OOOOOOOOOOOOOOOBIIIIIOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，小孩现在输液。医生说扁桃体不肿大，有一点炎症",
+            "label": "OOOOOOOOOOOOBIIIIIOOOOOO",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看医生给输液了头孢和阿奇霉素两种抗生素。",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这两种药有问题吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于目前的抗炎治疗，还是对症的，但是我个人觉得孩子只是一个上呼吸道感染，同时血常规检查血象也高得并不厉害，用一种抗生素治疗就可以了，不一定非得用两种。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生，这样是不是对小孩的身体不好？",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般是有很严重的炎症，血象很高，或者是明显的下呼吸道感染，比如肺炎的时候，在合并用两种抗生素。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOBIOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我觉得对于目前小孩上呼吸道感染的病情，同时看到血常规检查并不是太严重，用一种抗生素就可以。用两种抗生素的话，感觉治疗有点过度的样子。",
+            "label": "OOOOOOOOOBIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那明天我小孩点水，可以让医生把两种改为一种吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吊水",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我觉得可以和医生反应一下，用一种抗生素治疗就可以了。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "抗生素用的比较多，会导致孩子身体比较虚，抵抗力差一些，后续也会增加生病的感染机会。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在更改还来得及吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今天输液已经输完了，明天我觉得小孩如果精神状态好，烧的不高的话，用一种抗生素就可以了，可以明天就医的时候，可以具体和医生说一下。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在体温多少度了？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢医生。",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在小孩38.2度",
+            "label": "OOOOBIIII",
+            "normalized": [
+                "中等度热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的情况可以多喝水，温水擦拭全身，冷毛巾敷额头，泡澡，或者贴退热贴的方式物理降温，如果体温超过38.5度，可以口服退烧药。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚刚又量了一下38.8度",
+            "label": "OOOOOOOBIIII",
+            "normalized": [
+                "中等度热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议明天继续就小儿科，输液治疗上呼吸道感染，只有炎症消下去了，才不会反复的发烧。",
+            "label": "OOOOOOOOOOOOOOOBIIIIIOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "上呼吸道感染",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于孩子反复发烧的情况，我觉得可能存在孩子体制差一些，抵抗力差，或者是没有做好感冒预防造成的。",
+            "label": "OOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOO",
+            "normalized": [
+                "发热",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前体温38.8度，可以口服退烧药了，一般可以口服布洛芬，是个非处方药，也是很安全的儿童退烧药。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那医生我儿子为什么总是发烧呢？",
+            "label": "OOOOOOOOOOOBIOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看孩子情况还是比较容易导致呼吸道的感染。主要是增加营养，得锻炼身体，增强体质，增加抵抗力，感冒流行季节，别去人流量多，空气污浊的地方，做好感冒预防。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以适当的吃一点增强抵抗力的药。冬季来临前，注射流感疫苗。一般孩子都有一个好生病的年龄阶段，等孩子大一些，随着抵抗力的增加，生病会慢慢减少。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢医生。我小孩去年得过败血症，总是发烧和这个有关系吗？",
+            "label": "OOOOOOOOOOOOBIIOOOBIOOOOOOOO",
+            "normalized": [
+                "败血症",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，败血症确诊后有一个治疗疗程一般用敏感的抗生素，治疗2到3周后，治疗疗程达到以后，复查两次血培养都阴性，就考虑治愈了。",
+            "label": "OOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "败血症"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，败血症治愈了就是治愈了，对后续的影响并不大。",
+            "label": "OOOOOBIIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "败血症"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外我觉得孩子的情况和反复的输液关系很大，往往输液的都是一些抗生素，会打的孩子身体比较虚，抵抗力比较差，我觉得以后尽量的可以采用口服药的方式，少输液。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，太谢谢你了医生。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，别客气。多增加营养，增强体质，锻炼身体，预防感冒，这是减少生病的正确之路。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，随着孩子大一些，抵抗力的增强，生病都会明显减少，不用太担心。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是因为去年得了败血症，发烧发了很长时间。现在我们一家人对他发烧就特别敏感。也特别害怕他发烧",
+            "label": "OOOOOOOOBIIOBIOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOBI",
+            "normalized": [
+                "败血症",
+                "发热",
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，单纯的发烧不用太紧张。还得结合血常规，以及症状来看。",
+            "label": "OOOOOOOOBIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是血象高的不厉害，没有肺炎等严重的下呼吸道疾病，没有扁桃体化脓等情况，孩子一般状况比较好，精神状态比较好的话，是可以口服药治疗，同时多喝水的，不一定一发烧就输液。",
+            "label": "OOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一般这个年龄的小孩都这么容易生病吗？医生",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般2到6岁的，在上幼儿园期间的宝宝，还是很容易生病的。往往上了小学以后，身体状况就会明显的好很多。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，医生太谢谢你了。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，不客气，应该的。还有别的可以帮你的吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "冒昧的问下，能加您的微信吗医生",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "很抱歉，平台不允许医生和用户线下联络，如果发现会封掉账号的。如果再有问题，可以随时留言，如果我看到的话，会第一时间回复您。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "再次找之前医生复诊方法：【点击“首页”-“康复记录”-找到医生，进去后点击“再次咨询“并留言】",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢你医生",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，别客气，祝宝贝身体健康，快乐成长，有问题再联络，再见。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

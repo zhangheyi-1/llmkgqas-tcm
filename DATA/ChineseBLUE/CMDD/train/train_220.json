@@ -1,0 +1,267 @@
+{
+    "data-split": "train",
+    "example-id": "10319938",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，目前需要口服退烧药先退烧治疗",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好，用吃头孢之类的药物么？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前都在服用什么药物？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "布洛芬",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "只有退烧药物吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热，咽部充血，化验血常规白细胞增高，中性粒细胞增高明显，建议加服头孢类",
+            "label": "BIOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "咽喉红肿"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "提示存在细菌感染，退烧只是对症治疗，目前需要抗感染对因治疗",
+            "label": "OOOOBIIIOBIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染",
+                "退热"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "周医生孩子的中粒细胞比例高，但是我看白细胞计数是正常，这属于白细胞增高么？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，能帮我推进几种药物么？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对不起本院的标准值定的高。白细胞属于正常高界",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "噢，明白了。",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前宝宝除了发热有其他不适症状吗？",
+            "label": "OOOOOOBIOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如鼻塞流涕咳嗽腹泻等",
+            "label": "OBIBIBIBIO",
+            "normalized": [
+                "鼻塞",
+                "鼻流涕",
+                "咳嗽",
+                "腹泻"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "偶尔咳嗽一两声，一天应该有个5、6回",
+            "label": "OOBIOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "因为之前扁桃体发炎过，感觉她嗓子一直没好",
+            "label": "OOOOBIIIIOOOOOOOOOOO",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "注意勤喂水避免受凉，可以口服二代头孢类都可以",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "头孢最长打过四天针不知道是不是疗效不够的原因",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，周医生我在问一下孩子头孢要吃多久？",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咽部充血，可以口服清热利咽类药物。",
+            "label": "BIIIOOOOOOOOOOOOO",
+            "normalized": [
+                "咽喉红肿"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "清热利咽的药物能帮我推荐一下么？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般用药需要结合宝宝症状，如发热感冒需要体温正常后再用药3天。一般全疗程最少4-5天",
+            "label": "OOOOOOOOOOOOOOBIBIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "噢好的，清热利咽的药物呢？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "清热利咽药物如咽扁颗粒，蒲地蓝口服液，蓝芩口服液等都可以，选其一",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好，太感谢了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气，先退烧处理吧",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "注意勤喂水。",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "38.5℃以下可以温水擦浴物理降温",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，我知道了。谢谢周医生",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，不客气，祝宝宝早日康复",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

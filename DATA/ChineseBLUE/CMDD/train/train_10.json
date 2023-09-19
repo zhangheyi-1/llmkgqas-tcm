@@ -1,0 +1,644 @@
+{
+    "data-split": "train",
+    "example-id": "10463060",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我是您的接诊医生！",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "为了更好的提供服务，我需要询问您几个与病症相关的问题，感谢您配合。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝最近有没有着凉或接触感冒的人",
+            "label": "OOOOOOOOOOOOBIOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝有没有鼻塞流鼻涕或咳嗽",
+            "label": "OOOOOBIBIIOBI",
+            "normalized": [
+                "鼻塞",
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝最近精神状态怎么样，吃饭喝水多吗",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝的哥哥最近也是感冒",
+            "label": "OOOOOOOOOBI",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子今天都做了什么检查？结果怎么样",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝主要的症状就是发热对吗，还有其他症状吗？",
+            "label": "OOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有流鼻涕状态不是很好饭吃的少了没什么胃口水一有时间就胃",
+            "label": "OBIIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "发热流清水鼻涕鼻子不通",
+            "label": "BIBIIIIBIII",
+            "normalized": [
+                "发热",
+                "鼻流涕",
+                "鼻塞"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，宝贝流的清鼻涕吗，医生说宝宝是感冒症状对吗，给开了什么药呢？",
+            "label": "OOOOOOOBIIOOOOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热是种症状，是体内杀菌细胞与细菌病毒做斗争的过程，是对机体的一种保护，当病毒被消灭了，体温也就稳定",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝体温38.5以上需要口服退热药，两次之间间隔4-6小时，24小时以内不超过4次！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温38.5以下手脚温暖可以多喂水，退热贴外用，或用温毛巾擦额头腋窝腹股沟物理降温，给孩子勤测体温",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天抽血报告上面写上呼吸道感染",
+            "label": "OOOOOOOOOBIIIII",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝感冒发热一般是病毒感染引起的，热程一般在3-5天左右",
+            "label": "OOBIBIOOOBIIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "发热",
+                "病毒感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，能发过来看一下嘛？还有宝贝口服的药物？",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我刚刚找了单子没带回来有开的药",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "奥奥，可以的药看一下",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生说宝贝检查的结果怎么样呢？问题大吗",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "问题说不大",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我看一下",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "去的时候烧退了回来路上又起热了而且起热的速度很快温度一直在上升",
+            "label": "OOOOBIOOOOOOOBOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "退热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝感冒发热最主要的治疗方法就是清热解毒，退热止咳化痰等对症支持治疗，加强宝宝喂养和休息",
+            "label": "OOBIBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这是今天的报告",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生给开的药物主要也是退热清热解毒的，可以按时给宝宝服用，多喝水，勤测体温",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "化验单问题不是很大，稍微有些病毒感染",
+            "label": "OOOOOOOOOOOOOOBIII",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生说几天回去复查呢",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦孩子还这么小一发热我怕烧到头脑要不要挂水",
+            "label": "OOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝感冒热程一般在3-5天，孩子今天刚吃上药物，药物起效一般也需要2天左右的时间",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他没说复查就说病毒性发热最少要三天才能退热",
+            "label": "OOOOOOOOOOBIOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天早上就开始吃了",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝发热就像我刚才说的那样处理。如果体温1还是不退就要及时就诊去医院退热治疗，避免出现高热惊厥情况",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOO",
+            "normalized": [
+                "发热",
+                "热惊厥"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，孩子现在精神状态怎么样？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯好的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在精神不是很好",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在可以多喂水，勤测体温，多观察宝贝精神状态，如果发热及时处理",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天发烧刚好我给她把奶断了",
+            "label": "OOBIOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在断奶请问能给她吃些什么东西呢",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "奥奥，可以服药观察2天，如果宝贝还是精神不好，反复发热需要及时带宝宝复查",
+            "label": "OOOOOOOOOOOOOOOOOOBIIIOBIIIOOOOOOOOO",
+            "normalized": [
+                "精神软",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "检查一下血常规，支原体，心肌酶。排除心肌炎支原体感染引起的发热",
+            "label": "OOOOOOOOOOOOOOOOOOBIIBIIIIOOOBI",
+            "normalized": [
+                "心肌炎",
+                "支原体感染",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "通过体检和化验结果，可以明确病因，便于对症治疗效果比较好，也能指导我们用药！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在可以给宝宝喝点奶粉，米汤等易消化的食物",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "多喂温开水，不要强迫宝宝吃东西，避免宝贝发热生病期间出现恶心呕吐等胃肠道症状",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIOOOOOOBIBIOOOOOO",
+            "normalized": [
+                "发热",
+                "恶心",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝现在发热睡着了被子就正常盖着是吗？",
+            "label": "OOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平时加强宝宝喂养，适当户外活动增强抵抗力",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在体温多少，手脚温暖吗？身上有汗吗",
+            "label": "OOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝如果身上汗比较多，烫，就不要盖太多了！避免出汗太多，脱水了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIOOOBIO",
+            "normalized": [
+                "出汗",
+                "脱水"
+            ],
+            "type": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有脚暖没有出汗快三十八度",
+            "label": "OOOOOBIOOOOO",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平时室内通风，避免冷空气刺激，预防感冒",
+            "label": "OOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我用的电子体温每次体温不一样",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个体温可以给宝宝外用一个退热贴或擦一下就可以，不用专门喂退热药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的。不是很准确，水银的比较准",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "水银晚上用坏了……",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一会再给孩子测个体温看看，奥，明天再买一个",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一会摸摸宝贝出汗没有，一般出汗后体温也就退了，注意补充水分",
+            "label": "OOOOOOBIOOOOOBIOOOOOBOOOOOOOO",
+            "normalized": [
+                "出汗",
+                "出汗",
+                "退热"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯谢谢医生这样咨询比去医院看病更好更详细谢谢",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

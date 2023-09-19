@@ -1,0 +1,484 @@
+{
+    "data-split": "train",
+    "example-id": "10368724",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，目前咳嗽还频繁吗",
+            "label": "OOOOOBIOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还好，一般就刚睡醒咳，睡觉不咳，白天偶尔咳，哭闹的，时候咳",
+            "label": "OOOOOOOOOBOOOBIOOOOOBOBIOOOOB",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽",
+                "哭闹",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "2",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳的时候，感觉深不深，有没有痰",
+            "label": "BOOOOOOOOOOOOOB",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是流口水一直流，鼻涕这两天也好点了",
+            "label": "OOOOOOOOOBIOOOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "感觉有点深，这两天才会，之前不会感觉深",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽深的话，一般还是考虑呼吸道炎症，目前流口水，看过医生吗，嗓子里有没有问题",
+            "label": "BIOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好像没痰，我也不知道有没有痰，昨天今天有时候有听到呼呼呼的声音",
+            "label": "OOBIOOOOOOOOOBOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰",
+                "痰"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有呼呼的声音，考虑还是有痰，目前服用什么药物治疗",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "看过了，我们这医生比较差，我都看了三次还没好",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生有没有说气管里问题大不",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "头孢，还有去谈的，其他好像是消炎什么的",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生没说什么问题",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以多拍背排痰，如果头孢药物治疗超过三天效果不好，可以换其他的消炎药",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我听声音好像是气管不好似的",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我宝宝每次感冒都是开那一种头孢，都没什么用",
+            "label": "OOOOOBIOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "本身头孢也有很多种，头孢如果不好使，可以换换阿奇霉素，或者红霉素",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是不是感冒严重的也会流口水，以前就只有快要长牙才会，而且也就一点点，最近几天好多",
+            "label": "OOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般有长牙，或者咽部炎症刺激，会流口水，本身感冒，流鼻涕，流眼泪，鼻塞，多一些",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIOBIIOOOOOBIOOOO",
+            "normalized": [
+                "普通感冒",
+                "鼻流涕",
+                "鼻塞"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生给检查过咽喉吗，有没有问题",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有查过，没什么问题",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那综合看来，目前宝宝还是存在感冒症状，咳嗽，疑似气管炎症。目前吃的什么药，如果效果不好，可以调整下",
+            "label": "OOOOOOOOOOOOOOBIOOOBIOOOBIIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "咳嗽",
+                "气管炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，那我还是换个医院给宝宝看一下",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的，稍微调整下用药",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看症状问题不大，不用太担心",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我们镇上就一家医院，每次都是哪几种药，上市里看就很好，就是坐车比较远一点",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那好的，我就是很担心有什么严重一点的问题，问题不大我就放心",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "乡镇上医院的医疗条件有限，去市里医院看看，比较好",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，是阿！",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "另外宝宝免疫力比较差，要怎么调理比较好呢，经常会感冒",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以吃点增强抵抗力的药物，会有效果",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "家里有两个小孩，大的一生病，小的也跟着生病",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有哪些药可以增强抵抗力呢",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以吃匹多莫德，或者脾氨肽冻干粉，提高免疫力",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢医生",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，别客气，还有别的可以帮你的吗",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那好的，有问题随时再联络，再见",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "再见",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "再见，晚安",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好，目前呕吐，腹泻厉害吗",
+            "label": "OOOOOBIOBIOOO",
+            "normalized": [
+                "呕吐",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天早上到现在吐了两次",
+            "label": "OOOOOOOBOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前腹泻情况怎样，拉水吗",
+            "label": "OOBIOOOOOBIO",
+            "normalized": [
+                "腹泻",
+                "水样便"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吐了三次，拉了一次，吐的时候是咳嗽然后吐",
+            "label": "BOOOOOOOOOBOOOOBIOOB",
+            "normalized": [
+                "呕吐",
+                "呕吐",
+                "咳嗽",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "拉得很希",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前看到整体症状还是很明显",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有拉水，昨天晚上喝了两次奶粉，早上吃了点稀饭，到现在就没怎么吃",
+            "label": "BIIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "水样便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚刚吃了点水果",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以止吐，止泻治疗，多喝水，预防脱水",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我给喂了思密达",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "跟金双歧",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "止吐要怎么止呢",
+            "label": "BIOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "发烧一直不会退，三四天了，一直是37.3-38.2度之间",
+            "label": "BIOOOOOOOOOOOOOOBIIIIIIIIIII",
+            "normalized": [
+                "发热",
+                "低热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        }
+    ]
+}

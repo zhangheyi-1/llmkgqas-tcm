@@ -1,0 +1,409 @@
+{
+    "data-split": "train",
+    "example-id": "10626900",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，在吗？为了更好的为您服务，我需要问您几个相关问题，请您配合我好吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我们家宝宝8个月11天，昨天晚上10点左右感觉有点发烧体温37.7℃,现在量的是37.9℃,七月三号打得疫苗麻疹疫苗和乙脑减毒活疫苗。我们家宝宝是不是发烧了？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBIOOBIIOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "发热",
+                "低热",
+                "低热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝打完预防针后一周时间都正常，只是昨天才开始发热对吗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那考虑和接种疫苗没有关系了，宝宝有流鼻涕打喷嚏咳嗽鼻塞等症状吗",
+            "label": "OOOOOOOOOOOOOOOOOBIIBIIBIBIOOOO",
+            "normalized": [
+                "鼻流涕",
+                "打喷嚏",
+                "咳嗽",
+                "鼻塞"
+            ],
+            "type": [
+                "2",
+                "2",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃奶正常吗，身上有没有出皮疹",
+            "label": "OOOOOOOOOOOOBI",
+            "normalized": [
+                "皮疹"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "口腔里面有疱疹吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃奶正常",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有皮疹",
+            "label": "OOBI",
+            "normalized": [
+                "皮疹"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有着凉吗，家里有吹电扇或者空调吗",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吹风扇了",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有空调",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "查过血分析吗，有给宝宝吃什么药吗",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没去医院呢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，目前根据您的描述初步考虑宝宝是病毒性感冒",
+            "label": "OOOOOOOOOOOOOOOOOBIIBI",
+            "normalized": [
+                "病毒性感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那怎么办",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "首先做好宝宝的护理工作。体温在三十八度五以下可以不吃退烧药，只是物理降温，比如用温凉水擦擦宝宝面颈部及大腿根。如果体温超过三十八度五以上就需要给予布洛芬等药物退热了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚刚又量了一下体温是38℃",
+            "label": "OOOOOOOOOOBII",
+            "normalized": [
+                "中等度热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以给宝宝服用四季抗病毒合剂，每次五毫升，一天三次，连续服用三天",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，现在可以先物理降温，不需要使用退热药的",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以吹风扇，但是不要直吹，我觉得空调好一点，空调你打到一个恒温上！比如28℃除湿或者27℃2到3个小时可以考虑通风一次就可以的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "擦身体的时候能开风扇吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这几天食欲肯定不好，但是不能吃太甜的水果和酸奶，因为含糖量高，吃了会刺激咽喉壁粘膜，而且不好消化，可以喝粥，鸡蛋汤等清淡饮食",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最好擦干后再吹电扇",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝五六天都没有拉屎了",
+            "label": "OOOOOOOOBIO",
+            "normalized": [
+                "便秘"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要注意的一个疾病叫幼儿急疹反复发热三五天后热退出疹，皮疹慢慢至全身，一般两天后消掉，这个是不处理的",
+            "label": "OOOOOOOOOOBIIIOOBIOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "幼儿急疹",
+                "发热",
+                "皮疹"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "多长时间擦一次身体",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平常也是这样吗，大便干燥吗",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "平常两三天",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不干",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热的话十分钟擦一次。体温超过三十七度四以上就是低热了，可以物理降温了",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "低热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这次已经五六天无大便了，建议打开塞露通便",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚刚给他吃点",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个药是益生菌，可以吃，但没有通便的作用。建议口服乳果糖或者直接开塞露通便",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "体温38能擦身体吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "三十八度五以上，除了擦身体之外，还要口服退烧药的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "美林和泰诺林都是退热药物，两者交替使用，效果好一些，对宝宝身体有可能产生的副作用也轻一些",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外建议化验血分析，看看白细胞正常吗",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果宝宝精神好，不影响吃奶及睡眠，您可以在家给宝宝口服药物治疗，如果宝宝出现高热，比如说体温升到了四十杜，或者宝宝精神不好，或者说又出现了别的症状，比如说咳嗽有痰，就需要您及时到医院就医了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOBIBIOOOOOOOOOOOOO",
+            "normalized": [
+                "高热",
+                "精神软",
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "3",
+                "3",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前首先考虑宝宝是有病毒感染，可以先不用抗生素。病毒性感冒是一种自限性疾病，一般病程要三到七天不等",
+            "label": "OOOOOOOOOOBIIIOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染",
+                "病毒性感冒"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        }
+    ]
+}

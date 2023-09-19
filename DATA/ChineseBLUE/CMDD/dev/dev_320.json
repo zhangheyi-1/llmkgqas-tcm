@@ -1,0 +1,308 @@
+{
+    "data-split": "dev",
+    "example-id": "10202135",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是气管炎吗",
+            "label": "OBIIO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不想打针，气管炎才出院几天",
+            "label": "OOOOOBIIOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝原来感冒时爱流鼻涕不",
+            "label": "OOOOBIOOBIIO",
+            "normalized": [
+                "普通感冒",
+                "鼻流涕"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "爱",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这种情况可能是鼻炎或者是鼻窦炎",
+            "label": "OOOOOOOBIOOOBII",
+            "normalized": [
+                "鼻炎",
+                "鼻窦炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议去医院耳鼻喉科就诊排除鼻炎",
+            "label": "OOOOOOOOOOOOOBI",
+            "normalized": [
+                "鼻炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "只要是痰",
+            "label": "OOOB",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "睡醒后咳嗽有痰",
+            "label": "OOOBIBI",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "鼻涕多可以刺激咳嗽，有痰",
+            "label": "BIOOOOOBIOBI",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以吃抗过敏药，用生理海水喷雾剂喷鼻腔",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今早上醒来黄痰",
+            "label": "OOOOOBI",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "后是白痰",
+            "label": "OOOB",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "鼻涕比昨天少了",
+            "label": "BIOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还得吃消炎药",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃了",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "睡觉打呼噜",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不然打呼噜会有可能是鼻炎的扁桃体肥大不能这样体肥大照片，",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这种比那我觉得他俩一直打呼噜还流鼻涕那就更得去耳鼻喉科看，",
+            "label": "OOOOOOOOOOOOOOOBIIOOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在痰变白了，是有好转吗",
+            "label": "OOBOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我爱咳嗽的很，今年三天两头咳嗽，不是肺炎就是气管炎",
+            "label": "OOBIOOOOOOOOOBIOOOBIOOBII",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "肺炎",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "和流鼻涕有关系",
+            "label": "OBIIOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "黄痰说明有细菌感染",
+            "label": "BIOOOBIII",
+            "normalized": [
+                "痰",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一直流鼻涕就可以引起咳嗽",
+            "label": "OOBIIOOOOOBI",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "(⊙o⊙)哦",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "随时咨询",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝现在怎么样了？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,246 @@
+{
+    "data-split": "dev",
+    "example-id": "10262699",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "为了更好的提供服务，我需要询问您几个与病症相关的问题，感谢您配合。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好家长朋友，宝宝咳嗽有痰吗？",
+            "label": "OOOOOOOOOBIBIOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽是白天严重还是晚上严重？",
+            "label": "BIOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好，宝宝太小吐不出来",
+            "label": "OOOOOOOBOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "但是能听见喉咙里有痰",
+            "label": "OOOOOOOOBI",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽晚上睡觉前厉害些",
+            "label": "BIOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有无腹泻，腹胀吗？",
+            "label": "OOBIOBIOO",
+            "normalized": [
+                "腹泻",
+                "腹胀"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前2天大便很稀像拉肚子，今天就拉了一次，也是很稀",
+            "label": "OOOOOOOOBIIOOOOOOOOOOOBO",
+            "normalized": [
+                "腹泻",
+                "稀便"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝做过什么检查了吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，没有去医院，医院人太多了",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看嗓子了吗？有无红肿？疱疹？化脓？",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗓子没有看，孩子吃东西还好的",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝精神怎么样？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神挺好的，和平常一样顽皮",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝这种情况最好去医院让大夫听诊看看，肺部有无啰音，不能排除支气管炎或是肺炎引起的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOBIOOO",
+            "normalized": [
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "必要时拍胸片，抽血查血常规及CRP,血病原学检查的，看看是细菌感染，病毒感染还是支原体感染引起的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOBIIIOOBIIIIOOO",
+            "normalized": [
+                "细菌感染",
+                "病毒感染",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "然后根据化验结果决定如何用药的",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "如果是支气管炎引起的该怎么办啊",
+            "label": "OOOBIIIOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是细菌感染引起的用消炎药，是支原体感染引起的用阿奇霉素",
+            "label": "OBIIIOOOOOOOOOBIIIIOOOOOOOO",
+            "normalized": [
+                "细菌感染",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "病毒性的可以吃点抗病毒的药物",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那我现在用的2种药是针对什么的",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "退烧药和止咳药",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气，如果没有什么其他问题我就关闭对话框了，好吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好家长朋友，宝宝现在怎么样了？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

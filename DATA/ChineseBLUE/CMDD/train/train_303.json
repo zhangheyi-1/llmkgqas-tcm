@@ -1,0 +1,337 @@
+{
+    "data-split": "train",
+    "example-id": "10698621",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，宝宝发热吗",
+            "label": "OOOOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不发热",
+            "label": "OBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不怎么吃奶",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有查血分析或者其他检查吗",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有咳嗽",
+            "label": "OBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您当时是因为什么原因带宝宝去看病的？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽",
+            "label": "BI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天看的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽几天了，有痰吗，喘不喘",
+            "label": "BIOOOOBIOOBII",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "喘息"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "说扁桃体有点发炎",
+            "label": "OBIIIIII",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "三四天了，有痰，有点喘",
+            "label": "OOOOOBIOOOB",
+            "normalized": [
+                "痰",
+                "喘息"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这样的话考虑宝宝至少是支气管炎了，同时不除外肺炎的可能性的",
+            "label": "OOOOOOOOOOOBIIIOOOOOOOBIOOOOO",
+            "normalized": [
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦，那应该吃什么药",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大夫听诊了吗，有说什么吗，您这种情况建议要拍胸片看看肺里的情况的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦，知道了，谢谢",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "都说吃药，没叫拍片",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您现在需要的是首先拍一张胸片，看看炎症有没有累计到肺部，其次做血分析，看看白细胞高不高",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他肚子好像有点胀",
+            "label": "OOOOOOOB",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外一定要观察宝宝的小便的情况，如果他一天达不到6到8次，然后小便也不是清亮的，是黄黄的，浑浊的，这种情况，宝宝就已经轻度脱水了，我们就要多喂水，实在喂不进去，就需要输液补充体液量了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "脱水"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便正常吗",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一天一次，稀的，有点黑",
+            "label": "OOOOOBOOOOB",
+            "normalized": [
+                "稀便",
+                "黑便"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "黑的话是吃了同种颜色的药物了吗",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有黑色的药",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，那考虑和吃药有关的，如果这样就没事的",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这几天食欲肯定不好，但是不能吃太甜的水果，因为含糖量高，吃了会刺激咽喉壁粘膜，使得咳嗽加剧，可以喝粥，鸡蛋汤等清淡饮食",
+            "label": "OOOBIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "食欲不振",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "天热，出汗多，小便少",
+            "label": "OOOBIOOBII",
+            "normalized": [
+                "出汗",
+                "尿量减少"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯，好",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，出汗多的话小便也会少的",
+            "label": "OOBIOOOBIIIIO",
+            "normalized": [
+                "出汗",
+                "尿量减少"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "注意避免着凉，家里有吹电扇或者空调吗",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吹电扇",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以吹风扇，但是不要直吹，我觉得空调好一点，空调你打到一个恒温上！比如28℃除湿或者27℃2到3个小时可以考虑通风一次就可以的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前两天天气变化有点受凉了感冒引起的咳嗽",
+            "label": "OOOOOOOOOOOOBIOOOBI",
+            "normalized": [
+                "普通感冒",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢医生。",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝年龄小，自己不会咳痰，痰液恰在嗓子不容易出来，首先要给宝宝多拍背，从下往上，力道由轻到重，每次饭前拍二十分钟，其次多喝水，促进痰液稀释，使得容易排出",
+            "label": "OOOOOOOOOOBIOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBOOOOOOOOOO",
+            "normalized": [
+                "咳痰",
+                "痰",
+                "痰"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1"
+            ]
+        }
+    ]
+}

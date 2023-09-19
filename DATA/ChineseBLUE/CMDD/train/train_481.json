@@ -1,0 +1,506 @@
+{
+    "data-split": "train",
+    "example-id": "10648318",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，宝贝是流的清鼻涕吗？",
+            "label": "OOOOOOOOBIIOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的，也流鼻水",
+            "label": "OOOOBII",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝有没有发热或咳嗽？",
+            "label": "OOOOOBIOBIO",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有就是鼻涕而已",
+            "label": "OOOOBIOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，宝贝还在母乳喂养吗？最近吃奶怎么样？",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有时候青有时候有不青，母乳",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "支气管炎刚好，停药5天，",
+            "label": "BIIIOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，宝贝打喷嚏，流鼻涕，还是一个着凉引起的上呼吸道感染感染的症状",
+            "label": "OOOOBIIOBIIOOOOOOOOOOBIIIIIIIOOO",
+            "normalized": [
+                "打喷嚏",
+                "鼻流涕",
+                "呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那怎么办呢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，宝贝支气管炎恢复期，身体还没有完全恢复，抵抗力比较差，着凉后很容易出现感冒症状",
+            "label": "OOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "支气管炎",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以给宝宝喷这个吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在正在也比较轻，没有发热或咳嗽，现在可以多给宝贝喂温开水，室内温度不要太低了，让宝贝多休息，观察一下孩子精神状态",
+            "label": "OOOOOOOOOOOOOBIOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今早我喂了这个给他，没事吧",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子症状比较轻，暂时不用给宝宝服用药物！",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个酮替芬片有抗过敏，止咳作用暂时也不用给宝宝服用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "恩，好的，那我喂了对他影响不大吧，等下我不喂了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子感冒着凉，主要还是病毒感染的可能性比较大，症状不重，也没有必要服用抗病毒药物，可以多给宝宝喝水，勤测体温，观察看看",
+            "label": "OOBIOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "病毒感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "如果只喝开水会不会很久才好",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝感冒的治疗也比较简单，还要让宝贝多注意休息，清淡饮食同样重要，多给宝宝喝温开水，要勤测孩子体温。高热时候积极处理！",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "高热"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般病毒感染引起的感冒疗程在5-7天，服药也会有这样一个过程",
+            "label": "OOBIIIOOOBIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您这样考虑，比如宝贝手指破了，感染了，用上药物也不会马上就消炎了，不疼了，都会有一个慢慢好转的过程",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，那宝宝我要怎么护理呢，又不得吹风扇",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果在观察期间，宝贝出现咳嗽，发热，口腔，手脚的皮疹，就要及时带宝宝去二级以上公立医院小儿内科就诊，检查一下血常规，或胸片，排除病毒或细菌感染",
+            "label": "OOOOOOOOOOOOBIOBIOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOBIII",
+            "normalized": [
+                "咳嗽",
+                "发热",
+                "皮疹",
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "通过体检听诊和化验结果，可以明确病因，便于对症治疗效果比较好，也能指导我们用药！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最近就是让宝贝多休息，多饮水，室内可以开空调，不要温度太低了，主要避免室内外温差刺激！风扇不要直接吹宝贝就好了！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "恩，好的，今天喂了一点药，那我这段时间不给他用药的话，一个星期后可以打疫苗吗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "让宝贝多休息，多喝水，清淡易消化饮食，保持室内空气新鲜流通，避免细菌病毒滋！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "打疫苗也要根据孩子具体情况，一般感冒症状缓解3天以上就可以打疫苗了，到时候您也可以咨询一下防疫科的医生！",
+            "label": "OOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝如果鼻塞加重，鼻涕很多，影响宝贝呼吸，也要及时让面诊医生看一下，可以开一些口服药物缓解孩子症状！",
+            "label": "OOOOBIOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻塞",
+                "鼻流涕"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝现在晚上睡觉，睡睡又哭，睡不熟怎么回事呢",
+            "label": "OOOOOOOOOOOOBOOOOOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝晚上睡觉不好，有可能和感冒鼻塞有关系，或者饿了，想大小便，或孩子有缺钙症状，也会夜间烦躁哭闹的",
+            "label": "OOOOOOOOOOOOOBIBIOOOOOOOOOOOOOOOOOOBIOOOOOOOBIBIO",
+            "normalized": [
+                "普通感冒",
+                "鼻塞",
+                "缺钙",
+                "烦躁",
+                "哭闹"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喂药期间不能喂鱼肝油是吗",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最近可以观察看看，感冒好了，还是没有好转的话可以带宝宝去医院检查一下微量元素，排除缺钙引起的症状",
+            "label": "OOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOO",
+            "normalized": [
+                "普通感冒",
+                "缺钙"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "喂药期间可以暂时不要给孩子吃鱼肝油，可以上下午带宝宝出门，多晒太阳也可以促进钙吸收",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚才我问您那个喷鼻子的可以给宝宝用吗",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "暂时还是不要给宝宝用了",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "恩，我今天又给他用了两次，那我不给他用了",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我今天喂的那点药他吃了不会对身体有什么影响吧",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝比较小，很多药物都是通过肝肾代谢的，为了宝贝用药安全，最好药物让面诊医生确定安全性后服用！如果孩子症状加重了，可以让面诊医生开一些缓解症状的药物！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "影响不是很大的，可以多观察孩子精神状态，多给宝贝喂水，改善孩子感冒症状同时，促进药物排泄！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，我知道了，谢谢医生，以后我不会随便给他用药了，因为这些药是上次医生开的以为可以用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，每次宝贝症状相同，但是引起疾病的原因不一定一样，使用药物前最好让面诊医生确定用药安全",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "恩，今天尿了很多，就是尿的多药就排出来得快是吗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有什么可以帮您吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，祝愿宝宝早日康复！",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "感谢医生",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您有任何问题可以随时和我联系或留言，我看到后会第一时间回复。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "祝你工作顺利。",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气，再见",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

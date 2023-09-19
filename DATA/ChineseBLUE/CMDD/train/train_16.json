@@ -1,0 +1,556 @@
+{
+    "data-split": "train",
+    "example-id": "10837201",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗨你好，前天晚上也有点发热前天晚上发的也蛮高的，昨天白天我就带他去医院医院量了一下，白天忒热了一点退热药说让我晚上回来如果发热的话就给他用，",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOO",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热期间孩子可能会出现不舒服，就会出现哭闹",
+            "label": "BIOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "发热",
+                "哭闹"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子有腹胀的情况吗？有拉肚子的情况吗",
+            "label": "OOOOOBIOOOOOOBIIOOOO",
+            "normalized": [
+                "腹胀",
+                "腹泻"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你怎么能判断出这个孩子是肚子痛啊",
+            "label": "OOOOOOOOOOOOBIIO",
+            "normalized": [
+                "腹痛"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天晚上睡觉过二十分钟的样子大概就就要付款然后就趴着，申请一群的在哭，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有咳嗽流鼻涕的症状，",
+            "label": "OOBIBIIOOOO",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这个孩子趴着哭，有可能是肠蠕动增快引起的",
+            "label": "OOOOOOOOBOOOOOOOOOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子现在年龄多大了",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在八个月，",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子出现呼吸道感染以后，往往都是全身的症状就是发热，很少有流鼻涕打喷嚏等卡他症状",
+            "label": "OOOOOOOOOOBIIIIOOOOOOOOOOOOOOBIOOOOBIIBIIOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "发热",
+                "鼻流涕",
+                "打喷嚏"
+            ],
+            "type": [
+                "3",
+                "1",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那有什么方法怎么解决，",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要给孩子按摩腹部，改善胃肠功能",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子到医院检查有没有说嗓子红啊，有没有受凉的情况？家里的大人有没有呼吸道感染的情况",
+            "label": "OOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "爷爷好像有家的，怎么行支气管炎算不算慢性支气管炎会传染吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "慢性支气管炎如果合并急性感染的话，可能会传染",
+            "label": "BIIIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这个孩子没有出现胃肠道的症状，比如说呕吐腹泻拉肚子腹胀，那就不考虑肠绞痛啊",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIBIBIIBIOOOOOOOOOO",
+            "normalized": [
+                "呕吐",
+                "腹泻",
+                "腹泻",
+                "腹胀"
+            ],
+            "type": [
+                "2",
+                "2",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子除了发热以外还有其他的症状吗",
+            "label": "OOOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "目前没有发现其他症状就是很偶尔的咳嗽两声很少，然后就是哭的时候会趴着，",
+            "label": "OOOOOOOOOOOOOOOOBIOOOOOOOOOBOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "哭闹"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "拉肚子的话就是前几天有一点拉肚子但是昨天没有拉肚子昨天拉了一遍厕所，",
+            "label": "BIIOOOOOOOOOOBIIOOOOOOBIIOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "根据你所描述的情况，我认为还是应该考虑呼吸道感染",
+            "label": "OOOOOOOOOOOOOOOOOOOBIIII",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热的时候，由于血液循环增快，孩子会出现不舒服的情况，会出现阵发性的哭闹",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "发热",
+                "哭闹"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那我认为这个孩子肠绞痛的可能性不大呀，应该与这个没有太大的关系，还是与这个孩子发生的有关",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那应该是服用什么药物还是怎么解决呢办法呢，",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子最高的体温是多少啊？发了多长时间了",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前天晚上最高的时候是三八度九，然后白天就没有白天就正常啦，然后就昨天晚上又开始发了，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天晚上发的这个是三十八度，",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我认为需要给孩子口服清热解毒的药物，可以选择小儿双金口服液，小儿柴桂退热颗粒",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你可以到医院进行血常规的检查，明确一下这个孩子发热的原因，另外需要看一下孩子嗓子红不红，需要确定一下是不是呼吸道感染",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIII",
+            "normalized": [
+                "发热",
+                "呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子出现发热，多是呼吸道感染引起的",
+            "label": "OOOOOOOOOOBIOOOBIIIIOOO",
+            "normalized": [
+                "发热",
+                "呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我昨天去那个医生给我开的是小孩安酚黄那敏颗粒，然后还来一个，恩布洛芬，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子是不是第一次发热呀",
+            "label": "OOOOOOOOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小儿氨酚黄那敏颗粒是治疗感冒的药物，你们当地医生也是考虑这个孩子呼吸道感染了",
+            "label": "OOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOBIIIIO",
+            "normalized": [
+                "普通感冒",
+                "呼吸道感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "两个月前有发热一次",
+            "label": "OOOOOBIOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那就不考虑幼儿急诊",
+            "label": "OOOOOBIII",
+            "normalized": [
+                "幼儿急疹"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还是应该考虑呼吸道感染引起的",
+            "label": "OOOOOOBIIIIOOO",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呼吸道感染一般有3到4天的高峰期，在这个期间孩子会出现反复的发热，过了高峰期以后症状会逐渐的缓解。",
+            "label": "BIIIIOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那谁管那边肯定还要给他吃吗？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要吃",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "上次发热后来有支气管炎",
+            "label": "OOBIOOOBIII",
+            "normalized": [
+                "发热",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦，这孩子的体质不是特别好",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天没有听疹，不知道是不是又支气管炎",
+            "label": "OOOOOOOOOOOOOOBIII",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果没有咳嗽，不考虑气管炎",
+            "label": "OOOOBIOOOOBII",
+            "normalized": [
+                "咳嗽",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那是在加一个柴桂颗粒吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "用量是多少",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小儿柴桂退热颗粒？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "每次半包一天三次",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我认为这个孩子需要到医院查血常规的",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看一下是病毒还是细菌感染引起的",
+            "label": "OOOOBIOOBIIIOOO",
+            "normalized": [
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是细菌感染引起的，需要加消炎药",
+            "label": "OOOBIIIOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        }
+    ]
+}

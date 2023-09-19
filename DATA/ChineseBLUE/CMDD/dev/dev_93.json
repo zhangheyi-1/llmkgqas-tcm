@@ -1,0 +1,261 @@
+{
+    "data-split": "dev",
+    "example-id": "10309180",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，我是儿科主治医师张姣姣，同时也是一位宝妈，下面由我来帮您解答咨询，接下来就开始问诊、分析！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您好，请问宝宝流鼻涕多长时间了？鼻塞明显不？吃奶情况和精神状态怎么样？",
+            "label": "OOOOOOOBIIOOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕",
+                "鼻塞"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一个礼拜了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "明显",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "鼻塞明显不？吃奶情况和精神状态怎么样？",
+            "label": "BIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻塞"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "解释如下：我觉得只有充分了解患者的情况后，才有利于给出更好的建议，所以我的问诊可能会多些，请多理解??????",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃奶有什么爱哭",
+            "label": "OOOOOOB",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "时候",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，一直没出现发热、咳嗽？",
+            "label": "OOOOOOOBIOBIO",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那都是给宝宝吃的哪些药？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有发热咳嗽有一点点",
+            "label": "OOBIBIOOOO",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，那都是给宝宝吃的哪些药？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这个",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，看到了，吃了几天了？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "两三天",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，咳嗽一般一次咳嗽几声？",
+            "label": "OOBIOOOOBIOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "两三声",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不频繁吧？",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不频繁",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，宝宝总体情况了解了，目前还是考虑急性上呼吸道感染（俗称感冒），目前属于轻度，暂时没有肺炎倾向，可以继续口服药物治疗观察3天",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIIIIIOOOBIOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染",
+                "普通感冒",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "流鼻涕不用太担心，主要是咳嗽，担心咳嗽加重，需要警惕肺炎",
+            "label": "BIIOOOOOOOOOBIOOOBIOOOOOOOBI",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽",
+                "咳嗽",
+                "肺炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果宝宝仅仅是流鼻涕，没有明显的咳嗽了，口服几天药物之后就可以不必非得药物治疗了，我的意思是流鼻涕不是多大问题，可以靠自身免疫力逐渐恢复，但是如果出现咳嗽，哪怕是轻咳，也需要高度警惕，毕竟，宝宝太小、免疫力差，一出现感冒就有一定发展为肺炎的风险",
+            "label": "OOOOOOOBIIOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOBIOOO",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽",
+                "鼻流涕",
+                "咳嗽",
+                "咳嗽",
+                "普通感冒",
+                "肺炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "其次，再看看你们当地医院有没有卖的百蕊颗粒（婴幼儿常用的感冒药之一），目前比较适合您宝宝这种情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "若您暂时还没想好给我发送什么信息，可以先随便发给我一个字，以免超过5分钟无回复、系统自动关闭了对话框??????",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

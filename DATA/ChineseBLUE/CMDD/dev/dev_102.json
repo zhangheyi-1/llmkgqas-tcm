@@ -1,0 +1,279 @@
+{
+    "data-split": "dev",
+    "example-id": "10261539",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子大便当中的奶瓣儿多不多",
+            "label": "OOOOOOOOBIIOOO",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "或者说大便当中有没有粘液",
+            "label": "OOOOOOOOOOBI",
+            "normalized": [
+                "大便粘液"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有奶瓣，我家不喝母乳了喝牛奶了，好几天没喝牛奶了，没什么粘液",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "稀便",
+                "大便粘液"
+            ],
+            "type": [
+                "3",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有点感冒了",
+            "label": "OOBIO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那就是说大便只是有点稀",
+            "label": "OOOOOOOOOOB",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "感冒的孩子可能会出现拉肚子的情况",
+            "label": "BIOOOOOOOOBIIOOO",
+            "normalized": [
+                "普通感冒",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这是由于感冒多是由于病毒感染引起的，病毒感染本身就会导致孩子出现腹泻",
+            "label": "OOOOBIOOOOBIIIOOOOBIIIOOOOOOOOOOBI",
+            "normalized": [
+                "普通感冒",
+                "病毒感染",
+                "病毒感染",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有一种情况就是口服抗病毒的药物，也会导致孩子出现拉肚子的情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBIIOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦！那不吃药行不行",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你指的是拉肚子的药？",
+            "label": "OOOOBIIOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯是的",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我家感冒药就吃了艾畅",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "？？？",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我上面已经跟你说了，病毒感染很容易出现腹泻的情况",
+            "label": "OOOOOOOOOOBIIIOOOOOBIOOO",
+            "normalized": [
+                "病毒感染",
+                "腹泻"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这种情况应该考虑症状性的腹泻，应该进行大便常规的检查，如果大便当中没有炎症，可以口服思密达，保护胃肠黏膜",
+            "label": "OOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "斯密达是不是蒙脱食散吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我家还吃了一种放冰箱里的好像叫双杆菌",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "的药",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这是肠道微生态制剂，具有调节肠道微生态环境的作用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃这两种药就行了是吧",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "牛奶是不是还是不能喝啊",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "暂时继续口服上述药物，所有的乳制品是不能吃的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该米粉为主",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦！哦哦好的",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

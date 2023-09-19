@@ -1,0 +1,379 @@
+{
+    "data-split": "train",
+    "example-id": "10332406",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝目前这个体温属于低热",
+            "label": "OOOOOOOOOOBI",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是怎么回事呢？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你家宝宝有没有其他什么症状？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "额头不烫了，但是感觉吃母乳的时候嘴巴里热度高点儿，是内烧么？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你量的是哪里的体温。",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是昨天夜里哭的吐了一次，一到晚上喉咙有点痰鼻子有点堵，白天就好点儿",
+            "label": "OOOOOOBOBOOOOOOOOOOOOBBIIIIOOOOOOO",
+            "normalized": [
+                "哭闹",
+                "呕吐",
+                "痰",
+                "鼻塞"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "腋下温度",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝之前有没有受凉的情况，",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，前天和昨天带出去来，昨天有风，但是在车里，出去用大衣裹着",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可能受凉了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在看着精神挺好的倒是",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯有可能是有点受凉了小宝宝他这个抵抗力没有大人的那么好。目前宝宝还有一个拉肚子和上呼吸道鼻塞有痰的情况。应该是受凉之后导致上呼吸道感染以及胃肠型的感冒。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOBIBIOOOOOOOOOOOOOBIIIIIOOBIIIIIO",
+            "normalized": [
+                "腹泻",
+                "鼻塞",
+                "痰",
+                "上呼吸道感染",
+                "肠胃型感冒"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "诊所今天早上建议吃小儿氨酚黄那敏颗粒，一天三次一次三分之一，后来家人让吃了七珍丹就没吃小儿氨酚黄那敏颗粒",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "像这个情况多喝点水可以么？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小宝宝除了七珍丹有没有吃其他什么药啊，吃完后腹泻有没有好转。需要多喝水。您觉得宝宝有没有脱水的情况。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "腹泻",
+                "脱水"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "除了七珍丹没吃其他的",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是腹泻后体温降了，早上37.5中午37.1现在36.1",
+            "label": "OOBIOOOOOOOOBIIIOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "低热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "脱水后有什么症状么？",
+            "label": "BIOOOOOOOO",
+            "normalized": [
+                "脱水"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "孩子看着挺精神，和平时一样玩儿起来了",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看看有没有尿量突然减少，有没有皮肤起皱褶的情况，像老年人那样",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是偶尔往回抽气是怎么回事，肚子着凉了么？",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天尿量比平时少点儿，皮肤没有褶皱",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你说的往回抽气是什么意思打嗝吗。",
+            "label": "OOOOOOOOOOOOBIOO",
+            "normalized": [
+                "呃逆"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您看，这是宝宝现在玩耍的样子",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是口里往回吸气，发出声音的往回抽气",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看宝宝的精神还挺好的。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯，是的，精神不错，",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "平时吃的就不多，今天吃的更少，不想吃，就没喂她",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝目前主要是一个腹泻的症状。应该是的。",
+            "label": "OOOOOOOOOBIOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯，现在还没腹泻，主要是吃上七珍丹后打下来的",
+            "label": "OOOOOOOBIOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯。这个拉肚子考虑点宝宝受凉也有关系的。",
+            "label": "OOOOBIIOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯，36.1的温度没事么？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神好就没事吧",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那还需要给孩子吃小儿氨酚黄那敏颗粒么？",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你我觉得宝宝现在可以用止泻的药物这个也可以吃。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "精神好表示宝宝的一般情况还好。",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "止泻的药物？可是已经不拉了啊",
+            "label": "OOOOOOOOOOBIOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "小儿氨酚黄那敏颗粒需吃么？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，不拉就不吃，宝宝下午不是拉肚子了吗，没有拉肚子有几个小时了。宝宝有这个呼吸道的症状可以吃。",
+            "label": "OOOOOOOOOOOOOOBIIOOOOOBIIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        }
+    ]
+}

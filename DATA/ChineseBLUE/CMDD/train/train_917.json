@@ -1,0 +1,335 @@
+{
+    "data-split": "train",
+    "example-id": "10391184",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，孩子现在咳嗽是单声咳还是连声咳，有痰吗？喘不喘？有没有声音嘶哑？体温怎么样？",
+            "label": "OOOOOOOBIOOOBOOOOBOBIOOBIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽",
+                "痰",
+                "喘息"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没量体温，连声咳",
+            "label": "OOOOOOOB",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不沙哑",
+            "label": "OBI",
+            "normalized": [
+                "沙哑"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽有痰吗？",
+            "label": "BIBIOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "从出生鼻子就感觉有点堵",
+            "label": "OOOOOOOOOOB",
+            "normalized": [
+                "鼻塞"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "怎么看出有痰，反应没咳痰出来",
+            "label": "OOOOBIOOOOBIOO",
+            "normalized": [
+                "痰",
+                "咳痰"
+            ],
+            "type": [
+                "3",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "反正",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一天大约咳嗽多少次或者间隔多长时间咳嗽一阵，什么时间段咳嗽厉害些？",
+            "label": "OOOOBIOOOOOOOOOOOBIOOOOOOOOBIOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这两天比较明显点",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一天下来十几次吧",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有时候睡着睡着也咳",
+            "label": "OOOOOOOOB",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "整个过程中是先咳嗽减轻，这两天又厉害了是吗？",
+            "label": "OOOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一直都不严重咳，就是会咳，这两天比较咳得比较厉害",
+            "label": "OOOOOOBOOOOBOOOOOOBIOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为孩子是早产儿，并且现在月龄五个半月，这个时间段患儿抵抗力低，容易细菌或病毒感染，所以，需警惕反复呼吸道感染的可能，现在仍有咳嗽，建议更换止咳药剂型，比如肺力咳合剂或者小儿咳嗽糖浆或金振口服液等，效果都比较好。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOBIIIOOOOOOOBIIIIIIOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染",
+                "病毒感染",
+                "呼吸道感染",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "具体买哪个比较好",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "更换止咳药后观察孩子咳嗽情况和体温，如果三天还是咳嗽不减轻或者体温波动，建议到医院就诊，听诊了解由于肺部炎症，及时治疗",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在五个半月十四斤会轻吗",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小儿咳嗽糖浆，金振口服液和肺力咳合剂都挺好的，选其中一种即可",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "出生体重多少？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "6个月以内婴儿体重＝出生体重＋0.7×月龄",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "单位kg",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "3.9",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "3.9kg?",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不是",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这样的话孩子体重还可以啊，挺好的",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "1.95",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "记得如果三天宝宝咳嗽不减轻，要去医院就诊，了解肺部情况。同时，祝宝宝早日康复",
+            "label": "OOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，谢谢医生",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应该的，不客气",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问还有什么疑问吗？如果没有可以结束服务哦",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好，到现在用已经药三天，孩子咳嗽好一些了吗？",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        }
+    ]
+}

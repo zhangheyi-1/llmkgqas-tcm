@@ -1,0 +1,339 @@
+{
+    "data-split": "train",
+    "example-id": "10657383",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝最近哭闹的厉害，莫名其妙的就哭起来了，也不知道怎么了",
+            "label": "OOOOBIOOOOOOOOOOBOOOOOOOOOOO",
+            "normalized": [
+                "哭闹",
+                "哭闹"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "从你描述的情况这个孩子出现上述情况应该与孩子的发热有关系的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热期间孩子的血液循环增快，有可能会出现烦躁不安，出现饮食欠佳，出现哼哼唧唧的情况",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "等这个孩子疾病恢复正常以后，上述情况可能会有一定的好转",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在已经不发烧了，发烧之前就总是烦躁不安",
+            "label": "OOOOOBIOOBIOOOOOOOOO",
+            "normalized": [
+                "退热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前天晚上就退烧了，一直注意她的温度，再也没有反复",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "虽然说这个孩子现在体温已经正常了，但是疾病并没有完全恢复啊",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "所以说仍可能出现不舒服的情况",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在看来她舌苔有点发黄，口气有点发酸，睡觉脚一蹬一蹬的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "舌苔发黄，口气有点酸，需要考虑这个孩子胃肠功能不好，消化吸收能力差",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "胃肠功能不好的孩子，有可能会出现肠蠕动增快，就会出现烦躁不安",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子的大便是正常的吗",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "胃肠功能不好的孩子也会出现吃奶欠佳",
+            "label": "OOOOOOOOOOOOOBIII",
+            "normalized": [
+                "食欲不振"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "朋友顺会不会是积食，我也不知道会不会是积食的原因…",
+            "label": "OOOOOOOBIOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "积食",
+                "积食"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外这个孩子是什么原因引起的发热？口腔当中有没有溃疡或者疱疹？",
+            "label": "OOOOOOOOOOOOOOBIOOOOOOOOBIOOBIO",
+            "normalized": [
+                "发热",
+                "溃疡",
+                "疱疹"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这种情况不能排除积食，积食孩子也会出现低热",
+            "label": "OOOOOOOOBIOBIOOOOOOBI",
+            "normalized": [
+                "积食",
+                "积食",
+                "低热"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她不停的要吃奶，暂时还没断奶，别的都不吃，不给吃奶就哭的厉害，吃奶也不是好好吃奶样子",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBOOOOOOOOOOOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "发烧的时候去医院验过血，医生说是嗓子有点发炎",
+            "label": "BIIOOOOOOOOOOOOOBIIIII",
+            "normalized": [
+                "发热",
+                "咽喉炎"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃奶过多就会导致这个孩子胃肠功能紊乱，会出现肠蠕动增快的情况",
+            "label": "OOOOOOOOOOOOBIIIIIOOOOOOOOOOOO",
+            "normalized": [
+                "胃肠功能紊乱"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果说是嗓子发红，那应该考虑呼吸道感染",
+            "label": "OOOOBIIIOOOOOOBIIII",
+            "normalized": [
+                "咽喉炎",
+                "呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "最近她总是用手抠嘴",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那就需要看一下这个孩子口腔当中有没有溃疡或者疱疹",
+            "label": "OOOOOOOOOOOOOOOOOOBIOOBI",
+            "normalized": [
+                "溃疡",
+                "疱疹"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不让抠就哭",
+            "label": "OOOOB",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗓子的疼痛这个孩子就会出现上述症状，用手抠嘴",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哭起来还使劲扯着嗓子喊…",
+            "label": "BOOOOOOOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肯定是这个孩子不舒服才会出现喊叫的",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "自己可以看出来么？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子张嘴的时候，你可以看一下口腔黏膜",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医院开了很多药，也在吃，吃好多天了………也没见好…",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "疾病的治疗总有个过程啊不可能一蹴而就的",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那你在家中给孩子口服什么药物了",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呼吸道感染一般有3到4天的高峰期，过了高峰期以后症状会逐渐的缓解。",
+            "label": "BIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外这个孩子不能排除胃肠功能不好所导致的，可以给孩子按摩腹部，改善胃肠功能",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

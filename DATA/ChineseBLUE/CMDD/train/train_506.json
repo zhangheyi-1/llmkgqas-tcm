@@ -1,0 +1,456 @@
+{
+    "data-split": "train",
+    "example-id": "10601842",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，在吗？为了更好的为您服务，我需要问您几个相关问题，请您配合我好吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝腹泻多久了，一天几次，大便是什么样的",
+            "label": "OOBIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "从昨天开始，昨天一天拉四次。有点稀",
+            "label": "OOOOOOOOOOOOOOOOB",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天已经拉了两次，颜色有点绿偏白色",
+            "label": "OOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "量多吗，大便里有没有带粘液血丝",
+            "label": "OOOOOOOOOOOBIBI",
+            "normalized": [
+                "大便粘液",
+                "血便"
+            ],
+            "type": [
+                "3",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "量有点多，没有血丝",
+            "label": "OOOOOOOBI",
+            "normalized": [
+                "血便"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝有没有发热和呕吐，吃奶正常吗",
+            "label": "OOOOOBIOBIOOOOOO",
+            "normalized": [
+                "发热",
+                "呕吐"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有时候大便又有点黏稠",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝这两天有没有换新奶粉或者新添加什么辅食",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有发热和呕吐",
+            "label": "OOBIOBI",
+            "normalized": [
+                "发热",
+                "呕吐"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有爱吃手和玩具的习惯",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一直没有添加奶粉，辅食添加的玉米粉，是之前一直在吃的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有爱吃手和玩具的习惯，",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这两天有没有着凉，宝宝有没有流鼻涕鼻塞",
+            "label": "OOOOOOOOOOOOOOBIIBI",
+            "normalized": [
+                "鼻流涕",
+                "鼻塞"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还有不知道是不是昨天坐车开窗吹了风的缘故",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有流鼻涕和鼻塞",
+            "label": "OOBIIOBI",
+            "normalized": [
+                "鼻流涕",
+                "鼻塞"
+            ],
+            "type": [
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，这样看来宝宝腹泻有两种可能性，一是着凉，二是得了病毒性肠炎",
+            "label": "OOOOOOOOBIOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "腹泻",
+                "肠炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "病毒性肠炎，是病毒侵犯肠粘膜，使得肠粘膜上皮脱落，导致肠道吸收功能减弱，引起腹泻，大便成稀便或水样便，没有粘液血丝，同时可能引起发热",
+            "label": "BIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOBIOBIIOOOBIBIOOOOOOOBI",
+            "normalized": [
+                "肠炎",
+                "腹泻",
+                "稀便",
+                "水样便",
+                "大便粘液",
+                "血便",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那怎么办",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "可以服用些什么药物来治疗呢",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "通常是因为吃手或者饮食不卫生造成的，平常要勤给宝宝洗手，宝宝餐具要定期用沸水煮来消毒，避免腹部着凉，注意保暖，可以贴肚脐贴",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以给宝宝吃益生菌和蒙脱石散",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "丁桂儿脐贴可以吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "蒙脱石散吃奶前半小时先吃，可以附着在胃肠粘膜上，减轻腹泻，益生菌可以和奶粉同吃或者喂奶后吃",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以贴",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外一定要观察尿量，腹泻的宝宝很容易脱水的",
+            "label": "OOOOOOOOOOBIOOOOOOBIO",
+            "normalized": [
+                "腹泻",
+                "脱水"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "硫酸庆大霉素颗粒可不可以服用",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果他一天尿量达不到6到8次，然后小便也不是清亮的，是黄黄的，浑浊的，这种情况，就是脱水了，我们要及时给宝宝喂水，实在喂不进去，就要靠输液来补充水分了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "脱水"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不可以，这个药对婴幼儿副作用很大",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦！知道了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "病毒性肠炎是自限性疾病，一般疗程需要五到七天，只要护理好宝宝，应该问题不大的",
+            "label": "BIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肠炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以给宝宝每天蒸一个苹果，削皮切片放碗里蒸二十分钟，把蒸出的苹果水给宝宝喝，也有止泻作用。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那那个消旋卡多曲颗粒可以吃吗",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "苹果煮水给宝宝喝可以吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果宝宝腹泻特别严重每天达七八次以上，量还很大，并且吃蒙脱石散和益生菌没有明显效果的情况下，才建议服用这种药",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为这种药有一些副作用，有可能影响宝宝神经发育",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "它是通过抑制肠道神经来达到止泻的作用",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "妈咪爱益生菌一包分几次服用？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果发现宝宝大便中有血丝或者大量粘液，您需要及时去医院查便常规，看看是否有细菌感染",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIII",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "八个月婴儿吃妈咪爱效果不好，建议吃双岐三联或者亿活",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "妈咪爱适合一月小婴儿服用",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯！好的，谢谢，谢谢医生",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气，如果宝宝出现精神不好或者高热，希望您及时到医院就医",
+            "label": "OOOOOOOOOOBIIIOOBIOOOOOOOOOOO",
+            "normalized": [
+                "精神软",
+                "高热"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "很高兴为您服务",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝早日康复",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯！非常感谢",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "??",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,432 @@
+{
+    "data-split": "train",
+    "example-id": "10652929",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好！很高兴为您解答。39度，发热了。",
+            "label": "OOOOOOOOOOOBIIOBIOO",
+            "normalized": [
+                "高热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咽部红，扁桃体看不见。",
+            "label": "BIIOBIIOOOO",
+            "normalized": [
+                "咽喉炎",
+                "扁桃体炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的朱大夫",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可能与劳累受凉有关。家里有退热药可以給宝宝服",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子还说哪里不舒服吗？头痛吗？",
+            "label": "OOOOOOOOOOOBIOO",
+            "normalized": [
+                "头痛"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "家里有猴枣散给他吃了一个",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有头疼",
+            "label": "OOBI",
+            "normalized": [
+                "头痛"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有其他症状，就是手脚额头都烫的",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子精神状态好，可以先吃退热药，体温如果反复，就去附近正规医院儿科门诊就诊。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "让宝宝配大声喊啊，看看扁桃体红肿吗？",
+            "label": "OOOOOOOOOOOBIIIIOO",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "劳累后容忍扁桃体发炎化脓，需要吃消炎药。",
+            "label": "OOOOOBIIIIOOOOOOOOOO",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "让宝宝配合一下大声喊啊，看看扁桃体红肿吗？",
+            "label": "OOOOOOOOOOOOOOBIIIIOO",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他也不发冷，也不出汗……这也算发烧吗朱大夫",
+            "label": "OOOOOOOBIIOOOOOBIOOOO",
+            "normalized": [
+                "出汗",
+                "发热"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是发热，感染的病原不同，发热表现就不同的。",
+            "label": "OBIOOOOOOOOOBIOOOOOOO",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在孩子就是感觉热，也是一种表现",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，明白了，我看看他扁桃体",
+            "label": "OOOOOOOOOOOBII",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咽部能看出红，发热，属于上呼吸道感染症状。普通感冒大约持续一周左右，发热3天左右。口服中成药及退热药就好了。",
+            "label": "OOOOOOOBIOOOBIIIIIOOOOOBIOOOOOOOOOBIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "上呼吸道感染",
+                "普通感冒",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果咽部红加重，孩子觉得嗓子痛，考虑细菌感染的可能性大，可以口服消炎药。中成药可以吃蒲地蓝。",
+            "label": "OOBIIOOOOOOOBIIOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咽喉炎",
+                "咽喉不适",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "明白了，非常感谢您，他现在不配合，看不到扁桃体",
+            "label": "OOOOOOOOOOOOOOOOOOOOBII",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这只是我的经验。再吃发热，就看医生，查血常规C反应蛋白等，大体评估一下是细菌性还是病毒性的。病毒感染没有特效药，注意观察识别重的表现，",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "病毒感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如孩子不精神，头痛，肚子痛，耳朵痛，颈部淋巴结肿大，那就不是普通感冒，可以有合并症或者是其他感染，也要及时去医院了。",
+            "label": "OOOBIIOBIOBIIOOOOOBIIIIIIOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "精神软",
+                "头痛",
+                "腹痛",
+                "淋巴结肿大",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢您朱大夫",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "扁桃体看不到，就让医生检查吧，家长不会。",
+            "label": "BIIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不用客气",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "多喝水，多喝水多喝水，重要的是说三遍哈",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不会，压不倒舌头",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "注意休息。",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "压舌头后三分之一，用筷子",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，辛苦您了，那我结束了",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "力量向下",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的??",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您有任何问题可以随时给留言，我看到后会第一时间回复。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您可以在咨询结束后点击（首页），在首页里找到（康复记录），在康复记录里找到我然后点（再次咨询）",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "明白了",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "及时去医院吧，发热可能是其他疾病的一个表现",
+            "label": "OOOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "用筷子啊，我的勺哈哈",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生可以评估一下不是特殊感染，感冒就好治疗了",
+            "label": "OOOOOOOOOOOOOOOBIOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，知道了，麻烦您了",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "筷子好看一点",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "夏天手足口比较多，",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "注意检查宝宝身上有无皮疹",
+            "label": "OOOOOOOOOOBI",
+            "normalized": [
+                "皮疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "观察宝宝精神食欲，体温变化，大小便情况。没有异常，就不严重。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "反之提示必须就医了。",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

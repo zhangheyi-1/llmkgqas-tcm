@@ -1,0 +1,479 @@
+{
+    "data-split": "train",
+    "example-id": "10455012",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，可能体温会上升，有鼻塞喉咙痛吗？",
+            "label": "OOOOOOOOOOOOBIBIIOO",
+            "normalized": [
+                "鼻塞",
+                "咽喉不适"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "鼻塞嗓子不疼，但是嗓子老是说不舒服，老师咳咳那样的，但不是咳嗽",
+            "label": "BIBIIIOOOBIIIIIIIOOOOOOOOOOOOBI",
+            "normalized": [
+                "鼻塞",
+                "咽喉不适",
+                "咽喉不适",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "2",
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以拍喉咙的照片看看吗？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有头晕头痛吗？",
+            "label": "OBIBIOO",
+            "normalized": [
+                "头晕",
+                "头痛"
+            ],
+            "type": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "昨天体温好不好？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "头晕没有，老是说恶心",
+            "label": "BIOOOOOOBI",
+            "normalized": [
+                "头晕",
+                "恶心"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "说明有喉咙发炎了。",
+            "label": "OOOBIIIOO",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "晚上要备好退热药，有可能晚上会出现发热的。",
+            "label": "OOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天没事",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗓子红",
+            "label": "BII",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "喉咙红有几天了？",
+            "label": "BIIIOOOO",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那现在该给吃点什么药？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没太注意呢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在家里有什么药？清热解毒的中成药可以吃点",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有蒲地蓝消炎药",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在考虑急性扁桃体炎，现在可以吃点清热解毒的药，蒲地蓝可以吃的",
+            "label": "OOOOBIIIIIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "别的还需要搭配什么吃？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "要注意体温情况，如果出现高热体温39度，就要吃美林退热药。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在就可以吃蒲地蓝，如果明天还有发热，最好到医院化验血常规看看是病毒感染还是细菌感染，如果是细菌感染，那么要配点消炎药，比如头孢。",
+            "label": "OOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOBIIIOOBIIIOOOOBIIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "病毒感染",
+                "细菌感染",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃这个退热的行吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个退热可以的。",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在在就吃蒲地蓝，如果考虑有细菌感染，就可以吃点头孢",
+            "label": "OOOOOOOOOOOOOOBIIIOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那今晚我给搭配头孢克洛咀嚼片可以吗",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你能拍小孩的喉咙照片看看吗？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "行",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在是病毒还是细菌感染，还不能明确，可能暂时不吃头孢。",
+            "label": "OOOBIOOBIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在是病毒还是细菌感染，还不能明确，可以暂时不吃头孢。",
+            "label": "OOOBIOOBIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果考虑有细菌感染，那么一般要吃头孢3-5天，根据血常规化验决定。",
+            "label": "OOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "照不清楚",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果喉咙很红，甚至有出血点一样，那么肯定有细菌感染，可以吃消炎药的。",
+            "label": "OOBIIIOOOOOOOOOOOOOOOBIIIOOOOOOOOO",
+            "normalized": [
+                "咽喉炎",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "或者喉咙不舒服时间长了，也可能是细菌感染引起",
+            "label": "OOOOOOOOOOOOOOOOBIIIOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，行那我给吃点消炎药吧",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般如果是病毒感染，一般3-5天就会好起来的。",
+            "label": "OOOOOBIIIOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果口服药物治疗3天不见好转或者体温39度以上，那么要去医院就诊，化验血常规看看。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "喉咙发炎，如果拖的时间长了，容易变成慢性咽炎。",
+            "label": "BIIIOOOOOOOOOOOOOOBIIIO",
+            "normalized": [
+                "咽喉炎",
+                "咽喉炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在喉咙发炎，饮食也要注意，清淡一点，少吃辛辣油腻食品，注意休息，不要太劳累，多喝水。",
+            "label": "OOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有其他问题或者不理解的地方吗？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那穿着方面需要注意什么？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热时不要穿太多，这样不利于散热",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温正常的话，要注意保暖",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，好的，我拿温水给他擦擦身子行吗",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "很平时穿衣一样就可以。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的。",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的好的，谢谢啦大夫",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气的。",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "很高兴为您提供咨询服务，祝宝宝快乐健康成长！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "??",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "????",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好，现在小孩怎么样了？体温正常了吗？",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

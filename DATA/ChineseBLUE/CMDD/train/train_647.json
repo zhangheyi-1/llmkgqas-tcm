@@ -1,0 +1,393 @@
+{
+    "data-split": "train",
+    "example-id": "10603627",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好-我是您的接诊医生",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝最近吃奶量可以吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝妈有没有吃生冷辛辣刺激食物油腻食物呢？",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肚子着凉来吗？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃奶量正常，",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝目前的话精神状态好尿量多的话倒是问题不大的奥！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝期间看过医生吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "尿量也正常，就是拉的次数有点多，去看了说是肚胀消化不良，开了妈咪爱还有健脾散，吃了两天，没见明显好转，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIBIIIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹胀",
+                "消化不良"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝目前的话大便绿色，大便次数增多主要是一个消化不良的表现，消化不良的话可能受凉或者胃肠功能弱都可能引起来消化不良的，治疗的原则一般就是调节胃肠功能的原则的奥！",
+            "label": "OOOOOOOOBIOOOOOOOOOOOOBIIIOOOOBIIIOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "绿便",
+                "消化不良",
+                "消化不良",
+                "消化不良"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不是每次都绿色，连着三天都是早上起来第一次第二次绿色便便，非常深的绿色，",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOBIIIIIIIIIIO",
+            "normalized": [
+                "绿便",
+                "绿便"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之后白天一整天是正常的",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的话宝贝精神状态好，尿量多，大便次数还是可以的，所以目前病情比较稳定的，如果宝贝大便次数比较多的话如果不控制的话就容易脱水的，表现为宝贝尿量少，眼窝凹陷之类的，目前的宝贝情况可以观察一下，可皮肤粘膜干燥等脱水症状，面诊医生根据宝贝具体情况，给宝贝开了妈咪爱调节胃肠功能，健脾散调节脾胃，面诊医生给宝贝开的药就是符合治疗原则的奥，对宝贝来说也是比较快的一种治疗原则的奥，恢复起来比较快，对宝来比较",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "脱水",
+                "尿量减少",
+                "脱水"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不积极配合医生的治疗的话胃肠功能得不到恢复的奥，不利于宝贝的恢复",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "关键吃了没有好转，是药量不够还是不对症都不好说",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个胃肠功能紊乱的话治疗疗程怎么也得5到7天的疗程的，目前的话胃肠功能恢复就像手破了修复是有一个过程的奥，目前吃了两天了疗程还没有够的，可以继续给宝贝巩固面诊医生的药物，药物吸收也是有一个过程的奥，不是用上之后症状立马就会消失的奥，",
+            "label": "OOOOBIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "胃肠功能紊乱"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃着面诊医生的用药观察三天，大便次数，大便性状，大便颜色不缓解或者加重及时带宝贝去儿内科就诊查个大便常规明确一下病因，看看需不需要调整用药，根据结果对症处理，精神状态差，超过8小时没尿的话就可以及时带宝贝去儿内科就诊补液对症治疗了，防止宝贝脱水电解质紊乱的奥！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "精神软",
+                "脱水"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝妈吃饭注意饮食，生冷辛辣刺激食物不能吃油腻食不能吃，多喝点温水，水果之类的也不要吃，多给宝贝热敷一下肚子，顺时针揉揉肚子，别着凉肚子，晚上睡觉盖好被子，别着凉，这个时候胃肠功能会影响所以能吃多少吃多少别强喂奥！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我朋友家宝宝也是腹泻，他说吃妈咪爱效果没有鞣酸蛋白酵母散好，请问这两种效果是一样的嘛，像这种情况我家宝宝可以换换吃这个嘛",
+            "label": "OOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝大便绿色的话就是消化不良的一种表现的奥",
+            "label": "OOBIIIOOOOBIIIOOOOOOO",
+            "normalized": [
+                "绿便",
+                "消化不良"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "每个宝贝肯定不同的奥，这个不是说所有的宝贝都适合有一种药，面诊医生根据宝贝具体情况给宝贝开的就是最适合宝贝的一种治疗原则的奥，您不用太担心了，积极配合医生的治疗哈，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "顺时针揉肚子？面对面顺时针么？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的话宝贝病情比较稳定的奥，您就按照医生的医嘱吃着观察三天，再注意以上注意事项奥，有问题及时就医的奥！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您可以给宝贝搓热双手捂捂肚子，轻轻揉揉肚子就可以的奥",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是面对面顺时针揉么？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "什么意思呢？面对面？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您就搓热双手揉揉就可以的奥，别着凉肚子！",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "揉肚子啊，是他躺着我面对他顺时针揉嘛？",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的，这个没什么特别要求的恩，抱着也可以的奥",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肚子胀气轻轻揉揉肚子也是有帮助的奥！",
+            "label": "BIIIOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "像我宝宝这么大的，可以睡凉席嘛，藤席那种",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的，那种不是太凉的奥！",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "晚上睡觉盖好被子，别着凉肚子",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的话就是按照医生的医嘱观察三天，再注意以上注意事项奥，有问题及时就医的奥",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "对了医生",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯啊，请说",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我宝宝鹅口疮反复几次了，",
+            "label": "OOOBIIOOOOOO",
+            "normalized": [
+                "鹅口疮"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "怎么办呢是",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个就是很容易反复，宝贝免疫力差的时候容易这样，平常的话宝贝用的东西玩的玩具一定要弄干净的奥，治疗的话宝妈奶头也要弄干净的奥！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个随着年龄的增大的话就会好的奥！现在没什么影响的奥您可以不用太担心了奥",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "怎么治疗呢是",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般用抗真菌感染的药物摸的，这个就是当时恢复了，过段时间又反复的奥！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是一直会反复，直到年龄大点？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个也不一定的奥，有的宝贝就反复一次两次的奥，这个您根据宝贝具体情况对症处理的奥！平常多给宝贝喝点温水！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "关键这个要是反复对健康有没有危害？网上说的可吓人了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个一般没什么影响的奥！这个您放心的奥！这个宝贝出现症状的话就给宝贝去医生那里再医生指导下用药的奥！注意卫生",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

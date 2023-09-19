@@ -1,0 +1,389 @@
+{
+    "data-split": "test",
+    "example-id": "10179232",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好，今天喝了点药晚上咳好像有痰",
+            "label": "OOOOOOOOOOOBOOBI",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还可以喝吗",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个药是可以继续喝的",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子夜间咳嗽症状重，还是白天咳嗽症状重",
+            "label": "OOOOOOBIOOOOOOOOBIOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前都是白天咳，晚上咳一两声，今天喝了点晚上咳嗽了好几回，",
+            "label": "OOOOOOBOOOBOOOOOOOOOOOBIOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "跟这个药我没有关系的，应该与疾病本身有关系的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子咳嗽的时间比较长，需要注意气管炎的可能",
+            "label": "OOOBIOOOOOOOOOOOBIIOOO",
+            "normalized": [
+                "咳嗽",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "气管炎的话那现在该怎么办？还有我听说我今天拿的这种药适合干咳",
+            "label": "BIIOOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "支气管炎",
+                "干咳"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这个孩子是刺激性的干咳，需要注意支原体感染的可能，应该给孩子口服阿奇霉素的",
+            "label": "OOOOOOOOOOOBIOOOOOBIIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "干咳",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有就是你的这种右美沙芬口服液",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子既往体质怎么样？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前还好，咳嗽都是喝点感冒药，但一般晚上咳嗽都需要挂水",
+            "label": "OOOOOBIOOOOOOOOOOOOOBIOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那证明这个孩子的体质不是特别的好",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这次的咳嗽时间有点长了",
+            "label": "OOOBIOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子精神状态怎么样",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子咳嗽的时间比较长，应该考虑气管当中有炎症，炎症的刺激就会出现痰液",
+            "label": "OOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOBO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神很好，那我现在该不该给她继续喝那药，消炎药是头孢克肟的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那种药是可以继续吃的，没有问题",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "就是那种右美沙芬口服液？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "对啊",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没有问题可以继续吃",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外需要让孩子多喝水，勤拍背，促进痰液的排出",
+            "label": "OOOOOOOOOOOOOOOOOBOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就刚刚睡觉的时候咳了几声，现在没咳嗽，有痰咳嗽也是可以喝吗",
+            "label": "OOOOOOOOBOOOOOOOBIOBIBIOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "痰",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "2",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "支气管炎的后期气管当中的分泌物都是很多的，这是由于炎症的刺激所引起的",
+            "label": "BIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "当然可以",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对症治疗不是最根本的，最主要的就是需要对因治疗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要控制感染，在感染未控制的情况下，对症治疗是没有用的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那你觉得现在该怎么办",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你的头孢克肟吃几天了",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天刚刚吃",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果今天刚刚吃，那就继续吃吧，口服3天，观察咳嗽的情况，如果咳嗽症状明显的缓解，那就继续口服这种药物。如果咳嗽症状没有缓解，甚至加重，建议你到医院进行相应的检查",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIOOOOOOBIOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "比如说血常规，胸片，肺炎支原体抗体",
+            "label": "OOOOOOOOOOBIBIIOO",
+            "normalized": [
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，之前没喝感冒药，因为之前感冒刚好没几天，喝了好长时间感冒药，这次咳嗽不厉害就没给她喝",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天刚喝的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那就先口服试试看吧",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "毕竟这个孩子既往体质不是特别的好",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一定要让孩子多喝水的，这是最主要的",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这样可以促进痰液的排出，稀释痰液",
+            "label": "OOOOOOBOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "3"
+            ]
+        }
+    ]
+}

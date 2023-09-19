@@ -1,0 +1,524 @@
+{
+    "data-split": "train",
+    "example-id": "10466748",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子，如果说出现了腹胀的情况，最好的治疗办法就是给孩子按摩腹部，这样可以促进肠蠕动，有利于腹内的气体排出体外",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肚子咕噜咕噜响的声音是正常的肠蠕动，可能这个孩子的肠蠕动过快一些",
+            "label": "BIIIIIIOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肠鸣音"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这个孩子肚子敲起来跟鼓一样的声音，那应该考虑腹胀，与这个孩子的胃肠功能不好消化吸收能力差有关系的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "请问怎么按摩",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "以肚脐眼为中心，顺时针按摩5到10分钟，每天3到5次",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "画圈，是吗",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外在喂养方面也需要适当的调整，减少每次喂奶的奶量，增加喂奶次数，每天总的奶量是不变的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "每次喂奶完毕后，都要竖着抱起来拍一拍孩子打嗝以后再把孩子放躺下",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "请问她这个年龄一次喂多少毫升",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子每次60到80毫升吧，但是考虑到这个孩子有腹胀的情况，最多六十毫升",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以增加每天的喂奶次数，减少每次的奶量",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我想问一下这个孩子是母乳喂养还是人工喂养",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "母乳",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是母乳喂养，妈妈的饮食也需要调整的，尽可能进食容易消化的食物，避免进食油腻生冷辛辣刺激的食物",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我是母乳放在奶瓶喂",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "先按照上述方法进行调整，观察3到5天。如果这个孩子的症状没有明显的缓解，仍然有腹胀的情况，肠鸣音比较活跃，需要到医院就诊的，应该进行进一步的检查，毕竟这个孩子年龄太小了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹胀",
+                "肠鸣音"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以将母乳挤到奶瓶当中给孩子喂养",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "请问多久喂一次",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以两个小时喂一次，或者说一个半小时",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "夜间可以减少喂奶的次数，但是不应该超过四个小时给孩子喂奶，这样会造成孩子低血糖的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "低血糖症状是？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "低血糖的症状就是孩子出汗比较多，不吃不动",
+            "label": "OOOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "出汗"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "精神状态比较差，脸色苍白",
+            "label": "BIIIIIIOOOOO",
+            "normalized": [
+                "精神软"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喔，",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果超过五个小时，这个孩子能不能不吃奶，需要将孩子弄醒进行喂奶的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "除开按摩",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以进行腹部的热敷，这样也可以促进肠蠕动，改善胃肠功能",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "9还有其他办法吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子，如果有可能尽量不口服药物，毕竟所有的药物都是有副作用的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "按摩腹部是最有效的方法",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这个孩子出现了精神状态的改变，出现了阵发性的哭闹，一定要到医院就诊的，毕竟这个孩子年龄比较小，病情变化比较快",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于胃肠功能不好的孩子，很容易出现肠梗阻的，特别是这个孩子有腹胀的情况，家长一定要重视。",
+            "label": "OOOOOOOOOOOOOOOOOBIIOOOOOOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "肠梗阻",
+                "腹胀"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她现在肚子硬硬",
+            "label": "OOOBIII",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这就是腹胀的表现",
+            "label": "OOOBIOOO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子，如果出现胃肠功能不好，很容易出现腹胀的情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她要打嗝出来就好些是吗",
+            "label": "OOBIOOOOOOO",
+            "normalized": [
+                "呃逆"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚才我按摩打了一个隔",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "打出嗝来也会好很多呀",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "就是因为这个孩子吃奶的时候吞咽下过多的气体，才会出现腹胀的情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她就是喝奶时，很急，老是呛了",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这与孩子的性格有关系，反复的呛奶会导致支气管黏膜的损伤",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "当然喝奶比较急，也会吞咽下过多的气体，就会出现腹胀的情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚才打个隔，肚子软点了",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还吐了点奶",
+            "label": "OBOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对呀，排出了过多的气体，这个孩子腹胀的情况就会明显的缓解",
+            "label": "OOOOOOOOOOOOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "所以说需要减少每次喂奶的奶量增加喂奶次数，吃奶过多就会出现呕吐的情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "本身这个年龄段的孩子贲门发育不成熟，胃是横的，吃奶以后就会出现呕吐的情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我忘记我吃了土豆和花菜",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "与妈妈的饮食有一定的关系，妈妈尽可能进食容易消化的食物",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "妈妈的饮食不规律，吃一些不容易消化的食物就会影响奶的质量，就会导致这个孩子出现消化功能不良的情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIIOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢，我会注意的",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段的孩子胃肠功能出现了紊乱，出现了损伤，最常见的原因就是奶的质量问题，还有就是吃奶过多，喂养的方式出现了问题",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

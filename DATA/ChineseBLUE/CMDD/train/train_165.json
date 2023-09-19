@@ -1,0 +1,308 @@
+{
+    "data-split": "train",
+    "example-id": "10467781",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好我家宝宝之前干咳不是很厉害，大概每天白天也就平均每小时一次那样，我们去看医生医生说没什么大问题，只是咽部有点红，给开了小儿伪麻美芬滴剂和小儿葫芦散，吃吃这两天还不见好转",
+            "label": "OOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "干咳",
+                "咽喉炎"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子现在还是咳嗽很频繁，体温怎么样？",
+            "label": "OOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "反而昨天开始一天比一天，咳的厉害，很频繁，感觉不是干咳还有痰了",
+            "label": "OOOOOOOOOOOOBOOOOOOOOOOOOBIOOBO",
+            "normalized": [
+                "咳嗽",
+                "干咳",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大夫肺部听诊没说肺炎，结合孩子目前咳嗽频繁，有痰考虑支气管炎",
+            "label": "OOOOOOOOBIOOOOOOOBIOOOBIOOBIII",
+            "normalized": [
+                "肺炎",
+                "咳嗽",
+                "痰",
+                "支气管炎"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚开始前三天只是干咳，而且咳嗽频率只是白天大概每小时咳嗽一次，我们咳嗽第二天去医院看的，大夫说没什么前边说的两样药，结果吃吃不见好转还加重了大问题，只是咽部红，给开得",
+            "label": "OOOOOOOOBIOOOBIOOOOOOOOOOOBIOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOO",
+            "normalized": [
+                "干咳",
+                "咳嗽",
+                "咳嗽",
+                "咳嗽",
+                "咽喉炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "病初一般是病毒性感染，因为孩子小，抵抗力低，病史三到五天仍不好，易继发细菌感染",
+            "label": "OOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOBIII",
+            "normalized": [
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚开始前三天只是干咳，而且咳嗽频率只是白天大概每小时咳嗽一次，我们咳嗽第二天去医院看的，大夫说没什么大问题，只是咽部红，给开得前边的两样药，结果越吃越严重，怎么回事",
+            "label": "OOOOOOOOBIOOOBIOOOOOOOOOOOBIOOOOOBIOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "干咳",
+                "咳嗽",
+                "咳嗽",
+                "咳嗽",
+                "咽喉炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子正处于疾病进展期，目前口服清热解毒药物不能控制，需加用消炎药物口服",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这个病程大概多久，这小儿伪麻美芬滴剂和小儿葫芦散是清热解毒的药吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，可以再口服头孢克洛消炎和金振口服液止咳",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般的一个周左右",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果口服药物效果不好，就要到医院就诊，拍胸片了解有没有进展到肺炎，必要时输液治疗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "疱疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我家宝宝九个月大，家里有头孢丙烯干混悬剂",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以吃这个",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "止咳糖浆有好几种，肺力咳合剂，杏苏止咳糖浆和半夏糖浆",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "喝肺力咳合剂吧，疗效比较好",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是小儿葫芦散，和小儿伪麻芬滴剂，头孢丙烯干混悬剂和肺力咳合剂这四样药物同时服用是吗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小儿葫芦散可以先停停，口服后边三种药物即可",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "注意评估疗效",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果口服三天效果不好，要到医院就诊进一步评估有没有进展至肺炎",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "都按说明服用是吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前两次宝宝咳嗽都是从开始咳就看医生，每次都是十天左右突然就好了",
+            "label": "OOOOOOBIOOOOOBOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也是一直口服药",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，每次感染病原不同，病程不完全一样，因为孩子抵抗力比较低，很容易由支气管炎发现至肺炎，所以，口服药的基础上要注意评估疗效，如果不好，就要去医院完善胸片，血象等检查协助进一步治疗了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝宝宝早日康复",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "上次是周六中午去的医院，今天口服医院的药物已经算整整三天了，感觉加重，明天再去医院合适不",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的，也可以查血象评估后再决定继续口服药还是输液治疗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果有什么问题可以给我留言，看到后会立即回复的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

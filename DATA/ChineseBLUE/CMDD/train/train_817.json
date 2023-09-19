@@ -1,0 +1,270 @@
+{
+    "data-split": "train",
+    "example-id": "10540800",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "根据你所描述的情况，这个孩子需要考虑呼吸道感染，也就是咱们常说的感冒了",
+            "label": "OOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOBIO",
+            "normalized": [
+                "呼吸道感染",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呼吸道感染多是由于病毒或者细菌感染引起的，病毒感染的可能性是非常大的。呼吸道感染的孩子就会出现咳嗽，发热，流鼻涕，打喷嚏等表现",
+            "label": "BIIIIOOOOBIOOBIIIOOOOBIIIOOOOOOOOOOBIIIIOOOOOOOBIOBIOBIIOBIIOOO",
+            "normalized": [
+                "呼吸道感染",
+                "病毒感染",
+                "细菌感染",
+                "病毒感染",
+                "呼吸道感染",
+                "咳嗽",
+                "发热",
+                "鼻流涕",
+                "打喷嚏"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "1",
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子仅仅是流鼻涕，偶尔有干咳的情况，那这个孩子现在精神状态怎么样",
+            "label": "OOOOOOOBIIOOOOBIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕",
+                "干咳"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神好的，需要就医还是先吃药。",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以先口服药物试试看的",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以给孩子口服感冒颗粒和清热止咳药物",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "鼻涕不怎么流了",
+            "label": "BIOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "适当的让孩子多喝水，观察这个孩子的精神状态以及体温的变化",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果给予上述治疗2到3天以后，孩子的症状没有明显的缓解，或者说出现了咳嗽，症状加重，精神状态差，那就需要到医院就诊的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOBIIIIOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "精神软"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "周日流了一天，周一吃了头胞粉末半包，纳尔平4·5mL，不怎么流了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呼吸道感染多是由于病毒感染引起的，没有必要吃消炎药，除非这个孩子有细菌感染的指征，比如说流黄鼻涕，白细胞总数明显的升高",
+            "label": "BIIIIOOOOBIIIOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOBIIIOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "病毒感染",
+                "细菌感染",
+                "鼻流涕"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以给孩子口服纳尔平",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "目前干咳不严重暂不用去医院",
+            "label": "OOBIOOOOOOOOO",
+            "normalized": [
+                "干咳"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "纳尔平家里有，止鼻涕好，吃了两天，今天开始喝的金振",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，可以先口服药物试试看",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好，谢谢",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "纳尔平具有止咳的作用，并且对呼吸道感染具有一定的作用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以给孩子口服金振口服液的，这个药也具有清热解毒的作用，也具有止咳的作用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "毕竟这个孩子年龄有点小，如果说出现咳嗽症状加重，孩子的精神状态不好，出现反复的发热，那就需要到医院就诊的",
+            "label": "OOOOOOOOOOOOOOOOOBIOOOOOOOOBIIIIIOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "精神软",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "牛奶能喝吗？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "当然可以的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，不敢给他瞎吃，味口还可以",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那就应该问题不大的，可以暂时观察",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呼吸道感染期间，尽可能给孩子吃容易消化的清淡的食物，不能给孩子吃油腻的，不容易消化的食物",
+            "label": "BIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        }
+    ]
+}

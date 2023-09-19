@@ -1,0 +1,396 @@
+{
+    "data-split": "train",
+    "example-id": "10469528",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在吗",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子咳嗽多长时间了，有没有打喷嚏的情况",
+            "label": "OOOOBIOOOOOOOOOBIIOOO",
+            "normalized": [
+                "咳嗽",
+                "打喷嚏"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有打喷嚏",
+            "label": "OBII",
+            "normalized": [
+                "打喷嚏"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前天晚上咳嗽流鼻涕",
+            "label": "OOOOBIBII",
+            "normalized": [
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "也就是说这个孩子咳嗽的时间不长啊！",
+            "label": "OOOOOOOOBIOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽，出汗",
+            "label": "BIOBI",
+            "normalized": [
+                "咳嗽",
+                "出汗"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "根据你所描述的这些情况，应该考虑呼吸道感染，这些应该是呼吸道感染以后的卡他症状，流鼻涕打喷嚏",
+            "label": "OOOOOOOOOOOOOOOOBIIIIOOOOOOBIIIIOOOOOOOOBIIBII",
+            "normalized": [
+                "呼吸道感染",
+                "呼吸道感染",
+                "鼻流涕",
+                "打喷嚏"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温正常吗",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有发烧",
+            "label": "OOBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子还有其他的症状吗",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子是过敏体质",
+            "label": "OOOOOBIOO",
+            "normalized": [
+                "过敏"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天有点痰音",
+            "label": "OOOOBI",
+            "normalized": [
+                "痰鸣音"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喘音",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "以前查过过敏源",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子有喘息的情况，过敏原的检查结果是阳性，那应该考虑过敏体质的",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "喘息",
+                "过敏"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于这样的孩子很容易发生呼吸道感染，需要积极的给孩子治疗，以免症状加重",
+            "label": "OOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "怎么治疗",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子有没有进行血常规的检查",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要给孩子口服小儿清热止咳口服液，感冒颗粒",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这两种药物过敏的概率比较低呀，可以选择中药类的药物，中药类的药物相对来说过敏的概率比较低！",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOO",
+            "normalized": [
+                "过敏",
+                "过敏"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有吃清宣颗粒",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个是可以吃的，另外还需要给孩子口服感冒颗粒等",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "999小孩感冒颗粒？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个是可以吃的",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "等等喂一包",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以带着孩子到医院进行血常规的检查",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果白细胞的总数没有明显的升高，那就没有必要吃消炎药，相对来说抗生素过敏的概率比较高一些",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "过敏"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呼吸道感染一般有3到4天的高峰期，在这个期间孩子的症状可能会重一些",
+            "label": "BIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外这个孩子有喘息的情况，我建议进行雾化吸入，这样可以明显的缓解这个孩子咳嗽喘气的症状",
+            "label": "OOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOBIBIOOO",
+            "normalized": [
+                "喘息",
+                "咳嗽",
+                "喘息"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前天没流鼻涕前咳嗽，带去查了血，血没事",
+            "label": "OOOBIIOBIOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这个孩子的血常规检查是没有问题的，那就没有必要吃消炎药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "给孩子对症治疗就可以了，口服清宣止咳颗粒，小儿氨酚黄那敏颗粒，另外还有就是雾化吸入",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好吧",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "先口服上述药物观察，3到4天，如果孩子的症状没有明显的缓解，咳嗽喘息的症状加重，需要到医院就诊的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIBIOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "喘息"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外需要观察这个孩子有没有出现发热的情况",
+            "label": "OOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子既往体质怎么样",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

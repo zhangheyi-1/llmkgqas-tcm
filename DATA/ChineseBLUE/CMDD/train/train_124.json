@@ -1,0 +1,545 @@
+{
+    "data-split": "train",
+    "example-id": "10692346",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "唉你好咱们宝宝可他的时间比较长啦，而之前化验血，这是显示的病毒感染，哦没有检查别的项目呢如支原体有没有检查呢，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "都查了，没有支原体，就是病毒感染的支气管炎",
+            "label": "OOOOOOBIIOOOBIIIOBIII",
+            "normalized": [
+                "支原体感染",
+                "病毒感染",
+                "支气管炎"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦你那意思就是检查的专题没有问题是吧，",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦这一个支气管炎那确实是，之前还别说受凉啊，或者是孩子抵抗力弱啊，病毒入侵引起来的咳嗽咳痰的症状，",
+            "label": "OOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIBOOOO",
+            "normalized": [
+                "支气管炎",
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那我看看他们打不开的药物呢就是有抗生素类的，哦还有条件都累的治疗这几天的话呢还化痰的药物啊，这几天就是咳嗽次数就是没有什么好转吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "对",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦这样的话那我建议拿给孩子就需要花费一五了，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咱们是歌手第几天的时候检查的血项和支原体呢，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "最近很热，估计是家里空调原因引起的",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可是刚开始可大的时候吗？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有好转",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳嗽第一天就检查了",
+            "label": "BIOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦你说的很可能啊，咱们吵架的原因还是吹空调一冷一热然后宝宝出现了感染引起来次气管炎的情况，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "然后昨天又查了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦科的天天他的情况呢是这样的啊呢我认为这是目前的男孩子哦应用就是那种抗病毒的药物还可能数字之类的治疗这个自己玩也效果不容易好，要我考虑是支原体感染的可能性，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOO",
+            "normalized": [
+                "支原体感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦昨天有没有检查支原体，",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天查了一个血常规",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃的药物都换好多种了",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "昨天今天检查的血常规吗，哦有没有别的呢有没有复查支原体呢，检查的结果也是支持只吃那个，白细胞不高是不是，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那有没有换阿奇霉素之类的啊要我主打话那人类的啊，那比如说那个阿奇霉素或者罗红霉素治疗的有没有，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这是昨天的血常规",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯我那考虑有咱们孩子目前还不能够排除支原体感染的可能性，",
+            "label": "OOOOOOOOOOOOOOOOOOBIIIIOOOOO",
+            "normalized": [
+                "支原体感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天就开了琥乙红霉素和盐酸二氧丙嗪片",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那因为那这个自然醒感叹之后呢他不是说咳嗽当检查这个支原体不是靠苍天就能检查出来的，哪哪都是，好呗个换自然体感染之后孩子也会出现按那个咳嗽咳比较长的一般是三到五天才会产生这种基本体的抗体，哦，我建议他目前来说咱们用用头孢效果不好可以换用这个阿奇霉素治疗，",
+            "label": "OOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我昨天给他吃了，今天我又重新去换了一种药了",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦这样那么这个虎一红霉素那也是，治疗支原体感染的，该怎么当的的大夫也是考虑咱们孩子应该是和ｂｉｎｇ这种支原体感染的情况，",
+            "label": "OOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOO",
+            "normalized": [
+                "支原体感染",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "二二养病情片儿呢他就是一个证科技是可以吃的，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯你换了什么药物呢，换的什么药物您说一下，",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天拿的事头孢拉定干混悬剂和一个热感赛车斯坦颗粒",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "塞比",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦原来是患了这种药物呢我建议呢还是不要换哦换药物比较好，哦因为那就是我和当地大夫的思路是差不多的，就是怀疑支原体感染，头孢拉定哪，就是和之前的头孢都是同一同一统一种肯定暴差不太多，所以换个口服的头孢，哦一并不是很大的，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支原体感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那个医生说热感塞比斯坦对支气管炎咳嗽好，所以有就买来试一下。听您那样一说，我就把头孢不吃了。还把昨天的琥乙红霉素和二氧丙嗪片在搭着塞比斯坦一起吃可以吗？",
+            "label": "OOOOOOOOOOOOBIIIBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "关键他这两种药吃了还是很咳嗽啊",
+            "label": "OOOOOOOOOOOOBIO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦这样哈就是我建议还是换回那个消炎的，哦那个罗红霉素治疗是比较好的，因为是通过的还是治疗的这种情况的，临床非常考虑是支原体的感染，哦目前那就是吃饭一顿两顿的效果不会太好一般是吃三天看效果，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支原体感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "撒比撒比斯塔娜也是一个那个止咳的药武汉也是可以吃的，哦但是但是呢我建议目前怎么还是比如说晚上客套比较严重，这也符合算的感染特点，哦哦，建议给孩子加上那个雾化哦游泳咱们有没有做过雾化呢，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "雾化没做就是输了4天水",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天医生是给我开的小药片的那种琥乙红霉素和二氧丙嗪片",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前还有一个情况就是孩子痰液比较粘稠，这种情况的话呢效果好的好效果好的还是做雾化治疗，可以把炎症直接就是在气管内消炎，嗯往外排排钠扩张自己管儿效果是比较好的，",
+            "label": "OOOOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这个药还继续吃是吧？那我把那个塞比斯坦颗粒也一起吃可以吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯我看大夫去换药的话咱们就按照大夫的思路来治疗是比较好的唬耕都知道聊城的比较长的需要两周到三周的时间，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "要不得都是都是可以一起吃的啊，嗯嗯就是注意要饭后吃，因为那个红霉素呢，又有去就是有一些个职位的情况，可能咱们当地大夫也可以也也告诉你啦，代笔字坦克的哪些是中成药为主的安卓的中成药也是那个化痰止咳的，吃的，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这么长啊？是两到三周完全治疗好还是只能起到缓解作用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我推荐众目前的治疗方案治疗然后加上雾化治疗三天看效果，假如像效果还是不明确的话就建议你带宝宝去检查那个支原体的抗体抗体，那就是有异常的话那还是确诊那个专题吧，然后就要继续吃药是两周到三周的时间才能够痊愈，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "两三都可以完全治愈一般来说，",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，我明天去做雾化。不需要输液了吧",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那个要是冲剂的好还是药片的好？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我看难目前来说孩子没有发热呢检查了血象也不高，嗯，到不是说非必须要输液治疗的，那这个雾化治疗那家好口福药物一样可以达到比较好的效果，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "额那个要不呢就是无论是哪一种，你说是片剂还是冲剂早上规格规格相同都可以的不要紧，其实效果都是一样的，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我也不客气的你注意啊就是饿孩子假如说晚上可厉害都无话了可以晚上临时的做，你们还这年年龄大啦应该有配合的，做完之后呢要给孩子多拍背可以促进痰液往外排病就好转的多了，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在一个主意隐私哈隐私一点好消化呢不吃太油腻的东西，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那冲剂的直接到嘴里吃和用水冲着吃有啥区别吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哎呦的你说的是前台药物代谢的情况一般都是用水溶开在啊在喝的水里去了她可能会影响要不起售，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "雾化主要是针对止咳化痰方便的吧",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦，我之前为了方便直接把药到孩子嘴里，然后再喝水的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我怕跟这个有关系，今天就直接拿水冲开了喝的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦雾化吗，主要是起到一个渠道那消炎和扩张支气管儿住呢，阎王安排的这么一个作用，比单纯吃药打针和输液了都效果要好，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这种药哪一般的没的事一般的药店是不容易购买的建议你啊要不去医院要不去那种大型的门诊，哦也可以购买的药物，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "虽然说效果效果有些限制的不不会说，多大的那个效果反差的啊这个不用很担心，那以后呢还是按照咱们说明书，额药物重复之后再给孩子喂，这种情况是最好的，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦不客气的，假如那出现可到继续加重的出现反复的发热呼吸费力出现这种情况及时了再去医院儿科学就，",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "3"
+            ]
+        }
+    ]
+}

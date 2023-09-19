@@ -1,0 +1,414 @@
+{
+    "data-split": "train",
+    "example-id": "10670694",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在吗",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "长时间低烧好吗",
+            "label": "OOOBIOO",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "长时间的发热肯定对孩子的身体有影响，需要寻找原因的",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热多长时间了",
+            "label": "BIOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "？？",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最高的体温是多少？除了发热以外，还有其他的症状吗",
+            "label": "OOOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "问题宝宝九个月了，最近几天总是低烧，前两天小诊所拿药，吃完药退烧，到夜里又烧到37.9度，反复两天，最后去医院查血常规，不是病毒性的，医生说可能小诊所药吃的，引起低烧不退，拿了双黄连，炎热清颗粒，吃了两次了，还是低烧，不超过38度，咋回事？",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOBIOOOOOBIIIIIIOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "低热",
+                "退热",
+                "发热",
+                "病毒感染",
+                "低热",
+                "低热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有其他症状",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你能不能上传血常规的检查结果",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子精神状态怎么样？吃奶正常吗",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "状态很好",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "能吃",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那应该问题不是特别的大呀",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一共低热了多长时间",
+            "label": "OOBIOOOOO",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "周一开始，吃了药好了，晚上又烧",
+            "label": "OOOOOOOOOOOOOOB",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "血常规的检查结果当中，淋巴细胞的百分比明显的升高应该考虑病毒感染了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "也就是说今天是发热的第四天",
+            "label": "OOOOOOOBIOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天去医院检查，开的双黄连，吃了却一直不退烧",
+            "label": "OOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "病毒感染一般有3到4天的高峰期，在这个期间有可能会出现反复的发热，度过高峰期以后症状会逐渐的缓解",
+            "label": "BIIIOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热的热度不是特别的高，我认为可以先口服药物试试看的",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那既往体制怎么样？有没有出现反复的呼吸道感染",
+            "label": "OOOOOOOOOOOOOOOOOBIIII",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "开的双黄连可以吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一直不退烧怎么办？",
+            "label": "OOOBIOOOO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个药具有清热解毒的作用",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个体温对孩子影响不大的，没有必要口服退热药物，也不需要特殊处理，一般来说不超过38.5度，不给孩子口服退热药物，在38度左右的体温可以外用退热贴",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生有没有说这个孩子嗓子红啊？",
+            "label": "OOOOOOOOOOBIIOO",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "说了",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那就应该考虑呼吸道感染，也就是咱们常说的感冒了",
+            "label": "OOOOOOBIIIIOOOOOOOOOBIO",
+            "normalized": [
+                "呼吸道感染",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "根据血常规的检查结果，应该考虑病毒感染引起的",
+            "label": "OOOOOOOOOOOOOOOBIIIOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也就是病毒性感冒？",
+            "label": "OOOBIIBIO",
+            "normalized": [
+                "病毒性感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "病毒感染多具有自限性，如果没有出现并发症，孩子的精神状态好，吃奶正常，完全可以先口服药物对症治疗的",
+            "label": "BIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也就是这个双黄连可以？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "接着吃？",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "当然可以",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就怕吃两天还不退",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我认为再坚持一天到两天体温就可会不正常的",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好吧，吃吃吧",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为病毒感染的高峰期一般来说就是3到4天，度过高峰期以后，症状会逐渐的缓解",
+            "label": "OOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果超过了四天，这个孩子仍然有发热的情况，体温仍然不稳定，或者说出现了精神状态差，那就需要到医院就诊的有必要进行输液治疗",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "精神软"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        }
+    ]
+}

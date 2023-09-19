@@ -1,0 +1,564 @@
+{
+    "data-split": "train",
+    "example-id": "10613821",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好！很高兴为您解答。血常规血象不高，C反应蛋白稍高。从化验单看不出是否是幼儿急疹。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIO",
+            "normalized": [
+                "幼儿急疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般幼儿急疹是发热三天左右，热退后几个小时左右出疹子。",
+            "label": "OOBIIIOBIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "幼儿急疹",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好，现在宝宝体温38.8度，有什么护理措施吗？",
+            "label": "OOOOOOOOOBIIIIOOOOOOOOOO",
+            "normalized": [
+                "中等度热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝体温多少度？今天还是发热吗？",
+            "label": "OOOOOOOOOOOOBIOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "38.8需要用退热药，宝宝最后一次退热药几点用的?",
+            "label": "BIIIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "中等度热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "38.8度，今天用了一次布洛芬，退烧以后过了4小时又发烧了",
+            "label": "BIIIIOOOOOOOOOOOBIOOOOOOOOBIO",
+            "normalized": [
+                "中等度热",
+                "退热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "中午12点",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "让宝宝多喝水，如果手脚热，可以用温水擦擦腋窝腹股沟10分钟。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在才4个小时，再吃布洛芬时间间隔稍短一些，一般要间隔5-6小时，24小时不超过4次的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "额头用冰冰贴降温。",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝发烧没有别的症状，只是单纯的发烧，请问多久能确定是不是小儿急疹",
+            "label": "OOBIOOOOOOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子精神食欲如何？今天刚刚看过医生，医生怎么说的，开的什么药？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一直在给他擦身体降温",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热三天左右，只有出了疹子才能确诊是幼儿急疹，现在只是根据宝宝年龄，血象，发热特点怀疑幼儿急疹。",
+            "label": "BIOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOBIOOOOBIIIO",
+            "normalized": [
+                "发热",
+                "幼儿急疹",
+                "发热",
+                "幼儿急疹"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不太喜欢吃东西，今天光吃的母乳，发热孩子比较急躁。医生说有可能是病毒性也有可能是小儿急疹",
+            "label": "OOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOBIIOOOOOBIII",
+            "normalized": [
+                "发热",
+                "病毒感染",
+                "幼儿急疹"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，怀疑。",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "如果一直发热可不可以给孩子灌肠推药？",
+            "label": "OOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝发热会不舒服的。",
+            "label": "OOBIOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "如果明天不出疹子是不是可以确定就是病毒性的感冒？",
+            "label": "OOOOOOOOOOOOOOOOOBIIIIIO",
+            "normalized": [
+                "病毒性感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "降温药物原则是用一种，如果宝宝发热频繁，吃退热药后一会体温又升高，伴随宝宝精神不好，再吃用布洛芬的话间隔时间短，可以临时用一次其他退热药如对乙酰氨基酚。",
+            "label": "OOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "精神软"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "乙酰氨基酚也用了，孩子睡觉的时候给他用的这个拴",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不一定，幼儿急疹发热平均三天，个别5天，热退骤然出疹子，本病就好了。",
+            "label": "OOOOBIIIBIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "幼儿急疹",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在的话是不是先要控制住孩子的体温，不要让他发烧？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "普通病毒感染，不是出疹性的，也可能有幼儿急疹发热程度差不多，也没有特效药，降温治疗，没有出现咳嗽，中耳炎等并发症，热退后也就好了。",
+            "label": "OOBIIIOOOOOOOOOOOOBIIIIIOOOOOOOOOOOOOOOOOOOOOOBIOBIIOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染",
+                "幼儿急疹",
+                "咳嗽",
+                "中耳炎"
+            ],
+            "type": [
+                "3",
+                "3",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热感染引起的炎性反应所致，是一种免疫反应，保护性作用，与病毒抗争的过程。控制体温只是暂时的，缓解宝宝不舒服，药性下去体温又高了。",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "孩子一直这么高的温度会不会引发别的病症？",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医院的医生说应该不会烧成大脑炎，说的太吓人了",
+            "label": "OOOOOOOOOOOOOBIOOOOOOO",
+            "normalized": [
+                "脑炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大部分不会引起并发症，家长密切观察宝宝精神食欲大小便情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢您！",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热一般不会引起脑炎，是感染的病原引起的发热，引起脑炎",
+            "label": "BIOOOOOOBIOOOOOOOOOOBIOOOBI",
+            "normalized": [
+                "发热",
+                "脑炎",
+                "发热",
+                "脑炎"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那我就放心了，谢谢您朱医生！",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果宝宝出现精神差，食欲不振，呕吐，囟门高，或者颈部淋巴结肿大，咳嗽了，需要去医院",
+            "label": "OOOOOOBIIOBIIIOBIOOOOOOOBIIIIIIOBIOOOOOOO",
+            "normalized": [
+                "精神软",
+                "食欲不振",
+                "呕吐",
+                "淋巴结肿大",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可能有其他并发症情况出现了",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝精神确实不太好，比较烦躁，但是没有呕吐和咳嗽",
+            "label": "OOBIIIIIOOOOBIOOOOOBIOBI",
+            "normalized": [
+                "精神软",
+                "烦躁",
+                "呕吐",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "幼儿急疹病好了才得出诊断，因为首先表现为发热，而发热的原因太多，并且幼儿急疹还可导致各种临床表现，在疹出来前不好与其他疾病区分。所以密切观察。",
+            "label": "BIIIOOOOOOOOOOOOOOOOBIOOBIOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "幼儿急疹",
+                "发热",
+                "发热",
+                "幼儿急疹"
+            ],
+            "type": [
+                "3",
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "囟门也不高",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今下午医生怎么和你沟通的宝宝情况？",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没有呕吐，囟门不高，一般不会有脑炎情况。",
+            "label": "OOBIOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "呕吐",
+                "脑炎"
+            ],
+            "type": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "说让吃奥司他韦",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这个药对胃刺激性太大，没敢让宝宝吃",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以，抗病毒的，",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是，有的宝宝吃了吐",
+            "label": "OOOOOOOOB",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生检查宝宝嗓子情况了吗？宝宝身上有皮疹吗？",
+            "label": "OOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "皮疹"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝嗓子有一点红，不严重，身上没有皮疹",
+            "label": "OOBIIIIIOOOOOOOOOBI",
+            "normalized": [
+                "咽喉炎",
+                "皮疹"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生考虑上呼吸道感染，病毒感染的可能性大。",
+            "label": "OOOOBIIIIIOBIIIOOOOOO",
+            "normalized": [
+                "上呼吸道感染",
+                "病毒感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您的意思是先吃那个奥司他韦？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果体温下降后，宝宝精神好，说明病情不严重。如果体温下降精神不好，还是烦躁，考虑是否有其他情况，需要去正规医院儿科看看。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOBIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "精神软",
+                "烦躁"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在就是这样，吃了退烧药，退了烧宝宝精神状态就很好",
+            "label": "OOOOOOOOOOOOOBIIOOOOOOOOO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我的意思是听宝宝接诊医生的意见。网上分析不全面，没有面诊查体，与实际情况有偏差的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在宝宝39.5了",
+            "label": "OOOOBIIIO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那最好给宝宝用退热药吧，布洛芬才间隔4个半小时，再吃一次也可以，下次再发热，布洛芬间隔不到6个小时，可以用对乙酰氨基酚，有口服的，也有退热栓，肛门用。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝小，发热可能有惊厥的可能，惊厥表现突然意识丧失，口唇青紫，四肢强直抽动等，需要立即去医院。",
+            "label": "OOOOBIOOOBIOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "惊厥",
+                "惊厥"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        }
+    ]
+}

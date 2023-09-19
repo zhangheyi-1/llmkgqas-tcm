@@ -1,0 +1,377 @@
+{
+    "data-split": "train",
+    "example-id": "10608565",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "四岁小孩前几天发烧，检查血说是白细胞有点偏低，现在已经不烧了，但老咳嗽，能吃点什么药！需要加消炎药吗？",
+            "label": "OOOOOOOBIOOOOOOOOOOOOOOOOOOBIOOOOBIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "血常规检查单有吗，发我看下吧",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不知道放哪了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看描述，白细胞偏低，考虑还是一个病毒感染引起",
+            "label": "OOOOOOOOOOOOOOOOBIIIOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "当时医生听诊检查过气管吗，有没有问题，诊断的什么疾病？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是说是病毒感染，",
+            "label": "OOOOBIIIO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "确诊是上呼吸道感染，还是支气管炎？门诊病历有吗",
+            "label": "OOBIIIIIIOOOBIIIOOOOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "支气管炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在不烧了，但有点咳嗽",
+            "label": "OOBIOOOOOBI",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽频繁吗，咳嗽深不深，干咳还是有痰？医生听诊检查过吗，说有没有问题？",
+            "label": "BIOOOOBIOOOOBIOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "干咳",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他没说，就说喉咙很红，开的刚才我发给你的药",
+            "label": "OOOOOOBIIIOOOOOOOOOOO",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般医生没说的话，考虑气管还是没有问题。咽部发红，还是一个上呼吸道感染。",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIIIOOOOOBIIIIIO",
+            "normalized": [
+                "咽喉炎",
+                "上呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生开的药，这个是个止咳药，对于干咳效果好。",
+            "label": "OOOOOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "干咳"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在孩子咳嗽，是个什么状态？",
+            "label": "OOOOBIOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "问题是那天去医院的时候都没咳嗽",
+            "label": "OOOOOOOOOOOOOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天早上刚起床有点咳的离婚，现在好像没怎么咳，现在能吃点什么药？",
+            "label": "OOOOOOOOOBOOOOOOOOOOOBOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生开的这个药，是个西药的复合制剂，有治疗感冒的成分，也有治疗咳嗽的成分，对于治疗感冒，咳嗽都是有效果的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以继续服用点医生所开的药物。同时有咽部发红，血常规检查也是病毒性感染，也可以适当的用一点中成药的清热利咽，抗病毒药。",
+            "label": "OOOOOOOOOOOOOOOOOOBIIIOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咽喉炎",
+                "病毒性感冒"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于题目中提问的需要服用消炎药吗，一般是不需要。因为本身是个病毒性感染，消炎药没有效果，而且看到孩子咳嗽不厉害，也没有支气管炎或者肺炎的情况，不需要乱用抗生素。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOBIIIOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那现在也不知道他喉咙还红不红啊？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在好拍图片吗？拍个图片，发我看一下红不红吧",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我看下能不能拍到",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "看不到喉咙",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前看了孩子的情况，我觉得可以继续服用医生所开的这个药物，同时多注意喝水，反复的冲刷咽喉部。观察咳嗽情况，如果咳嗽不严重的话，先吃这个药物就可以。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOBIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果咳嗽有加重的情况，加一点中成药的止咳化痰药，同时加强食疗，蒸点梨子吃，润肺止咳，别出去乱跑，在家里养养。",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "另外不用加吗？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果咳嗽变得频繁，或者有痰，可以吃点小儿宣肺止咳颗粒，是个中成药的非处方药。比较温和，效果也好，一般药店都买得到。",
+            "label": "OOBIOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "应该有点痰",
+            "label": "OOOOB",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外注意观察咳嗽情况，如果出现咳嗽很厉害的话，建议就医小儿科，复诊医生，让医生听诊检查，看气管情况，进一步的明确病情。",
+            "label": "OOOOOOBIOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好，谢谢",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "总体来说，看着孩子目前症状还是不重的，还是一个上呼吸道感染，轻咳嗽的情况，适当的吃点药，多喝水，加强食疗，这个一般很快会好。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIIIIIOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好了，别客气，还有别的需要咨询的吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "别客气，应该的，吃点药，多喝水，加强食疗，在家里养养。祝身体健康，有问题再联络，再见。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

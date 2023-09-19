@@ -1,0 +1,486 @@
+{
+    "data-split": "train",
+    "example-id": "10027169",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，很高兴为您服务，为了更好的提供服务，我需要询问您几个与病症相关的问题，感谢您配合，谢谢您。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问孩子发热多久了？除了发热，有别的症状吗？比如咳嗽，呕吐腹泻，皮疹？",
+            "label": "OOOOBIOOOOOOBIOOOOOOOOOOBIOBIBIOBIO",
+            "normalized": [
+                "发热",
+                "发热",
+                "咳嗽",
+                "呕吐",
+                "腹泻",
+                "皮疹"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "发烧第3天，无其他症状",
+            "label": "BIOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热大概多久一次，最高体温是多少度？",
+            "label": "BIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "精神反应，食纳，大小便怎么样？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您能提供孩子血液结果给我看下吗？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前天白天发烧，吃药后正常，第二天晚上12点又开始烧",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOB",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "都吃了什么药物？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃药后昨天白天一天没烧，昨天晚上又开始烧",
+            "label": "OOOOOOOOOOOOOOOOOOOB",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "最好39，现在37.5",
+            "label": "OOBIOOOBIII",
+            "normalized": [
+                "高热",
+                "低热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "都是腋温吗？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "高烧时吃了布洛芬悬浮液4毫升",
+            "label": "BIOOOOOOOOOOOO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您能提供孩子血液结果给我看下吗？您去医院医生有没有给您明确的诊断？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "检查结果没在身边，白细胞都在正常范围内",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您是什么时候去医院就诊的？还给孩子吃了其他的药物没有？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生说没什么事，她说宝宝嗓子有点红，有可能是这个原因",
+            "label": "OOOOOOOOOOOOBIIIIOOOOOOOOO",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "精神反应，食纳，大小便怎么样？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还有头孢",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "但是孩子不吃，没吃进去",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "饭量有点小，大小便正常",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，根据您提供的一些信息，考虑孩子以上呼吸道的感染为主，病变主要在咽部，考虑病毒感染的可能性大，一般病毒感染的话发热一般会有3到5天，5到7天后会自行缓解。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOBIIIOOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染",
+                "病毒感染",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "需要吃什么药吗",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有可能是手足口传染的吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您可以再配合一点清热解毒抗病毒的用药。另外一个就是幼儿急疹需要警惕，它好发于6个月到两岁的孩子，以发热为主要的表现，发热3到5天之后，身上长疹子。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOBIOOOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "幼儿急疹",
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "手足口病的话一般手上脚上刚周会有疱疹，您看一下孩子有没有这些症状？阴部一般也会看到疱疹，上次您就诊的话，医生说咽部发炎并没有说到疱疹，所以可能性不大，但仍需警惕，附近孩子有手足口病的患儿吗？",
+            "label": "BIIIOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOBIIIOOOOOBIOOOOOOOOOOOOOOOOOOOOBIIIOOOOO",
+            "normalized": [
+                "手足口病",
+                "疱疹",
+                "疱疹",
+                "咽喉炎",
+                "疱疹",
+                "手足口病"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "已出过幼儿急疹",
+            "label": "OOOBIII",
+            "normalized": [
+                "幼儿急疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "手上脚上没有疱疹",
+            "label": "OOOOOOBI",
+            "normalized": [
+                "疱疹"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，如果幼儿急疹发过的话，那可能性不大。",
+            "label": "OOOOOBIIIOOOOOOOOOOOO",
+            "normalized": [
+                "幼儿急疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "口里也没有",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "主要还是考虑咽部的情况，您自己会看咽部吗？您看一下扁桃体是否有没有肿大，有没有化脓？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有个，当天和他一期玩了会，第二天就听说他昨晚发烧，医院检查手足口",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果手上、脚上、屁股上，身上还有烟不没有疱疹的话，手足口病感染的可能性小。",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIOOOBIIIOOOOOOOO",
+            "normalized": [
+                "疱疹",
+                "手足口病"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您给孩子吃的药物是头孢和布洛芬对吗？还有其他药物没有？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我家宝宝是跟他玩后第三天凌晨4点发烧的",
+            "label": "OOOOOOOOOOOOOOOOBII",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "布洛芬只有高烧时吃了",
+            "label": "OOOOOBIOOO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还有一种专门治嗓子的，我忘记什么名了",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，不用太紧张，虽然说手足口病传染性强，但并不是每个孩子接触手足口病的患儿后就一定会传染。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有清热解毒抗病毒类的药物？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "手足口有潜伏期吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "手足口病的潜伏期一般是1到2天，而且发热和皮疹一般会同时出现的。",
+            "label": "OOOOOOOOOOOOOOOOOOBIOBIOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "皮疹"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您的治疗如果没有用清热解毒抗病毒的用药的话，建议您加上一种。您再继续观察今天的体温，如果说体温超过3天还有反复的话，一般就需要再去医院复诊。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在已经是第4天了，应该不是了吧",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "考虑手足口病可能性小的。",
+            "label": "OOBIIIOOOOOO",
+            "normalized": [
+                "手足口病"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还需要吃什么药吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在是37度5，您在关注体温，体温没有超过38.5先不用退热药，看有没有上升到39度以上，如果有，那您就去医院复诊一下。如果体温自行下降，那就说明有好转，继续当前治疗巩固就好。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您先确定治疗咽部的药是否是清热解毒类的用药，如果是，就不用再加药了，如果不是就加用这一类的用药吧。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "护理方面的话要多喝水，少量多次的喂养清淡饮食。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "38度5以下可以物理降温，温水擦浴，多喝水哦。只要孩子精神反应很好的话，就不用那么积极用布洛芬口服药物退热。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您好，请问孩子体温怎么样了？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

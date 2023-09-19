@@ -1,0 +1,223 @@
+{
+    "data-split": "train",
+    "example-id": "10301581",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，咳嗽是连声咳吗？有痰吗？有没流鼻涕，鼻塞？",
+            "label": "OOOBIOOOBOOBIOOOOBIIOBIO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "痰",
+                "鼻流涕",
+                "鼻塞"
+            ],
+            "type": [
+                "1",
+                "1",
+                "2",
+                "3",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽有几天了？",
+            "label": "BIOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有发热过吗？",
+            "label": "OBIOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有三天",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没发烧，也没痰鼻塞",
+            "label": "OBIOOOBBI",
+            "normalized": [
+                "发热",
+                "痰",
+                "鼻塞"
+            ],
+            "type": [
+                "1",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "以前有气喘吗？",
+            "label": "OOOBIOO",
+            "normalized": [
+                "喘息"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没什么过敏？",
+            "label": "OOOOBIO",
+            "normalized": [
+                "过敏"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便怎么样？干不干？胃口怎么样？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便经常干'胃口很好",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可能有点积食",
+            "label": "OOOOBI",
+            "normalized": [
+                "积食"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那该总么办",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "磨牙，晚上翻来覆去，大便干，吃的多，很容易积食",
+            "label": "BIOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "磨牙症",
+                "积食"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在可以吃点小儿消积止咳口服液",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果没有这个，可以吃点健儿清解液，小儿消食颗粒",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "益生菌也可以吃点。",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果口服药物3天不见好，那么要去医院，化验血常规",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为积食很容易出现细菌感染",
+            "label": "OOBIOOOOOBIII",
+            "normalized": [
+                "积食",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "知道了，谢谢",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果有细菌感染，就要吃点消炎药",
+            "label": "OOOBIIIOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "很高兴为您提供咨询服务，祝宝宝快乐健康成长！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

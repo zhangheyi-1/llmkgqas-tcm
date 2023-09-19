@@ -1,0 +1,224 @@
+{
+    "data-split": "train",
+    "example-id": "10711293",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，流涕是清涕还是黄涕？体温正常吗？",
+            "label": "OOOBIOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "清鼻涕，体温正常",
+            "label": "BIIOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是上火了还是有炎症？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝接触过感冒病人吗？有无着凉？",
+            "label": "OOOOOBIOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便几次了？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝之前感冒来，也有过着凉。今天就早上大便来，干硬",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝还有眼屎，",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝有流涕，有上呼吸道感染表现，小便黄，要加强喂养，保证水份摄入，大便干燥，感冒或伴有消化不良都可以引起",
+            "label": "OOOBIOOBIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOBIIIOOOOO",
+            "normalized": [
+                "鼻流涕",
+                "上呼吸道感染",
+                "普通感冒",
+                "消化不良"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "避免接触感冒病人，观察体温变化，建议医院查体，肺部听诊一下，看有无感染表现",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "早晨起来开窗户之后会留鼻涕",
+            "label": "OOOOOOOOOOOBI",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如查体明确诊断感冒，流涕可以服用治疗感冒药物，和活菌调节肠道菌群",
+            "label": "OOOOOOOBIOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "鼻流涕"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "妈妈有些感冒",
+            "label": "OOOOBI",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "妈妈要带口罩，避免呼吸道交叉感染",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "注意室内通风",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便干燥两天了，不考虑上火吗",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "活菌可以调节肠道菌群，可以缓解上火引起的干燥，活菌如培菲康，妈咪爱等，可以服用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "妈妈可以喂奶的吧",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "感冒要适量饮水，避免接触感冒病人，母亲感冒能暂停哺乳最好，乳汁也可以代谢病毒",
+            "label": "BIOOOOOOOOOOBIOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "普通感冒",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议需要完善查体，感冒也容易引发支气管炎等情况，需要及时就诊，根据查体情况选择治疗",
+            "label": "OOOOOOOOOBIOOOOOBIIIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "支气管炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "眼睛分泌物多，要注意室内温度合适，观察有无充血，不要揉眼",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如有明显充血，分泌物增多，要及时眼科就诊",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝现在主要是有上呼吸道感染表现和消化不良症状，医院完善查体，如无其他异常，按上述对症治疗就可以",
+            "label": "OOOOOOOOBIIIIIOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染",
+                "消化不良"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        }
+    ]
+}

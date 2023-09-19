@@ -1,0 +1,241 @@
+{
+    "data-split": "train",
+    "example-id": "10282585",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，目前这个超量的头孢药物吃了多久时间了",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我看错说明连着吃了三顿，最后一顿是昨天晚上吃的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "都吃了这么久了，药物已经吸收了",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她现在说她肚子疼，昨天发烧，现在已经好了，不烧了，她现在说她肚子疼",
+            "label": "OOOOOBIIOOOBIOOOOOOOOBIOOOOOOOBII",
+            "normalized": [
+                "腹痛",
+                "发热",
+                "发热",
+                "腹痛"
+            ],
+            "type": [
+                "1",
+                "1",
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "跟药物没关系是吧",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肚子疼的厉害吗，能忍受吗，考虑和吐泻有关系",
+            "label": "BIIOOOOOOOOOOOOOBBOOO",
+            "normalized": [
+                "腹痛",
+                "呕吐",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是有点疼",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "能忍受，精神状态没什么",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "需要吃点什么药吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前可以热敷肚子，贴个肚脐贴，会缓解腹痛",
+            "label": "OOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "腹痛"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吐泻情况，目前有好转吗",
+            "label": "BBOOOOOOOOO",
+            "normalized": [
+                "呕吐",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚才吐了，刚才问他现在不想吐了",
+            "label": "OOBOOOOOOOOOOBO",
+            "normalized": [
+                "呕吐",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般肚子都吐空了，就不吐了，还拉肚子吗",
+            "label": "OOOOOOOOOOOBOOOBIIO",
+            "normalized": [
+                "呕吐",
+                "腹泻"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在吐之前拉了",
+            "label": "OBOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "拉水吗",
+            "label": "BIO",
+            "normalized": [
+                "水样便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯！拉水",
+            "label": "OOBI",
+            "normalized": [
+                "水样便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那看症状的话，还是急性胃肠炎，吃点药，多喝水，上吐下泻，需要注意别脱水",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOBI",
+            "normalized": [
+                "呕吐",
+                "腹泻",
+                "脱水"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃什么药啊？",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以吃点蒙脱石散，吗丁啉，益生菌等",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的。",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我去买点",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，还有别的问题吗",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，别客气，那有事再联络，再见",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+{
+    "data-split": "train",
+    "example-id": "10818144",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那你好好听孩子这个发烧体温是多少度，然后初中长有没有半休息打郑容和呕吐咳嗽，",
+            "label": "OOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOBIBIO",
+            "normalized": [
+                "发热",
+                "呕吐",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喉咙发炎了，发烧39度",
+            "label": "BIIIOOBIBII",
+            "normalized": [
+                "咽喉炎",
+                "发热",
+                "高热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦这个温度给他服用退烧药物了吗，再一个有没有上医院看过现在还吃着什么清热解毒和消炎的药物吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃着蒲地蓝消炎药",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦现在呢还需要他服用退烧药尾巴三十八度以上就需要先服用退烧药发烧会引起头痛情况还可以付一部分，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOBIOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "头痛"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在你出现症状与上月，就这有没有查过血常规，室友有没有细菌感染的表现如白细胞增高的情况，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天医生还给开了头孢克洛胶囊",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那如果是有这个细菌感染的表现这些药是可以服用的，呃当时医生做的是什么诊断是上呼吸道感染的还是有扁桃体炎，",
+            "label": "OOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIIIOOOOBIIIO",
+            "normalized": [
+                "细菌感染",
+                "呼吸道感染",
+                "扁桃体炎"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "白细胞12.05",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有细菌感染表现，这个需要服用抗生素体温马甲的就是说需要再密切观察三十八度以上可以用布洛芬每次把间隔要三四个小时以上二十四小时后会要超过四次，",
+            "label": "OBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "呼吸道感染",
+            "label": "BIIII",
+            "normalized": [
+                "呼吸道感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果服用退烧药之后还是有头有头痛伴有呕吐这还需要完善一个脑图啊看看有没有就说，并发有脑炎的一些异常情况如果有的话还要考虑使用些江湖呀的一不如甘露醇，",
+            "label": "OOOOOOOOOOOOOOBIOOBIOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "头痛",
+                "呕吐",
+                "脑炎"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "因为发烧前一天孩子补牙打麻药来着",
+            "label": "OOBIOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "然后又发烧吧，这个要饮食清淡，多给他喝水，一般这个像这种感染吧服用三天药物他就不应该再骚扰如果超过三天还有发烧或伴随有其它的一些症状这个还需要回医院再复诊，",
+            "label": "OOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "补牙那个麻药应该不至于说导致有很剧烈的这种头疼可能性现在考虑还是跟他这个发热而这个引起头疼是有关系的，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOBIOOOOOO",
+            "normalized": [
+                "发热",
+                "头痛"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "三十七度五以上我可以辅助贴一个退热贴，多给他喝水，三十八度以上你直接用退烧药也可以，布洛芬和对乙酰基酚，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢医生",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

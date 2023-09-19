@@ -1,0 +1,358 @@
+{
+    "data-split": "train",
+    "example-id": "10635799",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "为了更好的提供服务，我需要询问您几个与病症相关的问题，希望您配合。好吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这种情况是急诊吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝发热三天，除了发热还有什么症状？",
+            "label": "OOBIOOOOOBIOOOOOOO",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "基本上没什么症状，有时会有点鼻塞，他之前有过鼻炎的",
+            "label": "OOOOOOOOOOOOOOBIOOOOOOBIO",
+            "normalized": [
+                "鼻塞",
+                "鼻炎"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有咳嗽",
+            "label": "OOOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝有没有着凉",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就开始那天有几声后面只有在喝水呛的时候和哭的时候会咳，平时不咳",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBOOOBI",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我不知道有没有着凉",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有带宝宝到公立医院儿科检查过",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚刚量的到39.1度了",
+            "label": "OOOOOBIIIIO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "去了没有化验就开了两种药回来吃",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "简单说，当病毒，细菌等病原体侵犯机体后，机体免疫系统进行抵抗排斥，从而产生发热症状",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个温度需要及时应用退热药物。",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "什么药物？",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "奥司他韦和小儿速热清",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他在睡觉要弄醒了吃退烧药吗",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "从描述情况，宝宝鼻塞伴有发热属于呼吸道感染症状",
+            "label": "OOOOOOOOBIOOBIOOBIIIIOO",
+            "normalized": [
+                "鼻塞",
+                "发热",
+                "呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "病程3天处于急性期",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "初步考虑上呼吸道感染（感冒）",
+            "label": "OOOOBIIIIIOBIO",
+            "normalized": [
+                "上呼吸道感染",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那现在怎么办",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝反复发热，建议带宝宝到公立医院儿科合理检查一下，首先检查宝宝咽喉部有没有红肿或疱疹。",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIIIIOBIO",
+            "normalized": [
+                "发热",
+                "咽喉炎",
+                "疱疹"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有急诊的可能吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "然后化验一下血常规和CRP，分析一下是病毒感染还是细菌感染",
+            "label": "OOOOOOOOOOOOOOOOOOOBIIIOOBIII",
+            "normalized": [
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "去医院医生看了喉咙说还好",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果病毒感染，建议继续应用目前药物，",
+            "label": "OOBIIIOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为这两种药物治疗病毒感染性感冒很合理，奥斯他韦抗病毒，小儿速热清颗粒清热解毒",
+            "label": "OOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果是细菌感染需要应用抗生素药物，比如头孢类",
+            "label": "OOOBIIIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "应用药物时注意观察宝宝有没有皮疹等过敏现象。",
+            "label": "OOOOOOOOOOOOOOBIOBIOOO",
+            "normalized": [
+                "皮疹",
+                "过敏"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发烧是一种免疫保护性反应，发烧本身不是病只是一种症状，体温超过38.5度口服退烧药，体温没有超过38.5度，可以物理降温，可以用温水擦浴，温水把孩子的大腿根，脖子下，腘窝，腋窝，擦擦降温。也可以洗一个热水澡。物理降温可以反复进行，直到体温退了或孩子出汗。",
+            "label": "BIOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "发热",
+                "发热",
+                "出汗"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "注意观察宝宝精神状况，有没有呕吐，有没有耳痛等现象。因为上呼吸道感染有可能会出现脑炎，中耳炎，心肌炎等并发症。",
+            "label": "OOOOOOOOOOOOOOBIOOOOOOOOOOOOBIIIIIOOOOOOBIOBIIOBIIOOOOO",
+            "normalized": [
+                "呕吐",
+                "上呼吸道感染",
+                "脑炎",
+                "中耳炎",
+                "心肌炎"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "所以建议带宝宝到公立医院儿科合理检查，规范治疗。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平时注意多喝水，注意防寒保暖，预防着凉，以免加重病情。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "饮食上注意易消化饮食，不要食用辛辣食物和凉性食物，以免出现胃肠功能紊乱。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIIO",
+            "normalized": [
+                "胃肠功能紊乱"
+            ],
+            "type": [
+                "3"
+            ]
+        }
+    ]
+}

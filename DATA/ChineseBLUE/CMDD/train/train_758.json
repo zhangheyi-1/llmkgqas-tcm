@@ -1,0 +1,516 @@
+{
+    "data-split": "train",
+    "example-id": "10704015",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，宝贝是母乳喂养吗？最近吃奶怎么样？",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不是的，奶粉为主",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "母乳很少",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，孩子肚子摸着胀吗？宝贝有没有恶心呕吐情况？",
+            "label": "OOOOOOOOBOOOOOOOBIBIOOO",
+            "normalized": [
+                "腹胀",
+                "恶心",
+                "呕吐"
+            ],
+            "type": [
+                "2",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，宝贝肚子摸着有没有硬块？感觉有要使劲大便的情况吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有硬块，但是他有使劲，然后就放个臭屁",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝除了3天没有大便，排气多，臭外还有其他症状吗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝最近精神状态怎么样呢？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有呢",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "老是哭",
+            "label": "OOB",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有带宝宝去医院检查？这个药物是医生给宝宝开的吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "感觉比以前爱哭了，老要抱着",
+            "label": "OOOOOOBOOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝3天没有大便，排气多，臭考虑宝贝有消化不良的情况",
+            "label": "OOOOOOOOOOOOOOOOOOOBIIIOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的，至少他拉肚子，医生让吃半个月。吃完了不拉肚子了。这才几天，就不拉粑粑了",
+            "label": "OOOOOOBIIOOOOOOOOOOOOOBIIOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前他拉肚子",
+            "label": "OOOBII",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "婴幼儿不排便的原因比较多，比如饮食不足，比如吃的奶粉比较少，饮食结构不合理，消化不良，胃肠功能比较差，饮水少，平时没有养成定时排便的习惯等等",
+            "label": "OOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOBIIIIIIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "便秘",
+                "消化不良",
+                "胃肠功能紊乱"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，宝贝消化不良的治疗主要是口服益生菌调节肠道菌群，这个药物也是可以的！",
+            "label": "OOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平时注意热敷肚子，平时可以帮宝宝揉揉孩子肚子促进肠蠕动，每天3次，每次5-10分钟就可以",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那能吃这个药吗？因为之前拉稀，宝宝吃了这个药就要两天不拉粑粑。我就不敢给吃了。现在三天不拉粑粑，给吃这个药会不会一直不拉呀",
+            "label": "OOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "稀便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般消化不良经积极调整胃肠功能，加强喂养，和调理一般5-7天明显好转的",
+            "label": "OOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "加强喂养的意思是多喂几顿吗？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个药物的成分是益生菌，主要可以调节宝宝肠道菌群，也可以治疗腹泻。对宝贝轻微便秘也是有好处的，可以给宝宝吃观察看看",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "便秘"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦好的。",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "加强喂养就是宝贝饿了，要吃的话就要喂宝贝，按孩子需要哺乳！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝六个月之内可能换奶粉吗？我觉得这个奶粉他不爱吃，给吃就使劲哭",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一天也就能吃三四次",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果观察期间宝贝出现呕吐，腹胀，不拍气，大便5-7天还是没有拍出来要及时带宝宝去二级以上公立医院小儿内科就诊，检查腹部彩超排除肠道梗阻等情况引起的",
+            "label": "OOOOOOOOOOBIOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐",
+                "腹胀"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以更换奶粉的，但是要慢慢过度，观察新的奶粉宝贝吃了有没有腹泻，腹胀，皮疹等过敏情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOBIOBIOBIOO",
+            "normalized": [
+                "腹泻",
+                "腹胀",
+                "皮疹",
+                "过敏"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢您",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果宝贝有要排便但是感觉排便困难的话可以临时用开塞露帮助排便",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平时多注意观察宝贝精神状态，出现刚才我说的或宝贝精神状态不好就要及时就诊！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBIIIIIOOOOOOO",
+            "normalized": [
+                "精神软"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "孩子才四个多月可以用开塞露吗",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯好",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "6个月以后就可以慢慢给孩子添加辅食了，一般由少到多，由稀到稠慢慢添加，给宝宝一个胃肠功能适应过程",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，可以用的，主要可以缓解孩子排便困难情况！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "但是最好不要长期给宝宝使用，如果长期便秘的话要及时带宝宝去医院查出便秘原因，根据孩子原因对症支持治疗，才能事半功倍！",
+            "label": "OOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "便秘",
+                "便秘"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的我明白了，感谢您",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯不客气",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝长期便秘的话会影响孩子生长发育等，需要积极调理！",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "便秘"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这种情况有可能是奶粉引起的吗",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "需要换个牌子试试吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个情况不排除，宝贝吃的少，奶粉喂养，食物残渣也比较少，行程的粪便就少，所以会出现几天不大便情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "并且宝贝奶粉喂养，比较容易引起上火症状，孩子排便也会比较困难！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "因为之前宝宝拉绿屎，而且嘴里有酸味，想给换个牌子的奶粉。但是母婴店的人说给孩子换一种奶粉相当于换一次肠胃，最好不换，我就没敢给换",
+            "label": "OOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "绿便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子奶粉最好不要频繁更换，但是您如果觉得这个奶粉宝贝服用了不是很好，可以慢慢更换，就像我说的，给宝宝这个胃肠适应过程",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯这两天是吃的很少，就四次奶粉，我不怎么给他吃母乳了。原来老是给他吃母乳他就更不吃奶粉了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在的症状也不是很重，考虑普通的消化不良，宝贝有大便的话要观察宝贝大便性状，颜色，有没有血丝，粘液等情况",
+            "label": "OOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "消化不良",
+                "大便粘液"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，最近服用这个益生菌调节肠道菌群看看吧，没有好转的话再考虑更换奶粉或其他",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的我明白了，谢谢您的帮助",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝不大便最主要就是观察精神状态，有没有腹胀，或呕吐，不拍气等情况，这个时候要及时排除肠道病变情况，比如肠梗阻等等，需要去医院让面诊医生检查，做彩超检查！",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹胀",
+                "呕吐",
+                "肠梗阻"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "希望能忙到您，还有疑问吗？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您有任何问题可以随时和我联系或留言，我看到后会第一时间回复。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了，特别谢谢您，我观察下，明天再不拉我就带他去医院查一下",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

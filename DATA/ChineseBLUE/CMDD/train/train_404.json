@@ -1,0 +1,460 @@
+{
+    "data-split": "train",
+    "example-id": "10476570",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，还是是干咳还是有痰？每天能咳嗽几次大概？每次咳嗽有没有很费劲，觉得孩子有点憋喘的症状有没有？",
+            "label": "OOOOOOBIOOBIOOOOBIOOOOOOOBIOOOOOOOOOOOOOOBOOOOOOO",
+            "normalized": [
+                "干咳",
+                "痰",
+                "咳嗽",
+                "咳嗽",
+                "喘息"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有感冒症状呢？喉咙有没有发炎？",
+            "label": "OOOBIOOOOBIIIIIIO",
+            "normalized": [
+                "普通感冒",
+                "咽喉炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "应该是有点痰的！",
+            "label": "OOOOOBOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "每天我也没有统计过，但不咳还好咳得时候就是很厉害！",
+            "label": "OOOOOOOOOOOOBOOBIOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天天气变化流鼻涕了",
+            "label": "OOOOOOBIIO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "化验的血常规基本是正常的！三岁的孩子淋巴细胞在50%到60%是正常的。孩子偏高一点问题不大！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "扁桃体有点炎症！抽血常规说病毒感染我发了图",
+            "label": "BIIOOOOOOOOOOBIIIOOOO",
+            "normalized": [
+                "扁桃体炎",
+                "病毒感染"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在吃的就是利巴韦林和头孢两种？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有吃感冒药呢？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "诊所的医生这样说的",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "但还没有开始两种一起吃",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前都是分开的吃的",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我看到血常规的结果了！淋巴偏高一点，问题不大！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前没有吃！今天说吃上小儿氨酚",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子现在是有感冒，就是上呼吸道感染的症状，可以把利巴韦林停了，把氨酚黄那敏颗粒吃上，可以缓解感冒症状",
+            "label": "OOOOOOBIOOOBIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "普通感冒",
+                "上呼吸道感染",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "目前有点像支气管炎吧！听了说肺目前没问题！就要控制好咳嗽",
+            "label": "OOOOOBIIIOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "支气管炎",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子有没有喉咙发炎？头孢吃两天了吗？",
+            "label": "OOOOOBIIIOOOOOOOOO",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯！那咳嗽呢？嗓子不太舒服！咳起来有点厉害",
+            "label": "OOOBIOOOOOOOOOBOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "头孢吃了一天三次",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有痰的话可以吃点氨溴索，或者乙酰半胱氨酸颗粒，福尔可定口服液这些都可以祛痰！",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "诊所医生只说左侧扁桃体发炎没说喉咙",
+            "label": "OOOOOOOOBIIIIOOOO",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃一天时间还短，继续吃这个头孢！喉咙发炎可以导致咳嗽，可以加一点清热解毒的药物减轻喉咙发炎",
+            "label": "OOOOOOOOOOOOOOOOBIIIOOOOBIOOOOOOOOOOOOOOOBIII",
+            "normalized": [
+                "咽喉炎",
+                "咳嗽",
+                "咽喉炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "清热解毒的什么好呢？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我们一般说喉咙发炎就指扁桃腺发炎！",
+            "label": "OOOOOBIIIOOBIIIIO",
+            "normalized": [
+                "咽喉炎",
+                "扁桃体炎"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "氨溴索，这个有了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "像蒲地蓝口服液，双黄连口服液都可以！注意让孩子多喝水！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有问过宝宝有没有喉咙发痒的感觉？",
+            "label": "OOOOOOOOOOBIIIOOOO",
+            "normalized": [
+                "咽喉不适"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦哦！那就吃小儿氨酚头孢氨臭索双黄连口服液吗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "氨溴索继续吃！如果咳嗽比较频繁可以加福尔可定一起吃！",
+            "label": "OOOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还小问不出来！不过应该是的！症状跟我的一样吧！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这些药可以同时吃吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前可以这样吃！如果你们都有喉咙疼痒的症状，怕合并支原体感染，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOBIIIIO",
+            "normalized": [
+                "支原体感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以同时吃的！",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果效果不好，可以加阿奇霉素一起吃！",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那需要加点什么药呢？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "阿奇霉素头孢还有别的都一起同时吃吗？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "先吃这四种药，如果喉咙发炎症状不减轻，伴喉咙痒，可以加阿奇霉素一起吃",
+            "label": "OOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢！我再给孩子吃看看效果！一般几天见效果呢？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没有化验支原体，先不要加阿奇霉素一起吃吧！加上会好的快，但是等于同时应用两种抗生素",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般两天左右就可以减轻的。",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "阿奇霉素一般放在饭后吃，主要是减轻胃肠道反应！，刚才说的那四种药没有明显的禁忌，可以一起吃！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我怕咳嗽时间长会引发肺炎呢？",
+            "label": "OOBIOOOOOOBIOO",
+            "normalized": [
+                "咳嗽",
+                "肺炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "化验支原体也是抽血吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "人的生病是一个复杂的过程，总体来说和人的免疫力有关，免疫力强就可以让病情局限，免疫力差的孩子就容易进展成为肺炎，所以口服药过程一定要随时观察宝宝的情况，可以多让医生听听宝宝肺部情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "化验支原体可以采指尖血，也可以抽血。因为化验方法不同，抽血的准确性比采指尖血高",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以先吃药看看情况，任何生病都会有一个过程，同时宝宝生病也是自身免疫力完善的过程，所以不要直接用最好的药，最多的药，让孩子一下就好！这样宝宝的自身免疫力不能得到锻炼，长大之后免疫力会比同龄人差的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好，请问宝宝的咳嗽情况有没有减轻呢？",
+            "label": "OOOOOOOOBIOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好，如果有痰的话，可以喝点化痰的药物，像氨溴特罗，福尔可定口服液之类",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "3"
+            ]
+        }
+    ]
+}

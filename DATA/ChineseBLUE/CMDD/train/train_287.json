@@ -1,0 +1,546 @@
+{
+    "data-split": "train",
+    "example-id": "10698671",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，宝宝发热几天了",
+            "label": "OOOOOBIOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有发热",
+            "label": "OOBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "白天因为什么去医院检查",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "屁股腿上和手脚有红色的包",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗓子有疱疹吗",
+            "label": "BIIIIO",
+            "normalized": [
+                "疱疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生说是轻微的手足口，我不知道喉咙有没有",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝今天吃东西时有呛着吗",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他一直喝水容易呛到",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有吃瓜子或者点心面等时候呛着了",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天晚上突然就咳嗽了还有喘息声我之前以为呛到了然后他没喝水时也咳我才注意的",
+            "label": "OOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOBOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "家里没有人吃瓜子，但是家里有人咳嗽",
+            "label": "OOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这样的话考虑宝宝是支气管炎症或者是肺炎，建议到医院听诊，必要的话查血分析和胸片，看看肺里是否有炎症",
+            "label": "OOOOOOOOOBIIIIOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他现在睡着了也没有喘息声，只有咳嗽时有喘息声",
+            "label": "OOOOOOOOOBIOOOOBIOOBIO",
+            "normalized": [
+                "喘息",
+                "咳嗽",
+                "喘息"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝咳嗽不除外是家人传染的",
+            "label": "OOBIOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天白天还没咳嗽时查了血常规",
+            "label": "OOOOOOBIOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "避免着凉家里有吹电扇或者空调吗",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "血象正常吗",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "支气管炎和肺炎有其他症状吧",
+            "label": "BIIIOBIOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以单一表现为咳嗽或者气喘呢",
+            "label": "OOOOOOOBIOOBIO",
+            "normalized": [
+                "咳嗽",
+                "喘息"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "家里有吹电扇或者空调吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有开空调",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "空调温度不要调太低，比如28℃除湿或者27℃2到3个小时可以考虑通风一次就可以的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "多给宝宝多拍背，从下往上，力道由轻到重，每次饭前拍二十分钟。多喝水，促进痰液稀释，使得容易排出",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他的白细胞6.46中性粒细胞31.34淋巴细胞40.24嗜酸粒细胞20.91c反应蛋白14",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "crp有点高，白细胞正常的，病毒感染可能性大",
+            "label": "OOOOOOOOOOOOOOBIIIOOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在咳嗽没有痰，今天刚吃完奶后咳嗽还吐了",
+            "label": "OOBIBIIOOOOOOOOBIOBO",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "咳嗽",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "2",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那他咳嗽伴喘息是什么原因，是感冒吗",
+            "label": "OOBIOBIOOOOOOOBIO",
+            "normalized": [
+                "咳嗽",
+                "喘息",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝年龄小，自己不会咳痰，痰液恰在嗓子，一咳嗽就会导致连同胃液一起吐出，所以要多喝水多拍背",
+            "label": "OOOOOOOOOOBIOBOOOOOOOBIOOOOOOOOOOBOOOOOOOOOOO",
+            "normalized": [
+                "咳痰",
+                "痰",
+                "咳嗽",
+                "呕吐"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您说的这种情况考虑支气管炎可能性大，建议拍胸片确诊",
+            "label": "OOOOOOOOOBIIIOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是喘息性支气管炎吗",
+            "label": "OOOOOBIIIO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有可能是的但是要听诊和拍胸片后才能确诊",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝今天吃饭好吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那和他打的那个流感疫苗有关系吗？可能是什么原因引起的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃饭都还好",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "打流感疫苗可以引起低热流鼻涕等轻微感冒症状，目前您描述的和打疫苗应该关系不大",
+            "label": "OOOOOOOOOBIBIIOOOBIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "低热",
+                "鼻流涕",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这几天不能吃太甜的水果和酸奶，因为含糖量高，吃了会刺激咽喉壁粘膜，使得咳嗽加剧，可以喝粥，鸡蛋汤等清淡饮食",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "家里有宝宝急性扁桃体炎和咳嗽流鼻涕是因为这个传染的吗，这种宝宝昨天才发病的",
+            "label": "OOOOOOOBIIIOBIBIIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "扁桃体炎",
+                "咳嗽",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "也不除外，都是呼吸系统疾病，如果有亲密接触，有可能传染的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "传染也不会这么快发病吧",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "手足口病会咳嗽吗？",
+            "label": "BIIIOBIOO",
+            "normalized": [
+                "手足口病",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "都会有潜伏期，三到七天不等，潜伏期也是可以传染的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "手足口病不会引起咳嗽",
+            "label": "BIIIOOOOBI",
+            "normalized": [
+                "手足口病",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝现在喉咙哑了五天了，不是很哑",
+            "label": "OOOOBIIOOOOOOOOB",
+            "normalized": [
+                "沙哑",
+                "沙哑"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "喉咙哑最开始没看过医生吗，有可能是喉炎不除外呢，这种情况是不建议打预防针的呢",
+            "label": "BIIOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "沙哑",
+                "咽喉炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喉咙看了医生，医生说没什么呢，那个时候也没咳嗽一切都正常就是喉咙有点哑",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIOOOOOOOBIIII",
+            "normalized": [
+                "咳嗽",
+                "沙哑"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有种病叫喉气管支气管炎，最开始是声音嘶哑和喉喘鸣，随后出现咳嗽",
+            "label": "OOOOOOOBIIIOOOOOOOBIOOOOOOOOOBI",
+            "normalized": [
+                "支气管炎",
+                "沙哑",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他喉咙哑时没有喉喘鸣啊",
+            "label": "OBIIIOOOOOO",
+            "normalized": [
+                "沙哑"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "您刚才说的喘息也不是喉喘鸣是吗",
+            "label": "OOOOOBIOOOOOOOO",
+            "normalized": [
+                "喘息"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那是咳嗽时才有的，是和咳嗽一起出现的",
+            "label": "OOBIOOOOOOOBIOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦如果宝宝晚上睡眠还可以睡得比较安稳那您可以先观察一晚上如果宝宝夜间在出现咳嗽时明显的这种喉喘鸣，就是折腾的很明显的喉喘鸣的话建议您及时到医院做雾化，而且严重的话有可能需要输液的，因为船名一般代表了有猴头水肿，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "严重的话可以堵塞气道影响呼吸的这点你一定要注意，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

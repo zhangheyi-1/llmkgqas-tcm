@@ -1,0 +1,233 @@
+{
+    "data-split": "dev",
+    "example-id": "10222589",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，很高兴能为您服务，为了更好的提供服务，我需要询问您几个与病症相关的问题，感谢您配合。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问孩子影响睡眠吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "查过血吗？",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不影响，也无发热",
+            "label": "OOOOOOBI",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "查过，正常",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "查的血常规？有没有查过肺炎支原体抗体？有没有接触这样咳嗽的其他人？",
+            "label": "OOOOOOOOOOOBIBIIOOOOOOOOOOBIOOOOO",
+            "normalized": [
+                "肺炎",
+                "支原体感染",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "都吃的什么药？感觉起痰了吗？",
+            "label": "OOOOOOOOOOBOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，但是她在学校里接触过感冒咳嗽孩子。",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般感冒一般三到五天就开始减轻，五到七天就基本上好了",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一旦口服药物仍然咳嗽明显加重，痰不多，则可能出现支气管炎了",
+            "label": "OOOOOOOOBIOOOOOBOOOOOOOOBIIIO",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃头孢消炎药，小儿肺热咳喘颗粒，易坦静氨溴特罗口服糖浆",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "因为这个季节属于支气管炎和肺炎高发期，还要密切观察孩子咳嗽的情况，一旦咳嗽明显加重，影响睡眠，需要及时再去医院听听",
+            "label": "OOOOOOOOBIIIOBIOOOOOOOOOOOOBIOOOOOOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "肺炎",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这些药物应该说配合还是不错的",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果吃三天没有加重，吃5天明显开始上痰就可以接着吃药",
+            "label": "OOOOOOOOOOOOOOOOOOBOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那还要吃其他药吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果一旦三到五天仍然没有好转的迹象，建议早晨去医院再完善一下检查",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "比如肺炎支原体抗体等，也可以拍个片子",
+            "label": "OOBIBIIOOOOOOOOOOO",
+            "normalized": [
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一共吃了几天了？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "知道了，謝谢！",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "时间短的话可以接着吃",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝宝宝早日康复！",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "尽量不要吃刺激嗓子的食物，比如太咸或者甜的食物，适当补充些水分。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "保持呼吸道湿润很重要",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个季节就是咳嗽疾病的高发期，只要精神状态好先不必过分担心，尽量先口服药物看看。如果持续不缓解则需要及时就医您有任何问题可以随时向我定向咨询和留言，我看到后会第一时间回复。",
+            "label": "OOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        }
+    ]
+}

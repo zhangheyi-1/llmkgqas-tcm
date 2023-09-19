@@ -1,0 +1,208 @@
+{
+    "data-split": "test",
+    "example-id": "10155990",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，明显的疫苗反应，做好护理就可，注意腹部保暖，可以口服布拉氏酵母菌观察。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这次拉了八天了也没有好转",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外宝宝腹泻期间有其他不适症状吗？如发热呕吐等",
+            "label": "OOOOBIOOOOOOOOOOOOBIBIO",
+            "normalized": [
+                "腹泻",
+                "发热",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，就是拉肚子",
+            "label": "OOOOOBII",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有化验便常规？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，上次疫苗后拉肚子化验便常规，医生说没有什么事，就开了思密达和宝乐安，我们也没吃，就吃了点乳糖酶，后来慢慢就好了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这次吃了宝乐安和思密达，就是便便形状变硬了不是粘液，但是次数还是挺多的，基本一吃完奶就要拉",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "大便粘液"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果反复腹泻，大便化验没有异常，需要注意腹泻导致乳糖不耐受可能，不知本次有加用乳糖酶吗？",
+            "label": "OOOOBIOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便成型，可以停用思密达。",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天停了思密达，今天又变成粘液了，这次没吃乳糖酶，今天才加上的乳糖酶",
+            "label": "OOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "大便粘液"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "益生菌及思密达口服几天了？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝精神反应好吗？哺乳好吗？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就昨天刚停了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天开始喂的乳糖酶，乳糖酶里带着双歧杆菌",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神还可以",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "先开始拉肚子一直喝的宝乐安，喝了三题觉得没什么气色加的思密达三天，便便从黄色粘液变成绿色膏状，昨天停了思密达，今天开始又拉黄色粘液，今天早晨开始喝乳糖酶",
+            "label": "OOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "绿便",
+                "大便粘液"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "口服6-7天，无好转可以停掉，口服乳糖酶，如果有效说明乳糖不耐受引起",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那思密达继续再喝三天？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "暂时不用再服。思密达就是收敛保护胃肠黏膜止泻所用。如果是乳糖不耐受，加用乳糖酶就可以改善",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "作用",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天还给喝了小儿双解止泻颗粒",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "其实建议再做个便常规及轮状病毒检查，主要是明确原因，如果大便检查没有问题，治疗简单为主，不建议同时用很多药物。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢医生",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

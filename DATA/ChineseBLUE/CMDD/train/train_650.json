@@ -1,0 +1,445 @@
+{
+    "data-split": "train",
+    "example-id": "10684080",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好我是您的接诊医生",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝最近家里有人感冒吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有着凉呢？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝鼻涕几天了呢？",
+            "label": "OOBIOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有感冒的，不知道是不是着凉了，昨天晚上才发现鼻子不通畅的",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯啊，鼻塞的话您多给宝贝喝点温水，可以用热毛巾那个热气熏一下鼻子！别着凉",
+            "label": "OOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻塞"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "鼻涕是清水鼻涕吗？",
+            "label": "BIOBIIIOO",
+            "normalized": [
+                "鼻流涕",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嘴里吐泡泡吗？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "开始鼻涕留不出来，只能听见声音，上午给喷了诺斯清，流出了些发黄的鼻涕",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "鼻流涕",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嘴里没怎么吐泡泡",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "黄鼻涕的话一般就是排出来的粘菌，这个排出去的话也是比较好的，利于宝贝的恢复的",
+            "label": "BIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝痰量的话这两天比之前多了还是少了呢？",
+            "label": "OOBIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "生下来就有点谈，昨天好像是多了点",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽是一个过程，宝贝上痰后咳嗽症状比较厉害，并不代表宝贝病情加重了，痰液刺激的！不用担心，多给宝贝拍后背，促进痰的排除的奥",
+            "label": "BIOOOOOOOOOBOBIOOOOOOOOOOOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOBOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "咳嗽",
+                "痰",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝生下来有痰，期间一点也没有缓解吗？还是后来又开始咳嗽有痰的呢？",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOBIBIOOO",
+            "normalized": [
+                "痰",
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "生下来一直是那样，嗓子里好像有东西，就是从昨晚开始，鼻子不通气",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIIII",
+            "normalized": [
+                "鼻塞"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯啊，吃奶呛奶厉害吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还发出咔咔咔的声音，不知道是不是咳嗽",
+            "label": "OOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃奶一直有点吃力，因为她吃奶的时候容易憋的上",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝昨天痰量开始增多这几天有点咳嗽，宝贝这个可能有点感冒的奥",
+            "label": "OOOOBIOOOOOOOOOBIOOOOOOOOOBIOO",
+            "normalized": [
+                "痰",
+                "咳嗽",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃奶的奶水别太急了，别呛到宝贝！吃完奶多给宝贝拍拍后背的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个的话太小了所以痰不会吐，只能被呕吐出去或者拉出去，所以多给宝贝拍背能把痰呕吐出去也是比较好的，痰咽下去之后胃肠功能会有影响，痰通过这两种途径排出去的话也是比较好的利于宝贝的恢复",
+            "label": "OOOOOOOOOOOBOOBOOOOBIOOOOOOOOOOOOOOOOOOBBIOOOOOOOOOBOOOOOOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰",
+                "呕吐",
+                "呕吐",
+                "痰",
+                "呕吐",
+                "痰",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3",
+                "1",
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "精神状态怎么样呢？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好像是有点感冒，医生给开了那两种药，还有喷鼻子的，吃了药就吐了一口痰",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOOBOOOB",
+            "normalized": [
+                "普通感冒",
+                "呕吐",
+                "痰"
+            ],
+            "type": [
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有点贪睡",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯啊这个痰能吐出去也是一个排痰的途径，利于宝贝的恢复的奥",
+            "label": "OOOOBOBOOOOOOOBOOOOOOOOOOOOO",
+            "normalized": [
+                "痰",
+                "呕吐",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "什么时候看的面诊医生呢？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "做过什么检查吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，大夫，那个药可以掺奶粉里给她喂吗？实在是不好喂",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "上午去看的面诊，没做检查",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "药的话您可以给宝贝用一丁点水的，一下喂下去，宝贝如果不爱这个药的话您放奶粉里可能也不好喂",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "面诊医生给宝贝诊断的什么呢？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "气管有问题吗？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好像多少有点",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也没说具体是怎么了，就说吃吃药就行",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个目前面诊医生主要是考虑的支气管炎，支气管炎的话这个可能由于受凉或者感染引起来的，这个治疗的原则的话主要是消炎止咳化痰治疗的奥！",
+            "label": "OOOOOOOOOOOOOOOOBIIIOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "支气管炎"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝吃了几天了呢？症状缓解怎么样呢？",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天第一次吃",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝目前痰量增多了，炎症渗出比较多了，随着我们用药，痰渗出增多，增多后刺激宝贝咳嗽症状可能比较明显，面诊医生根据宝贝目前情况，给宝贝开的药是消炎的，止咳化痰的治疗方案，目前的治疗原则符合治疗原则，目前选择的也是比较适合宝贝的，用药比较安全，是宝贝恢复最快的以一种治疗方式的！不积极配合医生的治疗体内感染得不到控制，不利于宝贝的恢复",
+            "label": "OOOOBIIIOOOOOOOOOOOOOOOOOOBOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰",
+                "痰",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝妈吃饭注意饮食，生冷辛辣刺激食物不能吃油腻食物不能吃，特别油腻食物容易生痰的奥，清淡饮食为主，多喝点温水，注意休息，别活动太厉害了奥，多给宝贝拍背，这个时候吃奶会有影响可能，能吃多少吃多少别强喂奥！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前可以用着药观察五天，如果宝贝咳嗽症状咳痰症状不缓解或者加重及时带宝贝去儿内科就诊，听诊一下看一下需不需要给宝贝查个血常规胸片，明确一下感染恢复情况，需不需要调整用药，根据结果对症处理，呼吸困难精神状态差也要及时带宝贝去儿内科就诊",
+            "label": "OOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIBIIIIOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "呼吸困难",
+                "精神软"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝这个的痰的目前拍上来的话就好了，这个病程总共大概需要7到10天时间，这个越小的宝贝恢复起来越慢宝贝排痰比较慢，面诊医生用药药物吸收也是一个过程的，不可能用上药之后症状立马就好了的奥！",
+            "label": "OOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于咳嗽症状多给宝贝拍背，促进痰的排除按时服用医生的药物，一定注意以上注意事项奥，有问题及时就医",
+            "label": "OOBIOOOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        }
+    ]
+}

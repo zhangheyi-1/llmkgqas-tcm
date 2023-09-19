@@ -1,0 +1,496 @@
+{
+    "data-split": "train",
+    "example-id": "10354833",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，目前化验过血常规吗，炎症重吗",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在天津市儿童医院做过血常规，炎症不重",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有血常规化验单吗，帮你看看",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，看到c反应蛋白偏高",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前看，反复发热，还是有炎症引起，建议继续消炎治疗",
+            "label": "OOOOOOBIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "家里宝宝昨天晚上输完液了，回家就不烧了。今天起床有点儿咳嗽有痰，打喷嚏有鼻涕。今天白天也去输液了，大便正常。",
+            "label": "OOOOOOOOOOOOOOOOOBOOOOOOOOOBIBIOBIIBIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "咳嗽",
+                "痰",
+                "打喷嚏",
+                "鼻流涕"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的，看到有个呼吸道感染，目前有没有腹痛情况",
+            "label": "OOOOOOOOBIIIIOOOOOOBIOO",
+            "normalized": [
+                "呼吸道感染",
+                "腹痛"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前退烧了，输液两次之后又烧了，这种现象就是正常的么？",
+            "label": "OOBIOOOOOOOOOBOOOOOOOOOOOOO",
+            "normalized": [
+                "退热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有腹痛的现象",
+            "label": "OOBIOOO",
+            "normalized": [
+                "腹痛"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没有腹痛还是好的，看孩子情况，问题不大",
+            "label": "OOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹痛"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个也是正常，反复发热，提示炎症没彻底消下去",
+            "label": "OOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这种输液后退烧了，现在又发烧的这种现象，是正常的症状么",
+            "label": "OOOOOBIOOOOOBIIOOOOOOOOOOOO",
+            "normalized": [
+                "退热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般需要继续输液",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢您。那就晚上给孩子物理降温，明天继续去医院输液吧",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的，主要是消炎",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我看了孩子血象，临床症状",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "并不重",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "明白了，谢谢您啦。",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "而且烧的不是太高烧，不必太担心",
+            "label": "OOBOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "再消消炎，治疗下，多喝水",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "别客气，还有别的可以帮你的吗",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢啦。我给您去评价",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "谢谢您的好评，再见",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "新年快乐",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "也祝您新年快乐。",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前发热多少度",
+            "label": "OOBIOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "37.8",
+            "label": "BIII",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "低烧",
+            "label": "BI",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的。精神萎靡，没有食欲",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我不知道是否要带孩子去医院",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呕吐腹泻一天几次，厉害吗。目前精神差，考虑吐泻，导致的虚脱",
+            "label": "BIBIOOOOOOOOOOOBIIOOOBIOOOOOO",
+            "normalized": [
+                "呕吐",
+                "腹泻",
+                "精神软",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前吃的什么药",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "呕吐腹泻不太厉害，拉稀也不是特别稀，昨天拉了3次",
+            "label": "BIBIOOOOOBIOOOOOBOOOOOOO",
+            "normalized": [
+                "呕吐",
+                "腹泻",
+                "稀便",
+                "稀便"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃的乳酸菌素片和胃肠安",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前能吃进药去，或者能喝进水去吗",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天早晨吐了一次",
+            "label": "OOOOBOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "都能",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那可以先吃点止吐，止泻药，多喝水",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢您。您建议吃什么药？有必要去医院么。因为之前去医院，导致交叉感染了，我有点儿怕了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃点多潘立酮止吐，蒙脱石散止泻，多喝水。观察今天看看。吐泻，精神情况",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "什么情况下去医院",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "高烧不退，呕吐腹泻严重，没有尿，精神萎靡",
+            "label": "BIOOOBIBIOOOOOOOBIII",
+            "normalized": [
+                "高热",
+                "呕吐",
+                "腹泻",
+                "精神软"
+            ],
+            "type": [
+                "3",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "明白了。我家宝宝这种情况，应该不至于吧",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以先吃药，多喝水，观察一天",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我现在给宝宝喝乳酸菌素片和胃肠安可以么？家里也有蒙脱石散，但是宝宝拉的不厉害，有必要喝么",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃点蒙脱石散，止泻效果好",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我说的这俩药，止吐，止泻，效果好",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "明白了，谢谢您。发烧了，是说明有炎症么？怎么才能让他消炎",
+            "label": "OOOOOOOOBIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是说明有炎症，如果能化验血常规，明确细菌性或者病毒性炎症，才好用药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "在这之前，病毒性的感冒刚好，而且初五验过血常规，已经没事儿了",
+            "label": "OOOOOBIIIIIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "病毒性感冒"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以吃点小儿氨酚黄那敏，治疗低烧情况",
+            "label": "OOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "明白了谢谢您",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

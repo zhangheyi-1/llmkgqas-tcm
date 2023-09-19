@@ -1,0 +1,384 @@
+{
+    "data-split": "train",
+    "example-id": "10681641",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，宝贝这样腹泻几天了？",
+            "label": "OOOOOOOBIOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天第三天了",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝肚子胀吗，有没有呕吐或恶心情况",
+            "label": "OOBIIOOOOOBIOBIOO",
+            "normalized": [
+                "腹胀",
+                "呕吐",
+                "恶心"
+            ],
+            "type": [
+                "2",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，宝贝之前有没有着凉或吃不合适的东西？",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝每次大便量多吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "肚子还可以，有听见他偶尔打嗝，跟吃饱了的声音一样，没有呕吐和恶心，好像是着凉了，也吃了凉的",
+            "label": "OOOOOOOOOOOOBIOOOOOOOOOOOOOBIOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "呃逆",
+                "呕吐",
+                "恶心"
+            ],
+            "type": [
+                "1",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在每天拉7.8次，量一般",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，孩子有没有发热？或者鼻塞流鼻涕打喷嚏？",
+            "label": "OOOOOOOBIOOOBIBIIBIIO",
+            "normalized": [
+                "发热",
+                "鼻塞",
+                "鼻流涕",
+                "打喷嚏"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "贴了丁桂儿脐贴，也没效果",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，宝贝小便量怎么样？精神状态好吗",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝大便时候有没有哭闹？",
+            "label": "OOOOOOOOOBIO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "精神状态怎么样？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "偶尔有一点热，天气热，一会就出汗了，我也不确定是不是发热",
+            "label": "OOOOOOOOOOOOOOBIOOOOOOOOOOBI",
+            "normalized": [
+                "出汗",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便时没有哭闹，小便正常",
+            "label": "OOOOOBIOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，可以给宝宝测体温看看，观察孩子体温变化",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝除了腹泻还有其他症状吗？",
+            "label": "OOOOBIOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神性状态明显有些虚弱的样子",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "除了腹泻没有其它症状了",
+            "label": "OOBIOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最近有没有带宝宝看医生，检查过大便常规吗？药物是医生给宝宝开的吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有去看医生，想的不严重，吃药看看，结果三天了还没好",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "香的是不是去化验一下大便",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子发生腹泻的原因比较多，比如宝贝胃肠道发育不完善，不成熟，消化酶活性不好，饮食不当，食物过敏，药物影响，病毒或细菌感染等等！",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOBIIIOOO",
+            "normalized": [
+                "腹泻",
+                "过敏",
+                "细菌感染"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "想的是不是去化验一下",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝精神状态不太好的话有可能出现了脱水症状",
+            "label": "OOBIIIIIIOOOOOOOOBIOO",
+            "normalized": [
+                "精神软",
+                "脱水"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝拉肚子最怕出现脱水症状，宝贝脱水主要表现为精神差，皮肤颜色苍白或发灰色，皮肤弹性差，囟门或眼窝凹陷，小便量少或无尿，宝贝哭闹时候没有泪，泪少等等",
+            "label": "OOBIIOOOOBIOOOOOBIOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "脱水",
+                "脱水",
+                "精神软",
+                "尿量减少",
+                "哭闹"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在要确定大便是不是病毒或细菌再用药吗",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "根据宝贝蛋花汤样大便考虑宝贝有病毒性肠炎的情况，最好能带宝宝去二级以上公立医院小儿内科就诊检查一下大便常规排除肠炎情况",
+            "label": "OOOOBIIOOOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "水样便",
+                "肠炎",
+                "肠炎"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哭闹时眼泪还可以，喝水喝的也还可以",
+            "label": "BIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，我现在就去",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "并且宝贝现在吃了几天药物了，宝贝现在也没有好转情况，建议几十带孩子就诊，排除肠炎或脱水情况，根据孩子症状给宝宝补液或调整用药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOBIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肠炎",
+                "脱水"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝饮食上要清淡易消化为主，主要以流质半流质饮食，比如母乳，稀饭，馒头等，如果刚添加辅食就要减少辅食。平时可以添加益生菌调节胃肠功能，宝贝如果不吐，轻度脱水以补充水分电解质为主，如果宝贝有细菌感染还要口服抗生素",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOO",
+            "normalized": [
+                "呕吐",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝肠炎的话直接上主要是根据化验结果消炎抗病毒调节肠道菌群治疗，一般需要5-7天过程，恢复具体情况和宝贝抵抗力也有关系",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肠炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平时加强喂养，增强体质，给婴幼儿添加辅食时候应该由少到多，由稀到稠，慢慢添加，给孩子胃肠道一个适应过程！注意讲究卫生，不要让宝贝吃手，玩具，平时多清洗干净",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯，我现在就去医院化验大便、感谢",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于腹泻的患儿在加强休息护理和针对病因治疗的同时，饮食上主要以清淡易消化，少刺激，温和，和少量多餐为主，适当饮水，预防脱水症状！平时还要加强臀部护理，每次大便完都建议清水洗干净屁屁，必要时涂油膏！",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        }
+    ]
+}

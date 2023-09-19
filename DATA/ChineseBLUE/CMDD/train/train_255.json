@@ -1,0 +1,388 @@
+{
+    "data-split": "train",
+    "example-id": "10728617",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "小孩咳嗽一直好不了",
+            "label": "OOBIOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问孩子做过什么检查吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "说是支气管发炎",
+            "label": "OOBIIII",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那我想问一下孩子，哦哦做过血常规ｃ反应蛋白肺炎支原体感染肺炎支原体抗体或者是胸片而这些你都有结果吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIBIIIIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一直反反复复的",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那孩子的这种反复咳嗽的症状持续了有多久呢，咳嗽是晚上厉害还是白天厉害呢，",
+            "label": "OOOOOOOOBIOOOOOOOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没做那些检查",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦年天上孩子穿吗，给孩子去医院看过没有呢，",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还是这种症状持续有多长时间了呢，",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大概差不多快两个月了吧，一直都还款服务他不是会说一直咳嗽的很厉害，就是一直咳一直咳就是最近比较厉害，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOBOOBOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯孩子的体温怎么样呢最近有没有拍过胸片儿呢，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦那些检查都没有做就是去医院检查简单检查医生说是支气管发炎然后开了一些药回来吃也没有没有用，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "还有您说的孩子是一直咳，相对来说有没有说是晚上厉害，或者是白天厉害，就是相比较而言，白天跟晚上什么时候咳嗽相对来说更更频繁一点儿呢，",
+            "label": "OOOOOOOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "白天吧晚上睡觉以后一般都不会咳嗽的就是白天会一直刻，",
+            "label": "OOOOOOOOOOOOOOBIOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦是这个样子的，哦你上次去医院就诊是什么时候呢，据现在有多长时间啦，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这几天了吧，",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦一般像您说的这样的孩子我们入我们是到医院来都系一般是会建议验一个血常规，然后非凡蛋白加一个肺炎支原体抗体的检查，再拍一个胸片儿，嗯进一步明确孩子是气管的问题还是肺里的问题，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "他也不会，一次，",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这种孩子的症状他他有的变化是特别的快像您说的十几天，距现在时间其实已经不短啦，还是这些检查都是有必要的，有的孩子肺里听着确实是没有问题，听不见什么罗音，但是有的孩子确实是到达了肺炎的这种症状，嗯向您说的咳嗽频繁还是建议拍一个胸片明确一下，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOBIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肺炎",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦这样子，",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯是，嗯嗯，您现在代给孩子吃药也应该有几天啦一般像这种如果如果孩子是支气管炎的话更的疗程一般是五到七天，就是说住院的孩子住院是五到七天，口服用药的话像您说的是十七天啦，情况应该是慢慢变好的，您现在宝宝的症状是不见好还是建议您带孩子去医院看一下，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "啊有的宝宝他那个可能是中途或者是或者是掺杂着感冒，就是本来就是有支气管炎然后再感冒反复可能会是变成延长，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOBIIIOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "支气管炎",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯像支气管炎气管炎和肺炎，他们都是ｈｔ的位置不一样其实大方向治疗的方向是一样的，只是病程的长短不一样，",
+            "label": "OOBIIIBIIOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎",
+                "气管炎",
+                "肺炎"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那像你说的断断续续两个多月啦，那还是建议去做一下检查的，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "恩好的你说要是要做什么样的检查呢，",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦一般气管炎的孩子我们都会让她吃上一点儿啊，头孢类的消炎药然后加点儿止咳化痰的，",
+            "label": "OOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那些吃的都没效果没用，",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "起码胸片儿是要拍一个的看一下肺里和支气管到底是哪个方向哪个地方的问题，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "然后再给孩子验一个血常规ｃ反应蛋白和肺炎支原体抗体，",
+            "label": "OOOOOOOOOOOOOOOOOOBIBIIOOO",
+            "normalized": [
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "而是现在有的孩子就是病程特别长有可能是肺炎支原体抗体的感染，这样孩子一般就是西西拉拉病的会特别长，时间上比较长一点儿包括治疗起来时间也会用的疗程要比别的孩子长，",
+            "label": "OOOOOOOOOOOOOOOOOOOBIBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "肺炎",
+                "支原体感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "恩好的谢谢，",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "年都给宝宝吃什么药了呢，",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "都是医生开的要都是一些消炎药咳嗽糖浆之类的，",
+            "label": "OOOOOOOOOOOOOOBIOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子吃了几天药了呢，",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "要一直都有都有在吃就是不见好转，",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "最近也吃了三天的药好像更严重，",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这就是问题的所在了，嗯，像您说的消炎药还有一些糖浆估计是止咳化痰的，这些药一直都在吃吃的时间也不短啦，孩子现在病情没有见好，咱们还是建议再去医院做一下检查然后看一下需要不需要进一步的治疗，以免时间太长延误啦孩子延误了病情，",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯好的谢谢知道了，",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

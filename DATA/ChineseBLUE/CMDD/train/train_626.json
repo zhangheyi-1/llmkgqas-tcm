@@ -1,0 +1,482 @@
+{
+    "data-split": "train",
+    "example-id": "10864469",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，宝宝拉肚子，大便什么样，一天拉几次？",
+            "label": "OOOOOBIIOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肚子哪个部位疼？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "肚子中间",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肚子疼拉肚子是饮食不合适引起的吗",
+            "label": "BIIBIIOOOOOOOOOO",
+            "normalized": [
+                "腹痛",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "稀的向水一样",
+            "label": "BOOBII",
+            "normalized": [
+                "稀便",
+                "水样便"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天拉了1次",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一天几次",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天拉了3次",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肚子阵发性疼，还是一直持续痛？",
+            "label": "BIIIIIOOOOOOOOO",
+            "normalized": [
+                "腹痛"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "应该是幼儿园回来就全部吐了",
+            "label": "OOOOOOOOOOOBO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今天精神食欲怎么样？体温正常吗？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神不好",
+            "label": "BIII",
+            "normalized": [
+                "精神软"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "呕吐几次了？",
+            "label": "BIOOOO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "体温正常",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "小便量还多吗？",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在不呕吐了",
+            "label": "OOOBIO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "小便还可以",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "该怎么办",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝拉肚子呕吐肚子疼，考虑急性胃肠炎，体温正常的话，可能不是感染。估计与饮食有关。",
+            "label": "OOBIIBIBIIOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "呕吐",
+                "腹痛",
+                "肠炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今天给宝宝吃药了吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "思密达妈咪爱",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "头孢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以给宝宝口服蒙脱石止泻，口服益生菌如双歧杆菌三联活菌，调节肠胃功能，饮食清淡易消化，不要吃油腻的，肉类的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "思密达妈咪爱就可以的。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是医生给开的药吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "扁桃体化脓完全好了吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医院还补了液体现在是肚子疼怎么治",
+            "label": "OOOOOOOOOOBIIOOO",
+            "normalized": [
+                "腹痛"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的好了",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今天去医院输液了吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "小儿泻立停可以吃吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肚子疼可以给宝宝外用，贴一下试试丁香开胃贴。",
+            "label": "BIIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹痛"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚才又拉了水一样的黄绿色",
+            "label": "OOOBIIIIIIII",
+            "normalized": [
+                "水样便"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "泻立停是大人用药，不能给宝宝吃这个药物，而且宝宝今天只拉一次，没有腹泻次数很多，口服思密达就效果很好",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医院补液体2天了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "从粘膜受损伤，拉肚子是有一个过程的，宝宝肠粘膜慢慢恢复了，拉肚子就好了，注意补液，预防脱水。",
+            "label": "OOOOOOOBIIOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOBIO",
+            "normalized": [
+                "腹泻",
+                "腹泻",
+                "脱水"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "在医院输的什么药物呢。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便化验过吗？考虑是肠炎吗？",
+            "label": "OOOOOOOOOOBIOO",
+            "normalized": [
+                "肠炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便化验结果都是好的",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "思密达怎么吃效果才最好",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "化验没有问题，一般，三五天就能好了。",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "思密达是饭前吃，冲开的时候水至少要50毫升。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是不是吃了思密达就不吃不喝了",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不是的，吃了思密达以后，可以给宝宝吃饭喝水。不能饿着宝宝，饮食清淡一点，可以喝烂粥。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "饭前多久吃",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "饭前半小时左右吃",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "肚子疼，只要不是很严重，宝宝可以忍受，肚子软，大便通一般是不要紧的。",
+            "label": "BIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹痛"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝让我给她揉肚子就会安静",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这是否说明疼痛不很厉害",
+            "label": "OOOOOBIOOOO",
+            "normalized": [
+                "腹痛"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果宝宝腹痛严重，可能，需要排除是外科疾病需要就医的，去正规医院小科就诊！",
+            "label": "OOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹痛"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那腹痛不严重，可能是肠痉挛，腹泻引起的。给宝宝揉揉肚子，外用丁香开胃贴，贴一下试试。",
+            "label": "OBIOOOOOOOBIIOBIOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹痛",
+                "肠痉挛",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "注意观察宝宝体温，大便次数形状，小便量多少，呕吐情况，如果宝宝精神食欲不好，小便减少或者体温升高，需要及时就医。腹泻呕吐，严重容易引起电解质紊乱，脱水，那样的话，宝宝是精神很不好的，小便量很少，需要及时就医。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOBIIIIIOBIIIOOOOOOOOOOOOOOBIBIOOOOOOOOOOOOOBIOOOOOOOOOBIIIIIOBIIIIOOOOOOOO",
+            "normalized": [
+                "呕吐",
+                "精神软",
+                "尿量减少",
+                "腹泻",
+                "呕吐",
+                "脱水",
+                "精神软",
+                "尿量减少"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3",
+                "1",
+                "1",
+                "3",
+                "3",
+                "3"
+            ]
+        }
+    ]
+}

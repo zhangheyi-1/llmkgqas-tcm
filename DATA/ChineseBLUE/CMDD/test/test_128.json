@@ -1,0 +1,417 @@
+{
+    "data-split": "test",
+    "example-id": "10113823",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，很高兴为你服务！",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "女儿感冒两天吃了感冒药嘴唇上长包正常吗",
+            "label": "OOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "喉咙里呼噜呼噜的呼吸很重怎么办",
+            "label": "BIIIIIIOOOOOOOO",
+            "normalized": [
+                "痰鸣音"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子以前有没有药物或者食物过敏的情况",
+            "label": "OOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "过敏"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是不是感冒引起的呢",
+            "label": "OOOBIOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "感冒的孩子可能会导致气道当中的分泌物增多，会出现呼噜呼噜的声音",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOBIIIOOO",
+            "normalized": [
+                "普通感冒",
+                "粗糙呼吸音"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "口服药物以后也会导致孩子出现皮疹的情况",
+            "label": "OOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "皮疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个孩子局部的皮疹有没有明显的痒感",
+            "label": "OOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "皮疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "感冒会引起扁桃体发炎吗",
+            "label": "BIOOOBIIIIO",
+            "normalized": [
+                "普通感冒",
+                "扁桃体炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有一些病毒感染本身就会导致口腔局部出现疱疹，这是由于单纯疱疹病毒感染引起的",
+            "label": "OOOBIIIOOOOOOOOOOOOBIOOOOOOOOOBIIIOOO",
+            "normalized": [
+                "病毒感染",
+                "疱疹",
+                "病毒感染"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "扁桃体炎本身就是感冒的一种表现",
+            "label": "BIIIOOOOBIOOOOO",
+            "normalized": [
+                "扁桃体炎",
+                "普通感冒"
+            ],
+            "type": [
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那吃些什么药能好呢",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子查血常规了吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没呢才感冒两天还没带医院看",
+            "label": "OOOBIOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你所吃的这几种药物以前都吃过吧，没有问题？",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "本以为是普通感冒这都快吃三天的药了没见好",
+            "label": "OOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那这个孩子现在还有什么症状吗？除了咳嗽，喉咙有痰以外",
+            "label": "OOOOOOOOOOOOOOOOOBIOOOBIOO",
+            "normalized": [
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "都是以前常吃的阿莫西林和小儿氨酚",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有鼻塞流鼻涕打喷嚏的情况有没有发热的情况",
+            "label": "OOOBIBIIBIIOOOOOOBIOOO",
+            "normalized": [
+                "鼻塞",
+                "鼻流涕",
+                "打喷嚏",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果这个孩子以前经常吃这两种药物，那就不应该考虑药物过敏",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "过敏"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有鼻涕喉咙里有痰还有点咳嗽",
+            "label": "OBIOOOBIOOOBI",
+            "normalized": [
+                "鼻流涕",
+                "痰",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "需要给孩子口服消炎药和化痰止咳药物的",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "呼吸很重",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那应该考虑气管炎",
+            "label": "OOOOOBII",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "跟吃辣的有关吗",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃辣可能会导致口唇出现疱疹，但是不会出现呼吸音粗",
+            "label": "OOOOOOOOOOOBIOOOOOOOBIII",
+            "normalized": [
+                "疱疹",
+                "粗糙呼吸音"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前吃了点辣的第二天就成这样了",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你是说口唇的疱疹",
+            "label": "OOOOOOBI",
+            "normalized": [
+                "疱疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃辣引起的喉咙发炎",
+            "label": "OOOOOBIII",
+            "normalized": [
+                "咽喉炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不会的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "根本的原因还是炎症引起的，吃辣可能会导致症状加重",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这样的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的谢谢了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这孩子应该到医院进行血常规的检查，明确一下病毒感染还是细菌感染",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIIIOOBIII",
+            "normalized": [
+                "病毒感染",
+                "细菌感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以选择阿奇霉素抗感染",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "口服化痰止咳药物，比如说，氨溴索口服液",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

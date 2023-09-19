@@ -1,0 +1,408 @@
+{
+    "data-split": "train",
+    "example-id": "10417570",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，我是您的辅诊医生，需要询问几个问题，才能更好的评估孩子情况，您还在吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在就是咳嗽有痰，然后打喷嚏就会有鼻涕出来",
+            "label": "OOOOBIBIOOOBIIOOOBIOO",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "打喷嚏",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子多大了？嗓子哑吗？有没有气喘症状？",
+            "label": "OOOOOOBIIOOOOOBIOOO",
+            "normalized": [
+                "沙哑",
+                "喘息"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一岁两个月。一点点哑，估计是前两天咳嗽弄的，这两天咳的少点了，但痰多了，好像没有",
+            "label": "OOOOOOOOOBOOOOOOOBIOOOOOOBOOOOOOBOOOOOOO",
+            "normalized": [
+                "沙哑",
+                "咳嗽",
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神还行",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝咳嗽一共几天？什么时候咳嗽厉害？影响睡眠吗？",
+            "label": "OOBIOOOOOOOOOBIOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "开始两天影响睡眠，后来找医生听了，说一点点痰，这两天睡的还好，一共四天了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子还有其他症状吗？",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，现在就是咳嗽，有痰，鼻涕",
+            "label": "OOOOOOOBIOBIOBI",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "平常容易反复咳嗽吗？是过敏体质吗？",
+            "label": "OOOOOOBIOOOBIOOOO",
+            "normalized": [
+                "咳嗽",
+                "过敏体质"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一感冒就咳嗽",
+            "label": "OBIOBI",
+            "normalized": [
+                "普通感冒",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子起过湿疹吗？",
+            "label": "OOOOBIOO",
+            "normalized": [
+                "湿疹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一点点",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "家里有没有哮喘病人或者鼻炎患者",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "但是没有长期生活一起",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，宝宝以前得过喘憋性肺炎吗？",
+            "label": "OOOOOOOOOOOBIIOO",
+            "normalized": [
+                "肺炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个过敏是有一定遗传因素哦",
+            "label": "OOBIOOOOOOOOO",
+            "normalized": [
+                "过敏"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "但是他是感冒了才咳嗽",
+            "label": "OOOOBIOOBI",
+            "normalized": [
+                "普通感冒",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这次给宝贝做过什么检查吗？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "手指血，血象不高，说是细菌感染",
+            "label": "OOOOOOOOOOOBIII",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，现在给宝贝怎么治疗的?",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "小儿氨酚黄，头孢克洛，橘红",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃几天了？",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有喝冰糖雪梨汁",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "四天",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，孩子现在痰液影响呼吸吗？",
+            "label": "OOOOOOOBOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是痰多，都能听到咳着里面有痰",
+            "label": "OOBOOOOOOOOOOBI",
+            "normalized": [
+                "痰",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子痰液是呼气时候明显还得吸气时候明显呢？",
+            "label": "OOBOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "呼出去",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "又感觉都有",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，孩子现在忌饮食了吗？不能吃海鲜刺激性食物哦，不能喝酸奶等饮料",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有吃那些",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯嗯，孩子现在看是咳痰增多，说明是炎症渗出，痰液上升引起的",
+            "label": "OOOOOOOOOBIOOOOOOOOOOOBOOOOOO",
+            "normalized": [
+                "咳痰",
+                "痰"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那要怎么办",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最近给孩子听诊了吗？如果是呼气时候痰明显，还需要进一步听诊看看有没有喘鸣音哦，最好带宝宝去公立医院儿科就诊，听诊肺部，如果是痰多，没有肺炎，可以给宝贝雾化治疗哦",
+            "label": "OOOOOOOOOOOOOOOOOBOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOOOOBOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "痰",
+                "痰鸣音",
+                "痰",
+                "肺炎"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好，谢谢",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝宝宝早日康复",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

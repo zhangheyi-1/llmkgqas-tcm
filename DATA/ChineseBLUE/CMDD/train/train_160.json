@@ -1,0 +1,552 @@
+{
+    "data-split": "train",
+    "example-id": "10446538",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "宝宝当时是抽风了吗？",
+            "label": "OOOOOBIOOO",
+            "normalized": [
+                "抽搐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "什么表现？",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝是抽风了吗？表现是什么？",
+            "label": "OOOBIOOOOOOOOO",
+            "normalized": [
+                "抽搐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "抽风的，牙关紧闭，四肢直直抽，脸色发青",
+            "label": "BIOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "抽搐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "七点到家到现在一直在睡觉",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温呢？",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在体温37.3",
+            "label": "OOOOBIII",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "之前有过惊厥吗？",
+            "label": "OOOOBIOO",
+            "normalized": [
+                "惊厥"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "从来没有过，昨天前天，体温到40.2度也没惊厥",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "惊厥"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "宝宝3岁半",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有惊厥，ct和脑电图没事的话，就是考虑热性惊厥",
+            "label": "OOOOOOOOOOOOOOOOOOOBIII",
+            "normalized": [
+                "热惊厥"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没什么大问题的",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那现在怎么一直在睡觉，晚饭也没吃，就中午一点多吃了半碗南瓜粥，然后下午挂水时就一直说肚子疼，中间还拉了好几次肚子",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOO",
+            "normalized": [
+                "腹痛"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热时，会有胃肠不适",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝肚子疼时，先不要吃饭，容易引起呕吐",
+            "label": "OOBIIOOOOOOOOOOOOBI",
+            "normalized": [
+                "腹痛",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热后，精神就是会差一些，爱睡觉，还需要注意宝宝有没有脑炎的情况",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "发热",
+                "脑炎"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "下午已经挂了一小瓶，再挂第二瓶一半时就突然惊厥的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "惊厥"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个和说也没什么关系，考虑就是个热性惊厥",
+            "label": "OOOOOOOOOOOOOOOOBIII",
+            "normalized": [
+                "热惊厥"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "输液",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "阿奇霉素会有胃肠刺激",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有些宝宝会出现恶心，呕吐，拉肚子的情况",
+            "label": "OOOOOOOBIOBIOBIIOOO",
+            "normalized": [
+                "恶心",
+                "呕吐",
+                "腹泻"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那明天还要去挂一回，要不要换别的药",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "药物能打一下字吗？不是很清楚",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "首先，如果宝宝吃饭差，又有呕吐，尿量又少的话，需要输液补液治疗",
+            "label": "OOOOOOOBIIOOOBIOBIIIOOOOOOOOOOO",
+            "normalized": [
+                "食欲不振",
+                "呕吐",
+                "尿量减少"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "病历卡上写的也不太清楚",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这两天吃饭是不太好",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝血象高，以中性为主，考虑有细菌感染，抗生素是必须用的，我看着一个药是阿奇霉素",
+            "label": "OOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我想那既然用阿奇会对肠胃有影响，能不能换别的药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝有咳嗽症状吗？当时医生怎么诊断的",
+            "label": "OOOBIOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果宝宝吐，肚子疼的厉害，不耐受的话，就别用阿奇霉素了",
+            "label": "OOOOBOBIIOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "呕吐",
+                "腹痛"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽厉害吗？",
+            "label": "BIOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天晚上开始咳嗽，今天也咳嗽的厉害，医生诊断就是病毒性的，支气管炎",
+            "label": "OOOOOOBIOOOOBIOOOOOOOOOOOOOOOBIII",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医院回来后，烧也退了，也不怎么咳嗽了",
+            "label": "OOOOOOBIIOOOOOOBIO",
+            "normalized": [
+                "退热",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议查个支原体抗体，如果支原体是阳性，建议还是得用阿奇霉素，可以给宝宝贴个肚脐贴。如果没有支原体，可以停阿奇霉素",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "支原体抗体是单独检查的吗",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个年龄段，结合宝宝咳嗽，发热，考虑支原体感染可能性比较大，医院的用药是对症的",
+            "label": "OOOOOOOOOOBIOBIOOOBIIIIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "发热",
+                "支原体感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，需要抽血化验",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我上面发了一张验血报告，你帮我再看一下",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果没有支原体感染，可以换头孢类的，毕竟宝宝胃肠刺激比较明显",
+            "label": "OOOOBIIIIOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "支原体感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那血常规",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "没法看有什么病原体感染",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "噢，知道了，那明天我去就跟医生说用了阿奇霉素老是肚子疼，重新检查一下用别的药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOO",
+            "normalized": [
+                "腹痛"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "血常规只能提示感染的",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，查个支原体看看",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "另外，小宝班上好几个这几天都在发烧，扁桃体发炎",
+            "label": "OOOOOOOOOOOOOOOBIOBIIII",
+            "normalized": [
+                "发热",
+                "扁桃体炎"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，扁桃体有脓吗？",
+            "label": "OOBIIOOOO",
+            "normalized": [
+                "扁桃体炎"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，就红肿",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，那问题不大",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "用点消炎药就可以",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "注意多喝水",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢了，明天去医院看了再说吧",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝咳嗽，会有扁桃体红肿，考虑就是支气管炎",
+            "label": "OOBIOOOBIIIIOOOOOBIII",
+            "normalized": [
+                "咳嗽",
+                "扁桃体炎",
+                "支气管炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温会有几天的波动，逐渐好转就不用太担心",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我们是先发烧，然后咳嗽的",
+            "label": "OOOOBIOOOBIO",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "恩，这个没有固定的先后的",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，先谢谢了",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝感染后，会出现不同的症状，不客气",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

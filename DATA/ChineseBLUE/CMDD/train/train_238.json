@@ -1,0 +1,415 @@
+{
+    "data-split": "train",
+    "example-id": "10568265",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "大便常规检查，发我看一下吧。",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好，医生",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "稍等，我去拍照",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，不着急",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "发过去了",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，稍等我看一下。",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看到大便检测结果有轻微的炎症，但是算不上肠炎。",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "肠炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在大便拉的稀吗？有没有拉水的情况？大便图片有吗？",
+            "label": "OOOOBIIOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "稀便",
+                "水样便"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "为啥吃药都没效果呢，还是拉",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在除了腹泻，有没有呕吐，或者发烧的情况？",
+            "label": "OOOOBIOOOOBIOOOBIOOOO",
+            "normalized": [
+                "腹泻",
+                "呕吐",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "其他症状都没有，她精神也很好，玩的开心",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我觉得主要还是消化不良引起的腹泻。医生有没有说，考虑是什么原因引起的腹泻？",
+            "label": "OOOOOOOBIIIOOOBIOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "消化不良",
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生没说，就给开了双歧杆菌和补脾的",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看医生开了药，也是按照消化不良治疗的，现在服药治疗多久了？有没有一点好转呢？",
+            "label": "OOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "主要之前我们给她吃了三天的妈咪爱，蒙脱石散，不管用，开了药又吃了两天，还是没效果",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天拉了四次",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "平时就是混合喂养，辅食吃面条，米汤，鸡蛋，加菠菜，土豆，紫薯，胡萝卜等蔬菜",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "看她吃蔬菜不消化，这两天没吃，就吃了面条，炖鸡蛋。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "首先来说，对于目前的治疗。如果大便拉的稀，特别是有拉水的情况，是需要服用蒙脱石散的。蒙脱石散的作用，就是吸附肠道多余的水分，随大便排出，让大便变干，成形。",
+            "label": "OOOOOOOOOOOOOOOOOOOBOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "稀便",
+                "水样便"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "水果也停了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，腹泻时候的饮食，主要吃清淡的，好消化的。鸡蛋和豆浆，建议少吃一点，因为不是太好消化，容易引起腹胀。",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "腹泻",
+                "腹胀"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外，目前的情况，我看服用了益生菌。本身益生菌是个调理肠道菌群的药物，起效往往比较慢，一般需要服用2到3周的疗程，建议继续服用。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今晚给她吃了半包蒙脱石散，不知道吃法对不对，用勺子加一点水让她吃下去",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她拉的酸臭味特别厉害",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以这样服用的，建议空腹的时候服用，或者两餐之间空肚子服用，效果更好。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "酸臭味还是一个消化不良的表现，可以继续吃益生菌。宝宝目前的整个情况，还是一个消化不良，胃肠功能紊乱的状态。",
+            "label": "OOOOOOOBIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOBIIIIIOOOO",
+            "normalized": [
+                "消化不良",
+                "消化不良",
+                "胃肠功能紊乱"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在还吃母乳吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这个一般调理多久有好转，",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃母乳，奶粉也吃，",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "奶粉换过牌子，但之前换了后没事，应该不是奶粉问题，从五月底吃了一点火龙果拉肚子开始，就一直这样",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前建议减少母乳的喂养，多吃辅食，或者喝奶粉。有时候腹泻的状态下，有可能继发乳糖不耐受的情况，会导致消化不了母乳里边的乳糖，吃母乳多的话，有可能引起腹泻迁延。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "十多天，几乎天天三四次",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那就停停母乳试试",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "另外，我看目前腹泻时间比较久了，其实也可以适当的补充锌。腹泻的状态下，补锌效果也是很好的，可以缩短腹泻的病程。都九个月了，是可以适当的减少母乳哺乳了。",
+            "label": "OOOOOOOBIOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻",
+                "腹泻"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "至于辅食方面的话，可以吃点米粉，喝点米汤，苹果汁。都对腹泻有治疗缓解效果。按照以上方法来调理，大约几天应该会有好转了。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "之前也做了微量元素检测，各项指标都挺好，需要补锌吗",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "腹泻时间超过两周，就是补锌指证，是可以补的。而且本身小孩生长发育阶段，适当补充点锌肯定是没有问题的，有利于生长发育。",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议按照上面分析调理治疗，保暖服部，清淡饮食。治疗后如果仍然反复腹泻，建议就医小儿科，让医生检查，复诊病情，做进一步处理。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，太谢谢你了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，别客气。我觉得适当的补充点锌，减少母乳的喂养，做好护理。继续口服上面咱们分析的药物，应该慢慢会好的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，还有别的可以帮你的吗？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有了，谢谢您",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "别客气，应该的，祝宝贝健康快乐，有问题再联络，再见。??",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

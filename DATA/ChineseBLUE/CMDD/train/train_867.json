@@ -1,0 +1,249 @@
+{
+    "data-split": "train",
+    "example-id": "10055584",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "首先很乐意为您解答！我需咨询相关信息，请如实作答。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝这种情况几天了。",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "2天",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝咳嗽有痰吗，有没有发烧。",
+            "label": "OOBIBIOOOOOBIO",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "主要是白天还是晚上咳",
+            "label": "OOOOOOOOOB",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有，前几天发过吃了药好了，去医院验了血是医生配的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "白天，晚上有个一，二次吧",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "首先我需要判断宝宝是因为上呼吸道感染引起的还是下呼吸道感染引起的。简单地说就是要考虑他是因为喉咙的问题引起的咳嗽，还是因为肺部的原因引起的咳嗽。",
+            "label": "OOOOOOOOOOOOBIIIIIOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "上呼吸道感染",
+                "呼吸道感染",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那怎么判断",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看痰多不多，咳得厉害不厉害。有没有喘息气促之类的。",
+            "label": "OBOOOOBIOOOOOOOOOBIOOOOOO",
+            "normalized": [
+                "痰",
+                "咳嗽",
+                "喘息"
+            ],
+            "type": [
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这还服务计时需收费吗？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "咳的时候有，平时没有",
+            "label": "BOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "最直接的办法就是让医生听一下肺部，如果肺上有痰，就是肺上的原因导致的，不然就考虑是喉咙的原因导致的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "哦",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是按时间的，好像目前是支付赞就可以了。",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这两种药是可以一起吃的。",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那我问那颗粒与糖桨可否一起服用",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "至于药物的效果的话就要看药物有没有针对宝宝的病情。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不过您这两种的药物，上呼吸道和下呼吸道的都是可以用的。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是吗，那几天见效",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果她咳嗽不是很严重，您可以先吃药物观察两三天，而如果效果好，咳嗽减轻，那您就继续服用药物，如果咳嗽反而加重了，建议您带宝宝去医院听一下肺部和检查一下喉咙。",
+            "label": "OOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "外，听您的医生，谢谢您",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果咳嗽加重的话，医院检查一下，可以开具针对病情的药物，有利于宝宝病情恢复。",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不客气",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "知道|",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "你好，宝宝咳嗽好些了吗",
+            "label": "OOOOOBIOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        }
+    ]
+}

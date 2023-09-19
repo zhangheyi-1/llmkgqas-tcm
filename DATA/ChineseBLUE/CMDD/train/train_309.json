@@ -1,0 +1,389 @@
+{
+    "data-split": "train",
+    "example-id": "10692933",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好，现在孩子体温多少度？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "37.7",
+            "label": "BIII",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，孩子手脚温暖吗？精神状态怎么样",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子最近有没有着凉或接触感冒的人？",
+            "label": "OOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神有点差",
+            "label": "BIIII",
+            "normalized": [
+                "精神软"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有点小哭闹",
+            "label": "OOOBI",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，孩子手脚温暖的话这个体温可以暂时通过多喂水，或贴退热贴来调整",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，孩子这两天发热体温最高多少度呢？",
+            "label": "OOOOOOOBIOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝大约一天咳嗽几次？听着有痰吗？咳嗽影响孩子睡眠吗？",
+            "label": "OOOOOOBIOOOOOBIOOBIOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "痰",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨晚退烧了，又反复了是什么原因",
+            "label": "OOBIOOOOOOOOOOO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热是种症状，是体内杀菌细胞与细菌病毒做斗争的过程，是对机体的一种保护，当病毒被消灭了，体温也就稳定了",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温38.5以下手脚温暖可以多喂水，退热贴外用，或用温毛巾擦额头腋窝腹股沟物理降温，给孩子勤测体温，勤给孩子测体温就可以了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "退烧后要注意什么",
+            "label": "BIOOOOOO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "多观察孩子精神状态和体温变化，看宝贝手脚，口腔有没有皮疹出现",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOBIOO",
+            "normalized": [
+                "皮疹"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝体温38.5以上需要口服退热药，两次之间间隔4-6小时，24小时以内不超过4次！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还有点就鼻涕，昨天都没有",
+            "label": "OOOOBIOOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，孩子主要就是发热，轻微咳嗽，还有其他症状吗",
+            "label": "OOOOOOOOBIOOOBIOOOOOOOO",
+            "normalized": [
+                "发热",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有带宝宝看医生呢？做过检查吗？吃了什么药物吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没了，精神状况有点差",
+            "label": "OOOBIIIIII",
+            "normalized": [
+                "精神软"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生说低烧没多大问题",
+            "label": "OOOBIOOOOO",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没做检查",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，根据孩子流鼻涕，轻微咳嗽，反复发热，还是考虑孩子有上呼吸道感染的情况，一般体温反复会有3-4天的时间，好转的话需要5-7天左右",
+            "label": "OOOOOOBIIOOOBIOBIIIOOOOOOOOBIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽",
+                "发热",
+                "上呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃了点黄那敏颗粒",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，医生考虑孩子是什么疾病呢？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "贴了退烧贴",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，还有其他药物吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没了",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，孩子上呼吸道感染的治疗主要就是退热，止咳，改善症状等的对症治疗，一般要清淡饮食，加强孩子休息",
+            "label": "OOOOBIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "上呼吸道感染"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的。可以洗澡吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生给孩子开的药物也主要是缓解孩子感冒症状的，退热贴也是有轻微退热作用，是符合孩子现在病情的，也是利于孩子恢复比较快的一种方式",
+            "label": "OOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以的，温水澡就可以，注意不要着凉了",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝感冒的治疗也比较简单，还要让宝贝多注意休息，清淡饮食同样重要，孩子发热不可怕，就怕宝贝高热不退，体温高的比较快，怕引起高热惊厥情况，所以要勤测孩子体温。高热时候积极处理！宝贝体温反复不退就要带宝宝去医院及时退热治疗，避免高热惊厥！",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOBIOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIO",
+            "normalized": [
+                "普通感冒",
+                "发热",
+                "高热",
+                "热惊厥",
+                "高热",
+                "热惊厥"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3",
+                "3",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在可以观察3天左右，如果孩子精神状态持续不好，体温反复不退等就要及时带宝宝去二级以上公立医院小儿内科就诊，检查一下血常规，心肌酶等排除病毒感染情况",
+            "label": "OOOOOOOOOOOOOOOBIIIIIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIOO",
+            "normalized": [
+                "精神软",
+                "病毒感染"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "通过体检和化验结果，可以明确病因，便于对症治疗效果比较好，也能指导我们用药！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "让宝贝多休息，多喝水，清淡易消化饮食，按时服药，配合医生治疗，保持室内空气新鲜流通，避免细菌病毒滋！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝贝现在体温不是很高，对宝贝影响不是很大的，但是长期反复低热还要带孩子去医院拍片子排除结核等情况奥",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在您按医生和我说的给宝宝物理降温，按时服药，观察孩子精神状态，多观察孩子有没有皮疹出现，夜间出汗多吗？有问题及时咨询或就诊！",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOBIOOOOOOOOOOOOOO",
+            "normalized": [
+                "皮疹",
+                "出汗"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        }
+    ]
+}

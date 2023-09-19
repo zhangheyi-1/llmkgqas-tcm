@@ -1,0 +1,254 @@
+{
+    "data-split": "dev",
+    "example-id": "10798879",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "孩子多大了？之前吃过鱼吗？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子吃的鱼多吗？最近孩子消化能力怎么样呢？",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "14个月，吃过鳕鱼",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "昨天吃的鱼量多吗？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "挺多的",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子从昨天晚上吃的鱼之后多久出现的吐？",
+            "label": "OOOOOOOOOOOOOOOOOBO",
+            "normalized": [
+                "呕吐"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "差不多有一个小时吧",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "昨天晚上咳嗽吗？最近感冒来吗？",
+            "label": "OOOOBIOOOOBIOOO",
+            "normalized": [
+                "咳嗽",
+                "普通感冒"
+            ],
+            "type": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "晚上没咳嗽就是呕，前些日子高烧来",
+            "label": "OOOBIOOBOOOOOBIO",
+            "normalized": [
+                "咳嗽",
+                "干呕",
+                "高热"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今天咳嗽厉害吗？",
+            "label": "OOBIOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "今天吐是咳嗽之后吐的呢还是不咳嗽也吐呢？",
+            "label": "OOBOBIOOBOOOOOBIOBOO",
+            "normalized": [
+                "呕吐",
+                "咳嗽",
+                "呕吐",
+                "咳嗽",
+                "呕吐"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不算厉害，就是咳嗽时候呕",
+            "label": "OOOOOOOBIOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "听着有痰吗？",
+            "label": "OOBIOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好像没有",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这是什么症状",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子这个咳嗽不是太勤，今天咳嗽时候呕吐不咳嗽的时候不呕吐的话可能孩子感冒了，咳嗽的话呕吐就可能就是咳嗽刺激的",
+            "label": "OOOOBIOOOOOOOBIOOBIOBIOOOOBIOOOOOOBIOOBIOOBIOOOOOBIOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "呕吐",
+                "咳嗽",
+                "呕吐",
+                "普通感冒",
+                "咳嗽",
+                "呕吐",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "3",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "噢，好吧，谢谢啊",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子这个主要是排除一下支气管炎",
+            "label": "OOOOOOOOOOOBIII",
+            "normalized": [
+                "支气管炎"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，好的，谢谢",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子目前的咳嗽症状刚开始，处于感染的早期，最好带着孩子去儿内科就诊给孩子听诊一下看一下需不需要做血常规胸片等检查，需不需要治疗",
+            "label": "OOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子最近饮食吃清淡饮食为主，别吃鱼，肉类等不容易消化的东西",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，知道了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，好的，谢谢",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "孩子生病感冒初期的话饮食会是一个诱因，孩子吐主要是考虑支气管炎的影响，大便之类的正常不考虑消化不良了",
+            "label": "OOOOBIOOOOOOOOOOOOOOOBOOOOOBIIIOOOOOOOOOOOOOOBIIIO",
+            "normalized": [
+                "普通感冒",
+                "呕吐",
+                "支气管炎",
+                "消化不良"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3",
+                "3"
+            ]
+        }
+    ]
+}

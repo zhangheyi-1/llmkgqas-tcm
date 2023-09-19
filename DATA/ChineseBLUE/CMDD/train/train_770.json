@@ -1,0 +1,465 @@
+{
+    "data-split": "train",
+    "example-id": "10624221",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，在吗？为了更好的为您服务，我需要问您几个相关问题，请您配合我好吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯",
+            "label": "O",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝发热几天了",
+            "label": "OOBIOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天十点左右烧的",
+            "label": "OOOOOOBO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝多大了",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "3岁9个月",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有流鼻涕鼻塞打喷嚏症状",
+            "label": "OOOBIIBIBIIOO",
+            "normalized": [
+                "鼻流涕",
+                "鼻塞",
+                "打喷嚏"
+            ],
+            "type": [
+                "2",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有，",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "发热之前有什么诱因吗，比如说着凉等",
+            "label": "BIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前几天下雨出去玩水了",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "玩水过后两天有点咳嗽，昨天就发烧了",
+            "label": "OOOOOOOOBIOOOOBIO",
+            "normalized": [
+                "咳嗽",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝血象白细胞偏高，考虑有细菌感染，需要使用抗生素消炎的，细菌感染呼吸道引起的发热通常会持续三到五天，这期间你要做好宝宝的护理",
+            "label": "OOOOOOOOOOOOOBIIIOOOOOOOOOOOOBIIIOOOOOOBIOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "细菌感染",
+                "细菌感染",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "体温若超过38.5，建议口服退热药如美林泰诺林等对症处理，若低于38.5，可以通过物理降温:如温水擦浴或解开衣服或使用退热贴等处理",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "美林和泰诺林都是退热药物，两者交替使用，效果好一些，对宝宝身体有可能产生的副作用也轻一些",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "怎么吃",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "具体用量请按说明书，因为规格和有效药浓度是不一样的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果宝宝精神好，不影响吃饭及睡眠，您可以在家给宝宝口服药物治疗，如果宝宝出现高热，比如说体温升到了四十杜，或者宝宝精神不好，或者说又出现了别的症状，比如说咳嗽有痰，就需要您及时到医院就医了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOBIIIOOOOOOOOOOOOOOOOBIBIOOOOOOOOOOOOO",
+            "normalized": [
+                "高热",
+                "精神软",
+                "咳嗽",
+                "痰"
+            ],
+            "type": [
+                "3",
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "两种药间隔时间呢",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "家里吹电扇或者空调吗",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "空调",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果吃完一种退热药，一小时后体温没有降，甚至升高，就可以加服用另外一种。但是同种药之间要间隔六小时以上才可再次服用",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "烧的时候精神不好，烧退了就好了，那像刚刚烧的40.5需要去医院输液吗",
+            "label": "BOOOBIIIOBIOOOOOOOOOBIIIIIOOOOOOOO",
+            "normalized": [
+                "发热",
+                "精神软",
+                "退热",
+                "高热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "空调你打到一个恒温上！比如28℃除湿或者27℃2到3个小时可以考虑通风一次就可以的。注意清洗空调的过滤网",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果喝退热药，体温还是降不下来，就需要就医的",
+            "label": "OOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "宝宝大便正常吗",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，知道了，温水降温用多少度的水",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "嗯，高热容易导致脱水，引起大便干燥，甚至便秘，所以最好保证至少两天大便一次，不拉的话就使用开塞露",
+            "label": "OOBIOOOOBIOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "高热",
+                "脱水",
+                "便秘"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "温偏凉一点的水",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "大便不正常，今天便了5，6次，最后两次基本上没有",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果宝宝出现打寒战，水温需要再偏高一些",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "吃饭喝水怎么样，尿量还正常吗",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚刚降到38.9了",
+            "label": "OOOOBIIIO",
+            "normalized": [
+                "中等度热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "打寒战时用温水擦，如果水偏凉会刺激宝宝，可能出现热惊厥",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一定要观察宝宝的小便的情况，如果他一天达不到6到8次，然后小便也不是清亮的，是黄黄的，浑浊的，这种情况，宝宝就已经轻度脱水了，我们就要多喂水，实在喂不进去，就需要输液补充体液量了",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "脱水"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "尿量应该属于正常吧，夏天本来尿就不多",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "疾病早期，炎症引起的发热都会反复3天左右，这是允许的，因为炎症的发生与消退都需要一个过程，在做好对症处理同时，强调观察孩子精神状态面色等病情变化，如果热退后精神状态等一般情况较好，就建议继续对症处理与随访观察",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "刚刚烧的时候手脚冰冷，",
+            "label": "OOBOOOBIIIO",
+            "normalized": [
+                "发热",
+                "四肢厥冷"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这几天食欲肯定不好，但是不能吃太甜的水果和酸奶，因为含糖量高，吃了会刺激咽喉壁粘膜，使得咳嗽加剧，可以喝粥，鸡蛋汤等清淡饮食",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "耳朵也有的偏白",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，踢被子怎么办，用给他盖上吗？",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "手脚冰凉说明体温还会继续上升，要注意，可以给宝宝搓揉手脚，促进血循环",
+            "label": "BIIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "四肢厥冷"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "那家里温度就不宜过低，保持在二十八度以上，让宝宝穿上背心裤衩，避免着凉",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "孩子不让温水擦",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以用退热贴和冰枕",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "尽量多喂水，促进排泄，会好得快些",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "寒战，和抽搐怎么区分",
+            "label": "BIOOBIOOOO",
+            "normalized": [
+                "寒战",
+                "抽搐"
+            ],
+            "type": [
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "抽搐时意识丧失，可以出现双目上翻，牙关紧闭，口吐白沫，四肢抖动等情况",
+            "label": "BIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "抽搐"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "寒战，就是普通的打哆嗦",
+            "label": "BIOOOOOOOOO",
+            "normalized": [
+                "寒战"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，知道了，",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢，",
+            "label": "OOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝早日康复",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,554 @@
+{
+    "data-split": "train",
+    "example-id": "10567400",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前看过医生吗，具体确诊了什么疾病引起这么高烧",
+            "label": "OOOOOOOOOOOOOOOOOOOOOBI",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "看了是病毒感染引起的",
+            "label": "OOOBIIIOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我就是想问一下这两天一直都没退过烧，都是中度发烧对他的大脑发育有影响吗？",
+            "label": "OOOOOOOOOOOOOOBIIOOOOOBIOOOOOOOOOOOO",
+            "normalized": [
+                "退热",
+                "发热"
+            ],
+            "type": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "已经有30个钟了都是中度发生",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，长期连续的发烧，主要是怕影响脑缺氧。",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在孩子精神状态怎么样？",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "血常规化验单发我看一下吧，看看病毒感染严重吗",
+            "label": "OOOOOOOOOOOOOOOBIIIOOO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "今天中午吃了退烧药，现在有一点温烧，精神状态还可以。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，如果体温能够降到38度以下还算可以，低烧一般不会对孩子身体造成伤害。38.5度以上的发烧，对宝宝身体就有潜在的风险，因此也需要积极的退烧。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "低热",
+                "发热",
+                "退热"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，我看一下。",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯，",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看到血常规检查，白细胞数目不高，淋巴细胞和单核细胞比率升高，确实是个病毒性炎症，比较典型的病毒性感染。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIIIIOOOOOOBIIIIO",
+            "normalized": [
+                "病毒感染",
+                "病毒感染"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生检查确诊了什么疾病，是上呼吸道感染吗？在发烧过程中，孩子有没有过高热惊厥的情况？",
+            "label": "OOOOOOOOOOOOBIIIIIIOOOBIOOOOOOOOOOBIIIOOOO",
+            "normalized": [
+                "呼吸道感染",
+                "发热",
+                "热惊厥"
+            ],
+            "type": [
+                "3",
+                "1",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "什么叫，典型的病毒感染。",
+            "label": "OOOOOOOBIIIO",
+            "normalized": [
+                "病毒感染"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的没有发生过高热惊厥",
+            "label": "OOOOOOOBIII",
+            "normalized": [
+                "热惊厥"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有的感染的话，也会有病毒性感染基础上，合并细菌性感染，双重感染。而宝宝的血象特点，就是单纯的明显的病毒性感染。",
+            "label": "OOOOOOOOOOBIIIIOOOOOOBIIIIOOOOOOOOOOOOOOOOOOOOOOOBIIIIO",
+            "normalized": [
+                "病毒感染",
+                "细菌感染",
+                "病毒感染"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "前段时间有点拉肚子，吃了益生菌。昨天没有拉，今天又有拉肚子的情况。是不是跟这个病毒感染有关系。",
+            "label": "OOOOOOBIIOOOOOOOOOOOOOOOOOBIIOOOOOOOOOOBIIIOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻",
+                "病毒感染"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "化验过大便常规吗？有轮状病毒感染吗？一般来说，发烧的时候有一点腹泻，主要是肠道，对于发热的一个身体反应。",
+            "label": "OOOOOOOOOOBIIIIIOOOOOOOBIIOOOOOBIOOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "轮状病毒感染",
+                "发热",
+                "腹泻",
+                "发热"
+            ],
+            "type": [
+                "3",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有化验大便常规，他前段时间，前几天都有拉肚子的情况。",
+            "label": "OOOOOOOOOOOOOOOOOOOOBIIOOOO",
+            "normalized": [
+                "腹泻"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有发烧，之前",
+            "label": "OOBIOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，如果大便里没有脓血的话，考虑没有肠炎的情况，一般吃点益生菌调理一下就可以，一般发烧好了以后，腹泻会好。",
+            "label": "OOOOOOOOOOOOBIOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOBIOOOOOBIOOO",
+            "normalized": [
+                "脓血便",
+                "肠炎",
+                "发热",
+                "腹泻"
+            ],
+            "type": [
+                "2",
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "但目前医生诊断是什么原因引起的发烧，是上呼吸道感染吗？",
+            "label": "OOOOOOOOOOOOOOOBIOBIIIIIIOO",
+            "normalized": [
+                "发热",
+                "呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，如果宝宝在发烧过程中，没有引起高热惊厥，抽风的情况，发烧过后，精神状态比较好，反映比较好，一般不会引起明显的脑缺氧脑损伤，不用太担心。",
+            "label": "OOOOOOOOOOBIOOOOOOOOBIIIOBIOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "热惊厥",
+                "抽搐",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "2",
+                "2",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢你",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在医生开的什么药治疗的，还得积极的抗病毒治疗，只有病毒性感染消下去，才能够不再反复的发烧。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前是口服药，还是在输液？",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "开的口服药",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "哪种口服药，发图片看一下吧，可以帮你分析一下用药",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于目前体温的处理，用退烧药后体温降不到正常，考虑有可能以下几方面原因，一是炎症重，口服退烧药效果不好。二是可能喝水少，体内水分比较少的时候，也不好降体温。三是可能按照宝宝的体重计算，应用退烧药的剂量偏少。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在体温是多少了？退下来了吗？",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "而且多二",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "发错了，是37°二",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看医生目前给你开了西药的抗病毒药物，这个主要用于治疗流感病毒，这个是可以吃的。但是有一些副作用，如果发烧好了以后，不要吃太多。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前宝宝反复发烧的情况，比较适合吃一些中成药的清热解毒药，对于治疗反复发烧，效果好。",
+            "label": "OOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOO",
+            "normalized": [
+                "发热",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前37.2度对于婴儿来说基本上属于正常体温。暂时不需要额外处理，主要是多喝水，多排尿，就可以排出热量，有利于退烧。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，好的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于发热的处理，如果体温超过38.5度，就应该口服退烧药退烧，如果是低烧的时候，一般可以配合温水擦身，冷毛巾敷额头，泡澡，或者贴退热贴的方式处理。",
+            "label": "OOBIOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热",
+                "退热",
+                "低热"
+            ],
+            "type": [
+                "1",
+                "3",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "建议继续服用医生所开的抗病毒药物，加用清热泻火的中成药。多喝水，控制好体温。治疗后，如果再有高烧不退的情况，建议及时就医小儿科，让医生做降温处理，不要让宝宝烧得太高。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "高热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "医生给开的那种功臣在欣。每次1/3剂量",
+            "label": "OOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "这个是可以的，一般超过38.5度就可以吃。同时你看一下上述我分析的一些烧退不下来的原因，注意避免一下。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯，好的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般来说，多喝水比较重要，身上有水分，才好退烧。多喝水，多尿尿，也能够排出热量，有利于退烧。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "嗯嗯",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "对于目前有点腹泻的情况，吃点益生菌调理，如果腹泻的很稀，特别是拉水的那种情况，可以适当的口服蒙脱石散，也是非处方药，药店一般比较好买到。",
+            "label": "OOOOOOBIOOOOOOOOOOOOOOBIOOBOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹泻",
+                "腹泻",
+                "稀便",
+                "水样便"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，好的",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，继续吃点医生所开的抗病毒药物，清热解毒泻火的中成药，多喝水就可以了，注意清淡饮食。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "祝身体健康，有问题再联络。",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的好的，谢谢您医生。",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，别客气，祝身体健康，再见。",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

@@ -1,0 +1,237 @@
+{
+    "data-split": "train",
+    "example-id": "10584591",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前看过医生吗，化验过大便常规了吗",
+            "label": "OOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "拉的稀不稀，有没有拉水的情况。",
+            "label": "OOBIIOOOOBIOOOO",
+            "normalized": [
+                "稀便",
+                "水样便"
+            ],
+            "type": [
+                "3",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "不拉水",
+            "label": "OOB",
+            "normalized": [
+                "水样便"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有没有出现过大便带血？",
+            "label": "OOOOOOOOBIO",
+            "normalized": [
+                "血便"
+            ],
+            "type": [
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "一直是黄色大便，感觉有粘液，",
+            "label": "OOOOOOOOOOOBIO",
+            "normalized": [
+                "大便粘液"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃奶，精神头都正常",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "分诊病情，目前小儿绿色粘液便，肠鸣音活跃，考虑有小儿消化不良情况。",
+            "label": "OOOOOOOOOBIBIIOBIIOOOOOOBIIIIIOOO",
+            "normalized": [
+                "绿便",
+                "大便粘液",
+                "肠鸣音",
+                "消化不良"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "经常吃饱了就拉了",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "一般是小儿消化能力弱。或者腹部着凉引起。",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前服药治疗了吗",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "而且吃奶后肚子还有点胀",
+            "label": "OOOOOOOOOOB",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果肚子有点胀的话，一般可以顺时针按摩腹部或者吃点开胃助消化的中成药调理。",
+            "label": "OOOOOOBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "腹胀"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "同时吃点益生菌调理大便情况。",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "经常放屁",
+            "label": "OOBI",
+            "normalized": [
+                "屁"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "有吃着妈咪爱",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以继续吃，顺时针按摩腹部，帮助排气",
+            "label": "OOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果治疗后，如果大便仍不好，建议就医小儿科，化验大便常规检查，明确病情后治疗。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就这症状来说可能是消化不良吗",
+            "label": "OOOOOOOOOBIIIO",
+            "normalized": [
+                "消化不良"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，目前的症状还是消化不良，但是需要观察大便里的粘液和有没有血丝，有的时候粘液很多的话，也可能会有小儿肠炎的情况。",
+            "label": "OOOOOOOOOOBIIIOOOOOOOOOOOBIOOOOBIOOOOOBIOOOOOOOOOOOOBIOOOO",
+            "normalized": [
+                "消化不良",
+                "大便粘液",
+                "血便",
+                "大便粘液",
+                "肠炎"
+            ],
+            "type": [
+                "3",
+                "1",
+                "3",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "可以按照目前的方法治疗，如果治疗后依然不好，需要化验大便常规检查来明确。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

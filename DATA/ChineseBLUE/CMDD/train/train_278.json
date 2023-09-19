@@ -1,0 +1,388 @@
+{
+    "data-split": "train",
+    "example-id": "10564403",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "你好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您好",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "有化验单吗？发我看一下吧，看的更直接一些。",
+            "label": "OOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "",
+            "label": "",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前看到血常规血象不高，CRP升高超过两倍，考虑还是有炎症感染引起的发烧。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "医生查体检查过吗？确诊什么原因引起的发烧吗？是不是，上呼吸道感染？",
+            "label": "OOOOOOOOOOOOOOOOOOBIOOOOOOBIIIIIO",
+            "normalized": [
+                "发热",
+                "上呼吸道感染"
+            ],
+            "type": [
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "社区医院也不是儿科查不了别的了",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "说再烧再去大医院检查",
+            "label": "OOBOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "除了发烧，还有别的什么症状？",
+            "label": "OOBIOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "她前天有一点鼻涕",
+            "label": "OOOOOOBI",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "就是一点鼻涕，现在没什么反映了",
+            "label": "OOOOBIOOOOOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的情况，化验血常规，c反应蛋白升高，同时有流涕的情况，考虑还是小儿感冒，上呼吸道感染引起的发热。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOBIIIIIOOOBIO",
+            "normalized": [
+                "鼻流涕",
+                "上呼吸道感染",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "精神状态还不错",
+            "label": "OOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "现在体温多少度了？",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "还没测现在不少很热了",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "我测一下",
+            "label": "OOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "应该吃点感冒药是吗",
+            "label": "OOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的。目前的情况反复发烧，建议吃点清热解毒泻火，抗病毒的中成药感冒药。",
+            "label": "OOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "同时，如果有流鼻涕的话，也可以适当的吃一点缓解感冒症状的药物，多注意喝水，多排尿，才可以排出热量，有利于退烧。",
+            "label": "OOOOOOBIIOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOBIO",
+            "normalized": [
+                "鼻流涕",
+                "普通感冒",
+                "退热"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "您给我推荐一种适合的药吧",
+            "label": "OOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天有点尿频，没过十分钟就又说尿尿，也没尿多少",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "具体用药的话，可以口服小儿氨酚黄那敏颗粒，缓解感冒症状，对于发烧也有效果，同时也可以吃点清热泻火的药，比如双黄连口服液。这两种药都是非处方药，药店里比较好买到。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOBIOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "发热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "化验过尿常规吗？有没有尿路炎症",
+            "label": "OOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "看到尿道口有没有红肿的情况？",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没化验，她的过一次尿路感染，那时尿会哭，现在不会",
+            "label": "OOOOOOOOOOOOOOOOOOBOOOOO",
+            "normalized": [
+                "哭闹"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "而且白细胞不高应该几率不大吧",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "不是的，除非很严重的尿路感染引起全身的症状，血白细胞才会高。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "本身是女宝宝，以前有过尿路感染，现在还是得注意一下有没有尿路感染的情况。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这样呀，尿道口不红肿就可以排除吗",
+            "label": "OOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "尿路感染常见的症状是尿急，尿频，尿痛。尿常规检查，才能够确定有没有感染。建议就医小儿科，化验尿常规检查，看尿里是否有炎症，如果有尿路感染的情况，可以服用相应的消炎药物进行治疗。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "测了体温37.5",
+            "label": "OOOOBIII",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的体温属于低烧，一般物理降温就可以了，可以温水擦身，冷毛巾敷额头，泡澡，或者贴退热贴的方式处理。",
+            "label": "OOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "低热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "目前的情况，建议适当的吃点药，多喝水，多排尿，才能够排出热量，有助于退烧。同时，如果有轻微的尿路感染，多排尿也能冲刷尿道。",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOBIOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "退热"
+            ],
+            "type": [
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "那需要吃感冒清热的药吗",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，知道了，谢谢您",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "我觉得可以吃一点。对于缓解感冒症状，治疗低烧，都有效果。",
+            "label": "OOOOOOOOOOOOOBIOOOOOBIOOOOOO",
+            "normalized": [
+                "普通感冒",
+                "低热"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，别客气，应该的，祝身体健康。还有别的可以帮你的吗？",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "这两天变天受夜风也能引起发烧吧",
+            "label": "OOOOOOOOOOOOBIO",
+            "normalized": [
+                "发热"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的。着凉，呼吸道感染，都可能引起发烧感冒。注意做好护理，预防感冒。",
+            "label": "OOOOOOBIIIIOOOOOOBIBIOOOOOOOOOOBIO",
+            "normalized": [
+                "呼吸道感染",
+                "发热",
+                "普通感冒",
+                "普通感冒"
+            ],
+            "type": [
+                "1",
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的，谢谢，也祝您生活愉快",
+            "label": "OOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，别客气，应该的，祝身体健康，再见。",
+            "label": "OOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}

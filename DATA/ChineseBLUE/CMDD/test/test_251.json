@@ -1,0 +1,248 @@
+{
+    "data-split": "test",
+    "example-id": "10174382",
+    "dialogue-content": [
+        {
+            "speaker": "医生",
+            "sentence": "您好，很高兴为您解答",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "现在我没给他吃药，需要吃药吗",
+            "label": "OOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "请问宝宝是先流鼻涕还是先咳嗽呢？",
+            "label": "OOOOOOBIIOOOBIOO",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "先流鼻涕",
+            "label": "OBII",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "昨天白天流清鼻涕，晚上就咳嗽了",
+            "label": "OOOOBIIIOOOOBIO",
+            "normalized": [
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "咳嗽咳得多吗？",
+            "label": "BIBIOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "是的，能听到有痰，他又不会吐",
+            "label": "OOOOOOBIOOOOOO",
+            "normalized": [
+                "痰"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "鼻子不透气还流清鼻涕，",
+            "label": "BIIIIOBIIIO",
+            "normalized": [
+                "鼻塞",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "是的，小宝宝都不会吐痰。除了流鼻涕咳嗽，宝宝还有别不舒服吗",
+            "label": "OOOOOOOOOBIOOOBIIBIOOOOOOOOOO",
+            "normalized": [
+                "咳痰",
+                "鼻流涕",
+                "咳嗽"
+            ],
+            "type": [
+                "2",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "比如发烧、吐奶、腹泻等",
+            "label": "OOBIOBIOBIO",
+            "normalized": [
+                "发热",
+                "呕吐",
+                "腹泻"
+            ],
+            "type": [
+                "2",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "没有",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，依据您的描述，宝宝是上呼吸道感染，多半是病毒感染。可以先吃清热解毒的中成药，如果清鼻涕很多，影响呼吸，可以吃少量抗过敏的药物，减少鼻涕分泌。",
+            "label": "OOOOOOOOOOOOBIIIIIIOOOOBIIIOOOOOOOOOOOOOOOOBIIOOOOOOOOOOOOOOOOOOOOOOBIOOO",
+            "normalized": [
+                "呼吸道感染",
+                "病毒感染",
+                "鼻流涕",
+                "鼻流涕"
+            ],
+            "type": [
+                "1",
+                "3",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "明天需要吃药吗？",
+            "label": "OOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "吃什么药？",
+            "label": "OOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "家里没药，我去药店买",
+            "label": "OOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "清热解毒的中成药有抗病毒口服液、蒲地蓝消炎口服液等",
+            "label": "OOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "同时还要监测体温，观察咳嗽情况，如果咳嗽加重，警惕肺炎，建议及时就诊，听下肺部呼吸音",
+            "label": "OOOOOOOOOOOBIOOOOOBIOOOOOBIOOOOOOOOOOOOOOO",
+            "normalized": [
+                "咳嗽",
+                "咳嗽",
+                "肺炎"
+            ],
+            "type": [
+                "1",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "只吃一种抗病毒口服液？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "其他的药还需要吃什么？",
+            "label": "OOOOOOOOOOO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果清鼻涕很多，影响呼吸、睡眠，可以吃少量抗过敏的药物，减少鼻涕分泌。",
+            "label": "OOBIIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "医生",
+            "sentence": "如果宝宝配合，还可以做雾化，帮助消鼻涕，减轻鼻粘膜水肿",
+            "label": "OOOOOOOOOOOOOOOOOBIOOOOOOOO",
+            "normalized": [
+                "鼻流涕"
+            ],
+            "type": [
+                "1"
+            ]
+        },
+        {
+            "speaker": "患者",
+            "sentence": "好的",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "患者",
+            "sentence": "谢谢",
+            "label": "OO",
+            "normalized": [],
+            "type": []
+        },
+        {
+            "speaker": "医生",
+            "sentence": "好的，不客气",
+            "label": "OOOOOO",
+            "normalized": [],
+            "type": []
+        }
+    ]
+}
