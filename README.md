@@ -11,7 +11,7 @@
 # 目录说明
 （待添加）
 # 参考：
-<br>ChatGLM-6B微调的方式具体请参考https://github.com/THUDM/ChatGLM-6B中的教程，下述微调过程式旧版本的参考，在新版本中此文件已被删除。<br>
+<br>ChatGLM-6B微调的方式具体请参考https://github.com/THUDM/ChatGLM-6B 中的教程，下述微调过程式旧版本的参考，在新版本中此文件已被删除。<br>
 1.微调<br>
 
 打开finetuning_pt.py文件，修改instruction为自己领域的instruction<br>
